@@ -1,0 +1,57 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+\usepackage{cite}
+\usepackage{amsmath}
+\usepackage{fontspec}
+\setmainfont{texgyretermes}[Extension=.otf,UprightFont=*-regular,BoldFont=*-bold,ItalicFont=*-italic,BoldItalicFont=*-bolditalic]
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{url}
+\usepackage{textcomp}
+\graphicspath{{../figures/diagrams/}{../figures/results/}}
+\input{numbers.tex}
+\hyphenation{Fed-Stat}
+\setlength{\floatsep}{4pt plus 2pt minus 2pt}
+\setlength{\textfloatsep}{5pt plus 2pt minus 2pt}
+\setlength{\intextsep}{4pt plus 2pt minus 2pt}
+\setlength{\dblfloatsep}{4pt plus 2pt minus 2pt}
+\setlength{\dbltextfloatsep}{5pt plus 2pt minus 2pt}
+\setlength{\abovecaptionskip}{2pt}
+\setlength{\belowcaptionskip}{0pt}
+\setlength{\abovedisplayskip}{3pt plus 1pt minus 1pt}
+\setlength{\belowdisplayskip}{3pt plus 1pt minus 1pt}
+
+\begin{document}
+
+\title{Exact Federated Preprocessing for Linear DDoS Detection in IoT: What Shared Statistics Buy Under Non-IID Clients}
+
+\author{\IEEEauthorblockN{{[}Author Name 1{]}, {[}Author Name 2{]}}
+\IEEEauthorblockA{{[}Department, Institution{]}\\
+{[}City, Country{]}\\
+{[}email addresses{]}}}
+
+\maketitle
+
+\begin{abstract}
+\input{abstract.tex}
+\end{abstract}
+
+\begin{IEEEkeywords}
+federated learning, intrusion detection, DDoS, Internet of Things, feature selection, non-IID data
+\end{IEEEkeywords}
+
+\input{sec_intro.tex}
+\input{sec_related.tex}
+\input{sec_method.tex}
+\input{sec_setup.tex}
+\input{sec_results.tex}
+\input{sec_discussion.tex}
+{\scriptsize
+\input{sec_statements.tex}}
+
+{\scriptsize
+\bibliographystyle{IEEEtran}
+\bibliography{references}}
+\end{document}

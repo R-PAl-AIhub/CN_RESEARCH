@@ -1,0 +1,10 @@
+{
+ "pool": "nbaiot",
+ "rows_before": 300000,
+ "rows_after": 227775,
+ "duplicates_removed": 72225,
+ "by_class_after": {
+  "1": 123016,
+  "0": 104759
+ }
+}

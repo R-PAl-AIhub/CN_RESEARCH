@@ -1,0 +1,98 @@
+{
+ "0:intersection": {
+  "seed": 0,
+  "mode": "intersection",
+  "n_feat": 13,
+  "svm_train_f1": 0.9991528904404969,
+  "svm_test_f1": 0.9995761568990097,
+  "logreg_test_f1": 0.9995376435231563
+ },
+ "0:pearson": {
+  "seed": 0,
+  "mode": "pearson",
+  "n_feat": 59,
+  "svm_train_f1": 0.999422595752871,
+  "svm_test_f1": 0.9997303440040063,
+  "logreg_test_f1": 0.9997303440040063
+ },
+ "0:none": {
+  "seed": 0,
+  "mode": "none",
+  "n_feat": 111,
+  "svm_train_f1": 0.9996151477832512,
+  "svm_test_f1": 0.9998459405330458,
+  "logreg_test_f1": 0.9998074182490467
+ },
+ "5:intersection": {
+  "seed": 5,
+  "mode": "intersection",
+  "n_feat": 19,
+  "svm_train_f1": 0.9905640972900704,
+  "svm_test_f1": 0.9902229779340728,
+  "logreg_test_f1": 0.9909157679075341
+ },
+ "5:pearson": {
+  "seed": 5,
+  "mode": "pearson",
+  "n_feat": 59,
+  "svm_train_f1": 0.9994483431049302,
+  "svm_test_f1": 0.9997303232268752,
+  "logreg_test_f1": 0.9994990945170115
+ },
+ "5:none": {
+  "seed": 5,
+  "mode": "none",
+  "n_feat": 111,
+  "svm_train_f1": 0.9996151971473282,
+  "svm_test_f1": 0.9998074034128115,
+  "logreg_test_f1": 0.9996918573299438
+ },
+ "6:intersection": {
+  "seed": 6,
+  "mode": "intersection",
+  "n_feat": 19,
+  "svm_train_f1": 0.6296397161302725,
+  "svm_test_f1": 0.6304620430211247,
+  "logreg_test_f1": 0.6321317736930054
+ },
+ "6:pearson": {
+  "seed": 6,
+  "mode": "pearson",
+  "n_feat": 59,
+  "svm_train_f1": 0.9993456756860782,
+  "svm_test_f1": 0.9996147919876733,
+  "logreg_test_f1": 0.9994607918656602
+ },
+ "6:none": {
+  "seed": 6,
+  "mode": "none",
+  "n_feat": 111,
+  "svm_train_f1": 0.9996023652852067,
+  "svm_test_f1": 0.9997304270805253,
+  "logreg_test_f1": 0.9996148809982285
+ },
+ "9:intersection": {
+  "seed": 9,
+  "mode": "intersection",
+  "n_feat": 17,
+  "svm_train_f1": 0.631886208231196,
+  "svm_test_f1": 0.6367504835589942,
+  "logreg_test_f1": 0.6387006871366104
+ },
+ "9:pearson": {
+  "seed": 9,
+  "mode": "pearson",
+  "n_feat": 59,
+  "svm_train_f1": 0.9994354197141171,
+  "svm_test_f1": 0.9997689463955638,
+  "logreg_test_f1": 0.9996919522525991
+ },
+ "9:none": {
+  "seed": 9,
+  "mode": "none",
+  "n_feat": 111,
+  "svm_train_f1": 0.999615137908916,
+  "svm_test_f1": 0.9998844865426822,
+  "logreg_test_f1": 0.9997304893543295
+ }
+}

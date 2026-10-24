@@ -1,0 +1,81 @@
+note: Running TeX ...
+Fontconfig error: Cannot load default config file: No such file: (null)
+warning: algorithm.sty:11: 
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+warning: tables/table8_related.tex:9: Underfull \hbox (badness 10000) in paragraph at lines 9--9
+warning: tables/table8_related.tex:9: Underfull \hbox (badness 10000) in paragraph at lines 9--9
+warning: tables/table8_related.tex:18: Underfull \hbox (badness 10000) in paragraph at lines 17--18
+warning: tables/table8_related.tex:19: Underfull \hbox (badness 10000) in paragraph at lines 19--19
+warning: tables/table8_related.tex:19: Underfull \hbox (badness 10000) in paragraph at lines 19--19
+warning: sec_method.tex:7: Underfull \hbox (badness 1648) in paragraph at lines 6--7
+warning: sec_method.tex:53: Underfull \hbox (badness 10000) in paragraph at lines 51--53
+warning: sec_method.tex:53: Underfull \hbox (badness 10000) in paragraph at lines 51--53
+warning: sec_method.tex:53: Underfull \hbox (badness 5787) in paragraph at lines 51--53
+warning: tables/table1_datasets.tex:9: Underfull \hbox (badness 3590) in paragraph at lines 9--9
+warning: tables/table1_datasets.tex:9: Overfull \hbox (3.65916pt too wide) in paragraph at lines 9--9
+warning: tables/table1_datasets.tex:9: Underfull \hbox (badness 10000) in paragraph at lines 9--9
+warning: tables/table1_datasets.tex:10: Overfull \hbox (5.61163pt too wide) in paragraph at lines 9--10
+warning: tables/table1_datasets.tex:11: Underfull \hbox (badness 10000) in paragraph at lines 11--11
+warning: tables/table1_datasets.tex:11: Underfull \hbox (badness 10000) in paragraph at lines 11--11
+warning: tables/table1_datasets.tex:11: Underfull \hbox (badness 10000) in paragraph at lines 11--11
+warning: tables/table1_datasets.tex:11: Underfull \hbox (badness 10000) in paragraph at lines 11--11
+warning: tables/table1_datasets.tex:12: Underfull \hbox (badness 10000) in paragraph at lines 12--12
+warning: sec_results.tex:14: Underfull \hbox (badness 2384) in paragraph at lines 13--14
+warning: sec_results.tex:27: Underfull \vbox (badness 2318) has occurred while \output is active
+warning: sec_results.tex:27: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: sec_statements.tex:7: Underfull \vbox (badness 1406) has occurred while \output is active
+note: Running BibTeX on main.aux ...
+note: Rerunning TeX because bibtex was run ...
+warning: algorithm.sty:11: 
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+warning: tables/table8_related.tex:9: Underfull \hbox (badness 10000) in paragraph at lines 9--9
+warning: tables/table8_related.tex:9: Underfull \hbox (badness 10000) in paragraph at lines 9--9
+warning: tables/table8_related.tex:18: Underfull \hbox (badness 10000) in paragraph at lines 17--18
+warning: tables/table8_related.tex:19: Underfull \hbox (badness 10000) in paragraph at lines 19--19
+warning: tables/table8_related.tex:19: Underfull \hbox (badness 10000) in paragraph at lines 19--19
+warning: sec_method.tex:7: Underfull \hbox (badness 1648) in paragraph at lines 6--7
+warning: sec_method.tex:53: Underfull \hbox (badness 10000) in paragraph at lines 51--53
+warning: sec_method.tex:53: Underfull \hbox (badness 3724) in paragraph at lines 51--53
+warning: tables/table1_datasets.tex:9: Underfull \hbox (badness 3590) in paragraph at lines 9--9
+warning: tables/table1_datasets.tex:9: Overfull \hbox (3.65916pt too wide) in paragraph at lines 9--9
+warning: tables/table1_datasets.tex:9: Underfull \hbox (badness 10000) in paragraph at lines 9--9
+warning: tables/table1_datasets.tex:10: Overfull \hbox (5.61163pt too wide) in paragraph at lines 9--10
+warning: tables/table1_datasets.tex:11: Underfull \hbox (badness 10000) in paragraph at lines 11--11
+warning: tables/table1_datasets.tex:11: Underfull \hbox (badness 10000) in paragraph at lines 11--11
+warning: tables/table1_datasets.tex:11: Underfull \hbox (badness 10000) in paragraph at lines 11--11
+warning: tables/table1_datasets.tex:11: Underfull \hbox (badness 10000) in paragraph at lines 11--11
+warning: tables/table1_datasets.tex:12: Underfull \hbox (badness 10000) in paragraph at lines 12--12
+warning: sec_results.tex:14: Underfull \hbox (badness 2384) in paragraph at lines 13--14
+warning: sec_results.tex:27: Underfull \vbox (badness 2318) has occurred while \output is active
+warning: sec_results.tex:27: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: sec_statements.tex:8: Underfull \vbox (badness 2689) has occurred while \output is active
+note: Rerunning TeX because "main.aux" changed ...
+warning: algorithm.sty:11: 
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+warning: tables/table8_related.tex:9: Underfull \hbox (badness 10000) in paragraph at lines 9--9
+warning: tables/table8_related.tex:9: Underfull \hbox (badness 10000) in paragraph at lines 9--9
+warning: tables/table8_related.tex:18: Underfull \hbox (badness 10000) in paragraph at lines 17--18
+warning: tables/table8_related.tex:19: Underfull \hbox (badness 10000) in paragraph at lines 19--19
+warning: tables/table8_related.tex:19: Underfull \hbox (badness 10000) in paragraph at lines 19--19
+warning: sec_method.tex:1: Underfull \hbox (badness 1796) in paragraph at lines 2--1
+warning: sec_method.tex:1: Underfull \hbox (badness 1783) in paragraph at lines 2--1
+warning: sec_method.tex:7: Underfull \hbox (badness 1648) in paragraph at lines 6--7
+warning: sec_method.tex:53: Underfull \hbox (badness 10000) in paragraph at lines 51--53
+warning: sec_method.tex:53: Underfull \hbox (badness 3724) in paragraph at lines 51--53
+warning: tables/table1_datasets.tex:9: Underfull \hbox (badness 3590) in paragraph at lines 9--9
+warning: tables/table1_datasets.tex:9: Overfull \hbox (3.65916pt too wide) in paragraph at lines 9--9
+warning: tables/table1_datasets.tex:9: Underfull \hbox (badness 10000) in paragraph at lines 9--9
+warning: tables/table1_datasets.tex:10: Overfull \hbox (5.61163pt too wide) in paragraph at lines 9--10
+warning: tables/table1_datasets.tex:11: Underfull \hbox (badness 10000) in paragraph at lines 11--11
+warning: tables/table1_datasets.tex:11: Underfull \hbox (badness 10000) in paragraph at lines 11--11
+warning: tables/table1_datasets.tex:11: Underfull \hbox (badness 10000) in paragraph at lines 11--11
+warning: tables/table1_datasets.tex:11: Underfull \hbox (badness 10000) in paragraph at lines 11--11
+warning: tables/table1_datasets.tex:12: Underfull \hbox (badness 10000) in paragraph at lines 12--12
+warning: sec_results.tex:14: Underfull \hbox (badness 2384) in paragraph at lines 13--14
+warning: sec_results.tex:27: Underfull \vbox (badness 2318) has occurred while \output is active
+warning: sec_results.tex:27: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: sec_statements.tex:8: Underfull \vbox (badness 2689) has occurred while \output is active
+warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details.
+note: Running xdvipdfmx ...
+note: Writing `main.pdf` (357.76953125 KiB)
+note: Skipped writing 2 intermediate files (use --keep-intermediates to keep them)

@@ -1,0 +1,3072 @@
+{
+ "query": "federated LDA feature selection network intrusion",
+ "since": 2021,
+ "results": [
+  {
+   "id": "https://openalex.org/W4400266772",
+   "doi": "https://doi.org/10.1109/ojvt.2024.3422253",
+   "title": "Deep Learning in the Fast Lane: A Survey on Advanced Intrusion Detection Systems for Intelligent Vehicle Networks",
+   "publication_year": 2024,
+   "primary_location": {
+    "id": "doi:10.1109/ojvt.2024.3422253",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1109/ojvt.2024.3422253",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4210201067",
+     "display_name": "IEEE Open Journal of Vehicular Technology",
+     "issn_l": "2644-1330",
+     "issn": [
+      "2644-1330"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "jufo-1",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310319808",
+     "host_organization_name": "Institute of Electrical and Electronics Engineers",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319808"
+     ],
+     "host_organization_lineage_names": [
+      "Institute of Electrical and Electronics Engineers"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "IEEE Open Journal of Vehicular Technology",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 133,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5014350012",
+      "display_name": "Mohammed Almehdhar",
+      "orcid": "https://orcid.org/0009-0006-7012-6700"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210144839",
+       "display_name": "Hamad bin Khalifa University",
+       "ror": "https://ror.org/03eyq4y97",
+       "country_code": "QA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I4210144839"
+       ]
+      }
+     ],
+     "countries": [
+      "QA"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Mohammed Almehdhar",
+     "raw_affiliation_strings": [
+      "Division of Information and Computing Technology, College of Science and Engineering, Hamad Bin Khalifa University, Doha, Qatar"
+     ],
+     "raw_orcid": "https://orcid.org/0009-0006-7012-6700",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Division of Information and Computing Technology, College of Science and Engineering, Hamad Bin Khalifa University, Doha, Qatar",
+       "institution_ids": [
+        "https://openalex.org/I4210144839"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5048768303",
+      "display_name": "Abdullatif Albaseer",
+      "orcid": "https://orcid.org/0000-0002-6886-6500"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210144839",
+       "display_name": "Hamad bin Khalifa University",
+       "ror": "https://ror.org/03eyq4y97",
+       "country_code": "QA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I4210144839"
+       ]
+      }
+     ],
+     "countries": [
+      "QA"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Abdullatif Albaseer",
+     "raw_affiliation_strings": [
+      "Division of Information and Computing Technology, College of Science and Engineering, Hamad Bin Khalifa University, Doha, Qatar"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-6886-6500",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Division of Information and Computing Technology, College of Science and Engineering, Hamad Bin Khalifa University, Doha, Qatar",
+       "institution_ids": [
+        "https://openalex.org/I4210144839"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5101660547",
+      "display_name": "Muhammad Asif Khan",
+      "orcid": "https://orcid.org/0000-0003-2925-8841"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210092118",
+       "display_name": "Qatar Mobility Innovations Center",
+       "ror": "https://ror.org/00dgyys91",
+       "country_code": "QA",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I4210092118"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I60342839",
+       "display_name": "Qatar University",
+       "ror": "https://ror.org/00yhnba62",
+       "country_code": "QA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I60342839"
+       ]
+      }
+     ],
+     "countries": [
+      "QA"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Muhammad Asif Khan",
+     "raw_affiliation_strings": [
+      "Qatar Mobility Innovations Center, Qatar University, Doha, Qatar"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0003-2925-8841",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Qatar Mobility Innovations Center, Qatar University, Doha, Qatar",
+       "institution_ids": [
+        "https://openalex.org/I4210092118",
+        "https://openalex.org/I60342839"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5037234286",
+      "display_name": "Mohamed Abdallah",
+      "orcid": "https://orcid.org/0000-0002-3261-7588"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210144839",
+       "display_name": "Hamad bin Khalifa University",
+       "ror": "https://ror.org/03eyq4y97",
+       "country_code": "QA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I4210144839"
+       ]
+      }
+     ],
+     "countries": [
+      "QA"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Mohamed Abdallah",
+     "raw_affiliation_strings": [
+      "Division of Information and Computing Technology, College of Science and Engineering, Hamad Bin Khalifa University, Doha, Qatar"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-3261-7588",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Division of Information and Computing Technology, College of Science and Engineering, Hamad Bin Khalifa University, Doha, Qatar",
+       "institution_ids": [
+        "https://openalex.org/I4210144839"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5071128215",
+      "display_name": "Hamid Menouar",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210092118",
+       "display_name": "Qatar Mobility Innovations Center",
+       "ror": "https://ror.org/00dgyys91",
+       "country_code": "QA",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I4210092118"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I60342839",
+       "display_name": "Qatar University",
+       "ror": "https://ror.org/00yhnba62",
+       "country_code": "QA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I60342839"
+       ]
+      }
+     ],
+     "countries": [
+      "QA"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Hamid Menouar",
+     "raw_affiliation_strings": [
+      "Qatar Mobility Innovations Center, Qatar University, Doha, Qatar"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Qatar Mobility Innovations Center, Qatar University, Doha, Qatar",
+       "institution_ids": [
+        "https://openalex.org/I4210092118",
+        "https://openalex.org/I60342839"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5002005849",
+      "display_name": "Saif Al\u2010Kuwari",
+      "orcid": "https://orcid.org/0000-0002-4402-7710"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210144839",
+       "display_name": "Hamad bin Khalifa University",
+       "ror": "https://ror.org/03eyq4y97",
+       "country_code": "QA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I4210144839"
+       ]
+      }
+     ],
+     "countries": [
+      "QA"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Saif Al-Kuwari",
+     "raw_affiliation_strings": [
+      "Division of Information and Computing Technology, College of Science and Engineering, Hamad Bin Khalifa University, Doha, Qatar"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-4402-7710",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Division of Information and Computing Technology, College of Science and Engineering, Hamad Bin Khalifa University, Doha, Qatar",
+       "institution_ids": [
+        "https://openalex.org/I4210144839"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5008695053",
+      "display_name": "Ala Al\u2010Fuqaha",
+      "orcid": "https://orcid.org/0000-0002-0903-1204"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210144839",
+       "display_name": "Hamad bin Khalifa University",
+       "ror": "https://ror.org/03eyq4y97",
+       "country_code": "QA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I4210144839"
+       ]
+      }
+     ],
+     "countries": [
+      "QA"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Ala Al-Fuqaha",
+     "raw_affiliation_strings": [
+      "Division of Information and Computing Technology, College of Science and Engineering, Hamad Bin Khalifa University, Doha, Qatar"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-0903-1204",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Division of Information and Computing Technology, College of Science and Engineering, Hamad Bin Khalifa University, Doha, Qatar",
+       "institution_ids": [
+        "https://openalex.org/I4210144839"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W4364376065",
+   "doi": "https://doi.org/10.3389/fcomp.2023.997159",
+   "title": "A novel hybrid autoencoder and modified particle swarm optimization feature selection for intrusion detection in the internet of things network",
+   "publication_year": 2023,
+   "primary_location": {
+    "id": "doi:10.3389/fcomp.2023.997159",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3389/fcomp.2023.997159",
+    "pdf_url": "https://www.frontiersin.org/articles/10.3389/fcomp.2023.997159/pdf",
+    "source": {
+     "id": "https://openalex.org/S4210211086",
+     "display_name": "Frontiers in Computer Science",
+     "issn_l": "2624-9898",
+     "issn": [
+      "2624-9898"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "jufo-1",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310320527",
+     "host_organization_name": "Frontiers Media",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310320527"
+     ],
+     "host_organization_lineage_names": [
+      "Frontiers Media"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Frontiers in Computer Science",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 48,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5057218982",
+      "display_name": "Yakub Kayode Saheed",
+      "orcid": "https://orcid.org/0000-0002-0804-0707"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I60470151",
+       "display_name": "Modibbo Adama University of Technology",
+       "ror": "https://ror.org/015dhe595",
+       "country_code": "NG",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I60470151"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I65734018",
+       "display_name": "American University of Nigeria",
+       "ror": "https://ror.org/02kv8bx48",
+       "country_code": "NG",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I65734018"
+       ]
+      }
+     ],
+     "countries": [
+      "NG"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Yakub Kayode Saheed",
+     "raw_affiliation_strings": [
+      "American University of Nigeria, Yola, Adamawa State, Nigeria",
+      "School of Information Technology and Computing, Yola, Adamawa State, Nigeria"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "American University of Nigeria, Yola, Adamawa State, Nigeria",
+       "institution_ids": [
+        "https://openalex.org/I65734018"
+       ]
+      },
+      {
+       "raw_affiliation_string": "School of Information Technology and Computing, Yola, Adamawa State, Nigeria",
+       "institution_ids": [
+        "https://openalex.org/I60470151"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5080392524",
+      "display_name": "Aisha Abubakar Usman",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I60470151",
+       "display_name": "Modibbo Adama University of Technology",
+       "ror": "https://ror.org/015dhe595",
+       "country_code": "NG",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I60470151"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I65734018",
+       "display_name": "American University of Nigeria",
+       "ror": "https://ror.org/02kv8bx48",
+       "country_code": "NG",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I65734018"
+       ]
+      }
+     ],
+     "countries": [
+      "NG"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Aisha Abubakar Usman",
+     "raw_affiliation_strings": [
+      "American University of Nigeria, Yola, Adamawa State, Nigeria",
+      "School of Information Technology and Computing, Yola, Adamawa State, Nigeria"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "American University of Nigeria, Yola, Adamawa State, Nigeria",
+       "institution_ids": [
+        "https://openalex.org/I65734018"
+       ]
+      },
+      {
+       "raw_affiliation_string": "School of Information Technology and Computing, Yola, Adamawa State, Nigeria",
+       "institution_ids": [
+        "https://openalex.org/I60470151"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5065312206",
+      "display_name": "Favour Dirwokmwa Sukat",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I60470151",
+       "display_name": "Modibbo Adama University of Technology",
+       "ror": "https://ror.org/015dhe595",
+       "country_code": "NG",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I60470151"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I65734018",
+       "display_name": "American University of Nigeria",
+       "ror": "https://ror.org/02kv8bx48",
+       "country_code": "NG",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I65734018"
+       ]
+      }
+     ],
+     "countries": [
+      "NG"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Favour Dirwokmwa Sukat",
+     "raw_affiliation_strings": [
+      "American University of Nigeria, Yola, Adamawa State, Nigeria",
+      "School of Information Technology and Computing, Yola, Adamawa State, Nigeria"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "American University of Nigeria, Yola, Adamawa State, Nigeria",
+       "institution_ids": [
+        "https://openalex.org/I65734018"
+       ]
+      },
+      {
+       "raw_affiliation_string": "School of Information Technology and Computing, Yola, Adamawa State, Nigeria",
+       "institution_ids": [
+        "https://openalex.org/I60470151"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5081515721",
+      "display_name": "Muftahu Abdulrahman",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2799873615",
+       "display_name": "African Institute of Science and Technology",
+       "ror": "https://ror.org/05rcqrz41",
+       "country_code": "NG",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I2799873615"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I52605992",
+       "display_name": "National Open University of Nigeria",
+       "ror": "https://ror.org/009tveq15",
+       "country_code": "NG",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I52605992"
+       ]
+      }
+     ],
+     "countries": [
+      "NG"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Muftahu Abdulrahman",
+     "raw_affiliation_strings": [
+      "African Centre of Excellence on Technology Enhanced Learning, Abuja, Nigeria",
+      "National Open University of Nigeria, Abuja, Nigeria"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "African Centre of Excellence on Technology Enhanced Learning, Abuja, Nigeria",
+       "institution_ids": [
+        "https://openalex.org/I2799873615"
+       ]
+      },
+      {
+       "raw_affiliation_string": "National Open University of Nigeria, Abuja, Nigeria",
+       "institution_ids": [
+        "https://openalex.org/I52605992"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W3157770576",
+   "doi": "https://doi.org/10.1109/access.2021.3075066",
+   "title": "Machine Learning for Misuse-Based Network Intrusion Detection: Overview, Unified Evaluation and Feature Choice Comparison Framework",
+   "publication_year": 2021,
+   "primary_location": {
+    "id": "doi:10.1109/access.2021.3075066",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1109/access.2021.3075066",
+    "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/9312710/09410557.pdf",
+    "source": {
+     "id": "https://openalex.org/S2485537415",
+     "display_name": "IEEE Access",
+     "issn_l": "2169-3536",
+     "issn": [
+      "2169-3536"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "jufo-1",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310319808",
+     "host_organization_name": "Institute of Electrical and Electronics Engineers",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319808"
+     ],
+     "host_organization_lineage_names": [
+      "Institute of Electrical and Electronics Engineers"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "IEEE Access",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 58,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5040317429",
+      "display_name": "Laurens Le Jeune",
+      "orcid": "https://orcid.org/0000-0003-0744-4897"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210114974",
+       "display_name": "IMEC",
+       "ror": "https://ror.org/02kcbn207",
+       "country_code": "BE",
+       "type": "nonprofit",
+       "lineage": [
+        "https://openalex.org/I4210114974"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I99464096",
+       "display_name": "KU Leuven",
+       "ror": "https://ror.org/05f950310",
+       "country_code": "BE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I99464096"
+       ]
+      }
+     ],
+     "countries": [
+      "BE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Laurens Le Jeune",
+     "raw_affiliation_strings": [
+      "EAVISE, PSI, KU Leuven, Leuven, Belgium",
+      "ES&S and imec-COSIC, KU Leuven, Leuven, Belgium"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0003-0744-4897",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "EAVISE, PSI, KU Leuven, Leuven, Belgium",
+       "institution_ids": [
+        "https://openalex.org/I99464096"
+       ]
+      },
+      {
+       "raw_affiliation_string": "ES&S and imec-COSIC, KU Leuven, Leuven, Belgium",
+       "institution_ids": [
+        "https://openalex.org/I4210114974",
+        "https://openalex.org/I99464096"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5057957125",
+      "display_name": "Toon Goedem\u00e9",
+      "orcid": "https://orcid.org/0000-0002-7477-8961"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I99464096",
+       "display_name": "KU Leuven",
+       "ror": "https://ror.org/05f950310",
+       "country_code": "BE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I99464096"
+       ]
+      }
+     ],
+     "countries": [
+      "BE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Toon Goedeme",
+     "raw_affiliation_strings": [
+      "EAVISE, PSI, KU Leuven, Leuven, Belgium"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-7477-8961",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "EAVISE, PSI, KU Leuven, Leuven, Belgium",
+       "institution_ids": [
+        "https://openalex.org/I99464096"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5050888929",
+      "display_name": "Nele Mentens",
+      "orcid": "https://orcid.org/0000-0001-8753-7895"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I121797337",
+       "display_name": "Leiden University",
+       "ror": "https://ror.org/027bh9e22",
+       "country_code": "NL",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I121797337"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210114974",
+       "display_name": "IMEC",
+       "ror": "https://ror.org/02kcbn207",
+       "country_code": "BE",
+       "type": "nonprofit",
+       "lineage": [
+        "https://openalex.org/I4210114974"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I99464096",
+       "display_name": "KU Leuven",
+       "ror": "https://ror.org/05f950310",
+       "country_code": "BE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I99464096"
+       ]
+      }
+     ],
+     "countries": [
+      "BE",
+      "NL"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Nele Mentens",
+     "raw_affiliation_strings": [
+      "ES&S and imec-COSIC, KU Leuven, Leuven, Belgium",
+      "Leiden Institute of Advanced Computer Science (LIACS), Leiden University, Leiden, The Netherlands"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0001-8753-7895",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "ES&S and imec-COSIC, KU Leuven, Leuven, Belgium",
+       "institution_ids": [
+        "https://openalex.org/I4210114974",
+        "https://openalex.org/I99464096"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Leiden Institute of Advanced Computer Science (LIACS), Leiden University, Leiden, The Netherlands",
+       "institution_ids": [
+        "https://openalex.org/I121797337"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W4406346523",
+   "doi": "https://doi.org/10.1007/s10462-024-11082-w",
+   "title": "Advancements in securing federated learning with IDS: a comprehensive review of neural networks and feature engineering techniques for malicious client detection",
+   "publication_year": 2025,
+   "primary_location": {
+    "id": "doi:10.1007/s10462-024-11082-w",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1007/s10462-024-11082-w",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10462-024-11082-w.pdf",
+    "source": {
+     "id": "https://openalex.org/S122814990",
+     "display_name": "Artificial Intelligence Review",
+     "issn_l": "0269-2821",
+     "issn": [
+      "0269-2821",
+      "1573-7462"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "erih-plus",
+      "jufo-1",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310319900",
+     "host_organization_name": "Springer Science+Business Media",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319900",
+      "https://openalex.org/P4310319965"
+     ],
+     "host_organization_lineage_names": [
+      "Springer Science+Business Media",
+      "Springer Nature"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Artificial Intelligence Review",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 46,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5109973677",
+      "display_name": "Naila Latif",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I149594827",
+       "display_name": "Xidian University",
+       "ror": "https://ror.org/05s92vm98",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I149594827"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Naila Latif",
+     "raw_affiliation_strings": [
+      "School of Telecommunications Engineering, Xidian University, Xi\u2019an, 710071, Shaanxi, China",
+      "School of Telecommunications Engineering, Xidian University, Xi'an, 710071, Shaanxi, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "School of Telecommunications Engineering, Xidian University, Xi\u2019an, 710071, Shaanxi, China",
+       "institution_ids": [
+        "https://openalex.org/I149594827"
+       ]
+      },
+      {
+       "raw_affiliation_string": "School of Telecommunications Engineering, Xidian University, Xi'an, 710071, Shaanxi, China",
+       "institution_ids": [
+        "https://openalex.org/I149594827"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5065027008",
+      "display_name": "Wenping Ma",
+      "orcid": "https://orcid.org/0000-0001-8872-2195"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I149594827",
+       "display_name": "Xidian University",
+       "ror": "https://ror.org/05s92vm98",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I149594827"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Wenping Ma",
+     "raw_affiliation_strings": [
+      "School of Telecommunications Engineering, Xidian University, Xi\u2019an, 710071, Shaanxi, China",
+      "School of Telecommunications Engineering, Xidian University, Xi'an, 710071, Shaanxi, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "School of Telecommunications Engineering, Xidian University, Xi\u2019an, 710071, Shaanxi, China",
+       "institution_ids": [
+        "https://openalex.org/I149594827"
+       ]
+      },
+      {
+       "raw_affiliation_string": "School of Telecommunications Engineering, Xidian University, Xi'an, 710071, Shaanxi, China",
+       "institution_ids": [
+        "https://openalex.org/I149594827"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5074045579",
+      "display_name": "Hafiz Bilal Ahmad",
+      "orcid": "https://orcid.org/0009-0008-7434-7396"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I149594827",
+       "display_name": "Xidian University",
+       "ror": "https://ror.org/05s92vm98",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I149594827"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Hafiz Bilal Ahmad",
+     "raw_affiliation_strings": [
+      "School of Computer Science and Technology, Xidian University, Xi\u2019an, 710071, Shaanxi, China",
+      "School of Computer Science and Technology, Xidian University, Xi'an, 710071, Shaanxi, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "School of Computer Science and Technology, Xidian University, Xi\u2019an, 710071, Shaanxi, China",
+       "institution_ids": [
+        "https://openalex.org/I149594827"
+       ]
+      },
+      {
+       "raw_affiliation_string": "School of Computer Science and Technology, Xidian University, Xi'an, 710071, Shaanxi, China",
+       "institution_ids": [
+        "https://openalex.org/I149594827"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W4380995531",
+   "doi": "https://doi.org/10.3390/s23125568",
+   "title": "Ensemble-Learning Framework for Intrusion Detection to Enhance Internet of Things\u2019 Devices Security",
+   "publication_year": 2023,
+   "primary_location": {
+    "id": "doi:10.3390/s23125568",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3390/s23125568",
+    "pdf_url": "https://www.mdpi.com/1424-8220/23/12/5568/pdf?version=1686727353",
+    "source": {
+     "id": "https://openalex.org/S101949793",
+     "display_name": "Sensors",
+     "issn_l": "1424-8220",
+     "issn": [
+      "1424-8220"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "jufo-1",
+      "medline",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310310987",
+     "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310310987"
+     ],
+     "host_organization_lineage_names": [
+      "Multidisciplinary Digital Publishing Institute"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Sensors",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 123,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5067380991",
+      "display_name": "Yazeed Alotaibi",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I63772739",
+       "display_name": "Florida Atlantic University",
+       "ror": "https://ror.org/05p8w6387",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I63772739"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Yazeed Alotaibi",
+     "raw_affiliation_strings": [
+      "Department of Electrical Engineering and Computer Science, Florida Atlantic University, 777 Glades Road, Boca Raton, FL 33431, USA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Electrical Engineering and Computer Science, Florida Atlantic University, 777 Glades Road, Boca Raton, FL 33431, USA",
+       "institution_ids": [
+        "https://openalex.org/I63772739"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5030489381",
+      "display_name": "Mohammad Ilyas",
+      "orcid": "https://orcid.org/0000-0003-2601-0162"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I63772739",
+       "display_name": "Florida Atlantic University",
+       "ror": "https://ror.org/05p8w6387",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I63772739"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Mohammad Ilyas",
+     "raw_affiliation_strings": [
+      "Department of Electrical Engineering and Computer Science, Florida Atlantic University, 777 Glades Road, Boca Raton, FL 33431, USA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Electrical Engineering and Computer Science, Florida Atlantic University, 777 Glades Road, Boca Raton, FL 33431, USA",
+       "institution_ids": [
+        "https://openalex.org/I63772739"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W4323980169",
+   "doi": "https://doi.org/10.1007/s10462-023-10417-3",
+   "title": "Federated learning for 6G-enabled secure communication systems: a comprehensive survey",
+   "publication_year": 2023,
+   "primary_location": {
+    "id": "doi:10.1007/s10462-023-10417-3",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1007/s10462-023-10417-3",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10462-023-10417-3.pdf",
+    "source": {
+     "id": "https://openalex.org/S122814990",
+     "display_name": "Artificial Intelligence Review",
+     "issn_l": "0269-2821",
+     "issn": [
+      "0269-2821",
+      "1573-7462"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "erih-plus",
+      "jufo-1",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310319900",
+     "host_organization_name": "Springer Science+Business Media",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319900",
+      "https://openalex.org/P4310319965"
+     ],
+     "host_organization_lineage_names": [
+      "Springer Science+Business Media",
+      "Springer Nature"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Artificial Intelligence Review",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 88,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5080114207",
+      "display_name": "Deepika Sirohi",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I162030827",
+       "display_name": "Thapar Institute of Engineering & Technology",
+       "ror": "https://ror.org/00wdq3744",
+       "country_code": "IN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I162030827"
+       ]
+      }
+     ],
+     "countries": [
+      "IN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Deepika Sirohi",
+     "raw_affiliation_strings": [
+      "Department of Computer Science and Engineering, Thapar Institute of Engineering and Technology, Patiala, Punjab India",
+      "Department of Computer Science and Engineering, Thapar Institute of Engineering and Technology, Patiala, Punjab, India"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Computer Science and Engineering, Thapar Institute of Engineering and Technology, Patiala, Punjab India",
+       "institution_ids": [
+        "https://openalex.org/I162030827"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Department of Computer Science and Engineering, Thapar Institute of Engineering and Technology, Patiala, Punjab, India",
+       "institution_ids": [
+        "https://openalex.org/I162030827"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5100409306",
+      "display_name": "Neeraj Kumar",
+      "orcid": "https://orcid.org/0000-0002-3020-3947"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I162030827",
+       "display_name": "Thapar Institute of Engineering & Technology",
+       "ror": "https://ror.org/00wdq3744",
+       "country_code": "IN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I162030827"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I185163786",
+       "display_name": "King Abdulaziz University",
+       "ror": "https://ror.org/02ma4wv74",
+       "country_code": "SA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I185163786"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I56306041",
+       "display_name": "Lebanese American University",
+       "ror": "https://ror.org/00hqkan37",
+       "country_code": "LB",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I56306041"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I5847235",
+       "display_name": "University of Petroleum and Energy Studies",
+       "ror": "https://ror.org/04q2jes40",
+       "country_code": "IN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I5847235"
+       ]
+      }
+     ],
+     "countries": [
+      "IN",
+      "LB",
+      "SA"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Neeraj Kumar",
+     "raw_affiliation_strings": [
+      "Department of Computer Science and Engineering, Thapar Institute of Engineering and Technology, Patiala, Punjab India",
+      "Department of Computer Science and Engineering, University of Petroleum and Energy Studies, Dehradun, 248001, India",
+      "Department of Electrical and Computer Engineering, Lebanese American University, Beirut, Lebanon",
+      "Faculty of Computing and IT, King Abdulaziz University, Jeddah, Saudi Arabia",
+      "Department of Computer Science and Engineering, Thapar Institute of Engineering and Technology, Patiala, Punjab, India"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-3020-3947",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Computer Science and Engineering, Thapar Institute of Engineering and Technology, Patiala, Punjab India",
+       "institution_ids": [
+        "https://openalex.org/I162030827"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Department of Computer Science and Engineering, University of Petroleum and Energy Studies, Dehradun, 248001, India",
+       "institution_ids": [
+        "https://openalex.org/I5847235"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Department of Electrical and Computer Engineering, Lebanese American University, Beirut, Lebanon",
+       "institution_ids": [
+        "https://openalex.org/I56306041"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Faculty of Computing and IT, King Abdulaziz University, Jeddah, Saudi Arabia",
+       "institution_ids": [
+        "https://openalex.org/I185163786"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Department of Computer Science and Engineering, Thapar Institute of Engineering and Technology, Patiala, Punjab, India",
+       "institution_ids": [
+        "https://openalex.org/I162030827"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5071186894",
+      "display_name": "Prashant Singh Rana",
+      "orcid": "https://orcid.org/0000-0002-0142-7925"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I162030827",
+       "display_name": "Thapar Institute of Engineering & Technology",
+       "ror": "https://ror.org/00wdq3744",
+       "country_code": "IN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I162030827"
+       ]
+      }
+     ],
+     "countries": [
+      "IN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Prashant Singh Rana",
+     "raw_affiliation_strings": [
+      "Department of Computer Science and Engineering, Thapar Institute of Engineering and Technology, Patiala, Punjab India",
+      "Department of Computer Science and Engineering, Thapar Institute of Engineering and Technology, Patiala, Punjab, India"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Computer Science and Engineering, Thapar Institute of Engineering and Technology, Patiala, Punjab India",
+       "institution_ids": [
+        "https://openalex.org/I162030827"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Department of Computer Science and Engineering, Thapar Institute of Engineering and Technology, Patiala, Punjab, India",
+       "institution_ids": [
+        "https://openalex.org/I162030827"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5089077811",
+      "display_name": "Sudeep Tanwar",
+      "orcid": "https://orcid.org/0000-0002-1776-4651"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I165831266",
+       "display_name": "Nirma University",
+       "ror": "https://ror.org/05qkq7x38",
+       "country_code": "IN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I165831266"
+       ]
+      }
+     ],
+     "countries": [
+      "IN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Sudeep Tanwar",
+     "raw_affiliation_strings": [
+      "Department of Computer Science and Engineering, Institute of Technology, Nirma University, Ahmedabad, Gujarat India",
+      "Department of Computer Science and Engineering, Institute of Technology, Nirma University, Ahmedabad, Gujarat, India"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Computer Science and Engineering, Institute of Technology, Nirma University, Ahmedabad, Gujarat India",
+       "institution_ids": [
+        "https://openalex.org/I165831266"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Department of Computer Science and Engineering, Institute of Technology, Nirma University, Ahmedabad, Gujarat, India",
+       "institution_ids": [
+        "https://openalex.org/I165831266"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5001354034",
+      "display_name": "Rahat Iqbal",
+      "orcid": "https://orcid.org/0000-0002-3475-3030"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I132806614",
+       "display_name": "University of Dubai",
+       "ror": "https://ror.org/05h0z7c09",
+       "country_code": "AE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I132806614"
+       ]
+      }
+     ],
+     "countries": [
+      "AE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Rahat Iqbal",
+     "raw_affiliation_strings": [
+      "University of Dubai, Dubai, UAE"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "University of Dubai, Dubai, UAE",
+       "institution_ids": [
+        "https://openalex.org/I132806614"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5084198289",
+      "display_name": "Mohammad Hijjii",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I72264486",
+       "display_name": "University of Tabuk",
+       "ror": "https://ror.org/04yej8x59",
+       "country_code": "SA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I72264486"
+       ]
+      }
+     ],
+     "countries": [
+      "SA"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Mohammad Hijjii",
+     "raw_affiliation_strings": [
+      "Computer Science Department, Faculty of Computers & Information Technology, University of Tabuk, Tabuk, Saudi Arabia"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Computer Science Department, Faculty of Computers & Information Technology, University of Tabuk, Tabuk, Saudi Arabia",
+       "institution_ids": [
+        "https://openalex.org/I72264486"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W4408529537",
+   "doi": "https://doi.org/10.1038/s41598-025-93447-x",
+   "title": "Enhancing malware detection with feature selection and scaling techniques using machine learning models",
+   "publication_year": 2025,
+   "primary_location": {
+    "id": "doi:10.1038/s41598-025-93447-x",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1038/s41598-025-93447-x",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S196734849",
+     "display_name": "Scientific Reports",
+     "issn_l": "2045-2322",
+     "issn": [
+      "2045-2322"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "doyens",
+      "jufo-1",
+      "medline",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310319908",
+     "host_organization_name": "Nature Portfolio",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319908",
+      "https://openalex.org/P4310319965"
+     ],
+     "host_organization_lineage_names": [
+      "Nature Portfolio",
+      "Springer Nature"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Scientific Reports",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 65,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5103827323",
+      "display_name": "Rakibul Hasan",
+      "orcid": "https://orcid.org/0009-0001-7268-390X"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4404532904",
+       "display_name": "Westcliff University",
+       "ror": "https://ror.org/05xkpwy13",
+       "country_code": null,
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I4404532904"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Rakibul Hasan",
+     "raw_affiliation_strings": [
+      "Department of Business Administration, Westcliff University, 17877 Von Karman Ave 4th Floor, Irvine, CA, 92614, USA. r.hasan.179@westcliff.edu",
+      "Department of Business Administration, Westcliff University, 17877 Von Karman Ave 4th Floor, Irvine, CA, 92614, USA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Business Administration, Westcliff University, 17877 Von Karman Ave 4th Floor, Irvine, CA, 92614, USA. r.hasan.179@westcliff.edu",
+       "institution_ids": [
+        "https://openalex.org/I4404532904"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Department of Business Administration, Westcliff University, 17877 Von Karman Ave 4th Floor, Irvine, CA, 92614, USA",
+       "institution_ids": [
+        "https://openalex.org/I4404532904"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5113355911",
+      "display_name": "Barna Biswas",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4404532904",
+       "display_name": "Westcliff University",
+       "ror": "https://ror.org/05xkpwy13",
+       "country_code": null,
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I4404532904"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Barna Biswas",
+     "raw_affiliation_strings": [
+      "Department of Business Administration, Westcliff University, 17877 Von Karman Ave 4th Floor, Irvine, CA, 92614, USA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Business Administration, Westcliff University, 17877 Von Karman Ave 4th Floor, Irvine, CA, 92614, USA",
+       "institution_ids": [
+        "https://openalex.org/I4404532904"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5115632132",
+      "display_name": "Md Samiun",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I181401687",
+       "display_name": "American University",
+       "ror": "https://ror.org/052w4zt36",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I181401687"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I19547980",
+       "display_name": "American InterContinental University",
+       "ror": "https://ror.org/05w0qtv14",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I19547980"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Md Samiun",
+     "raw_affiliation_strings": [
+      "Department of Business Administration, International American University, 3440 Wilshire Blvd STE 1000, Los Angeles, CA, 90010, USA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Business Administration, International American University, 3440 Wilshire Blvd STE 1000, Los Angeles, CA, 90010, USA",
+       "institution_ids": [
+        "https://openalex.org/I181401687",
+        "https://openalex.org/I19547980"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5045773881",
+      "display_name": "Md. Abu Saleh",
+      "orcid": "https://orcid.org/0000-0001-5610-4763"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I181401687",
+       "display_name": "American University",
+       "ror": "https://ror.org/052w4zt36",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I181401687"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I19547980",
+       "display_name": "American InterContinental University",
+       "ror": "https://ror.org/05w0qtv14",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I19547980"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Mohammad Abu Saleh",
+     "raw_affiliation_strings": [
+      "Department of Business Administration, International American University, 3440 Wilshire Blvd STE 1000, Los Angeles, CA, 90010, USA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Business Administration, International American University, 3440 Wilshire Blvd STE 1000, Los Angeles, CA, 90010, USA",
+       "institution_ids": [
+        "https://openalex.org/I181401687",
+        "https://openalex.org/I19547980"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5104340803",
+      "display_name": "Mani Prabha",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I181401687",
+       "display_name": "American University",
+       "ror": "https://ror.org/052w4zt36",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I181401687"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I19547980",
+       "display_name": "American InterContinental University",
+       "ror": "https://ror.org/05w0qtv14",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I19547980"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Mani Prabha",
+     "raw_affiliation_strings": [
+      "Department of Business Administration, International American University, 3440 Wilshire Blvd STE 1000, Los Angeles, CA, 90010, USA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Business Administration, International American University, 3440 Wilshire Blvd STE 1000, Los Angeles, CA, 90010, USA",
+       "institution_ids": [
+        "https://openalex.org/I181401687",
+        "https://openalex.org/I19547980"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5097333533",
+      "display_name": "Jahanara Akter",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4404532904",
+       "display_name": "Westcliff University",
+       "ror": "https://ror.org/05xkpwy13",
+       "country_code": null,
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I4404532904"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Jahanara Akter",
+     "raw_affiliation_strings": [
+      "Department of Business Administration, Westcliff University, 17877 Von Karman Ave 4th Floor, Irvine, CA, 92614, USA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Business Administration, Westcliff University, 17877 Von Karman Ave 4th Floor, Irvine, CA, 92614, USA",
+       "institution_ids": [
+        "https://openalex.org/I4404532904"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5116661733",
+      "display_name": "Fatema Haque Joya",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I33849332",
+       "display_name": "University of Malaya",
+       "ror": "https://ror.org/00rzspn62",
+       "country_code": "MY",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I33849332"
+       ]
+      }
+     ],
+     "countries": [
+      "MY"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Fatema Haque Joya",
+     "raw_affiliation_strings": [
+      "Department of Biomedical Engineering, Biosensor and Embedded System Lab, Universiti Malaya, Kuala Lumpur, Malaysia"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Biomedical Engineering, Biosensor and Embedded System Lab, Universiti Malaya, Kuala Lumpur, Malaysia",
+       "institution_ids": [
+        "https://openalex.org/I33849332"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5085903777",
+      "display_name": "Masuk Abdullah",
+      "orcid": "https://orcid.org/0000-0002-9330-1026"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I132735039",
+       "display_name": "University of Debrecen",
+       "ror": "https://ror.org/02xf66n48",
+       "country_code": "HU",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I132735039"
+       ]
+      }
+     ],
+     "countries": [
+      "HU"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Masuk Abdullah",
+     "raw_affiliation_strings": [
+      "Department of Vehicles Engineering, Faculty of Engineering, University of Debrecen, \u00d3temet\u0151 Str. 2-4, Debrecen, 4028, Hungary. masuk@eng.unideb.hu",
+      "Department of Vehicles Engineering, Faculty of Engineering, University of Debrecen, \u00d3temet\u0151 Str. 2\u20134, Debrecen, 4028, Hungary"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Vehicles Engineering, Faculty of Engineering, University of Debrecen, \u00d3temet\u0151 Str. 2-4, Debrecen, 4028, Hungary. masuk@eng.unideb.hu",
+       "institution_ids": [
+        "https://openalex.org/I132735039"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Department of Vehicles Engineering, Faculty of Engineering, University of Debrecen, \u00d3temet\u0151 Str. 2\u20134, Debrecen, 4028, Hungary",
+       "institution_ids": [
+        "https://openalex.org/I132735039"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W4376566331",
+   "doi": "https://doi.org/10.59461/ijdiic.v2i1.42",
+   "title": "Using Federated Artificial Intelligence System of Intrusion Detection for IoT Healthcare System Based on Blockchain",
+   "publication_year": 2023,
+   "primary_location": {
+    "id": "doi:10.59461/ijdiic.v2i1.42",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.59461/ijdiic.v2i1.42",
+    "pdf_url": "https://ijdiic.com/index.php/research/article/download/42/15",
+    "source": {
+     "id": "https://openalex.org/S4387289391",
+     "display_name": "International Journal of Data Informatics and Intelligent Computing",
+     "issn_l": "2583-6250",
+     "issn": [
+      "2583-6250"
+     ],
+     "is_oa": true,
+     "is_in_doaj": false,
+     "is_core": false,
+     "host_organization": null,
+     "host_organization_name": null,
+     "host_organization_lineage": [],
+     "host_organization_lineage_names": [],
+     "type": "journal"
+    },
+    "license": "cc-by-nc-sa",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "International Journal of Data Informatics and Intelligent Computing",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 27,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5101435359",
+      "display_name": "Priyanka Tyagi",
+      "orcid": "https://orcid.org/0000-0003-4290-5361"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I74885063",
+       "display_name": "Sharda University",
+       "ror": "https://ror.org/03b6ffh07",
+       "country_code": "IN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I74885063"
+       ]
+      }
+     ],
+     "countries": [
+      "IN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Priyanka Tyagi",
+     "raw_affiliation_strings": [
+      "Computer Science and Engineering, School of Engineering and Technology, Sharda University, Noida, ndia"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Computer Science and Engineering, School of Engineering and Technology, Sharda University, Noida, ndia",
+       "institution_ids": [
+        "https://openalex.org/I74885063"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5016009329",
+      "display_name": "S.K. Manju Bargavi",
+      "orcid": "https://orcid.org/0000-0001-7112-5810"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I106826634",
+       "display_name": "Jain University",
+       "ror": "https://ror.org/01cnqpt53",
+       "country_code": "IN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I106826634"
+       ]
+      }
+     ],
+     "countries": [
+      "IN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "S.K. Manju bargavi",
+     "raw_affiliation_strings": [
+      "Department of CS & IT, Jain (Deemed to be University), Bangalore, India"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of CS & IT, Jain (Deemed to be University), Bangalore, India",
+       "institution_ids": [
+        "https://openalex.org/I106826634"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W4393007161",
+   "doi": "https://doi.org/10.3390/s24061968",
+   "title": "Machine Learning and Deep Learning Techniques for Internet of Things Network Anomaly Detection\u2014Current Research Trends",
+   "publication_year": 2024,
+   "primary_location": {
+    "id": "doi:10.3390/s24061968",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3390/s24061968",
+    "pdf_url": "https://www.mdpi.com/1424-8220/24/6/1968/pdf?version=1710914178",
+    "source": {
+     "id": "https://openalex.org/S101949793",
+     "display_name": "Sensors",
+     "issn_l": "1424-8220",
+     "issn": [
+      "1424-8220"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "jufo-1",
+      "medline",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310310987",
+     "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310310987"
+     ],
+     "host_organization_lineage_names": [
+      "Multidisciplinary Digital Publishing Institute"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Sensors",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 143,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5010573459",
+      "display_name": "Saida Hafsa Rafique",
+      "orcid": "https://orcid.org/0000-0002-2445-3798"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I201726411",
+       "display_name": "United Arab Emirates University",
+       "ror": "https://ror.org/01km6p862",
+       "country_code": "AE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I201726411"
+       ]
+      }
+     ],
+     "countries": [
+      "AE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Saida Hafsa Rafique",
+     "raw_affiliation_strings": [
+      "College of Information Technology, United Arab Emirates University, Abu Dhabi P.O. Box 15551, United Arab Emirates"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "College of Information Technology, United Arab Emirates University, Abu Dhabi P.O. Box 15551, United Arab Emirates",
+       "institution_ids": [
+        "https://openalex.org/I201726411"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5085473968",
+      "display_name": "Amira Mahamat Abdallah",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I201726411",
+       "display_name": "United Arab Emirates University",
+       "ror": "https://ror.org/01km6p862",
+       "country_code": "AE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I201726411"
+       ]
+      }
+     ],
+     "countries": [
+      "AE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Amira Abdallah",
+     "raw_affiliation_strings": [
+      "College of Information Technology, United Arab Emirates University, Abu Dhabi P.O. Box 15551, United Arab Emirates"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "College of Information Technology, United Arab Emirates University, Abu Dhabi P.O. Box 15551, United Arab Emirates",
+       "institution_ids": [
+        "https://openalex.org/I201726411"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5007908139",
+      "display_name": "Nura Shifa Musa",
+      "orcid": "https://orcid.org/0000-0001-7343-4000"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I161913731",
+       "display_name": "Al Ain University",
+       "ror": "https://ror.org/023abrt21",
+       "country_code": "AE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I161913731"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I201726411",
+       "display_name": "United Arab Emirates University",
+       "ror": "https://ror.org/01km6p862",
+       "country_code": "AE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I201726411"
+       ]
+      }
+     ],
+     "countries": [
+      "AE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Nura Shifa Musa",
+     "raw_affiliation_strings": [
+      "College of Engineering, Al Ain University, Abu Dhabi P.O. Box 15551, United Arab Emirates",
+      "College of Information Technology, United Arab Emirates University, Abu Dhabi P.O. Box 15551, United Arab Emirates"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0001-7343-4000",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "College of Engineering, Al Ain University, Abu Dhabi P.O. Box 15551, United Arab Emirates",
+       "institution_ids": [
+        "https://openalex.org/I161913731"
+       ]
+      },
+      {
+       "raw_affiliation_string": "College of Information Technology, United Arab Emirates University, Abu Dhabi P.O. Box 15551, United Arab Emirates",
+       "institution_ids": [
+        "https://openalex.org/I201726411"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5025018907",
+      "display_name": "M. Thangavel",
+      "orcid": "https://orcid.org/0000-0002-2510-8857"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I201726411",
+       "display_name": "United Arab Emirates University",
+       "ror": "https://ror.org/01km6p862",
+       "country_code": "AE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I201726411"
+       ]
+      }
+     ],
+     "countries": [
+      "AE"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Thangavel Murugan",
+     "raw_affiliation_strings": [
+      "Department of Information Systems and Security, College of Information Technology, United Arab Emirates University, Abu Dhabi P.O. Box 15551, United Arab Emirates"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-2510-8857",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Information Systems and Security, College of Information Technology, United Arab Emirates University, Abu Dhabi P.O. Box 15551, United Arab Emirates",
+       "institution_ids": [
+        "https://openalex.org/I201726411"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W4377235493",
+   "doi": "https://doi.org/10.1109/tnsm.2023.3278838",
+   "title": "Toward Securing Federated Learning Against Poisoning Attacks in Zero Touch B5G Networks",
+   "publication_year": 2023,
+   "primary_location": {
+    "id": "doi:10.1109/tnsm.2023.3278838",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1109/tnsm.2023.3278838",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S173527311",
+     "display_name": "IEEE Transactions on Network and Service Management",
+     "issn_l": "1932-4537",
+     "issn": [
+      "1932-4537",
+      "2373-7379"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "jufo-1",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310319808",
+     "host_organization_name": "Institute of Electrical and Electronics Engineers",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319808"
+     ],
+     "host_organization_lineage_names": [
+      "Institute of Electrical and Electronics Engineers"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "IEEE Transactions on Network and Service Management",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 38,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5086547694",
+      "display_name": "Sabra Ben Saad",
+      "orcid": "https://orcid.org/0000-0002-2942-0506"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I1902872",
+       "display_name": "EURECOM",
+       "ror": "https://ror.org/00sse7z02",
+       "country_code": "FR",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I1902872",
+        "https://openalex.org/I205703379"
+       ]
+      }
+     ],
+     "countries": [
+      "FR"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Sabra Ben Saad",
+     "raw_affiliation_strings": [
+      "Communication Systems Department, EURECOM, Sophia Antipolis, France",
+      "Eurecom [Sophia Antipolis] (Campus SophiaTech, 450 Route des Chappes, CS 50193 - 06904 Biot Sophia Antipolis cedex - France)"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-2942-0506",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Communication Systems Department, EURECOM, Sophia Antipolis, France",
+       "institution_ids": [
+        "https://openalex.org/I1902872"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Eurecom [Sophia Antipolis] (Campus SophiaTech, 450 Route des Chappes, CS 50193 - 06904 Biot Sophia Antipolis cedex - France)",
+       "institution_ids": [
+        "https://openalex.org/I1902872"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5079069251",
+      "display_name": "Bouziane Brik",
+      "orcid": "https://orcid.org/0000-0002-3267-5702"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210112756",
+       "display_name": "Centre Hospitalier de l'Agglom\u00e9ration de Nevers",
+       "ror": "https://ror.org/01k703c10",
+       "country_code": "FR",
+       "type": "healthcare",
+       "lineage": [
+        "https://openalex.org/I4210112756"
+       ]
+      }
+     ],
+     "countries": [
+      "FR"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Bouziane Brik",
+     "raw_affiliation_strings": [
+      "DRIVE EA1859, University of Bourgogne, Nevers, France"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-3267-5702",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "DRIVE EA1859, University of Bourgogne, Nevers, France",
+       "institution_ids": [
+        "https://openalex.org/I4210112756"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5073729502",
+      "display_name": "Adlen Ksentini",
+      "orcid": "https://orcid.org/0000-0002-0972-3091"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I1902872",
+       "display_name": "EURECOM",
+       "ror": "https://ror.org/00sse7z02",
+       "country_code": "FR",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I1902872",
+        "https://openalex.org/I205703379"
+       ]
+      }
+     ],
+     "countries": [
+      "FR"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Adlen Ksentini",
+     "raw_affiliation_strings": [
+      "Communication Systems Department, EURECOM, Sophia Antipolis, France",
+      "Eurecom [Sophia Antipolis] (Campus SophiaTech, 450 Route des Chappes, CS 50193 - 06904 Biot Sophia Antipolis cedex - France)"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-0972-3091",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Communication Systems Department, EURECOM, Sophia Antipolis, France",
+       "institution_ids": [
+        "https://openalex.org/I1902872"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Eurecom [Sophia Antipolis] (Campus SophiaTech, 450 Route des Chappes, CS 50193 - 06904 Biot Sophia Antipolis cedex - France)",
+       "institution_ids": [
+        "https://openalex.org/I1902872"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W4293546648",
+   "doi": "https://doi.org/10.3390/s22176505",
+   "title": "SEHIDS: Self Evolving Host-Based Intrusion Detection System for IoT Networks",
+   "publication_year": 2022,
+   "primary_location": {
+    "id": "doi:10.3390/s22176505",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3390/s22176505",
+    "pdf_url": "https://www.mdpi.com/1424-8220/22/17/6505/pdf?version=1661845291",
+    "source": {
+     "id": "https://openalex.org/S101949793",
+     "display_name": "Sensors",
+     "issn_l": "1424-8220",
+     "issn": [
+      "1424-8220"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "jufo-1",
+      "medline",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310310987",
+     "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310310987"
+     ],
+     "host_organization_lineage_names": [
+      "Multidisciplinary Digital Publishing Institute"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Sensors",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 43,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5020079556",
+      "display_name": "Mohammed Baz",
+      "orcid": "https://orcid.org/0000-0003-2417-4374"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I179331831",
+       "display_name": "Taif University",
+       "ror": "https://ror.org/014g1a453",
+       "country_code": "SA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I179331831"
+       ]
+      }
+     ],
+     "countries": [
+      "SA"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Mohammed Baz",
+     "raw_affiliation_strings": [
+      "Department of Computer Engineering, College of Computer and Information Technology, Taif University, Taif 21994, Saudi Arabia"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0003-2417-4374",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Computer Engineering, College of Computer and Information Technology, Taif University, Taif 21994, Saudi Arabia",
+       "institution_ids": [
+        "https://openalex.org/I179331831"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W4407003114",
+   "doi": "https://doi.org/10.1007/s10462-024-11101-w",
+   "title": "A comprehensive and systematic literature review on intrusion detection systems in the internet of medical things: current status, challenges, and opportunities",
+   "publication_year": 2025,
+   "primary_location": {
+    "id": "doi:10.1007/s10462-024-11101-w",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1007/s10462-024-11101-w",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10462-024-11101-w.pdf",
+    "source": {
+     "id": "https://openalex.org/S122814990",
+     "display_name": "Artificial Intelligence Review",
+     "issn_l": "0269-2821",
+     "issn": [
+      "0269-2821",
+      "1573-7462"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "erih-plus",
+      "jufo-1",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310319900",
+     "host_organization_name": "Springer Science+Business Media",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319900",
+      "https://openalex.org/P4310319965"
+     ],
+     "host_organization_lineage_names": [
+      "Springer Science+Business Media",
+      "Springer Nature"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Artificial Intelligence Review",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 102,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5060561028",
+      "display_name": "Arezou Naghib",
+      "orcid": "https://orcid.org/0000-0001-8596-8181"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I155419210",
+       "display_name": "Islamic Azad University, Science and Research Branch",
+       "ror": "https://ror.org/03187yj51",
+       "country_code": "IR",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I110525433",
+        "https://openalex.org/I155419210"
+       ]
+      }
+     ],
+     "countries": [
+      "IR"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Arezou Naghib",
+     "raw_affiliation_strings": [
+      "Department of Computer Engineering, Science and Research Branch, Islamic Azad University, Tehran, Iran"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Computer Engineering, Science and Research Branch, Islamic Azad University, Tehran, Iran",
+       "institution_ids": [
+        "https://openalex.org/I155419210"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5110497719",
+      "display_name": "Farhad Soleimanian Gharehchopogh",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210163840",
+       "display_name": "Islamic Azad University of Urmia",
+       "ror": "https://ror.org/05km8ys10",
+       "country_code": "IR",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I110525433",
+        "https://openalex.org/I4210163840"
+       ]
+      }
+     ],
+     "countries": [
+      "IR"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Farhad Soleimanian Gharehchopogh",
+     "raw_affiliation_strings": [
+      "Department of Computer Engineering, Urmia Branch, Islamic Azad University, Urmia, Iran"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Computer Engineering, Urmia Branch, Islamic Azad University, Urmia, Iran",
+       "institution_ids": [
+        "https://openalex.org/I4210163840"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5008301597",
+      "display_name": "Azadeh Zamanifar",
+      "orcid": "https://orcid.org/0000-0002-2629-4794"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I155419210",
+       "display_name": "Islamic Azad University, Science and Research Branch",
+       "ror": "https://ror.org/03187yj51",
+       "country_code": "IR",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I110525433",
+        "https://openalex.org/I155419210"
+       ]
+      }
+     ],
+     "countries": [
+      "IR"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Azadeh Zamanifar",
+     "raw_affiliation_strings": [
+      "Department of Computer Engineering, Science and Research Branch, Islamic Azad University, Tehran, Iran"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Computer Engineering, Science and Research Branch, Islamic Azad University, Tehran, Iran",
+       "institution_ids": [
+        "https://openalex.org/I155419210"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W4225120347",
+   "doi": "https://doi.org/10.3390/iot3020017",
+   "title": "Evaluation and Selection Models for Ensemble Intrusion Detection Systems in IoT",
+   "publication_year": 2022,
+   "primary_location": {
+    "id": "doi:10.3390/iot3020017",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3390/iot3020017",
+    "pdf_url": "https://www.mdpi.com/2624-831X/3/2/17/pdf?version=1651240980",
+    "source": {
+     "id": "https://openalex.org/S4210207801",
+     "display_name": "IoT",
+     "issn_l": "2624-831X",
+     "issn": [
+      "2624-831X"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310310987",
+     "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310310987"
+     ],
+     "host_organization_lineage_names": [
+      "Multidisciplinary Digital Publishing Institute"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "IoT",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 27,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5054783657",
+      "display_name": "Rubayyi Alghamdi",
+      "orcid": "https://orcid.org/0000-0002-4919-4323"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I45683168",
+       "display_name": "Polytechnique Montr\u00e9al",
+       "ror": "https://ror.org/05f8d4e86",
+       "country_code": "CA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I45683168"
+       ]
+      }
+     ],
+     "countries": [
+      "CA"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Rubayyi Alghamdi",
+     "raw_affiliation_strings": [
+      "Computer and Software Engineering Department, \u00c9cole Polytechnique de Montr\u00e9al, Montr\u00e9al, QC H3T 1J4, Canada"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-4919-4323",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Computer and Software Engineering Department, \u00c9cole Polytechnique de Montr\u00e9al, Montr\u00e9al, QC H3T 1J4, Canada",
+       "institution_ids": [
+        "https://openalex.org/I45683168"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5010894972",
+      "display_name": "Martine Bella\u00efche",
+      "orcid": "https://orcid.org/0000-0001-9530-7643"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I45683168",
+       "display_name": "Polytechnique Montr\u00e9al",
+       "ror": "https://ror.org/05f8d4e86",
+       "country_code": "CA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I45683168"
+       ]
+      }
+     ],
+     "countries": [
+      "CA"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Martine Bellaiche",
+     "raw_affiliation_strings": [
+      "Computer and Software Engineering Department, \u00c9cole Polytechnique de Montr\u00e9al, Montr\u00e9al, QC H3T 1J4, Canada"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0001-9530-7643",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Computer and Software Engineering Department, \u00c9cole Polytechnique de Montr\u00e9al, Montr\u00e9al, QC H3T 1J4, Canada",
+       "institution_ids": [
+        "https://openalex.org/I45683168"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W4409857493",
+   "doi": "https://doi.org/10.1007/s12083-025-01947-4",
+   "title": "A feature selection-driven machine learning framework for anomaly-based intrusion detection systems",
+   "publication_year": 2025,
+   "primary_location": {
+    "id": "doi:10.1007/s12083-025-01947-4",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1007/s12083-025-01947-4",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s12083-025-01947-4.pdf",
+    "source": {
+     "id": "https://openalex.org/S177487720",
+     "display_name": "Peer-to-Peer Networking and Applications",
+     "issn_l": "1936-6442",
+     "issn": [
+      "1936-6442",
+      "1936-6450"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "jufo-1",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310319965",
+     "host_organization_name": "Springer Nature",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319965"
+     ],
+     "host_organization_lineage_names": [
+      "Springer Nature"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Peer-to-Peer Networking and Applications",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 17,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5117345506",
+      "display_name": "Emre Emirmahmuto\u011flu",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I79305253",
+       "display_name": "National Defence University",
+       "ror": "https://ror.org/045vxh980",
+       "country_code": "PK",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I79305253"
+       ]
+      }
+     ],
+     "countries": [
+      "PK"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Emre Emirmahmuto\u011flu",
+     "raw_affiliation_strings": [
+      "Department of Cyber Security, Alparslan Defence Sciences and National Security Institute, National Defence University, Ankara, Turkey"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Cyber Security, Alparslan Defence Sciences and National Security Institute, National Defence University, Ankara, Turkey",
+       "institution_ids": [
+        "https://openalex.org/I79305253"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5059163959",
+      "display_name": "Y\u0131lmaz Atay",
+      "orcid": "https://orcid.org/0000-0002-3298-3334"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I95634034",
+       "display_name": "Gazi University",
+       "ror": "https://ror.org/054xkpr46",
+       "country_code": "TR",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I95634034"
+       ]
+      }
+     ],
+     "countries": [
+      "TR"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Y\u0131lmaz Atay",
+     "raw_affiliation_strings": [
+      "Department of Computer Engineering, Faculty of Engineering, Gazi University, Ankara, Turkey"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Computer Engineering, Faculty of Engineering, Gazi University, Ankara, Turkey",
+       "institution_ids": [
+        "https://openalex.org/I95634034"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W4411870410",
+   "doi": "https://doi.org/10.1038/s41598-025-08905-3",
+   "title": "An IoT intrusion detection framework based on feature selection and large language models fine-tuning",
+   "publication_year": 2025,
+   "primary_location": {
+    "id": "doi:10.1038/s41598-025-08905-3",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1038/s41598-025-08905-3",
+    "pdf_url": "https://www.nature.com/articles/s41598-025-08905-3.pdf",
+    "source": {
+     "id": "https://openalex.org/S196734849",
+     "display_name": "Scientific Reports",
+     "issn_l": "2045-2322",
+     "issn": [
+      "2045-2322"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "doyens",
+      "jufo-1",
+      "medline",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310319908",
+     "host_organization_name": "Nature Portfolio",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319908",
+      "https://openalex.org/P4310319965"
+     ],
+     "host_organization_lineage_names": [
+      "Nature Portfolio",
+      "Springer Nature"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Scientific Reports",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 21,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5074555989",
+      "display_name": "Huan Ma",
+      "orcid": "https://orcid.org/0000-0002-8823-325X"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I23171815",
+       "display_name": "Zhengzhou University of Light Industry",
+       "ror": "https://ror.org/05fwr8z16",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I23171815"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I38877650",
+       "display_name": "Zhengzhou University",
+       "ror": "https://ror.org/04ypx8c21",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I38877650"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Huan Ma",
+     "raw_affiliation_strings": [
+      "School of Cyber Science and Engineering, Zhengzhou University, Zhengzhou, 450001, China. mahuanresearch@126.com",
+      "Software Engineering College, Zhengzhou University of Light Industry, Zhengzhou, 450066, China. mahuanresearch@126.com"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "School of Cyber Science and Engineering, Zhengzhou University, Zhengzhou, 450001, China. mahuanresearch@126.com",
+       "institution_ids": [
+        "https://openalex.org/I38877650"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Software Engineering College, Zhengzhou University of Light Industry, Zhengzhou, 450066, China. mahuanresearch@126.com",
+       "institution_ids": [
+        "https://openalex.org/I23171815"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5100706672",
+      "display_name": "Wan Zhang",
+      "orcid": "https://orcid.org/0000-0003-1896-8186"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I23171815",
+       "display_name": "Zhengzhou University of Light Industry",
+       "ror": "https://ror.org/05fwr8z16",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I23171815"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Wan Zhang",
+     "raw_affiliation_strings": [
+      "Software Engineering College, Zhengzhou University of Light Industry, Zhengzhou, 450066, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Software Engineering College, Zhengzhou University of Light Industry, Zhengzhou, 450066, China",
+       "institution_ids": [
+        "https://openalex.org/I23171815"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5102743881",
+      "display_name": "Dalong Zhang",
+      "orcid": "https://orcid.org/0000-0002-2846-4400"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I38877650",
+       "display_name": "Zhengzhou University",
+       "ror": "https://ror.org/04ypx8c21",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I38877650"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Dalong Zhang",
+     "raw_affiliation_strings": [
+      "School of Cyber Science and Engineering, Zhengzhou University, Zhengzhou, 450001, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "School of Cyber Science and Engineering, Zhengzhou University, Zhengzhou, 450001, China",
+       "institution_ids": [
+        "https://openalex.org/I38877650"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5018152927",
+      "display_name": "Baozhan Chen",
+      "orcid": "https://orcid.org/0000-0002-3199-5472"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210156804",
+       "display_name": "First Affiliated Hospital of Zhengzhou University",
+       "ror": "https://ror.org/056swr059",
+       "country_code": "CN",
+       "type": "healthcare",
+       "lineage": [
+        "https://openalex.org/I4210156804"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Baozhan Chen",
+     "raw_affiliation_strings": [
+      "Ational Telemedicine Center of China, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Ational Telemedicine Center of China, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, China",
+       "institution_ids": [
+        "https://openalex.org/I4210156804"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,3 @@
+paper prose words: 5612; shared verbatim runs of >= 6 words: 2
+  [base] (6 words) the authors declare no competing interests
+  [senior] (6 words) the pearson lda intersection is optimal

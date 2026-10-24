@@ -1,0 +1,16 @@
+.venv/
+.vc/
+__pycache__/
+*.pyc
+data/raw/
+data/processed/*.npz
+*.parquet
+scratch/
+tools/tectonic.zip
+
+# large or regenerable files
+tools/tectonic.exe
+*.zip
+*.npy
+data/repro/
+code/senior_repro/outputs/data/

@@ -1,0 +1,3349 @@
+{
+ "query": "federated learning global feature normalization statistics intrusion detection non-IID",
+ "since": 2021,
+ "results": [
+  {
+   "id": "https://openalex.org/W4309080560",
+   "doi": "https://doi.org/10.1007/s13042-022-01647-y",
+   "title": "A survey on federated learning: challenges and applications",
+   "publication_year": 2022,
+   "primary_location": {
+    "id": "doi:10.1007/s13042-022-01647-y",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1007/s13042-022-01647-y",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s13042-022-01647-y.pdf",
+    "source": {
+     "id": "https://openalex.org/S2764999920",
+     "display_name": "International Journal of Machine Learning and Cybernetics",
+     "issn_l": "1868-8071",
+     "issn": [
+      "1868-8071",
+      "1868-808X"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "jufo-1",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310319900",
+     "host_organization_name": "Springer Science+Business Media",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319900",
+      "https://openalex.org/P4310319965"
+     ],
+     "host_organization_lineage_names": [
+      "Springer Science+Business Media",
+      "Springer Nature"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "International Journal of Machine Learning and Cybernetics",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 872,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5091166192",
+      "display_name": "Jie Wen",
+      "orcid": "https://orcid.org/0000-0002-4959-0692"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I46305995",
+       "display_name": "Taiyuan University of Science and Technology",
+       "ror": "https://ror.org/01wcbdc92",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I46305995"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Jie Wen",
+     "raw_affiliation_strings": [
+      "School of Electronic Information Engineering, Taiyuan University of Science and Technology, Taiyuan, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "School of Electronic Information Engineering, Taiyuan University of Science and Technology, Taiyuan, China",
+       "institution_ids": [
+        "https://openalex.org/I46305995"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5103022585",
+      "display_name": "Zhixia Zhang",
+      "orcid": "https://orcid.org/0000-0003-0847-3841"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I46305995",
+       "display_name": "Taiyuan University of Science and Technology",
+       "ror": "https://ror.org/01wcbdc92",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I46305995"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Zhixia Zhang",
+     "raw_affiliation_strings": [
+      "School of Electronic Information Engineering, Taiyuan University of Science and Technology, Taiyuan, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "School of Electronic Information Engineering, Taiyuan University of Science and Technology, Taiyuan, China",
+       "institution_ids": [
+        "https://openalex.org/I46305995"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": null,
+      "display_name": "Yang Lan",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I46305995",
+       "display_name": "Taiyuan University of Science and Technology",
+       "ror": "https://ror.org/01wcbdc92",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I46305995"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Yang Lan",
+     "raw_affiliation_strings": [
+      "School of Computer Science and Technology, Taiyuan University of Science and Technology, Taiyuan, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "School of Computer Science and Technology, Taiyuan University of Science and Technology, Taiyuan, China",
+       "institution_ids": [
+        "https://openalex.org/I46305995"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5053085908",
+      "display_name": "Zhihua Cui",
+      "orcid": "https://orcid.org/0000-0001-7388-3180"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I46305995",
+       "display_name": "Taiyuan University of Science and Technology",
+       "ror": "https://ror.org/01wcbdc92",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I46305995"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Zhihua Cui",
+     "raw_affiliation_strings": [
+      "School of Computer Science and Technology, Taiyuan University of Science and Technology, Taiyuan, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "School of Computer Science and Technology, Taiyuan University of Science and Technology, Taiyuan, China",
+       "institution_ids": [
+        "https://openalex.org/I46305995"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5000366852",
+      "display_name": "Jianghui Cai",
+      "orcid": "https://orcid.org/0000-0001-6945-8093"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I46305995",
+       "display_name": "Taiyuan University of Science and Technology",
+       "ror": "https://ror.org/01wcbdc92",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I46305995"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Jianghui Cai",
+     "raw_affiliation_strings": [
+      "School of Computer Science and Technology, Taiyuan University of Science and Technology, Taiyuan, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "School of Computer Science and Technology, Taiyuan University of Science and Technology, Taiyuan, China",
+       "institution_ids": [
+        "https://openalex.org/I46305995"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5100414787",
+      "display_name": "Wensheng Zhang",
+      "orcid": "https://orcid.org/0000-0003-0752-941X"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I19820366",
+       "display_name": "Chinese Academy of Sciences",
+       "ror": "https://ror.org/034t30j35",
+       "country_code": "CN",
+       "type": "government",
+       "lineage": [
+        "https://openalex.org/I19820366"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210094879",
+       "display_name": "Shandong Institute of Automation",
+       "ror": "https://ror.org/00qdtba35",
+       "country_code": "CN",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I4210094879",
+        "https://openalex.org/I4210142748"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Wensheng Zhang",
+     "raw_affiliation_strings": [
+      "The State Key Laboratory of Intelligent Control and Management of Complex Systems, Institute of Automation Chinese Academy of Sciences, Beijing, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "The State Key Laboratory of Intelligent Control and Management of Complex Systems, Institute of Automation Chinese Academy of Sciences, Beijing, China",
+       "institution_ids": [
+        "https://openalex.org/I19820366",
+        "https://openalex.org/I4210094879"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W4206724648",
+   "doi": "https://doi.org/10.1016/j.comnet.2021.108693",
+   "title": "Federated learning for malware detection in IoT devices",
+   "publication_year": 2022,
+   "primary_location": {
+    "id": "pmh:oai:www.zora.uzh.ch:20.500.14742/194860",
+    "is_oa": true,
+    "landing_page_url": "https://www.zora.uzh.ch/handle/20.500.14742/194860",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4306401281",
+     "display_name": "Zurich Open Repository and Archive (University of Zurich)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "host_organization": "https://openalex.org/I202697423",
+     "host_organization_name": "University of Zurich",
+     "host_organization_lineage": [
+      "https://openalex.org/I202697423"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "Rey, V., S\u00e1nchez S\u00e1nchez, P. M., Huertas Celdr\u00e1n, A., & Bovet, G. (2022). Federated learning for malware detection in IoT devices. Computer Networks, 204, 108693. https://doi.org/10.1016/j.comnet.2021.108693",
+    "raw_type": "Journal Article"
+   },
+   "cited_by_count": 410,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5068681767",
+      "display_name": "Valerian Rey",
+      "orcid": "https://orcid.org/0000-0003-3078-3598"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I5124864",
+       "display_name": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+       "ror": "https://ror.org/02s376052",
+       "country_code": "CH",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I2799323385",
+        "https://openalex.org/I5124864"
+       ]
+      }
+     ],
+     "countries": [
+      "CH"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Rey, Valerian",
+     "raw_affiliation_strings": [
+      "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne (EPFL), 1015 Lausanne, Switzerland"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne (EPFL), 1015 Lausanne, Switzerland",
+       "institution_ids": [
+        "https://openalex.org/I5124864"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": null,
+      "display_name": "S\u00e1nchez S\u00e1nchez, Pedro Miguel; https://orcid.org/0000-0002-6444-2102",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I80180929",
+       "display_name": "Universidad de Murcia",
+       "ror": "https://ror.org/03p3aeb86",
+       "country_code": "ES",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I80180929"
+       ]
+      }
+     ],
+     "countries": [
+      "ES"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "S\u00e1nchez S\u00e1nchez, Pedro Miguel; https://orcid.org/0000-0002-6444-2102",
+     "raw_affiliation_strings": [
+      "Department of Information and Communications Engineering, University of Murcia, Murcia 30100, Spain"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Information and Communications Engineering, University of Murcia, Murcia 30100, Spain",
+       "institution_ids": [
+        "https://openalex.org/I80180929"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": null,
+      "display_name": "Huertas Celdr\u00e1n, Alberto; https://orcid.org/0000-0001-7125-1710",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I202697423",
+       "display_name": "University of Zurich",
+       "ror": "https://ror.org/02crff812",
+       "country_code": "CH",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I202697423"
+       ]
+      }
+     ],
+     "countries": [
+      "CH"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Huertas Celdr\u00e1n, Alberto; https://orcid.org/0000-0001-7125-1710",
+     "raw_affiliation_strings": [
+      "Communication Systems Group (CSG), Department of Informatics (IfI), University of Zurich UZH, 8050 Z\u00fcrich, Switzerland"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Communication Systems Group (CSG), Department of Informatics (IfI), University of Zurich UZH, 8050 Z\u00fcrich, Switzerland",
+       "institution_ids": [
+        "https://openalex.org/I202697423"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5070889566",
+      "display_name": "G\u00e9r\u00f4me Bovet",
+      "orcid": "https://orcid.org/0000-0002-4534-3483"
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Bovet, G\u00e9r\u00f4me",
+     "raw_affiliation_strings": [
+      "Cyber-Defence Campus, armasuisse Science & Technology, 3602 Thun, Switzerland"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Cyber-Defence Campus, armasuisse Science & Technology, 3602 Thun, Switzerland",
+       "institution_ids": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W4387105517",
+   "doi": "https://doi.org/10.1145/3625558",
+   "title": "Heterogeneous Federated Learning: State-of-the-art and Research Challenges",
+   "publication_year": 2023,
+   "primary_location": {
+    "id": "doi:10.1145/3625558",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1145/3625558",
+    "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3625558",
+    "source": {
+     "id": "https://openalex.org/S157921468",
+     "display_name": "ACM Computing Surveys",
+     "issn_l": "0360-0300",
+     "issn": [
+      "0360-0300",
+      "1557-7341"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "jufo-3",
+      "norway-2"
+     ],
+     "host_organization": "https://openalex.org/P4310319798",
+     "host_organization_name": "Association for Computing Machinery",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319798"
+     ],
+     "host_organization_lineage_names": [
+      "Association for Computing Machinery"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "ACM Computing Surveys",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 579,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5008999954",
+      "display_name": "Mang Ye",
+      "orcid": "https://orcid.org/0000-0003-3989-7655"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I37461747",
+       "display_name": "Wuhan University",
+       "ror": "https://ror.org/033vjfk17",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I37461747"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Mang Ye",
+     "raw_affiliation_strings": [
+      "School of Computer Science, Wuhan University, China"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0003-3989-7655",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "School of Computer Science, Wuhan University, China",
+       "institution_ids": [
+        "https://openalex.org/I37461747"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5017072552",
+      "display_name": "Xiuwen Fang",
+      "orcid": "https://orcid.org/0009-0009-6768-3954"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I37461747",
+       "display_name": "Wuhan University",
+       "ror": "https://ror.org/033vjfk17",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I37461747"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Xiuwen Fang",
+     "raw_affiliation_strings": [
+      "School of Computer Science, Wuhan University, China"
+     ],
+     "raw_orcid": "https://orcid.org/0009-0009-6768-3954",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "School of Computer Science, Wuhan University, China",
+       "institution_ids": [
+        "https://openalex.org/I37461747"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5060042752",
+      "display_name": "Bo Du",
+      "orcid": "https://orcid.org/0000-0002-0059-8458"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I37461747",
+       "display_name": "Wuhan University",
+       "ror": "https://ror.org/033vjfk17",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I37461747"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Bo Du",
+     "raw_affiliation_strings": [
+      "School of Computer Science, Wuhan University, China"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-0059-8458",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "School of Computer Science, Wuhan University, China",
+       "institution_ids": [
+        "https://openalex.org/I37461747"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5079920605",
+      "display_name": "Pong C. Yuen",
+      "orcid": "https://orcid.org/0000-0002-9343-2202"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I141568987",
+       "display_name": "Hong Kong Baptist University",
+       "ror": "https://ror.org/0145fw131",
+       "country_code": "HK",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I141568987"
+       ]
+      }
+     ],
+     "countries": [
+      "HK"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Pong C. Yuen",
+     "raw_affiliation_strings": [
+      "Department of Computer Science, Hong Kong Baptist University, China"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-9343-2202",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Computer Science, Hong Kong Baptist University, China",
+       "institution_ids": [
+        "https://openalex.org/I141568987"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5074103823",
+      "display_name": "Dacheng Tao",
+      "orcid": "https://orcid.org/0000-0001-7225-5449"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I129604602",
+       "display_name": "The University of Sydney",
+       "ror": "https://ror.org/0384j8v12",
+       "country_code": "AU",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I129604602"
+       ]
+      }
+     ],
+     "countries": [
+      "AU"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Dacheng Tao",
+     "raw_affiliation_strings": [
+      "The University of Sydney, Australia"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0001-7225-5449",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "The University of Sydney, Australia",
+       "institution_ids": [
+        "https://openalex.org/I129604602"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W3213574824",
+   "doi": "https://doi.org/10.1109/tii.2021.3126728",
+   "title": "Intrusion Detection Based on Privacy-Preserving Federated Learning for the Industrial IoT",
+   "publication_year": 2021,
+   "primary_location": {
+    "id": "doi:10.1109/tii.2021.3126728",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1109/tii.2021.3126728",
+    "pdf_url": "https://ieeexplore.ieee.org/ielx7/9424/9989328/09609643.pdf",
+    "source": {
+     "id": "https://openalex.org/S184777250",
+     "display_name": "IEEE Transactions on Industrial Informatics",
+     "issn_l": "1551-3203",
+     "issn": [
+      "1551-3203",
+      "1941-0050"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "jufo-3",
+      "norway-2"
+     ],
+     "host_organization": "https://openalex.org/P4310319808",
+     "host_organization_name": "Institute of Electrical and Electronics Engineers",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319808"
+     ],
+     "host_organization_lineage_names": [
+      "Institute of Electrical and Electronics Engineers"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "IEEE Transactions on Industrial Informatics",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 178,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5053633775",
+      "display_name": "Pedro Ruzafa-Alcazar",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I80180929",
+       "display_name": "Universidad de Murcia",
+       "ror": "https://ror.org/03p3aeb86",
+       "country_code": "ES",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I80180929"
+       ]
+      }
+     ],
+     "countries": [
+      "ES"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Pedro Ruzafa-Alcazar",
+     "raw_affiliation_strings": [
+      "Department of Information and Communication Engineering, University of Murcia, Murcia, Spain"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Information and Communication Engineering, University of Murcia, Murcia, Spain",
+       "institution_ids": [
+        "https://openalex.org/I80180929"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5024747497",
+      "display_name": "Pablo Fern\u00e1ndez Saura",
+      "orcid": "https://orcid.org/0000-0003-2042-3070"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I80180929",
+       "display_name": "Universidad de Murcia",
+       "ror": "https://ror.org/03p3aeb86",
+       "country_code": "ES",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I80180929"
+       ]
+      }
+     ],
+     "countries": [
+      "ES"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Pablo Fernandez-Saura",
+     "raw_affiliation_strings": [
+      "Department of Information and Communication Engineering, University of Murcia, Murcia, Spain"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Information and Communication Engineering, University of Murcia, Murcia, Spain",
+       "institution_ids": [
+        "https://openalex.org/I80180929"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5021645574",
+      "display_name": "Enrique Marmol-Campos",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I80180929",
+       "display_name": "Universidad de Murcia",
+       "ror": "https://ror.org/03p3aeb86",
+       "country_code": "ES",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I80180929"
+       ]
+      }
+     ],
+     "countries": [
+      "ES"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Enrique Marmol-Campos",
+     "raw_affiliation_strings": [
+      "Department of Information and Communication Engineering, University of Murcia, Murcia, Spain"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Information and Communication Engineering, University of Murcia, Murcia, Spain",
+       "institution_ids": [
+        "https://openalex.org/I80180929"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5000027012",
+      "display_name": "Aurora Gonz\u00e1lez-Vidal",
+      "orcid": "https://orcid.org/0000-0002-4398-0243"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I80180929",
+       "display_name": "Universidad de Murcia",
+       "ror": "https://ror.org/03p3aeb86",
+       "country_code": "ES",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I80180929"
+       ]
+      }
+     ],
+     "countries": [
+      "ES"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Aurora Gonzalez-Vidal",
+     "raw_affiliation_strings": [
+      "Department of Information and Communication Engineering, University of Murcia, Murcia, Spain"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-4398-0243",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Information and Communication Engineering, University of Murcia, Murcia, Spain",
+       "institution_ids": [
+        "https://openalex.org/I80180929"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5052866036",
+      "display_name": "Jos\u00e9 L. Hern\u00e1ndez-Ramos",
+      "orcid": "https://orcid.org/0000-0001-7697-116X"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210118689",
+       "display_name": "Joint Research Centre",
+       "ror": "https://ror.org/02qezmz13",
+       "country_code": "IT",
+       "type": "government",
+       "lineage": [
+        "https://openalex.org/I1320481043",
+        "https://openalex.org/I2800387288",
+        "https://openalex.org/I4210118689",
+        "https://openalex.org/I4210161702"
+       ]
+      }
+     ],
+     "countries": [
+      "IT"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Jose L. Hernandez-Ramos",
+     "raw_affiliation_strings": [
+      "European Commission, Joint Research Centre, Ispra, Italy"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0001-7697-116X",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "European Commission, Joint Research Centre, Ispra, Italy",
+       "institution_ids": [
+        "https://openalex.org/I4210118689"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5059477756",
+      "display_name": "Jorge Bernal Bernab\u00e9",
+      "orcid": "https://orcid.org/0000-0002-7538-4788"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I80180929",
+       "display_name": "Universidad de Murcia",
+       "ror": "https://ror.org/03p3aeb86",
+       "country_code": "ES",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I80180929"
+       ]
+      }
+     ],
+     "countries": [
+      "ES"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Jorge Bernal-Bernabe",
+     "raw_affiliation_strings": [
+      "Department of Information and Communication Engineering, University of Murcia, Murcia, Spain"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-7538-4788",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Information and Communication Engineering, University of Murcia, Murcia, Spain",
+       "institution_ids": [
+        "https://openalex.org/I80180929"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5054299062",
+      "display_name": "Antonio Sk\u00e1rmeta",
+      "orcid": "https://orcid.org/0000-0002-5525-1259"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I80180929",
+       "display_name": "Universidad de Murcia",
+       "ror": "https://ror.org/03p3aeb86",
+       "country_code": "ES",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I80180929"
+       ]
+      }
+     ],
+     "countries": [
+      "ES"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Antonio F. Skarmeta",
+     "raw_affiliation_strings": [
+      "Department of Information and Communication Engineering, University of Murcia, Murcia, Spain"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-5525-1259",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Information and Communication Engineering, University of Murcia, Murcia, Spain",
+       "institution_ids": [
+        "https://openalex.org/I80180929"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W4385234157",
+   "doi": "https://doi.org/10.3390/ai4030028",
+   "title": "Federated Learning for IoT Intrusion Detection",
+   "publication_year": 2023,
+   "primary_location": {
+    "id": "doi:10.3390/ai4030028",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3390/ai4030028",
+    "pdf_url": "https://www.mdpi.com/2673-2688/4/3/28/pdf?version=1690252096",
+    "source": {
+     "id": "https://openalex.org/S4210200511",
+     "display_name": "AI",
+     "issn_l": "2673-2688",
+     "issn": [
+      "2673-2688"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "jufo-1",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310310987",
+     "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310310987"
+     ],
+     "host_organization_lineage_names": [
+      "Multidisciplinary Digital Publishing Institute"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "AI",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 111,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5006071214",
+      "display_name": "Riccardo Lazzarini",
+      "orcid": "https://orcid.org/0000-0003-2016-0506"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I195939026",
+       "display_name": "Glasgow Caledonian University",
+       "ror": "https://ror.org/03dvm1235",
+       "country_code": "GB",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I195939026"
+       ]
+      }
+     ],
+     "countries": [
+      "GB"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Riccardo Lazzarini",
+     "raw_affiliation_strings": [
+      "School of Computing, Engineering and Built Environment, Glasgow Caledonian University (GCU), Glasgow G4 0BA, UK"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0003-2016-0506",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "School of Computing, Engineering and Built Environment, Glasgow Caledonian University (GCU), Glasgow G4 0BA, UK",
+       "institution_ids": [
+        "https://openalex.org/I195939026"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5005957052",
+      "display_name": "Huaglory Tianfield",
+      "orcid": "https://orcid.org/0000-0002-0605-6238"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I195939026",
+       "display_name": "Glasgow Caledonian University",
+       "ror": "https://ror.org/03dvm1235",
+       "country_code": "GB",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I195939026"
+       ]
+      }
+     ],
+     "countries": [
+      "GB"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Huaglory Tianfield",
+     "raw_affiliation_strings": [
+      "School of Computing, Engineering and Built Environment, Glasgow Caledonian University (GCU), Glasgow G4 0BA, UK"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-0605-6238",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "School of Computing, Engineering and Built Environment, Glasgow Caledonian University (GCU), Glasgow G4 0BA, UK",
+       "institution_ids": [
+        "https://openalex.org/I195939026"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5042173179",
+      "display_name": "Vassilis Charissis",
+      "orcid": "https://orcid.org/0000-0002-4195-843X"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I251738",
+       "display_name": "Edinburgh Napier University",
+       "ror": "https://ror.org/03zjvnn91",
+       "country_code": "GB",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I251738"
+       ]
+      }
+     ],
+     "countries": [
+      "GB"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Vassilis Charissis",
+     "raw_affiliation_strings": [
+      "School of Arts and Creative Industries, Edinburgh Napier University, Edinburgh EH10 5DT, UK"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-4195-843X",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "School of Arts and Creative Industries, Edinburgh Napier University, Edinburgh EH10 5DT, UK",
+       "institution_ids": [
+        "https://openalex.org/I251738"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W4316660992",
+   "doi": "https://doi.org/10.1109/access.2023.3237554",
+   "title": "Distributed Anomaly Detection in Smart Grids: A Federated Learning-Based Approach",
+   "publication_year": 2023,
+   "primary_location": {
+    "id": "doi:10.1109/access.2023.3237554",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1109/access.2023.3237554",
+    "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/10005208/10018378.pdf",
+    "source": {
+     "id": "https://openalex.org/S2485537415",
+     "display_name": "IEEE Access",
+     "issn_l": "2169-3536",
+     "issn": [
+      "2169-3536"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "jufo-1",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310319808",
+     "host_organization_name": "Institute of Electrical and Electronics Engineers",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319808"
+     ],
+     "host_organization_lineage_names": [
+      "Institute of Electrical and Electronics Engineers"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "IEEE Access",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 243,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5039618546",
+      "display_name": "J. Jithish",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I152815399",
+       "display_name": "Singapore University of Technology and Design",
+       "ror": "https://ror.org/05j6fvn87",
+       "country_code": "SG",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I152815399"
+       ]
+      }
+     ],
+     "countries": [
+      "SG"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "J. Jithish",
+     "raw_affiliation_strings": [
+      "Engineering Product Development Pillar, Singapore University of Technology and Design, Tampines, Singapore"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0003-3697-8484",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Engineering Product Development Pillar, Singapore University of Technology and Design, Tampines, Singapore",
+       "institution_ids": [
+        "https://openalex.org/I152815399"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5048306641",
+      "display_name": "Bithin Alangot",
+      "orcid": "https://orcid.org/0000-0002-6891-9174"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I152815399",
+       "display_name": "Singapore University of Technology and Design",
+       "ror": "https://ror.org/05j6fvn87",
+       "country_code": "SG",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I152815399"
+       ]
+      }
+     ],
+     "countries": [
+      "SG"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Bithin Alangot",
+     "raw_affiliation_strings": [
+      "Engineering Product Development Pillar, Singapore University of Technology and Design, Tampines, Singapore"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Engineering Product Development Pillar, Singapore University of Technology and Design, Tampines, Singapore",
+       "institution_ids": [
+        "https://openalex.org/I152815399"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5042670795",
+      "display_name": "Nagarajan Mahalingam",
+      "orcid": "https://orcid.org/0000-0002-9609-4296"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I152815399",
+       "display_name": "Singapore University of Technology and Design",
+       "ror": "https://ror.org/05j6fvn87",
+       "country_code": "SG",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I152815399"
+       ]
+      }
+     ],
+     "countries": [
+      "SG"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Nagarajan Mahalingam",
+     "raw_affiliation_strings": [
+      "Engineering Product Development Pillar, Singapore University of Technology and Design, Tampines, Singapore"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-9609-4296",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Engineering Product Development Pillar, Singapore University of Technology and Design, Tampines, Singapore",
+       "institution_ids": [
+        "https://openalex.org/I152815399"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5009974389",
+      "display_name": "Kiat Seng Yeo",
+      "orcid": "https://orcid.org/0000-0002-4524-707X"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I152815399",
+       "display_name": "Singapore University of Technology and Design",
+       "ror": "https://ror.org/05j6fvn87",
+       "country_code": "SG",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I152815399"
+       ]
+      }
+     ],
+     "countries": [
+      "SG"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Kiat Seng Yeo",
+     "raw_affiliation_strings": [
+      "Engineering Product Development Pillar, Singapore University of Technology and Design, Tampines, Singapore"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-4524-707X",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Engineering Product Development Pillar, Singapore University of Technology and Design, Tampines, Singapore",
+       "institution_ids": [
+        "https://openalex.org/I152815399"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W3203932036",
+   "doi": "https://doi.org/10.1109/access.2021.3118642",
+   "title": "Federated Deep Learning for Cyber Security in the Internet of Things: Concepts, Applications, and Experimental Analysis",
+   "publication_year": 2021,
+   "primary_location": {
+    "id": "doi:10.1109/access.2021.3118642",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1109/access.2021.3118642",
+    "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09562531.pdf",
+    "source": {
+     "id": "https://openalex.org/S2485537415",
+     "display_name": "IEEE Access",
+     "issn_l": "2169-3536",
+     "issn": [
+      "2169-3536"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "jufo-1",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310319808",
+     "host_organization_name": "Institute of Electrical and Electronics Engineers",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319808"
+     ],
+     "host_organization_lineage_names": [
+      "Institute of Electrical and Electronics Engineers"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "IEEE Access",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 333,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5026903935",
+      "display_name": "Mohamed Amine Ferrag",
+      "orcid": "https://orcid.org/0000-0002-0632-3172"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I12079687",
+       "display_name": "Edith Cowan University",
+       "ror": "https://ror.org/05jhnwe22",
+       "country_code": "AU",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I12079687"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210097536",
+       "display_name": "University of Guelma",
+       "ror": "https://ror.org/00xe6p546",
+       "country_code": "DZ",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I4210097536"
+       ]
+      }
+     ],
+     "countries": [
+      "AU",
+      "DZ"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Mohamed Amine Ferrag",
+     "raw_affiliation_strings": [
+      "Department of Computer Science, Guelma University, B.P. 401, 24000, Algeria. (e-mail: ferrag.mohamedamine@univ-guelma.dz)",
+      ", , , and , , , and , , , . ,",
+      "University",
+      "University Edith Cowan University Research Online"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-0632-3172",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Computer Science, Guelma University, B.P. 401, 24000, Algeria. (e-mail: ferrag.mohamedamine@univ-guelma.dz)",
+       "institution_ids": [
+        "https://openalex.org/I4210097536"
+       ]
+      },
+      {
+       "raw_affiliation_string": ", , , and , , , and , , , . ,",
+       "institution_ids": []
+      },
+      {
+       "raw_affiliation_string": "University",
+       "institution_ids": []
+      },
+      {
+       "raw_affiliation_string": "University Edith Cowan University Research Online",
+       "institution_ids": [
+        "https://openalex.org/I12079687"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5086483064",
+      "display_name": "Othmane Friha",
+      "orcid": "https://orcid.org/0000-0002-1160-2846"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I108754898",
+       "display_name": "Badji Mokhtar-Annaba University",
+       "ror": "https://ror.org/03sf55932",
+       "country_code": "DZ",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I108754898"
+       ]
+      }
+     ],
+     "countries": [
+      "DZ"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Othmane Friha",
+     "raw_affiliation_strings": [
+      "Networks and Systems Laboratory (LRS), Badji Mokhtar-Annaba University, B.P.12, Annaba 23000, Algeria"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-1160-2846",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Networks and Systems Laboratory (LRS), Badji Mokhtar-Annaba University, B.P.12, Annaba 23000, Algeria",
+       "institution_ids": [
+        "https://openalex.org/I108754898"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5029043022",
+      "display_name": "\u039b\u03ad\u03b1\u03bd\u03b4\u03c1\u03bf\u03c2 \u039c\u03b1\u03b3\u03bb\u03b1\u03c1\u03ac\u03c2",
+      "orcid": "https://orcid.org/0000-0001-5360-9782"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I66943878",
+       "display_name": "De Montfort University",
+       "ror": "https://ror.org/0312pnr83",
+       "country_code": "GB",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I66943878"
+       ]
+      }
+     ],
+     "countries": [
+      "GB"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Leandros Maglaras",
+     "raw_affiliation_strings": [
+      "School of Computer Science and Informatics, De Montfort University, Leicester, UK"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0001-5360-9782",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "School of Computer Science and Informatics, De Montfort University, Leicester, UK",
+       "institution_ids": [
+        "https://openalex.org/I66943878"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5035745103",
+      "display_name": "Helge Janicke",
+      "orcid": "https://orcid.org/0000-0002-1345-2829"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I12079687",
+       "display_name": "Edith Cowan University",
+       "ror": "https://ror.org/05jhnwe22",
+       "country_code": "AU",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I12079687"
+       ]
+      }
+     ],
+     "countries": [
+      "AU"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Helge Janicke",
+     "raw_affiliation_strings": [
+      "Cyber Security Cooperative Research Centre (CSCRC) and Edith Cowan University, Perth, WA 6027, Australia"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-1345-2829",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Cyber Security Cooperative Research Centre (CSCRC) and Edith Cowan University, Perth, WA 6027, Australia",
+       "institution_ids": [
+        "https://openalex.org/I12079687"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5007723627",
+      "display_name": "Lei Shu",
+      "orcid": "https://orcid.org/0000-0002-6700-9347"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I51532219",
+       "display_name": "University of Lincoln",
+       "ror": "https://ror.org/03yeq9x20",
+       "country_code": "GB",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I51532219"
+       ]
+      }
+     ],
+     "countries": [
+      "GB"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Lei Shu",
+     "raw_affiliation_strings": [
+      "College of Engineering, Nanjing Agricultural University, Nanjing, China and School of Engineering, University of Lincoln, Lincoln, UK"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-6700-9347",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "College of Engineering, Nanjing Agricultural University, Nanjing, China and School of Engineering, University of Lincoln, Lincoln, UK",
+       "institution_ids": [
+        "https://openalex.org/I51532219"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W4387911072",
+   "doi": "https://doi.org/10.1016/j.future.2023.10.005",
+   "title": "Personalized federated learning-based intrusion detection system: Poisoning attack and defense",
+   "publication_year": 2023,
+   "primary_location": {
+    "id": "doi:10.1016/j.future.2023.10.005",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.future.2023.10.005",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S186357190",
+     "display_name": "Future Generation Computer Systems",
+     "issn_l": "0167-739X",
+     "issn": [
+      "0167-739X",
+      "1872-7115"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "jufo-3",
+      "norway-2"
+     ],
+     "host_organization": "https://openalex.org/P4310320990",
+     "host_organization_name": "Elsevier BV",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310320990"
+     ],
+     "host_organization_lineage_names": [
+      "Elsevier BV"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Future Generation Computer Systems",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 83,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5044964944",
+      "display_name": "Thin Tharaphe Thein",
+      "orcid": "https://orcid.org/0000-0002-1213-0393"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I65837984",
+       "display_name": "Kobe University",
+       "ror": "https://ror.org/03tgsfw79",
+       "country_code": "JP",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I65837984"
+       ]
+      }
+     ],
+     "countries": [
+      "JP"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Thin Tharaphe Thein",
+     "raw_affiliation_strings": [
+      "Department of Electrical and Electronic Engineering, Kobe University, Kobe, Hyogo 657-8501, Japan"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-1213-0393",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Electrical and Electronic Engineering, Kobe University, Kobe, Hyogo 657-8501, Japan",
+       "institution_ids": [
+        "https://openalex.org/I65837984"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5076797774",
+      "display_name": "Yoshiaki Shiraishi",
+      "orcid": "https://orcid.org/0000-0002-8970-9408"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I65837984",
+       "display_name": "Kobe University",
+       "ror": "https://ror.org/03tgsfw79",
+       "country_code": "JP",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I65837984"
+       ]
+      }
+     ],
+     "countries": [
+      "JP"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Yoshiaki Shiraishi",
+     "raw_affiliation_strings": [
+      "Department of Electrical and Electronic Engineering, Kobe University, Kobe, Hyogo 657-8501, Japan"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Electrical and Electronic Engineering, Kobe University, Kobe, Hyogo 657-8501, Japan",
+       "institution_ids": [
+        "https://openalex.org/I65837984"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5073367713",
+      "display_name": "Masakatu Morii",
+      "orcid": "https://orcid.org/0000-0001-7942-5914"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I65837984",
+       "display_name": "Kobe University",
+       "ror": "https://ror.org/03tgsfw79",
+       "country_code": "JP",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I65837984"
+       ]
+      }
+     ],
+     "countries": [
+      "JP"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Masakatu Morii",
+     "raw_affiliation_strings": [
+      "Department of Electrical and Electronic Engineering, Kobe University, Kobe, Hyogo 657-8501, Japan"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Electrical and Electronic Engineering, Kobe University, Kobe, Hyogo 657-8501, Japan",
+       "institution_ids": [
+        "https://openalex.org/I65837984"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W3204432165",
+   "doi": "https://doi.org/10.1155/2021/9361348",
+   "title": "Intelligent Intrusion Detection Based on Federated Learning for Edge-Assisted Internet of Things",
+   "publication_year": 2021,
+   "primary_location": {
+    "id": "doi:10.1155/2021/9361348",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1155/2021/9361348",
+    "pdf_url": "https://downloads.hindawi.com/journals/scn/2021/9361348.pdf",
+    "source": {
+     "id": "https://openalex.org/S120683614",
+     "display_name": "Security and Communication Networks",
+     "issn_l": "1939-0114",
+     "issn": [
+      "1939-0114",
+      "1939-0122"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core"
+     ],
+     "host_organization": "https://openalex.org/P4310319869",
+     "host_organization_name": "Hindawi Publishing Corporation",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319869",
+      "https://openalex.org/P4310320595"
+     ],
+     "host_organization_lineage_names": [
+      "Hindawi Publishing Corporation",
+      "Wiley"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Security and Communication Networks",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 87,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5067145421",
+      "display_name": "Dapeng Man",
+      "orcid": "https://orcid.org/0000-0003-1177-3693"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I151727225",
+       "display_name": "Harbin Engineering University",
+       "ror": "https://ror.org/03x80pn82",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I151727225"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Dapeng Man",
+     "raw_affiliation_strings": [
+      "Information Security Research Center, Harbin Engineering University, Harbin 150001, China"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0003-1177-3693",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Information Security Research Center, Harbin Engineering University, Harbin 150001, China",
+       "institution_ids": [
+        "https://openalex.org/I151727225"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5049946687",
+      "display_name": "Fanyi Zeng",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I151727225",
+       "display_name": "Harbin Engineering University",
+       "ror": "https://ror.org/03x80pn82",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I151727225"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Fanyi Zeng",
+     "raw_affiliation_strings": [
+      "Information Security Research Center, Harbin Engineering University, Harbin 150001, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Information Security Research Center, Harbin Engineering University, Harbin 150001, China",
+       "institution_ids": [
+        "https://openalex.org/I151727225"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5067423683",
+      "display_name": "Wu Yang",
+      "orcid": "https://orcid.org/0000-0001-5985-7648"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I151727225",
+       "display_name": "Harbin Engineering University",
+       "ror": "https://ror.org/03x80pn82",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I151727225"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210136793",
+       "display_name": "Peng Cheng Laboratory",
+       "ror": "https://ror.org/03qdqbt06",
+       "country_code": "CN",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I4210136793"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Wu Yang",
+     "raw_affiliation_strings": [
+      "Information Security Research Center, Harbin Engineering University, Harbin 150001, China",
+      "Peng Cheng Laboratory, Guangdong 518055, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Information Security Research Center, Harbin Engineering University, Harbin 150001, China",
+       "institution_ids": [
+        "https://openalex.org/I151727225"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Peng Cheng Laboratory, Guangdong 518055, China",
+       "institution_ids": [
+        "https://openalex.org/I4210136793"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5028794155",
+      "display_name": "Miao Yu",
+      "orcid": "https://orcid.org/0000-0003-1720-9882"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210096250",
+       "display_name": "Beijing Institute of Big Data Research",
+       "ror": "https://ror.org/00s1sz824",
+       "country_code": "CN",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I20231570",
+        "https://openalex.org/I37796252",
+        "https://openalex.org/I4210096250"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Miao Yu",
+     "raw_affiliation_strings": [
+      "Beijing Institute of Network Data, Beijing 100031, China"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0003-1720-9882",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Beijing Institute of Network Data, Beijing 100031, China",
+       "institution_ids": [
+        "https://openalex.org/I4210096250"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5059685245",
+      "display_name": "Jiguang Lv",
+      "orcid": "https://orcid.org/0000-0001-5502-7217"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I151727225",
+       "display_name": "Harbin Engineering University",
+       "ror": "https://ror.org/03x80pn82",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I151727225"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Jiguang Lv",
+     "raw_affiliation_strings": [
+      "Information Security Research Center, Harbin Engineering University, Harbin 150001, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Information Security Research Center, Harbin Engineering University, Harbin 150001, China",
+       "institution_ids": [
+        "https://openalex.org/I151727225"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5115695050",
+      "display_name": "Yijing Wang",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I19820366",
+       "display_name": "Chinese Academy of Sciences",
+       "ror": "https://ror.org/034t30j35",
+       "country_code": "CN",
+       "type": "government",
+       "lineage": [
+        "https://openalex.org/I19820366"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210156404",
+       "display_name": "Institute of Information Engineering",
+       "ror": "https://ror.org/04r53se39",
+       "country_code": "CN",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I19820366",
+        "https://openalex.org/I4210156404"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Yijing Wang",
+     "raw_affiliation_strings": [
+      "Institute of Information Engineering, Chinese Academy of Sciences, Beijing 100864, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Institute of Information Engineering, Chinese Academy of Sciences, Beijing 100864, China",
+       "institution_ids": [
+        "https://openalex.org/I19820366",
+        "https://openalex.org/I4210156404"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W4409795856",
+   "doi": "https://doi.org/10.1109/tnsm.2025.3564387",
+   "title": "StatAvg: Mitigating Data Heterogeneity in Federated Learning for Intrusion Detection Systems",
+   "publication_year": 2025,
+   "primary_location": {
+    "id": "doi:10.1109/tnsm.2025.3564387",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1109/tnsm.2025.3564387",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S173527311",
+     "display_name": "IEEE Transactions on Network and Service Management",
+     "issn_l": "1932-4537",
+     "issn": [
+      "1932-4537",
+      "2373-7379"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "jufo-1",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310319808",
+     "host_organization_name": "Institute of Electrical and Electronics Engineers",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319808"
+     ],
+     "host_organization_lineage_names": [
+      "Institute of Electrical and Electronics Engineers"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "IEEE Transactions on Network and Service Management",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 23,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5037681253",
+      "display_name": "Pavlos S. Bouzinis",
+      "orcid": "https://orcid.org/0000-0003-4861-475X"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I89506807",
+       "display_name": "University of Western Macedonia",
+       "ror": "https://ror.org/00a5pe906",
+       "country_code": "GR",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I89506807"
+       ]
+      }
+     ],
+     "countries": [
+      "GR"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Pavlos S. Bouzinis",
+     "raw_affiliation_strings": [
+      "Research &#x0026; Development Department, MetaMind Innovation P.C., Kozani, Greece",
+      "MetaMind Innovation P.C., Kila Kozani, Kozani, Greece"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0003-4861-475X",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Research &#x0026; Development Department, MetaMind Innovation P.C., Kozani, Greece",
+       "institution_ids": [
+        "https://openalex.org/I89506807"
+       ]
+      },
+      {
+       "raw_affiliation_string": "MetaMind Innovation P.C., Kila Kozani, Kozani, Greece",
+       "institution_ids": []
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5025891312",
+      "display_name": "Panagiotis Radoglou\u2010Grammatikis",
+      "orcid": "https://orcid.org/0000-0003-1605-9413"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I89506807",
+       "display_name": "University of Western Macedonia",
+       "ror": "https://ror.org/00a5pe906",
+       "country_code": "GR",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I89506807"
+       ]
+      }
+     ],
+     "countries": [
+      "GR"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Panagiotis Radoglou-Grammatikis",
+     "raw_affiliation_strings": [
+      "Department of Electrical and Computer Engineering, University of Western Macedonia, Kozani, Greece",
+      "Department of Electrical and Computer Engineering, University of Western Macedonia, Campus ZEP Kozani, Kozani, Greece"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0003-1605-9413",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Electrical and Computer Engineering, University of Western Macedonia, Kozani, Greece",
+       "institution_ids": [
+        "https://openalex.org/I89506807"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Department of Electrical and Computer Engineering, University of Western Macedonia, Campus ZEP Kozani, Kozani, Greece",
+       "institution_ids": [
+        "https://openalex.org/I89506807"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5052221959",
+      "display_name": "Ioannis Makris",
+      "orcid": "https://orcid.org/0000-0002-6574-8525"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I89506807",
+       "display_name": "University of Western Macedonia",
+       "ror": "https://ror.org/00a5pe906",
+       "country_code": "GR",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I89506807"
+       ]
+      }
+     ],
+     "countries": [
+      "GR"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Ioannis Makris",
+     "raw_affiliation_strings": [
+      "Research &#x0026; Development Department, MetaMind Innovation P.C., Kozani, Greece",
+      "MetaMind Innovation P.C., Kila Kozani, Kozani, Greece"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-6574-8525",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Research &#x0026; Development Department, MetaMind Innovation P.C., Kozani, Greece",
+       "institution_ids": [
+        "https://openalex.org/I89506807"
+       ]
+      },
+      {
+       "raw_affiliation_string": "MetaMind Innovation P.C., Kila Kozani, Kozani, Greece",
+       "institution_ids": []
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5066475089",
+      "display_name": "\u0398\u03c9\u03bc\u03ac\u03c2 \u039b\u03ac\u03b3\u03ba\u03b1\u03c2",
+      "orcid": "https://orcid.org/0000-0002-0749-9794"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I147962203",
+       "display_name": "Democritus University of Thrace",
+       "ror": "https://ror.org/03bfqnx40",
+       "country_code": "GR",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I147962203"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I53074787",
+       "display_name": "Technological Educational Institute of Eastern Macedonia and Thrace",
+       "ror": "https://ror.org/0009xxz90",
+       "country_code": "GR",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I53074787"
+       ]
+      }
+     ],
+     "countries": [
+      "GR"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Thomas Lagkas",
+     "raw_affiliation_strings": [
+      "Department of Computer Science, Democritus University of Thrace (Kavala Campus), Kavala, Greece",
+      "Department of Computer Science, Democritus University of Thrace, Kavala Campus, Kavala, Greece"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-0749-9794",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Computer Science, Democritus University of Thrace (Kavala Campus), Kavala, Greece",
+       "institution_ids": [
+        "https://openalex.org/I147962203",
+        "https://openalex.org/I53074787"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Department of Computer Science, Democritus University of Thrace, Kavala Campus, Kavala, Greece",
+       "institution_ids": [
+        "https://openalex.org/I147962203"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5013565466",
+      "display_name": "Vasileios Argyriou",
+      "orcid": "https://orcid.org/0000-0003-4679-8049"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I205051169",
+       "display_name": "Kingston University London",
+       "ror": "https://ror.org/05bbqza97",
+       "country_code": "GB",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I205051169"
+       ]
+      }
+     ],
+     "countries": [
+      "GB"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Vasileios Argyriou",
+     "raw_affiliation_strings": [
+      "Department of Networks and Digital Media, Kingston University London, London, U.K",
+      "Department of Networks and Digital Media, Kingston University London, Surrey, UK"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0003-4679-8049",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Networks and Digital Media, Kingston University London, London, U.K",
+       "institution_ids": [
+        "https://openalex.org/I205051169"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Department of Networks and Digital Media, Kingston University London, Surrey, UK",
+       "institution_ids": [
+        "https://openalex.org/I205051169"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5065554248",
+      "display_name": "Georgios Th. Papadopoulos",
+      "orcid": "https://orcid.org/0000-0003-1686-421X"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I32762134",
+       "display_name": "Harokopio University of Athens",
+       "ror": "https://ror.org/02k5gp281",
+       "country_code": "GR",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I32762134"
+       ]
+      }
+     ],
+     "countries": [
+      "GR"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Georgios Th. Papadopoulos",
+     "raw_affiliation_strings": [
+      "Department of Informatics and Telematics, Harokopio University of Athens, Athens, Greece"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0003-1686-421X",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Informatics and Telematics, Harokopio University of Athens, Athens, Greece",
+       "institution_ids": [
+        "https://openalex.org/I32762134"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5050756789",
+      "display_name": "Panagiotis Sarigiannidis",
+      "orcid": "https://orcid.org/0000-0001-6042-0355"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I89506807",
+       "display_name": "University of Western Macedonia",
+       "ror": "https://ror.org/00a5pe906",
+       "country_code": "GR",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I89506807"
+       ]
+      }
+     ],
+     "countries": [
+      "GR"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Panagiotis Sarigiannidis",
+     "raw_affiliation_strings": [
+      "Department of Electrical and Computer Engineering, University of Western Macedonia, Kozani, Greece",
+      "Department of Electrical and Computer Engineering, University of Western Macedonia, Campus ZEP Kozani, Kozani, Greece"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0001-6042-0355",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Electrical and Computer Engineering, University of Western Macedonia, Kozani, Greece",
+       "institution_ids": [
+        "https://openalex.org/I89506807"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Department of Electrical and Computer Engineering, University of Western Macedonia, Campus ZEP Kozani, Kozani, Greece",
+       "institution_ids": [
+        "https://openalex.org/I89506807"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5061744244",
+      "display_name": "George K. Karagiannidis",
+      "orcid": "https://orcid.org/0000-0001-8810-0345"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I21370196",
+       "display_name": "Aristotle University of Thessaloniki",
+       "ror": "https://ror.org/02j61yw88",
+       "country_code": "GR",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I21370196"
+       ]
+      }
+     ],
+     "countries": [
+      "GR"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "George K. Karagiannidis",
+     "raw_affiliation_strings": [
+      "Department of Electrical and Computer Engineering, Aristotle University of Thessaloniki, Thessaloniki, Greece"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0001-8810-0345",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Electrical and Computer Engineering, Aristotle University of Thessaloniki, Thessaloniki, Greece",
+       "institution_ids": [
+        "https://openalex.org/I21370196"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W4406069845",
+   "doi": "https://doi.org/10.1016/j.comnet.2024.111023",
+   "title": "A Review of Federated Learning Applications in Intrusion Detection Systems",
+   "publication_year": 2025,
+   "primary_location": {
+    "id": "doi:10.1016/j.comnet.2024.111023",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.comnet.2024.111023",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S63392143",
+     "display_name": "Computer Networks",
+     "issn_l": "1389-1286",
+     "issn": [
+      "1389-1286",
+      "1872-7069"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "jufo-2",
+      "norway-2"
+     ],
+     "host_organization": "https://openalex.org/P4310320990",
+     "host_organization_name": "Elsevier BV",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310320990"
+     ],
+     "host_organization_lineage_names": [
+      "Elsevier BV"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Computer Networks",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 58,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5086254582",
+      "display_name": "Aitor Belenguer",
+      "orcid": "https://orcid.org/0000-0003-2079-0137"
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Aitor Belenguer",
+     "raw_affiliation_strings": [],
+     "raw_orcid": "https://orcid.org/0000-0003-2079-0137",
+     "affiliations": []
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5101889047",
+      "display_name": "Jos\u00e9 A. Pascual",
+      "orcid": "https://orcid.org/0000-0001-5355-6537"
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Jose A. Pascual",
+     "raw_affiliation_strings": [],
+     "raw_orcid": "https://orcid.org/0000-0001-5355-6537",
+     "affiliations": []
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5068556222",
+      "display_name": "Javier Navaridas",
+      "orcid": "https://orcid.org/0000-0001-7272-6597"
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Javier Navaridas",
+     "raw_affiliation_strings": [],
+     "raw_orcid": "https://orcid.org/0000-0001-7272-6597",
+     "affiliations": []
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W4412195293",
+   "doi": "https://doi.org/10.3390/s25144309",
+   "title": "FD-IDS: Federated Learning with Knowledge Distillation for Intrusion Detection in Non-IID IoT Environments",
+   "publication_year": 2025,
+   "primary_location": {
+    "id": "doi:10.3390/s25144309",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3390/s25144309",
+    "pdf_url": "https://www.mdpi.com/1424-8220/25/14/4309/pdf?version=1752148546",
+    "source": {
+     "id": "https://openalex.org/S101949793",
+     "display_name": "Sensors",
+     "issn_l": "1424-8220",
+     "issn": [
+      "1424-8220"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "jufo-1",
+      "medline",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310310987",
+     "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310310987"
+     ],
+     "host_organization_lineage_names": [
+      "Multidisciplinary Digital Publishing Institute"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Sensors",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 37,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5103215767",
+      "display_name": "Haonan Peng",
+      "orcid": "https://orcid.org/0009-0007-6367-7667"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I168879160",
+       "display_name": "Zhejiang University of Science and Technology",
+       "ror": "https://ror.org/05mx0wr29",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I168879160"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Haonan Peng",
+     "raw_affiliation_strings": [
+      "College of Computer Science and Technology, Zhejiang University, Hangzhou 310027, China"
+     ],
+     "raw_orcid": "https://orcid.org/0009-0007-6367-7667",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "College of Computer Science and Technology, Zhejiang University, Hangzhou 310027, China",
+       "institution_ids": [
+        "https://openalex.org/I168879160"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5078198240",
+      "display_name": "Chunming Wu",
+      "orcid": "https://orcid.org/0000-0001-7958-9687"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I168879160",
+       "display_name": "Zhejiang University of Science and Technology",
+       "ror": "https://ror.org/05mx0wr29",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I168879160"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Chunming Wu",
+     "raw_affiliation_strings": [
+      "College of Computer Science and Technology, Zhejiang University, Hangzhou 310027, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "College of Computer Science and Technology, Zhejiang University, Hangzhou 310027, China",
+       "institution_ids": [
+        "https://openalex.org/I168879160"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5100944569",
+      "display_name": "Yanfeng Xiao",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I180662265",
+       "display_name": "China Mobile (China)",
+       "ror": "https://ror.org/05gftfe97",
+       "country_code": "CN",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I180662265"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Yanfeng Xiao",
+     "raw_affiliation_strings": [
+      "China Mobile Group Huzhou Co., Ltd., Huzhou 313098, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "China Mobile Group Huzhou Co., Ltd., Huzhou 313098, China",
+       "institution_ids": [
+        "https://openalex.org/I180662265"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W4221129260",
+   "doi": "https://doi.org/10.14722/ndss.2022.23156",
+   "title": "DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep Model Inspection",
+   "publication_year": 2022,
+   "primary_location": {
+    "id": "doi:10.14722/ndss.2022.23156",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.14722/ndss.2022.23156",
+    "pdf_url": "https://doi.org/10.14722/ndss.2022.23156",
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Proceedings 2022 Network and Distributed System Security Symposium",
+    "raw_type": "proceedings-article"
+   },
+   "cited_by_count": 193,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5051694999",
+      "display_name": "Phillip Rieger",
+      "orcid": "https://orcid.org/0000-0001-6216-7285"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I31512782",
+       "display_name": "Technische Universit\u00e4t Darmstadt",
+       "ror": "https://ror.org/05n911h24",
+       "country_code": "DE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I31512782"
+       ]
+      }
+     ],
+     "countries": [
+      "DE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Phillip Rieger",
+     "raw_affiliation_strings": [
+      "Technical University of Darmstadt , Germany",
+      "Technical University of Darmstadt, Germany"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Technical University of Darmstadt , Germany",
+       "institution_ids": [
+        "https://openalex.org/I31512782"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Technical University of Darmstadt, Germany",
+       "institution_ids": [
+        "https://openalex.org/I31512782"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5067468039",
+      "display_name": "Thien Duc Nguyen",
+      "orcid": "https://orcid.org/0000-0002-8889-0903"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I31512782",
+       "display_name": "Technische Universit\u00e4t Darmstadt",
+       "ror": "https://ror.org/05n911h24",
+       "country_code": "DE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I31512782"
+       ]
+      }
+     ],
+     "countries": [
+      "DE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Thien Duc Nguyen",
+     "raw_affiliation_strings": [
+      "Technical University of Darmstadt, Germany"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Technical University of Darmstadt, Germany",
+       "institution_ids": [
+        "https://openalex.org/I31512782"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5000013428",
+      "display_name": "Markus Miettinen",
+      "orcid": "https://orcid.org/0000-0002-5861-8829"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I31512782",
+       "display_name": "Technische Universit\u00e4t Darmstadt",
+       "ror": "https://ror.org/05n911h24",
+       "country_code": "DE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I31512782"
+       ]
+      }
+     ],
+     "countries": [
+      "DE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Markus Miettinen",
+     "raw_affiliation_strings": [
+      "Technical University of Darmstadt, Germany"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Technical University of Darmstadt, Germany",
+       "institution_ids": [
+        "https://openalex.org/I31512782"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5079497016",
+      "display_name": "Ahmad\u2010Reza Sadeghi",
+      "orcid": "https://orcid.org/0000-0001-6833-3598"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I31512782",
+       "display_name": "Technische Universit\u00e4t Darmstadt",
+       "ror": "https://ror.org/05n911h24",
+       "country_code": "DE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I31512782"
+       ]
+      }
+     ],
+     "countries": [
+      "DE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Ahmad-Reza Sadeghi",
+     "raw_affiliation_strings": [
+      "Technical University of Darmstadt, Germany"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Technical University of Darmstadt, Germany",
+       "institution_ids": [
+        "https://openalex.org/I31512782"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W4283121551",
+   "doi": "https://doi.org/10.1016/j.comcom.2022.06.015",
+   "title": "FEDGAN-IDS: Privacy-preserving IDS using GAN and Federated Learning",
+   "publication_year": 2022,
+   "primary_location": {
+    "id": "doi:10.1016/j.comcom.2022.06.015",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.comcom.2022.06.015",
+    "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0140366422002171",
+    "source": {
+     "id": "https://openalex.org/S115004586",
+     "display_name": "Computer Communications",
+     "issn_l": "0140-3664",
+     "issn": [
+      "0140-3664",
+      "1873-703X"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "jufo-1",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310320990",
+     "host_organization_name": "Elsevier BV",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310320990"
+     ],
+     "host_organization_lineage_names": [
+      "Elsevier BV"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Computer Communications",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 131,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5034922349",
+      "display_name": "Aliya Tabassum",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I60342839",
+       "display_name": "Qatar University",
+       "ror": "https://ror.org/00yhnba62",
+       "country_code": "QA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I60342839"
+       ]
+      }
+     ],
+     "countries": [
+      "QA"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Aliya Tabassum",
+     "raw_affiliation_strings": [
+      "Computer Science and Engineering Department, College of Engineering, Qatar University, Doha, Qatar"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-9384-7053",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Computer Science and Engineering Department, College of Engineering, Qatar University, Doha, Qatar",
+       "institution_ids": [
+        "https://openalex.org/I60342839"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5061831106",
+      "display_name": "Aiman Erbad",
+      "orcid": "https://orcid.org/0000-0001-7565-5253"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210144839",
+       "display_name": "Hamad bin Khalifa University",
+       "ror": "https://ror.org/03eyq4y97",
+       "country_code": "QA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I4210144839"
+       ]
+      }
+     ],
+     "countries": [
+      "QA"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Aiman Erbad",
+     "raw_affiliation_strings": [
+      "Division of ICT, College of Science and Engineering, Hamad Bin Khalifa University, Doha, Qatar"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0001-7565-5253",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Division of ICT, College of Science and Engineering, Hamad Bin Khalifa University, Doha, Qatar",
+       "institution_ids": [
+        "https://openalex.org/I4210144839"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5043345363",
+      "display_name": "Wadha Lebda",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I60342839",
+       "display_name": "Qatar University",
+       "ror": "https://ror.org/00yhnba62",
+       "country_code": "QA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I60342839"
+       ]
+      }
+     ],
+     "countries": [
+      "QA"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Wadha Lebda",
+     "raw_affiliation_strings": [
+      "Computer Science and Engineering Department, College of Engineering, Qatar University, Doha, Qatar"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Computer Science and Engineering Department, College of Engineering, Qatar University, Doha, Qatar",
+       "institution_ids": [
+        "https://openalex.org/I60342839"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5021329808",
+      "display_name": "Amr Mohamed",
+      "orcid": "https://orcid.org/0000-0002-1583-7503"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I60342839",
+       "display_name": "Qatar University",
+       "ror": "https://ror.org/00yhnba62",
+       "country_code": "QA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I60342839"
+       ]
+      }
+     ],
+     "countries": [
+      "QA"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Amr Mohamed",
+     "raw_affiliation_strings": [
+      "Computer Science and Engineering Department, College of Engineering, Qatar University, Doha, Qatar"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Computer Science and Engineering Department, College of Engineering, Qatar University, Doha, Qatar",
+       "institution_ids": [
+        "https://openalex.org/I60342839"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5057916222",
+      "display_name": "Mohsen Guizani",
+      "orcid": "https://orcid.org/0000-0002-8972-8094"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I60342839",
+       "display_name": "Qatar University",
+       "ror": "https://ror.org/00yhnba62",
+       "country_code": "QA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I60342839"
+       ]
+      }
+     ],
+     "countries": [
+      "QA"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Mohsen Guizani",
+     "raw_affiliation_strings": [
+      "Computer Science and Engineering Department, College of Engineering, Qatar University, Doha, Qatar"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Computer Science and Engineering Department, College of Engineering, Qatar University, Doha, Qatar",
+       "institution_ids": [
+        "https://openalex.org/I60342839"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W4213010368",
+   "doi": "https://doi.org/10.3390/electronics11040670",
+   "title": "Applications of Federated Learning; Taxonomy, Challenges, and Research Trends",
+   "publication_year": 2022,
+   "primary_location": {
+    "id": "doi:10.3390/electronics11040670",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3390/electronics11040670",
+    "pdf_url": "https://www.mdpi.com/2079-9292/11/4/670/pdf?version=1645584536",
+    "source": {
+     "id": "https://openalex.org/S4210202905",
+     "display_name": "Electronics",
+     "issn_l": "2079-9292",
+     "issn": [
+      "2079-9292"
+     ],
+     "is_oa": true,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310310987",
+     "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310310987"
+     ],
+     "host_organization_lineage_names": [
+      "Multidisciplinary Digital Publishing Institute"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Electronics",
+    "raw_type": "journal-article"
+   },
+   "cited_by_count": 154,
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5005178354",
+      "display_name": "Momina Shaheen",
+      "orcid": "https://orcid.org/0000-0001-9424-9787"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I16076960",
+       "display_name": "COMSATS University Islamabad",
+       "ror": "https://ror.org/00nqqvk19",
+       "country_code": "PK",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I16076960"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I87482320",
+       "display_name": "University of Management and Technology",
+       "ror": "https://ror.org/0095xcq10",
+       "country_code": "PK",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I87482320"
+       ]
+      }
+     ],
+     "countries": [
+      "PK"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Momina Shaheen",
+     "raw_affiliation_strings": [
+      "Department of Computer Science, COMSATS University Islamabad Lahore Campus, Lahore 54000, Pakistan",
+      "Department of Computer Science, SST, University of Management and Technology, Lahore 54000, Pakistan"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0001-9424-9787",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Computer Science, COMSATS University Islamabad Lahore Campus, Lahore 54000, Pakistan",
+       "institution_ids": [
+        "https://openalex.org/I16076960"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Department of Computer Science, SST, University of Management and Technology, Lahore 54000, Pakistan",
+       "institution_ids": [
+        "https://openalex.org/I87482320"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5108009389",
+      "display_name": "Muhammad Shoaib Farooq",
+      "orcid": "https://orcid.org/0000-0002-4095-8868"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I87482320",
+       "display_name": "University of Management and Technology",
+       "ror": "https://ror.org/0095xcq10",
+       "country_code": "PK",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I87482320"
+       ]
+      }
+     ],
+     "countries": [
+      "PK"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Muhammad Shoaib Farooq",
+     "raw_affiliation_strings": [
+      "Department of Computer Science, SST, University of Management and Technology, Lahore 54000, Pakistan"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-4095-8868",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Computer Science, SST, University of Management and Technology, Lahore 54000, Pakistan",
+       "institution_ids": [
+        "https://openalex.org/I87482320"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5080479079",
+      "display_name": "T. Umer",
+      "orcid": "https://orcid.org/0000-0002-3333-8142"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I16076960",
+       "display_name": "COMSATS University Islamabad",
+       "ror": "https://ror.org/00nqqvk19",
+       "country_code": "PK",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I16076960"
+       ]
+      }
+     ],
+     "countries": [
+      "PK"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Tariq Umer",
+     "raw_affiliation_strings": [
+      "Department of Computer Science, COMSATS University Islamabad Lahore Campus, Lahore 54000, Pakistan"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-3333-8142",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Computer Science, COMSATS University Islamabad Lahore Campus, Lahore 54000, Pakistan",
+       "institution_ids": [
+        "https://openalex.org/I16076960"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5006531094",
+      "display_name": "Byung-Seo Kim",
+      "orcid": "https://orcid.org/0000-0001-9824-1950"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I94588446",
+       "display_name": "Hongik University",
+       "ror": "https://ror.org/00egdv862",
+       "country_code": "KR",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I94588446"
+       ]
+      }
+     ],
+     "countries": [
+      "KR"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Byung-Seo Kim",
+     "raw_affiliation_strings": [
+      "Department of Software and Communication Engineering, Hongik University, Sejong 30016, Korea"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0001-9824-1950",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Software and Communication Engineering, Hongik University, Sejong 30016, Korea",
+       "institution_ids": [
+        "https://openalex.org/I94588446"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

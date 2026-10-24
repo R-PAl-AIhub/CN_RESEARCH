@@ -1,0 +1,16 @@
+\section{Experimental Setup}\label{sec:setup}
+\textbf{Data.} Both datasets are real, public and cited: CIC-IoT2023~\cite{neto2023} (46 flow features; benign versus DDoS) and N-BaIoT~\cite{meidan2018} (115 features; benign versus Mirai/BASHLITE floods; scan classes excluded to stay in the DDoS scope). No synthetic data are used (Table~\ref{tab:datasets}). Each dataset is reduced to a seeded random pool and \emph{exact duplicate feature vectors are removed before any split} (\nv{dedup_removed:ciciot} of \nv{pool:ciciot} CIC-IoT2023 and \nv{dedup_removed:nbaiot} of \nv{pool:nbaiot} N-BaIoT pool rows). A corpus is a seeded stratified sample split 60/20/20 into train, validation and test (Fig.~\ref{fig:pipeline}).
+\input{tables/table1_datasets.tex}
+
+\textbf{Clients.} CIC-IoT2023: $K{=}10$ clients with IID shards or Dirichlet label/attack-type skew~\cite{hsu2019}, $\alpha\in\{1.0,0.3,0.1\}$, over the benign class and twelve DDoS types. N-BaIoT: $K{=}9$, one client per device (natural skew), plus an IID control. Validation and test rows follow each client's training proportions; metrics are pooled over clients.
+
+\textbf{Methods.} \emph{Central SVM/RF}~\cite{cortes1995,breiman2001} pool train-only preprocessed data. \emph{Senior} is the released pipeline (preprocessing fitted on all rows; independent \texttt{LinearSVC} per client; one weighted average); \emph{Senior (no leak)} fits it on training rows only. \emph{Local-prep FedAvg} is the naive alternative: each client runs the senior filters on its own rows, features chosen by at least half of the clients are kept, and each client standardises with its own statistics. \emph{FedStat-FS} is our method; \emph{+FedProx} adds the proximal term; \emph{FedAvg-MLP} trains a Keras 100-50 MLP on the same preprocessing. Ablations: A1 per-client scalers, A2 no selection (StatAvg-like), A3 one-shot cold-start averaging, A4 Pearson-only or LDA-only. All federated linear methods use $T{=}20$ rounds, $E{=}2$ local epochs, batch 64, step $\eta/(1+t)$; $\nu{=}0.01$, $\tau{=}0.2$, $k_L{=}20$ are shared.
+
+\textbf{Fair tuning and statistics.} Every tuned method gets the same budget: random search, six trials from one random stream, scored by mean validation F1 over three corpora (seeds 0--2); the random forest uses its six-point grid. The test split is used once per run; final results use \nv{seeds} seeds (0--9) that change sample, split, partition and initialisation. Differences are paired over seeds, with two-sided Wilcoxon signed-rank $p$ values Holm-corrected over \nv{ntests} tests (smallest attainable raw $p$: \nv{minp}). Everything runs on CPU (Table~\ref{tab:setup}); TensorFlow trains every SGD-based detector.
+\input{tables/table2_setup.tex}
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{d2_pipeline_flowchart.pdf}
+\caption{End-to-end pipeline: real public data are de-duplicated and split before any statistic is computed; validation drives tuning and the test split is used once.}
+\label{fig:pipeline}
+\end{figure*}

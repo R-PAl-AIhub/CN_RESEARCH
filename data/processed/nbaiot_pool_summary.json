@@ -1,0 +1,419 @@
+{
+ "seed": 42,
+ "quota_benign": 12000,
+ "quota_attack_per_file": 3000,
+ "n_pool": 300000,
+ "devices": [
+  "Danmini_Doorbell",
+  "Ecobee_Thermostat",
+  "Ennio_Doorbell",
+  "Philips_B120N10_Baby_Monitor",
+  "Provision_PT_737E_Security_Camera",
+  "Provision_PT_838_Security_Camera",
+  "Samsung_SNH_1011_N_Webcam",
+  "SimpleHome_XCS7_1002_WHT_Security_Camera",
+  "SimpleHome_XCS7_1003_WHT_Security_Camera"
+ ],
+ "by_attack": {
+  "benign_traffic": 108000,
+  "gafgyt.combo": 27000,
+  "gafgyt.junk": 27000,
+  "gafgyt.tcp": 27000,
+  "gafgyt.udp": 27000,
+  "mirai.ack": 21000,
+  "mirai.syn": 21000,
+  "mirai.udp": 21000,
+  "mirai.udpplain": 21000
+ },
+ "by_device_class": {
+  "0": {
+   "Danmini_Doorbell": 12000,
+   "Ecobee_Thermostat": 12000,
+   "Ennio_Doorbell": 12000,
+   "Philips_B120N10_Baby_Monitor": 12000,
+   "Provision_PT_737E_Security_Camera": 12000,
+   "Provision_PT_838_Security_Camera": 12000,
+   "Samsung_SNH_1011_N_Webcam": 12000,
+   "SimpleHome_XCS7_1002_WHT_Security_Camera": 12000,
+   "SimpleHome_XCS7_1003_WHT_Security_Camera": 12000
+  },
+  "1": {
+   "Danmini_Doorbell": 24000,
+   "Ecobee_Thermostat": 24000,
+   "Ennio_Doorbell": 12000,
+   "Philips_B120N10_Baby_Monitor": 24000,
+   "Provision_PT_737E_Security_Camera": 24000,
+   "Provision_PT_838_Security_Camera": 24000,
+   "Samsung_SNH_1011_N_Webcam": 12000,
+   "SimpleHome_XCS7_1002_WHT_Security_Camera": 24000,
+   "SimpleHome_XCS7_1003_WHT_Security_Camera": 24000
+  }
+ },
+ "files": [
+  {
+   "file": "Danmini_Doorbell/benign_traffic.csv",
+   "rows_in_file": 49548,
+   "rows_kept": 12000
+  },
+  {
+   "file": "Danmini_Doorbell\\gafgyt_attacks\\combo.csv",
+   "rows_in_file": 59718,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Danmini_Doorbell\\gafgyt_attacks\\junk.csv",
+   "rows_in_file": 29068,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Danmini_Doorbell\\gafgyt_attacks\\tcp.csv",
+   "rows_in_file": 92141,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Danmini_Doorbell\\gafgyt_attacks\\udp.csv",
+   "rows_in_file": 105874,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Danmini_Doorbell\\mirai_attacks\\ack.csv",
+   "rows_in_file": 102195,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Danmini_Doorbell\\mirai_attacks\\syn.csv",
+   "rows_in_file": 122573,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Danmini_Doorbell\\mirai_attacks\\udp.csv",
+   "rows_in_file": 237665,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Danmini_Doorbell\\mirai_attacks\\udpplain.csv",
+   "rows_in_file": 81982,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Ecobee_Thermostat/benign_traffic.csv",
+   "rows_in_file": 13113,
+   "rows_kept": 12000
+  },
+  {
+   "file": "Ecobee_Thermostat\\gafgyt_attacks\\combo.csv",
+   "rows_in_file": 53012,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Ecobee_Thermostat\\gafgyt_attacks\\junk.csv",
+   "rows_in_file": 30312,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Ecobee_Thermostat\\gafgyt_attacks\\tcp.csv",
+   "rows_in_file": 95021,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Ecobee_Thermostat\\gafgyt_attacks\\udp.csv",
+   "rows_in_file": 104791,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Ecobee_Thermostat\\mirai_attacks\\ack.csv",
+   "rows_in_file": 113285,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Ecobee_Thermostat\\mirai_attacks\\syn.csv",
+   "rows_in_file": 116807,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Ecobee_Thermostat\\mirai_attacks\\udp.csv",
+   "rows_in_file": 151481,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Ecobee_Thermostat\\mirai_attacks\\udpplain.csv",
+   "rows_in_file": 87368,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Ennio_Doorbell/benign_traffic.csv",
+   "rows_in_file": 39100,
+   "rows_kept": 12000
+  },
+  {
+   "file": "Ennio_Doorbell\\gafgyt_attacks\\combo.csv",
+   "rows_in_file": 53014,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Ennio_Doorbell\\gafgyt_attacks\\junk.csv",
+   "rows_in_file": 29797,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Ennio_Doorbell\\gafgyt_attacks\\tcp.csv",
+   "rows_in_file": 101536,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Ennio_Doorbell\\gafgyt_attacks\\udp.csv",
+   "rows_in_file": 103933,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Philips_B120N10_Baby_Monitor/benign_traffic.csv",
+   "rows_in_file": 175240,
+   "rows_kept": 12000
+  },
+  {
+   "file": "Philips_B120N10_Baby_Monitor\\gafgyt_attacks\\combo.csv",
+   "rows_in_file": 58152,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Philips_B120N10_Baby_Monitor\\gafgyt_attacks\\junk.csv",
+   "rows_in_file": 28349,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Philips_B120N10_Baby_Monitor\\gafgyt_attacks\\tcp.csv",
+   "rows_in_file": 92581,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Philips_B120N10_Baby_Monitor\\gafgyt_attacks\\udp.csv",
+   "rows_in_file": 105782,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Philips_B120N10_Baby_Monitor\\mirai_attacks\\ack.csv",
+   "rows_in_file": 91123,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Philips_B120N10_Baby_Monitor\\mirai_attacks\\syn.csv",
+   "rows_in_file": 118128,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Philips_B120N10_Baby_Monitor\\mirai_attacks\\udp.csv",
+   "rows_in_file": 217034,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Philips_B120N10_Baby_Monitor\\mirai_attacks\\udpplain.csv",
+   "rows_in_file": 80808,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Provision_PT_737E_Security_Camera/benign_traffic.csv",
+   "rows_in_file": 62154,
+   "rows_kept": 12000
+  },
+  {
+   "file": "Provision_PT_737E_Security_Camera\\gafgyt_attacks\\combo.csv",
+   "rows_in_file": 61380,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Provision_PT_737E_Security_Camera\\gafgyt_attacks\\junk.csv",
+   "rows_in_file": 30898,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Provision_PT_737E_Security_Camera\\gafgyt_attacks\\tcp.csv",
+   "rows_in_file": 104510,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Provision_PT_737E_Security_Camera\\gafgyt_attacks\\udp.csv",
+   "rows_in_file": 104011,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Provision_PT_737E_Security_Camera\\mirai_attacks\\ack.csv",
+   "rows_in_file": 60554,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Provision_PT_737E_Security_Camera\\mirai_attacks\\syn.csv",
+   "rows_in_file": 65746,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Provision_PT_737E_Security_Camera\\mirai_attacks\\udp.csv",
+   "rows_in_file": 156248,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Provision_PT_737E_Security_Camera\\mirai_attacks\\udpplain.csv",
+   "rows_in_file": 56681,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Provision_PT_838_Security_Camera/benign_traffic.csv",
+   "rows_in_file": 98514,
+   "rows_kept": 12000
+  },
+  {
+   "file": "Provision_PT_838_Security_Camera\\gafgyt_attacks\\combo.csv",
+   "rows_in_file": 57530,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Provision_PT_838_Security_Camera\\gafgyt_attacks\\junk.csv",
+   "rows_in_file": 29068,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Provision_PT_838_Security_Camera\\gafgyt_attacks\\tcp.csv",
+   "rows_in_file": 89387,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Provision_PT_838_Security_Camera\\gafgyt_attacks\\udp.csv",
+   "rows_in_file": 104658,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Provision_PT_838_Security_Camera\\mirai_attacks\\ack.csv",
+   "rows_in_file": 57997,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Provision_PT_838_Security_Camera\\mirai_attacks\\syn.csv",
+   "rows_in_file": 61851,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Provision_PT_838_Security_Camera\\mirai_attacks\\udp.csv",
+   "rows_in_file": 158608,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Provision_PT_838_Security_Camera\\mirai_attacks\\udpplain.csv",
+   "rows_in_file": 53785,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Samsung_SNH_1011_N_Webcam/benign_traffic.csv",
+   "rows_in_file": 52150,
+   "rows_kept": 12000
+  },
+  {
+   "file": "Samsung_SNH_1011_N_Webcam\\gafgyt_attacks\\combo.csv",
+   "rows_in_file": 58669,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Samsung_SNH_1011_N_Webcam\\gafgyt_attacks\\junk.csv",
+   "rows_in_file": 28305,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Samsung_SNH_1011_N_Webcam\\gafgyt_attacks\\tcp.csv",
+   "rows_in_file": 97783,
+   "rows_kept": 3000
+  },
+  {
+   "file": "Samsung_SNH_1011_N_Webcam\\gafgyt_attacks\\udp.csv",
+   "rows_in_file": 110617,
+   "rows_kept": 3000
+  },
+  {
+   "file": "SimpleHome_XCS7_1002_WHT_Security_Camera/benign_traffic.csv",
+   "rows_in_file": 46585,
+   "rows_kept": 12000
+  },
+  {
+   "file": "SimpleHome_XCS7_1002_WHT_Security_Camera\\gafgyt_attacks\\combo.csv",
+   "rows_in_file": 54283,
+   "rows_kept": 3000
+  },
+  {
+   "file": "SimpleHome_XCS7_1002_WHT_Security_Camera\\gafgyt_attacks\\junk.csv",
+   "rows_in_file": 28579,
+   "rows_kept": 3000
+  },
+  {
+   "file": "SimpleHome_XCS7_1002_WHT_Security_Camera\\gafgyt_attacks\\tcp.csv",
+   "rows_in_file": 88816,
+   "rows_kept": 3000
+  },
+  {
+   "file": "SimpleHome_XCS7_1002_WHT_Security_Camera\\gafgyt_attacks\\udp.csv",
+   "rows_in_file": 103720,
+   "rows_kept": 3000
+  },
+  {
+   "file": "SimpleHome_XCS7_1002_WHT_Security_Camera\\mirai_attacks\\ack.csv",
+   "rows_in_file": 111480,
+   "rows_kept": 3000
+  },
+  {
+   "file": "SimpleHome_XCS7_1002_WHT_Security_Camera\\mirai_attacks\\syn.csv",
+   "rows_in_file": 125715,
+   "rows_kept": 3000
+  },
+  {
+   "file": "SimpleHome_XCS7_1002_WHT_Security_Camera\\mirai_attacks\\udp.csv",
+   "rows_in_file": 151879,
+   "rows_kept": 3000
+  },
+  {
+   "file": "SimpleHome_XCS7_1002_WHT_Security_Camera\\mirai_attacks\\udpplain.csv",
+   "rows_in_file": 78244,
+   "rows_kept": 3000
+  },
+  {
+   "file": "SimpleHome_XCS7_1003_WHT_Security_Camera/benign_traffic.csv",
+   "rows_in_file": 19528,
+   "rows_kept": 12000
+  },
+  {
+   "file": "SimpleHome_XCS7_1003_WHT_Security_Camera\\gafgyt_attacks\\combo.csv",
+   "rows_in_file": 59398,
+   "rows_kept": 3000
+  },
+  {
+   "file": "SimpleHome_XCS7_1003_WHT_Security_Camera\\gafgyt_attacks\\junk.csv",
+   "rows_in_file": 27413,
+   "rows_kept": 3000
+  },
+  {
+   "file": "SimpleHome_XCS7_1003_WHT_Security_Camera\\gafgyt_attacks\\tcp.csv",
+   "rows_in_file": 98075,
+   "rows_kept": 3000
+  },
+  {
+   "file": "SimpleHome_XCS7_1003_WHT_Security_Camera\\gafgyt_attacks\\udp.csv",
+   "rows_in_file": 102980,
+   "rows_kept": 3000
+  },
+  {
+   "file": "SimpleHome_XCS7_1003_WHT_Security_Camera\\mirai_attacks\\ack.csv",
+   "rows_in_file": 107187,
+   "rows_kept": 3000
+  },
+  {
+   "file": "SimpleHome_XCS7_1003_WHT_Security_Camera\\mirai_attacks\\syn.csv",
+   "rows_in_file": 122479,
+   "rows_kept": 3000
+  },
+  {
+   "file": "SimpleHome_XCS7_1003_WHT_Security_Camera\\mirai_attacks\\udp.csv",
+   "rows_in_file": 157084,
+   "rows_kept": 3000
+  },
+  {
+   "file": "SimpleHome_XCS7_1003_WHT_Security_Camera\\mirai_attacks\\udpplain.csv",
+   "rows_in_file": 84436,
+   "rows_kept": 3000
+  }
+ ]
+}

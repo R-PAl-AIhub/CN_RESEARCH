@@ -1,0 +1,1600 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789987957.539179    3924 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789987957.541946   14068 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789987957.543027   24660 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789987957.548725   11272 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789987957.555900    5024 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789987960.984839    3924 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789987960.985077   14068 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789987960.986902   11272 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789987960.987854    5024 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789987960.992381   24660 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+TASK: skip ciciot_iid.json
+TASK: skip ciciot_dir1.0.json
+TASK: skip ciciot_dir0.3.json
+TASK: skip ciciot_dir0.1.json
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789987964.030665    3396 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789987964.030666    3200 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789987964.030666   26704 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789987964.039360   16912 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789987964.042541   26544 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789987967.382433   26704 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789987967.457405    3200 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789987967.482209    3396 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789987967.488904   26544 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789987967.495311   16912 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+I0000 00:00:1789987971.602305    3200 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+I0000 00:00:1789987971.611799   26544 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+I0000 00:00:1789987971.614784   16912 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+I0000 00:00:1789987971.617182   26704 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+I0000 00:00:1789987971.617603    3396 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[final ciciot/iid/s2] central_svm        test F1=0.9967
+[final ciciot/iid/s1] central_svm        test F1=0.9947
+[final ciciot/iid/s3] central_svm        test F1=0.9949
+[final ciciot/iid/s0] central_svm        test F1=0.9952
+[final ciciot/iid/s4] central_svm        test F1=0.9968
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/iid/s1] central_rf         test F1=0.9987
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/iid/s2] central_rf         test F1=0.9990
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/iid/s3] central_rf         test F1=0.9985
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/iid/s0] central_rf         test F1=0.9983
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/iid/s4] central_rf         test F1=0.9990
+[final ciciot/iid/s1] senior             test F1=0.9953
+[final ciciot/iid/s3] senior             test F1=0.9950
+[final ciciot/iid/s0] senior             test F1=0.9944
+[final ciciot/iid/s2] senior             test F1=0.9967
+[final ciciot/iid/s1] senior_noleak      test F1=0.9950
+[final ciciot/iid/s4] senior             test F1=0.9970
+[final ciciot/iid/s0] senior_noleak      test F1=0.9955
+[final ciciot/iid/s3] senior_noleak      test F1=0.9960
+[final ciciot/iid/s2] senior_noleak      test F1=0.9972
+[final ciciot/iid/s4] senior_noleak      test F1=0.9973
+[final ciciot/iid/s1] local_prep_fedavg  test F1=0.9947
+[final ciciot/iid/s0] local_prep_fedavg  test F1=0.9941
+[final ciciot/iid/s3] local_prep_fedavg  test F1=0.9947
+[final ciciot/iid/s2] local_prep_fedavg  test F1=0.9957
+[final ciciot/iid/s4] local_prep_fedavg  test F1=0.9971
+[final ciciot/iid/s1] fedstat            test F1=0.9942
+[final ciciot/iid/s0] fedstat            test F1=0.9941
+[final ciciot/iid/s3] fedstat            test F1=0.9953
+[final ciciot/iid/s2] fedstat            test F1=0.9968
+[final ciciot/iid/s4] fedstat            test F1=0.9968
+[final ciciot/iid/s1] fedstat_prox       test F1=0.9864
+[final ciciot/iid/s0] fedstat_prox       test F1=0.9921
+[final ciciot/iid/s3] fedstat_prox       test F1=0.9879
+[final ciciot/iid/s2] fedstat_prox       test F1=0.9962
+[final ciciot/iid/s4] fedstat_prox       test F1=0.9966
+[final ciciot/iid/s1] fedstat_mlp        test F1=0.9942
+[final ciciot/iid/s0] fedstat_mlp        test F1=0.9949
+[final ciciot/iid/s2] fedstat_mlp        test F1=0.9964
+[final ciciot/iid/s3] fedstat_mlp        test F1=0.9959
+[final ciciot/iid/s4] fedstat_mlp        test F1=0.9970
+[final ciciot/iid/s1] abl_localscale     test F1=0.9941
+[final ciciot/iid/s0] abl_localscale     test F1=0.9941
+[final ciciot/iid/s2] abl_localscale     test F1=0.9969
+[final ciciot/iid/s3] abl_localscale     test F1=0.9952
+[final ciciot/iid/s4] abl_localscale     test F1=0.9968
+[final ciciot/iid/s1] abl_nosel          test F1=0.9968
+[final ciciot/iid/s0] abl_nosel          test F1=0.9964
+[final ciciot/iid/s2] abl_nosel          test F1=0.9959
+[final ciciot/iid/s3] abl_nosel          test F1=0.9971
+[final ciciot/iid/s4] abl_nosel          test F1=0.9940
+[final ciciot/iid/s1] abl_oneshot        test F1=0.9944
+[final ciciot/iid/s0] abl_oneshot        test F1=0.9945
+[final ciciot/iid/s2] abl_oneshot        test F1=0.9963
+[final ciciot/iid/s3] abl_oneshot        test F1=0.9777
+[final ciciot/iid/s4] abl_oneshot        test F1=0.9968
+[final ciciot/iid/s1] abl_pearson        test F1=0.9965
+[final ciciot/iid/s0] abl_pearson        test F1=0.9956
+[final ciciot/iid/s2] abl_pearson        test F1=0.9972
+[final ciciot/iid/s3] abl_pearson        test F1=0.9968
+[final ciciot/iid/s4] abl_pearson        test F1=0.9972
+[final ciciot/iid/s1] abl_lda            test F1=0.9964
+[final ciciot/iid/s0] abl_lda            test F1=0.9963
+[final ciciot/iid/s2] abl_lda            test F1=0.9966
+[final ciciot/iid/s3] abl_lda            test F1=0.9961
+[final ciciot/iid/s4] abl_lda            test F1=0.9971
+[final ciciot/dir1.0/s1] central_svm        test F1=0.9947
+[final ciciot/dir1.0/s0] central_svm        test F1=0.9952
+[final ciciot/dir1.0/s2] central_svm        test F1=0.9967
+[final ciciot/dir1.0/s3] central_svm        test F1=0.9948
+[final ciciot/dir1.0/s4] central_svm        test F1=0.9968
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir1.0/s1] central_rf         test F1=0.9984
+[final ciciot/dir1.0/s1] senior             test F1=0.9961
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir1.0/s0] central_rf         test F1=0.9985
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir1.0/s3] central_rf         test F1=0.9985
+[final ciciot/dir1.0/s2] central_rf         test F1=0.9991
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir1.0/s4] central_rf         test F1=0.9990
+[final ciciot/dir1.0/s0] senior             test F1=0.9949
+[final ciciot/dir1.0/s3] senior             test F1=0.9961
+[final ciciot/dir1.0/s2] senior             test F1=0.9975
+[final ciciot/dir1.0/s1] senior_noleak      test F1=0.9950
+[final ciciot/dir1.0/s4] senior             test F1=0.9972
+[final ciciot/dir1.0/s0] senior_noleak      test F1=0.9951
+[final ciciot/dir1.0/s3] senior_noleak      test F1=0.9951
+[final ciciot/dir1.0/s2] senior_noleak      test F1=0.9970
+[final ciciot/dir1.0/s4] senior_noleak      test F1=0.9968
+[final ciciot/dir1.0/s1] local_prep_fedavg  test F1=0.9622
+[final ciciot/dir1.0/s3] local_prep_fedavg  test F1=0.9426
+[final ciciot/dir1.0/s0] local_prep_fedavg  test F1=0.9359
+[final ciciot/dir1.0/s2] local_prep_fedavg  test F1=0.9678
+[final ciciot/dir1.0/s4] local_prep_fedavg  test F1=0.9175
+[final ciciot/dir1.0/s1] fedstat            test F1=0.9942
+[final ciciot/dir1.0/s3] fedstat            test F1=0.9950
+[final ciciot/dir1.0/s0] fedstat            test F1=0.9936
+[final ciciot/dir1.0/s2] fedstat            test F1=0.9966
+[final ciciot/dir1.0/s4] fedstat            test F1=0.9968
+[final ciciot/dir1.0/s1] fedstat_prox       test F1=0.9868
+[final ciciot/dir1.0/s3] fedstat_prox       test F1=0.9881
+[final ciciot/dir1.0/s0] fedstat_prox       test F1=0.9880
+[final ciciot/dir1.0/s2] fedstat_prox       test F1=0.9891
+[final ciciot/dir1.0/s4] fedstat_prox       test F1=0.9912
+[final ciciot/dir1.0/s1] fedstat_mlp        test F1=0.9944
+[final ciciot/dir1.0/s0] fedstat_mlp        test F1=0.9952
+[final ciciot/dir1.0/s3] fedstat_mlp        test F1=0.9962
+[final ciciot/dir1.0/s2] fedstat_mlp        test F1=0.9969
+[final ciciot/dir1.0/s4] fedstat_mlp        test F1=0.9976
+[final ciciot/dir1.0/s1] abl_localscale     test F1=0.9516
+[final ciciot/dir1.0/s0] abl_localscale     test F1=0.9276
+[final ciciot/dir1.0/s3] abl_localscale     test F1=0.7708
+[final ciciot/dir1.0/s2] abl_localscale     test F1=0.9607
+[final ciciot/dir1.0/s4] abl_localscale     test F1=0.8959
+[final ciciot/dir1.0/s1] abl_nosel          test F1=0.9968
+[final ciciot/dir1.0/s0] abl_nosel          test F1=0.9952
+[final ciciot/dir1.0/s3] abl_nosel          test F1=0.9972
+[final ciciot/dir1.0/s2] abl_nosel          test F1=0.9943
+[final ciciot/dir1.0/s4] abl_nosel          test F1=0.9836
+[final ciciot/dir1.0/s1] abl_oneshot        test F1=0.9945
+[final ciciot/dir1.0/s0] abl_oneshot        test F1=0.9940
+[final ciciot/dir1.0/s3] abl_oneshot        test F1=0.9947
+[final ciciot/dir1.0/s2] abl_oneshot        test F1=0.9969
+[final ciciot/dir1.0/s4] abl_oneshot        test F1=0.9968
+[final ciciot/dir1.0/s1] abl_pearson        test F1=0.9966
+[final ciciot/dir1.0/s0] abl_pearson        test F1=0.9961
+[final ciciot/dir1.0/s3] abl_pearson        test F1=0.9964
+[final ciciot/dir1.0/s2] abl_pearson        test F1=0.9972
+[final ciciot/dir1.0/s4] abl_pearson        test F1=0.9973
+[final ciciot/dir1.0/s1] abl_lda            test F1=0.9965
+[final ciciot/dir1.0/s0] abl_lda            test F1=0.9965
+[final ciciot/dir1.0/s3] abl_lda            test F1=0.9964
+[final ciciot/dir1.0/s2] abl_lda            test F1=0.9937
+[final ciciot/dir1.0/s4] abl_lda            test F1=0.9970
+[final ciciot/dir0.3/s1] central_svm        test F1=0.9947
+[final ciciot/dir0.3/s0] central_svm        test F1=0.9952
+[final ciciot/dir0.3/s3] central_svm        test F1=0.9938
+[final ciciot/dir0.3/s2] central_svm        test F1=0.9966
+[final ciciot/dir0.3/s4] central_svm        test F1=0.9968
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir0.3/s1] central_rf         test F1=0.9983
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir0.3/s0] central_rf         test F1=0.9985
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir0.3/s3] central_rf         test F1=0.9986
+[final ciciot/dir0.3/s1] senior             test F1=0.9958
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir0.3/s2] central_rf         test F1=0.9990
+[final ciciot/dir0.3/s0] senior             test F1=0.9947
+[final ciciot/dir0.3/s1] senior_noleak      test F1=0.9915
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir0.3/s3] senior             test F1=0.9957
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir0.3/s4] central_rf         test F1=0.9989
+[final ciciot/dir0.3/s2] senior             test F1=0.9893
+[final ciciot/dir0.3/s0] senior_noleak      test F1=0.9952
+[final ciciot/dir0.3/s3] senior_noleak      test F1=0.9957
+[final ciciot/dir0.3/s4] senior             test F1=0.9972
+[final ciciot/dir0.3/s2] senior_noleak      test F1=0.9893
+[final ciciot/dir0.3/s4] senior_noleak      test F1=0.9974
+[final ciciot/dir0.3/s1] local_prep_fedavg  test F1=0.9257
+[final ciciot/dir0.3/s0] local_prep_fedavg  test F1=0.8967
+[final ciciot/dir0.3/s3] local_prep_fedavg  test F1=0.8422
+[final ciciot/dir0.3/s2] local_prep_fedavg  test F1=0.6931
+[final ciciot/dir0.3/s4] local_prep_fedavg  test F1=0.8536
+[final ciciot/dir0.3/s1] fedstat            test F1=0.9946
+[final ciciot/dir0.3/s0] fedstat            test F1=0.9947
+[final ciciot/dir0.3/s3] fedstat            test F1=0.9884
+[final ciciot/dir0.3/s2] fedstat            test F1=0.9890
+[final ciciot/dir0.3/s4] fedstat            test F1=0.9968
+[final ciciot/dir0.3/s1] fedstat_prox       test F1=0.9871
+[final ciciot/dir0.3/s0] fedstat_prox       test F1=0.9920
+[final ciciot/dir0.3/s3] fedstat_prox       test F1=0.9880
+[final ciciot/dir0.3/s2] fedstat_prox       test F1=0.9888
+[final ciciot/dir0.3/s4] fedstat_prox       test F1=0.9897
+[final ciciot/dir0.3/s1] fedstat_mlp        test F1=0.9949
+[final ciciot/dir0.3/s0] fedstat_mlp        test F1=0.9952
+[final ciciot/dir0.3/s3] fedstat_mlp        test F1=0.9956
+[final ciciot/dir0.3/s2] fedstat_mlp        test F1=0.9970
+[final ciciot/dir0.3/s4] fedstat_mlp        test F1=0.9973
+[final ciciot/dir0.3/s1] abl_localscale     test F1=0.8068
+[final ciciot/dir0.3/s0] abl_localscale     test F1=0.5586
+[final ciciot/dir0.3/s3] abl_localscale     test F1=0.7340
+[final ciciot/dir0.3/s2] abl_localscale     test F1=0.5848
+[final ciciot/dir0.3/s4] abl_localscale     test F1=0.6449
+[final ciciot/dir0.3/s1] abl_nosel          test F1=0.9968
+[final ciciot/dir0.3/s0] abl_nosel          test F1=0.9961
+[final ciciot/dir0.3/s3] abl_nosel          test F1=0.9939
+[final ciciot/dir0.3/s2] abl_nosel          test F1=0.9921
+[final ciciot/dir0.3/s1] abl_oneshot        test F1=0.9938
+[final ciciot/dir0.3/s4] abl_nosel          test F1=0.9940
+[final ciciot/dir0.3/s0] abl_oneshot        test F1=0.9948
+[final ciciot/dir0.3/s3] abl_oneshot        test F1=0.9945
+[final ciciot/dir0.3/s2] abl_oneshot        test F1=0.9887
+[final ciciot/dir0.3/s4] abl_oneshot        test F1=0.9964
+[final ciciot/dir0.3/s1] abl_pearson        test F1=0.9968
+[final ciciot/dir0.3/s0] abl_pearson        test F1=0.9963
+[final ciciot/dir0.3/s3] abl_pearson        test F1=0.9964
+[final ciciot/dir0.3/s2] abl_pearson        test F1=0.9972
+[final ciciot/dir0.3/s4] abl_pearson        test F1=0.9974
+[final ciciot/dir0.3/s1] abl_lda            test F1=0.9966
+[final ciciot/dir0.3/s0] abl_lda            test F1=0.9965
+[final ciciot/dir0.3/s3] abl_lda            test F1=0.9938
+[final ciciot/dir0.3/s2] abl_lda            test F1=0.9934
+[final ciciot/dir0.1/s1] central_svm        test F1=0.9946
+[final ciciot/dir0.3/s4] abl_lda            test F1=0.9941
+[final ciciot/dir0.1/s0] central_svm        test F1=0.9952
+[final ciciot/dir0.1/s3] central_svm        test F1=0.9947
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir0.1/s1] central_rf         test F1=0.9984
+[final ciciot/dir0.1/s2] central_svm        test F1=0.9967
+[final ciciot/dir0.1/s4] central_svm        test F1=0.9968
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir0.1/s0] central_rf         test F1=0.9983
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir0.1/s3] central_rf         test F1=0.9987
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir0.1/s2] central_rf         test F1=0.9990
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir0.1/s4] central_rf         test F1=0.9990
+[final ciciot/dir0.1/s1] senior             test F1=0.9876
+[final ciciot/dir0.1/s3] senior             test F1=0.9938
+[final ciciot/dir0.1/s2] senior             test F1=0.9882
+[final ciciot/dir0.1/s0] senior             test F1=0.9874
+[final ciciot/dir0.1/s3] senior_noleak      test F1=0.9937
+[final ciciot/dir0.1/s2] senior_noleak      test F1=0.9883
+[final ciciot/dir0.1/s4] senior             test F1=0.9938
+[final ciciot/dir0.1/s0] senior_noleak      test F1=0.9916
+[final ciciot/dir0.1/s1] senior_noleak      test F1=0.9874
+[final ciciot/dir0.1/s4] senior_noleak      test F1=0.9788
+[final ciciot/dir0.1/s3] local_prep_fedavg  test F1=0.6419
+[final ciciot/dir0.1/s2] local_prep_fedavg  test F1=0.3476
+[final ciciot/dir0.1/s0] local_prep_fedavg  test F1=0.7165
+[final ciciot/dir0.1/s1] local_prep_fedavg  test F1=0.8025
+[final ciciot/dir0.1/s4] local_prep_fedavg  test F1=0.5976
+[final ciciot/dir0.1/s3] fedstat            test F1=0.9890
+[final ciciot/dir0.1/s2] fedstat            test F1=0.9966
+[final ciciot/dir0.1/s0] fedstat            test F1=0.9912
+[final ciciot/dir0.1/s1] fedstat            test F1=0.9873
+[final ciciot/dir0.1/s4] fedstat            test F1=0.9972
+[final ciciot/dir0.1/s3] fedstat_prox       test F1=0.9946
+[final ciciot/dir0.1/s2] fedstat_prox       test F1=0.9893
+[final ciciot/dir0.1/s0] fedstat_prox       test F1=0.9876
+[final ciciot/dir0.1/s1] fedstat_prox       test F1=0.9871
+[final ciciot/dir0.1/s4] fedstat_prox       test F1=0.9969
+[final ciciot/dir0.1/s3] fedstat_mlp        test F1=0.9961
+[final ciciot/dir0.1/s2] fedstat_mlp        test F1=0.9973
+[final ciciot/dir0.1/s0] fedstat_mlp        test F1=0.9952
+[final ciciot/dir0.1/s1] fedstat_mlp        test F1=0.9944
+[final ciciot/dir0.1/s4] fedstat_mlp        test F1=0.9971
+[final ciciot/dir0.1/s3] abl_localscale     test F1=0.6822
+[final ciciot/dir0.1/s2] abl_localscale     test F1=0.0000
+[final ciciot/dir0.1/s0] abl_localscale     test F1=0.5229
+[final ciciot/dir0.1/s1] abl_localscale     test F1=0.0000
+[final ciciot/dir0.1/s4] abl_localscale     test F1=0.3702
+[final ciciot/dir0.1/s3] abl_nosel          test F1=0.9960
+[final ciciot/dir0.1/s2] abl_nosel          test F1=0.9896
+[final ciciot/dir0.1/s0] abl_nosel          test F1=0.9789
+[final ciciot/dir0.1/s1] abl_nosel          test F1=0.9902
+[final ciciot/dir0.1/s4] abl_nosel          test F1=0.9931
+[final ciciot/dir0.1/s3] abl_oneshot        test F1=0.9710
+[final ciciot/dir0.1/s2] abl_oneshot        test F1=0.9278
+[final ciciot/dir0.1/s0] abl_oneshot        test F1=0.9854
+[final ciciot/dir0.1/s1] abl_oneshot        test F1=0.9869
+[final ciciot/dir0.1/s4] abl_oneshot        test F1=0.9963
+[final ciciot/dir0.1/s3] abl_pearson        test F1=0.9952
+[final ciciot/dir0.1/s2] abl_pearson        test F1=0.9973
+[final ciciot/dir0.1/s0] abl_pearson        test F1=0.9944
+[final ciciot/dir0.1/s1] abl_pearson        test F1=0.9894
+[final ciciot/dir0.1/s4] abl_pearson        test F1=0.9974
+[final ciciot/dir0.1/s3] abl_lda            test F1=0.9931
+TASK: done final_ciciot_s3.jsonl
+[final ciciot/dir0.1/s2] abl_lda            test F1=0.9968
+TASK: done final_ciciot_s2.jsonl
+[final ciciot/dir0.1/s0] abl_lda            test F1=0.9936
+TASK: done final_ciciot_s0.jsonl
+[final ciciot/dir0.1/s1] abl_lda            test F1=0.9891
+TASK: done final_ciciot_s1.jsonl
+[final ciciot/dir0.1/s4] abl_lda            test F1=0.9942
+TASK: done final_ciciot_s4.jsonl
+[final ciciot/iid/s5] central_svm        test F1=0.9955
+[final ciciot/iid/s6] central_svm        test F1=0.9921
+[final ciciot/iid/s7] central_svm        test F1=0.9952
+[final ciciot/iid/s8] central_svm        test F1=0.9963
+[final ciciot/iid/s9] central_svm        test F1=0.9953
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/iid/s6] central_rf         test F1=0.9985
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/iid/s5] central_rf         test F1=0.9989
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/iid/s7] central_rf         test F1=0.9990
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/iid/s8] central_rf         test F1=0.9986
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/iid/s9] central_rf         test F1=0.9987
+[final ciciot/iid/s6] senior             test F1=0.9946
+[final ciciot/iid/s5] senior             test F1=0.9951
+[final ciciot/iid/s7] senior             test F1=0.9952
+[final ciciot/iid/s6] senior_noleak      test F1=0.9955
+[final ciciot/iid/s5] senior_noleak      test F1=0.9960
+[final ciciot/iid/s7] senior_noleak      test F1=0.9962
+[final ciciot/iid/s8] senior             test F1=0.9966
+[final ciciot/iid/s9] senior             test F1=0.9956
+[final ciciot/iid/s9] senior_noleak      test F1=0.9961
+[final ciciot/iid/s8] senior_noleak      test F1=0.9971
+[final ciciot/iid/s6] local_prep_fedavg  test F1=0.9947
+[final ciciot/iid/s5] local_prep_fedavg  test F1=0.9953
+[final ciciot/iid/s7] local_prep_fedavg  test F1=0.9961
+[final ciciot/iid/s9] local_prep_fedavg  test F1=0.9948
+[final ciciot/iid/s8] local_prep_fedavg  test F1=0.9966
+[final ciciot/iid/s5] fedstat            test F1=0.9952
+[final ciciot/iid/s6] fedstat            test F1=0.9870
+[final ciciot/iid/s7] fedstat            test F1=0.9955
+[final ciciot/iid/s9] fedstat            test F1=0.9950
+[final ciciot/iid/s8] fedstat            test F1=0.9967
+[final ciciot/iid/s5] fedstat_prox       test F1=0.9908
+[final ciciot/iid/s6] fedstat_prox       test F1=0.9859
+[final ciciot/iid/s7] fedstat_prox       test F1=0.9882
+[final ciciot/iid/s9] fedstat_prox       test F1=0.9904
+[final ciciot/iid/s8] fedstat_prox       test F1=0.9965
+[final ciciot/iid/s6] fedstat_mlp        test F1=0.9958
+[final ciciot/iid/s5] fedstat_mlp        test F1=0.9951
+[final ciciot/iid/s7] fedstat_mlp        test F1=0.9961
+[final ciciot/iid/s9] fedstat_mlp        test F1=0.9963
+[final ciciot/iid/s8] fedstat_mlp        test F1=0.9969
+[final ciciot/iid/s6] abl_localscale     test F1=0.9870
+[final ciciot/iid/s5] abl_localscale     test F1=0.9952
+[final ciciot/iid/s7] abl_localscale     test F1=0.9955
+[final ciciot/iid/s9] abl_localscale     test F1=0.9949
+[final ciciot/iid/s8] abl_localscale     test F1=0.9967
+[final ciciot/iid/s6] abl_nosel          test F1=0.9965
+[final ciciot/iid/s5] abl_nosel          test F1=0.9966
+[final ciciot/iid/s7] abl_nosel          test F1=0.9965
+[final ciciot/iid/s9] abl_nosel          test F1=0.9935
+[final ciciot/iid/s8] abl_nosel          test F1=0.9970
+[final ciciot/iid/s6] abl_oneshot        test F1=0.9942
+[final ciciot/iid/s5] abl_oneshot        test F1=0.9952
+[final ciciot/iid/s7] abl_oneshot        test F1=0.9947
+[final ciciot/iid/s9] abl_oneshot        test F1=0.9951
+[final ciciot/iid/s8] abl_oneshot        test F1=0.9968
+[final ciciot/iid/s6] abl_pearson        test F1=0.9963
+[final ciciot/iid/s5] abl_pearson        test F1=0.9969
+[final ciciot/iid/s7] abl_pearson        test F1=0.9968
+[final ciciot/iid/s9] abl_pearson        test F1=0.9968
+[final ciciot/iid/s8] abl_pearson        test F1=0.9972
+[final ciciot/iid/s6] abl_lda            test F1=0.9954
+[final ciciot/iid/s5] abl_lda            test F1=0.9965
+[final ciciot/iid/s7] abl_lda            test F1=0.9963
+[final ciciot/iid/s9] abl_lda            test F1=0.9969
+[final ciciot/iid/s8] abl_lda            test F1=0.9967
+[final ciciot/dir1.0/s6] central_svm        test F1=0.9939
+[final ciciot/dir1.0/s5] central_svm        test F1=0.9956
+[final ciciot/dir1.0/s7] central_svm        test F1=0.9952
+[final ciciot/dir1.0/s9] central_svm        test F1=0.9952
+[final ciciot/dir1.0/s8] central_svm        test F1=0.9963
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir1.0/s6] central_rf         test F1=0.9985
+[final ciciot/dir1.0/s6] senior             test F1=0.9956
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir1.0/s7] central_rf         test F1=0.9989
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir1.0/s5] central_rf         test F1=0.9990
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir1.0/s9] central_rf         test F1=0.9987
+[final ciciot/dir1.0/s5] senior             test F1=0.9959
+[final ciciot/dir1.0/s7] senior             test F1=0.9962
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir1.0/s8] central_rf         test F1=0.9988
+[final ciciot/dir1.0/s6] senior_noleak      test F1=0.9945
+[final ciciot/dir1.0/s9] senior             test F1=0.9966
+[final ciciot/dir1.0/s8] senior             test F1=0.9971
+[final ciciot/dir1.0/s5] senior_noleak      test F1=0.9962
+[final ciciot/dir1.0/s7] senior_noleak      test F1=0.9960
+[final ciciot/dir1.0/s9] senior_noleak      test F1=0.9954
+[final ciciot/dir1.0/s8] senior_noleak      test F1=0.9968
+[final ciciot/dir1.0/s6] local_prep_fedavg  test F1=0.9573
+[final ciciot/dir1.0/s5] local_prep_fedavg  test F1=0.8622
+[final ciciot/dir1.0/s7] local_prep_fedavg  test F1=0.9622
+[final ciciot/dir1.0/s9] local_prep_fedavg  test F1=0.9751
+[final ciciot/dir1.0/s8] local_prep_fedavg  test F1=0.9155
+[final ciciot/dir1.0/s6] fedstat            test F1=0.9935
+[final ciciot/dir1.0/s5] fedstat            test F1=0.9956
+[final ciciot/dir1.0/s7] fedstat            test F1=0.9888
+[final ciciot/dir1.0/s9] fedstat            test F1=0.9921
+[final ciciot/dir1.0/s8] fedstat            test F1=0.9968
+[final ciciot/dir1.0/s6] fedstat_prox       test F1=0.9869
+[final ciciot/dir1.0/s5] fedstat_prox       test F1=0.9877
+[final ciciot/dir1.0/s7] fedstat_prox       test F1=0.9882
+[final ciciot/dir1.0/s9] fedstat_prox       test F1=0.9884
+[final ciciot/dir1.0/s8] fedstat_prox       test F1=0.9964
+[final ciciot/dir1.0/s6] fedstat_mlp        test F1=0.9959
+[final ciciot/dir1.0/s5] fedstat_mlp        test F1=0.9958
+[final ciciot/dir1.0/s7] fedstat_mlp        test F1=0.9963
+[final ciciot/dir1.0/s9] fedstat_mlp        test F1=0.9967
+[final ciciot/dir1.0/s8] fedstat_mlp        test F1=0.9973
+[final ciciot/dir1.0/s6] abl_localscale     test F1=0.9407
+[final ciciot/dir1.0/s5] abl_localscale     test F1=0.8718
+[final ciciot/dir1.0/s7] abl_localscale     test F1=0.9485
+[final ciciot/dir1.0/s9] abl_localscale     test F1=0.9741
+[final ciciot/dir1.0/s8] abl_localscale     test F1=0.8609
+[final ciciot/dir1.0/s6] abl_nosel          test F1=0.9918
+[final ciciot/dir1.0/s5] abl_nosel          test F1=0.9972
+[final ciciot/dir1.0/s7] abl_nosel          test F1=0.9972
+[final ciciot/dir1.0/s6] abl_oneshot        test F1=0.9724
+[final ciciot/dir1.0/s9] abl_nosel          test F1=0.9968
+[final ciciot/dir1.0/s8] abl_nosel          test F1=0.9946
+[final ciciot/dir1.0/s5] abl_oneshot        test F1=0.9954
+[final ciciot/dir1.0/s7] abl_oneshot        test F1=0.9953
+[final ciciot/dir1.0/s9] abl_oneshot        test F1=0.9929
+[final ciciot/dir1.0/s8] abl_oneshot        test F1=0.9968
+[final ciciot/dir1.0/s6] abl_pearson        test F1=0.9962
+[final ciciot/dir1.0/s5] abl_pearson        test F1=0.9973
+[final ciciot/dir1.0/s7] abl_pearson        test F1=0.9968
+[final ciciot/dir1.0/s9] abl_pearson        test F1=0.9970
+[final ciciot/dir1.0/s8] abl_pearson        test F1=0.9973
+[final ciciot/dir1.0/s6] abl_lda            test F1=0.9953
+[final ciciot/dir1.0/s5] abl_lda            test F1=0.9968
+[final ciciot/dir1.0/s7] abl_lda            test F1=0.9933
+[final ciciot/dir0.3/s6] central_svm        test F1=0.9939
+[final ciciot/dir1.0/s9] abl_lda            test F1=0.9942
+[final ciciot/dir1.0/s8] abl_lda            test F1=0.9958
+[final ciciot/dir0.3/s5] central_svm        test F1=0.9955
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir0.3/s6] central_rf         test F1=0.9984
+[final ciciot/dir0.3/s7] central_svm        test F1=0.9951
+[final ciciot/dir0.3/s9] central_svm        test F1=0.9953
+[final ciciot/dir0.3/s6] senior             test F1=0.9941
+[final ciciot/dir0.3/s8] central_svm        test F1=0.9964
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir0.3/s5] central_rf         test F1=0.9990
+[final ciciot/dir0.3/s6] senior_noleak      test F1=0.9941
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir0.3/s7] central_rf         test F1=0.9988
+[final ciciot/dir0.3/s5] senior             test F1=0.9952
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir0.3/s9] central_rf         test F1=0.9987
+[final ciciot/dir0.3/s5] senior_noleak      test F1=0.9967
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir0.3/s8] central_rf         test F1=0.9988
+[final ciciot/dir0.3/s9] senior             test F1=0.9927
+[final ciciot/dir0.3/s7] senior             test F1=0.9959
+[final ciciot/dir0.3/s9] senior_noleak      test F1=0.9893
+[final ciciot/dir0.3/s8] senior             test F1=0.9967
+[final ciciot/dir0.3/s7] senior_noleak      test F1=0.9959
+[final ciciot/dir0.3/s8] senior_noleak      test F1=0.9965
+[final ciciot/dir0.3/s6] local_prep_fedavg  test F1=0.6332
+[final ciciot/dir0.3/s5] local_prep_fedavg  test F1=0.4329
+[final ciciot/dir0.3/s9] local_prep_fedavg  test F1=0.6459
+[final ciciot/dir0.3/s7] local_prep_fedavg  test F1=0.8494
+[final ciciot/dir0.3/s8] local_prep_fedavg  test F1=0.5070
+[final ciciot/dir0.3/s6] fedstat            test F1=0.9882
+[final ciciot/dir0.3/s5] fedstat            test F1=0.9933
+[final ciciot/dir0.3/s9] fedstat            test F1=0.9865
+[final ciciot/dir0.3/s7] fedstat            test F1=0.9887
+[final ciciot/dir0.3/s8] fedstat            test F1=0.9971
+[final ciciot/dir0.3/s6] fedstat_prox       test F1=0.9873
+[final ciciot/dir0.3/s5] fedstat_prox       test F1=0.9874
+[final ciciot/dir0.3/s9] fedstat_prox       test F1=0.9881
+[final ciciot/dir0.3/s7] fedstat_prox       test F1=0.9883
+[final ciciot/dir0.3/s8] fedstat_prox       test F1=0.9969
+[final ciciot/dir0.3/s6] fedstat_mlp        test F1=0.9962
+[final ciciot/dir0.3/s5] fedstat_mlp        test F1=0.9955
+[final ciciot/dir0.3/s9] fedstat_mlp        test F1=0.9961
+[final ciciot/dir0.3/s8] fedstat_mlp        test F1=0.9974
+[final ciciot/dir0.3/s7] fedstat_mlp        test F1=0.9963
+[final ciciot/dir0.3/s6] abl_localscale     test F1=0.0000
+[final ciciot/dir0.3/s5] abl_localscale     test F1=0.6215
+[final ciciot/dir0.3/s9] abl_localscale     test F1=0.6445
+[final ciciot/dir0.3/s7] abl_localscale     test F1=0.7022
+[final ciciot/dir0.3/s8] abl_localscale     test F1=0.5146
+[final ciciot/dir0.3/s6] abl_nosel          test F1=0.9960
+[final ciciot/dir0.3/s5] abl_nosel          test F1=0.9938
+[final ciciot/dir0.3/s6] abl_oneshot        test F1=0.9936
+[final ciciot/dir0.3/s9] abl_nosel          test F1=0.9907
+[final ciciot/dir0.3/s5] abl_oneshot        test F1=0.9943
+[final ciciot/dir0.3/s8] abl_nosel          test F1=0.9941
+[final ciciot/dir0.3/s7] abl_nosel          test F1=0.9972
+[final ciciot/dir0.3/s9] abl_oneshot        test F1=0.9927
+[final ciciot/dir0.3/s8] abl_oneshot        test F1=0.9966
+[final ciciot/dir0.3/s7] abl_oneshot        test F1=0.9889
+[final ciciot/dir0.3/s6] abl_pearson        test F1=0.9966
+[final ciciot/dir0.3/s5] abl_pearson        test F1=0.9969
+[final ciciot/dir0.3/s9] abl_pearson        test F1=0.9968
+[final ciciot/dir0.3/s8] abl_pearson        test F1=0.9974
+[final ciciot/dir0.3/s7] abl_pearson        test F1=0.9941
+[final ciciot/dir0.3/s6] abl_lda            test F1=0.9960
+[final ciciot/dir0.3/s5] abl_lda            test F1=0.9937
+[final ciciot/dir0.1/s6] central_svm        test F1=0.9918
+[final ciciot/dir0.3/s9] abl_lda            test F1=0.9944
+[final ciciot/dir0.1/s5] central_svm        test F1=0.9955
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir0.3/s8] abl_lda            test F1=0.9939
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir0.3/s7] abl_lda            test F1=0.9934
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir0.1/s6] central_rf         test F1=0.9986
+[final ciciot/dir0.1/s9] central_svm        test F1=0.9952
+[final ciciot/dir0.1/s6] senior             test F1=0.9948
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir0.1/s5] central_rf         test F1=0.9989
+[final ciciot/dir0.1/s7] central_svm        test F1=0.9951
+[final ciciot/dir0.1/s8] central_svm        test F1=0.9963
+[final ciciot/dir0.1/s6] senior_noleak      test F1=0.9938
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir0.1/s9] central_rf         test F1=0.9988
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir0.1/s8] central_rf         test F1=0.9987
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+D:\RATUL\VIT\THIRD YEAR\COMPUTER NETWORKS\RESEARCH\My Research\.venv\Lib\site-packages\sklearn\ensemble\_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[final ciciot/dir0.1/s7] central_rf         test F1=0.9988
+[final ciciot/dir0.1/s9] senior             test F1=0.9862
+[final ciciot/dir0.1/s5] senior             test F1=0.9953
+[final ciciot/dir0.1/s7] senior             test F1=0.9882
+[final ciciot/dir0.1/s8] senior             test F1=0.9890
+[final ciciot/dir0.1/s6] local_prep_fedavg  test F1=0.3908
+[final ciciot/dir0.1/s9] senior_noleak      test F1=0.9858
+[final ciciot/dir0.1/s5] senior_noleak      test F1=0.9959
+[final ciciot/dir0.1/s7] senior_noleak      test F1=0.9882
+[final ciciot/dir0.1/s8] senior_noleak      test F1=0.9889
+[final ciciot/dir0.1/s6] fedstat            test F1=0.9896
+[final ciciot/dir0.1/s9] local_prep_fedavg  test F1=0.1478
+[final ciciot/dir0.1/s5] local_prep_fedavg  test F1=0.5756
+[final ciciot/dir0.1/s7] local_prep_fedavg  test F1=0.6005
+[final ciciot/dir0.1/s8] local_prep_fedavg  test F1=0.5333
+[final ciciot/dir0.1/s6] fedstat_prox       test F1=0.9880
+[final ciciot/dir0.1/s9] fedstat            test F1=0.9874
+[final ciciot/dir0.1/s5] fedstat            test F1=0.9941
+[final ciciot/dir0.1/s7] fedstat            test F1=0.9887
+[final ciciot/dir0.1/s8] fedstat            test F1=0.9894
+[final ciciot/dir0.1/s9] fedstat_prox       test F1=0.9877
+[final ciciot/dir0.1/s5] fedstat_prox       test F1=0.9877
+[final ciciot/dir0.1/s7] fedstat_prox       test F1=0.9886
+[final ciciot/dir0.1/s8] fedstat_prox       test F1=0.9891
+[final ciciot/dir0.1/s6] fedstat_mlp        test F1=0.9964
+[final ciciot/dir0.1/s6] abl_localscale     test F1=0.4622
+[final ciciot/dir0.1/s9] fedstat_mlp        test F1=0.9952
+[final ciciot/dir0.1/s5] fedstat_mlp        test F1=0.9958
+[final ciciot/dir0.1/s7] fedstat_mlp        test F1=0.9961
+[final ciciot/dir0.1/s8] fedstat_mlp        test F1=0.9960
+[final ciciot/dir0.1/s9] abl_localscale     test F1=0.0000
+[final ciciot/dir0.1/s6] abl_nosel          test F1=0.9964
+[final ciciot/dir0.1/s5] abl_localscale     test F1=0.3901
+[final ciciot/dir0.1/s7] abl_localscale     test F1=0.5482
+[final ciciot/dir0.1/s8] abl_localscale     test F1=0.6833
+[final ciciot/dir0.1/s6] abl_oneshot        test F1=0.9940
+[final ciciot/dir0.1/s9] abl_nosel          test F1=0.9928
+[final ciciot/dir0.1/s5] abl_nosel          test F1=0.9959
+[final ciciot/dir0.1/s7] abl_nosel          test F1=0.9920
+[final ciciot/dir0.1/s8] abl_nosel          test F1=0.9927
+[final ciciot/dir0.1/s9] abl_oneshot        test F1=0.9807
+[final ciciot/dir0.1/s6] abl_pearson        test F1=0.9965
+[final ciciot/dir0.1/s5] abl_oneshot        test F1=0.9930
+[final ciciot/dir0.1/s7] abl_oneshot        test F1=0.9850
+[final ciciot/dir0.1/s8] abl_oneshot        test F1=0.9850
+[final ciciot/dir0.1/s6] abl_lda            test F1=0.9950
+TASK: done final_ciciot_s6.jsonl
+[final ciciot/dir0.1/s9] abl_pearson        test F1=0.9888
+[final ciciot/dir0.1/s5] abl_pearson        test F1=0.9971
+[final ciciot/dir0.1/s7] abl_pearson        test F1=0.9900
+[final ciciot/dir0.1/s8] abl_pearson        test F1=0.9896
+[final ciciot/dir0.1/s9] abl_lda            test F1=0.9929
+TASK: done final_ciciot_s9.jsonl
+[final ciciot/dir0.1/s5] abl_lda            test F1=0.9955
+TASK: done final_ciciot_s5.jsonl
+[final ciciot/dir0.1/s7] abl_lda            test F1=0.9933
+TASK: done final_ciciot_s7.jsonl
+[final ciciot/dir0.1/s8] abl_lda            test F1=0.9929
+TASK: done final_ciciot_s8.jsonl
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789988846.198119    9972 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789988846.198876   22128 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789988846.209726   24192 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789988846.216273   26136 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789988846.217696    5184 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789988850.180237    9972 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789988850.191619    5184 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789988850.208592   24192 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789988850.218004   26136 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789988850.232040   22128 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+I0000 00:00:1789988854.993519    5184 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+I0000 00:00:1789988855.022319   22128 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+I0000 00:00:1789988855.023408   24192 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+I0000 00:00:1789988855.030605   26136 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+I0000 00:00:1789988855.031739    9972 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[sens s4] fedstat tau=0.1: val F1=0.9970 nfeat=16
+[sens s1] fedstat tau=0.1: val F1=0.9969 nfeat=16
+[sens s0] fedstat tau=0.1: val F1=0.9971 nfeat=17
+[sens s3] fedstat tau=0.1: val F1=0.9968 nfeat=18
+[sens s2] fedstat tau=0.1: val F1=0.9886 nfeat=17
+[sens s4] fedstat tau=0.2: val F1=0.9970 nfeat=16
+[sens s2] fedstat tau=0.2: val F1=0.9886 nfeat=17
+[sens s1] fedstat tau=0.2: val F1=0.9949 nfeat=15
+[sens s0] fedstat tau=0.2: val F1=0.9951 nfeat=16
+[sens s3] fedstat tau=0.2: val F1=0.9882 nfeat=17
+[sens s4] fedstat tau=0.3: val F1=0.9898 nfeat=13
+[sens s2] fedstat tau=0.3: val F1=0.9876 nfeat=14
+[sens s1] fedstat tau=0.3: val F1=0.9946 nfeat=12
+[sens s3] fedstat tau=0.3: val F1=0.9878 nfeat=14
+[sens s0] fedstat tau=0.3: val F1=0.9945 nfeat=13
+[sens s4] fedstat tau=0.4: val F1=0.9946 nfeat=10
+[sens s1] fedstat tau=0.4: val F1=0.9939 nfeat=10
+[sens s2] fedstat tau=0.4: val F1=0.9787 nfeat=11
+[sens s3] fedstat tau=0.4: val F1=0.9942 nfeat=11
+[sens s0] fedstat tau=0.4: val F1=0.9943 nfeat=11
+[sens s4] fedstat tau=0.5: val F1=0.9763 nfeat=5
+[sens s1] fedstat tau=0.5: val F1=0.9710 nfeat=4
+[sens s2] fedstat tau=0.5: val F1=0.9771 nfeat=7
+[sens s3] fedstat tau=0.5: val F1=0.9759 nfeat=7
+[sens s0] fedstat tau=0.5: val F1=0.9736 nfeat=7
+[sens s4] fedstat lda_top=5: val F1=0.9613 nfeat=5
+[sens s1] fedstat lda_top=5: val F1=0.9237 nfeat=5
+[sens s2] fedstat lda_top=5: val F1=0.9642 nfeat=5
+[sens s3] fedstat lda_top=5: val F1=0.9620 nfeat=5
+[sens s0] fedstat lda_top=5: val F1=0.9618 nfeat=5
+[sens s4] fedstat lda_top=10: val F1=0.9878 nfeat=8
+[sens s1] fedstat lda_top=10: val F1=0.9862 nfeat=8
+[sens s2] fedstat lda_top=10: val F1=0.9876 nfeat=8
+[sens s0] fedstat lda_top=10: val F1=0.9654 nfeat=7
+[sens s3] fedstat lda_top=10: val F1=0.9856 nfeat=8
+[sens s4] fedstat lda_top=15: val F1=0.9971 nfeat=13
+[sens s2] fedstat lda_top=15: val F1=0.9882 nfeat=12
+[sens s0] fedstat lda_top=15: val F1=0.9949 nfeat=12
+[sens s1] fedstat lda_top=15: val F1=0.9937 nfeat=11
+[sens s3] fedstat lda_top=15: val F1=0.9864 nfeat=12
+[sens s4] fedstat lda_top=20: val F1=0.9970 nfeat=16
+[sens s1] fedstat lda_top=20: val F1=0.9949 nfeat=15
+[sens s0] fedstat lda_top=20: val F1=0.9951 nfeat=16
+[sens s2] fedstat lda_top=20: val F1=0.9886 nfeat=17
+[sens s3] fedstat lda_top=20: val F1=0.9882 nfeat=17
+[sens s4] fedstat lda_top=25: val F1=0.9974 nfeat=20
+[sens s2] fedstat lda_top=25: val F1=0.9958 nfeat=20
+[sens s1] fedstat lda_top=25: val F1=0.9967 nfeat=19
+[sens s0] fedstat lda_top=25: val F1=0.9966 nfeat=19
+[sens s3] fedstat lda_top=25: val F1=0.9960 nfeat=20
+[sens s4] fedstat lda_top=30: val F1=0.9978 nfeat=23
+[sens s4] fedstat rounds=1: val F1=0.9893 nfeat=16
+[sens s4] fedstat rounds=2: val F1=0.9947 nfeat=16
+[sens s0] fedstat lda_top=30: val F1=0.9966 nfeat=22
+[sens s2] fedstat lda_top=30: val F1=0.9965 nfeat=23
+[sens s1] fedstat lda_top=30: val F1=0.9970 nfeat=22
+[sens s3] fedstat lda_top=30: val F1=0.9964 nfeat=22
+[sens s2] fedstat rounds=1: val F1=0.9883 nfeat=17
+[sens s0] fedstat rounds=1: val F1=0.9942 nfeat=16
+[sens s1] fedstat rounds=1: val F1=0.9848 nfeat=15
+[sens s3] fedstat rounds=1: val F1=0.9867 nfeat=17
+[sens s0] fedstat rounds=2: val F1=0.9948 nfeat=16
+[sens s2] fedstat rounds=2: val F1=0.9880 nfeat=17
+[sens s4] fedstat rounds=5: val F1=0.9968 nfeat=16
+[sens s1] fedstat rounds=2: val F1=0.9940 nfeat=15
+[sens s3] fedstat rounds=2: val F1=0.9894 nfeat=17
+[sens s0] fedstat rounds=5: val F1=0.9949 nfeat=16
+[sens s2] fedstat rounds=5: val F1=0.9893 nfeat=17
+[sens s1] fedstat rounds=5: val F1=0.9946 nfeat=15
+[sens s3] fedstat rounds=5: val F1=0.9882 nfeat=17
+[sens s4] fedstat rounds=10: val F1=0.9969 nfeat=16
+[sens s0] fedstat rounds=10: val F1=0.9950 nfeat=16
+[sens s2] fedstat rounds=10: val F1=0.9887 nfeat=17
+[sens s1] fedstat rounds=10: val F1=0.9949 nfeat=15
+[sens s3] fedstat rounds=10: val F1=0.9882 nfeat=17
+[sens s4] fedstat rounds=20: val F1=0.9970 nfeat=16
+[sens s0] fedstat rounds=20: val F1=0.9951 nfeat=16
+[sens s2] fedstat rounds=20: val F1=0.9886 nfeat=17
+[sens s3] fedstat rounds=20: val F1=0.9882 nfeat=17
+[sens s1] fedstat rounds=20: val F1=0.9949 nfeat=15
+[sens s4] fedstat rounds=40: val F1=0.9969 nfeat=16
+[sens s0] fedstat rounds=40: val F1=0.9951 nfeat=16
+[sens s3] fedstat rounds=40: val F1=0.9881 nfeat=17
+[sens s2] fedstat rounds=40: val F1=0.9887 nfeat=17
+[sens s1] fedstat rounds=40: val F1=0.9949 nfeat=15
+[sens s4] local_prep_fedavg tau=0.1: val F1=0.8259 nfeat=15
+[sens s0] local_prep_fedavg tau=0.1: val F1=0.9021 nfeat=17
+[sens s3] local_prep_fedavg tau=0.1: val F1=0.8521 nfeat=14
+[sens s2] local_prep_fedavg tau=0.1: val F1=0.7930 nfeat=18
+[sens s1] local_prep_fedavg tau=0.1: val F1=0.9284 nfeat=18
+[sens s4] local_prep_fedavg tau=0.2: val F1=0.8530 nfeat=13
+[sens s0] local_prep_fedavg tau=0.2: val F1=0.8952 nfeat=14
+[sens s3] local_prep_fedavg tau=0.2: val F1=0.8402 nfeat=12
+[sens s2] local_prep_fedavg tau=0.2: val F1=0.6921 nfeat=14
+[sens s1] local_prep_fedavg tau=0.2: val F1=0.9284 nfeat=15
+[sens s4] local_prep_fedavg tau=0.3: val F1=0.8520 nfeat=10
+[sens s0] local_prep_fedavg tau=0.3: val F1=0.8905 nfeat=12
+[sens s3] local_prep_fedavg tau=0.3: val F1=0.8363 nfeat=11
+[sens s2] local_prep_fedavg tau=0.3: val F1=0.7539 nfeat=13
+[sens s1] local_prep_fedavg tau=0.3: val F1=0.9201 nfeat=13
+[sens s4] local_prep_fedavg tau=0.4: val F1=0.8513 nfeat=6
+[sens s0] local_prep_fedavg tau=0.4: val F1=0.8912 nfeat=7
+[sens s3] local_prep_fedavg tau=0.4: val F1=0.8460 nfeat=7
+[sens s2] local_prep_fedavg tau=0.4: val F1=0.7345 nfeat=7
+[sens s1] local_prep_fedavg tau=0.4: val F1=0.9395 nfeat=11
+[sens s4] local_prep_fedavg tau=0.5: val F1=0.8516 nfeat=4
+[sens s0] local_prep_fedavg tau=0.5: val F1=0.8838 nfeat=4
+[sens s3] local_prep_fedavg tau=0.5: val F1=0.6055 nfeat=3
+[sens s2] local_prep_fedavg tau=0.5: val F1=0.7374 nfeat=4
+[sens s1] local_prep_fedavg tau=0.5: val F1=0.9391 nfeat=6
+[sens s4] local_prep_fedavg lda_top=5: val F1=0.8637 nfeat=1
+[sens s0] local_prep_fedavg lda_top=5: val F1=0.8774 nfeat=2
+[sens s3] local_prep_fedavg lda_top=5: val F1=0.5477 nfeat=2
+[sens s2] local_prep_fedavg lda_top=5: val F1=0.0000 nfeat=3
+[sens s1] local_prep_fedavg lda_top=5: val F1=0.9199 nfeat=3
+[sens s4] local_prep_fedavg lda_top=10: val F1=0.8510 nfeat=7
+[sens s0] local_prep_fedavg lda_top=10: val F1=0.8677 nfeat=5
+[sens s3] local_prep_fedavg lda_top=10: val F1=0.8321 nfeat=6
+[sens s2] local_prep_fedavg lda_top=10: val F1=0.7251 nfeat=9
+[sens s1] local_prep_fedavg lda_top=10: val F1=0.9095 nfeat=9
+[sens s4] local_prep_fedavg lda_top=15: val F1=0.8472 nfeat=10
+[sens s3] local_prep_fedavg lda_top=15: val F1=0.8495 nfeat=8
+[sens s0] local_prep_fedavg lda_top=15: val F1=0.8864 nfeat=10
+[sens s1] local_prep_fedavg lda_top=15: val F1=0.9286 nfeat=12
+[sens s2] local_prep_fedavg lda_top=15: val F1=0.7428 nfeat=10
+[sens s4] local_prep_fedavg lda_top=20: val F1=0.8530 nfeat=13
+[sens s3] local_prep_fedavg lda_top=20: val F1=0.8402 nfeat=12
+[sens s0] local_prep_fedavg lda_top=20: val F1=0.8952 nfeat=14
+[sens s2] local_prep_fedavg lda_top=20: val F1=0.6921 nfeat=14
+[sens s1] local_prep_fedavg lda_top=20: val F1=0.9284 nfeat=15
+[sens s4] local_prep_fedavg lda_top=25: val F1=0.8533 nfeat=17
+[sens s3] local_prep_fedavg lda_top=25: val F1=0.8306 nfeat=17
+[sens s0] local_prep_fedavg lda_top=25: val F1=0.8962 nfeat=17
+[sens s1] local_prep_fedavg lda_top=25: val F1=0.9316 nfeat=18
+[sens s2] local_prep_fedavg lda_top=25: val F1=0.6904 nfeat=16
+[sens s4] local_prep_fedavg lda_top=30: val F1=0.8533 nfeat=17
+[sens s4] local_prep_fedavg rounds=1: val F1=0.5549 nfeat=13
+[sens s3] local_prep_fedavg lda_top=30: val F1=0.8654 nfeat=18
+[sens s4] local_prep_fedavg rounds=2: val F1=0.6739 nfeat=13
+[sens s0] local_prep_fedavg lda_top=30: val F1=0.8980 nfeat=19
+[sens s3] local_prep_fedavg rounds=1: val F1=0.6104 nfeat=12
+[sens s0] local_prep_fedavg rounds=1: val F1=0.8409 nfeat=14
+[sens s3] local_prep_fedavg rounds=2: val F1=0.7686 nfeat=12
+[sens s0] local_prep_fedavg rounds=2: val F1=0.8511 nfeat=14
+[sens s4] local_prep_fedavg rounds=5: val F1=0.8050 nfeat=13
+[sens s2] local_prep_fedavg lda_top=30: val F1=0.6928 nfeat=18
+[sens s1] local_prep_fedavg lda_top=30: val F1=0.9449 nfeat=21
+[sens s2] local_prep_fedavg rounds=1: val F1=0.6148 nfeat=14
+[sens s3] local_prep_fedavg rounds=5: val F1=0.8250 nfeat=12
+[sens s1] local_prep_fedavg rounds=1: val F1=0.9153 nfeat=15
+[sens s0] local_prep_fedavg rounds=5: val F1=0.8670 nfeat=14
+[sens s2] local_prep_fedavg rounds=2: val F1=0.6889 nfeat=14
+[sens s1] local_prep_fedavg rounds=2: val F1=0.9157 nfeat=15
+[sens s4] local_prep_fedavg rounds=10: val F1=0.8165 nfeat=13
+[sens s2] local_prep_fedavg rounds=5: val F1=0.6938 nfeat=14
+[sens s1] local_prep_fedavg rounds=5: val F1=0.9210 nfeat=15
+[sens s3] local_prep_fedavg rounds=10: val F1=0.8354 nfeat=12
+[sens s0] local_prep_fedavg rounds=10: val F1=0.8850 nfeat=14
+[sens s2] local_prep_fedavg rounds=10: val F1=0.6935 nfeat=14
+[sens s1] local_prep_fedavg rounds=10: val F1=0.9243 nfeat=15
+[sens s4] local_prep_fedavg rounds=20: val F1=0.8530 nfeat=13
+[sens s3] local_prep_fedavg rounds=20: val F1=0.8402 nfeat=12
+[sens s0] local_prep_fedavg rounds=20: val F1=0.8952 nfeat=14
+[sens s2] local_prep_fedavg rounds=20: val F1=0.6921 nfeat=14
+[sens s1] local_prep_fedavg rounds=20: val F1=0.9284 nfeat=15
+[sens s4] local_prep_fedavg rounds=40: val F1=0.8539 nfeat=13
+TASK: done sens_s4.jsonl
+[sens s3] local_prep_fedavg rounds=40: val F1=0.8426 nfeat=12
+TASK: done sens_s3.jsonl
+[sens s0] local_prep_fedavg rounds=40: val F1=0.8970 nfeat=14
+TASK: done sens_s0.jsonl
+[sens s2] local_prep_fedavg rounds=40: val F1=0.6311 nfeat=14
+TASK: done sens_s2.jsonl
+[sens s1] local_prep_fedavg rounds=40: val F1=0.9301 nfeat=15
+TASK: done sens_s1.jsonl
+stage all finished in 18.4 min

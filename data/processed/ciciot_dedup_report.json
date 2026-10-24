@@ -1,0 +1,10 @@
+{
+ "pool": "ciciot",
+ "rows_before": 809836,
+ "rows_after": 772037,
+ "duplicates_removed": 37799,
+ "by_class_after": {
+  "1": 386610,
+  "0": 385427
+ }
+}

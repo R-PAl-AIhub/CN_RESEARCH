@@ -1,0 +1,11 @@
+PIPDONE
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789998086.609472   24844 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789998094.123916   24844 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+TF 2.21.0 sklearn 1.9.1 numpy 2.4.6
+PASS
+corpus ciciot: X (200000, 46), splits {'train': 120005, 'val': 39995, 'test': 40000}, cats 13, dedup {'pool': 'ciciot', 
+central_svm        F1=0.9958 rec=0.9962 fpr=0.0046 nfeat= 16 prep=0.1s train=2.3s total=2.5s
+fedstat            F1=0.9933 rec=0.9916 fpr=0.0050 nfeat= 16 prep=0.1s train=4.7s total=4.9s jac=1.00
+CHECKDONE

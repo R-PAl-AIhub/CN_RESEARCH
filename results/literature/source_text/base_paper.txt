@@ -1,0 +1,704 @@
+=====PAGE 1=====
+An optimal federated learning-
+based intrusion detection for IoT 
+environment
+A. Karunamurthy1, K. Vijayan2, Pravin R. Kshirsagar3 & Kuan Tak Tan4
+Federated Learning (FL) allows the learning models in distributed systems to be trained by sharing the 
+network data and model parameters. The attack patterns of attackers are frequently upgraded as well 
+as the technology improves. Machine learning-based intrusion detection is familiar for cybersecurity 
+in IoT networks. However, these traditional procedures mainly focus on training the machine learning 
+model through specific data and parameters. This might reduce the detection performance of IDS as 
+the system doesn’t have insightful knowledge about the new attack patterns. Analyzing and detecting 
+intrusions by analyzing diverse attack patterns is complex for machine learning algorithms. To 
+overcome this, a federated learning-based intrusion detection approach is presented in this research 
+work that trains deep learning classifiers in IoT networks through federated learning and detects 
+different attacks. The Chimp optimization algorithm is used in the proposed work to select optimal 
+features. Experimentations using the benchmark MQTT dataset validate that the FL-based IDS 
+proposed in this research provides a maximum detection accuracy of 95.59% in detecting intrusions 
+over traditional machine learning algorithms.
+Keywords Federated learning, Deep learning, Intrusion detection, Network data, Security, Internet of things 
+(IoT)
+Over a decade, machine learning algorithms have been considered as an effective mechanism to detect intrusions 
+in a network. Numerous ML-based IDS are developed to detect intrusions in IoT networks and other wireless 
+sensor networks. However, the major limitation of ML-based IDS is its large and diverse dataset requirement for 
+training the network. Practically providing a large dataset for ML models to train the network is challenging, and 
+this challenge has increased in recent times due to dynamic, distributed heterogeneous networks. Besides this, 
+ML models face privacy and security issues due to their centralized characteristics. The chances of data leakage, 
+data breach, and unauthorized access decrease the confidence in adopting ML in data-sensitive applications1. To 
+overcome these challenges, Federated Learning (FL) has been presented recently to enable distributed learning 
+features without compromising security and privacy factors. The inherent heterogeneity and vast volume of IoT-
+generated data exacerbate these limitations, making it increasingly difficult for centralized ML models to adapt 
+to evolving attack patterns and maintain data privacy. These challenges underscore the need for decentralized, 
+privacy-preserving, and scalable solutions. To address these issues, the proposed framework introduces a 
+Federated Learning (FL)-based IDS that leverages the collaborative power of FL to train models across distributed 
+devices without compromising sensitive data. By integrating a novel Chimp Optimization Algorithm for feature 
+selection, the framework ensures reduced dimensionality of network data and improved classification accuracy. 
+This dual combination of FL and optimized feature selection introduces a unique approach to enhancing both 
+detection performance and data privacy in IoT environments. The novelty of the proposed framework lies in its 
+ability to efficiently handle complex attack scenarios, including Distributed Denial-of-Service (DDoS) and brute 
+force attacks, by combining decentralized learning, advanced optimization, and deep learning classifiers. These 
+contributions position the proposed model as a significant advancement in intrusion detection for IoT networks.
+Using FL, multiple clients can train a common model without disclosing private information 2. The model 
+can be trained by each client locally using their own data without sharing it with the central server. The client’s 
+model parameters are shared with central servers. The FL aggregator aggregates the client model updates and 
+provides a global model to the client for further processing. The clients replace the current model with a global 
+1Department of MCA, Sri Manakula Vinayagar Engineering College, Pondicherry, India. 2Department of Artificial 
+Intelligence and Data Science, Sapthagiri NPS university, Banglore, India. 3Professor & Head-ETC, J D College of 
+Engineering and Management, Nagpur, India. 4Engineering Cluster, Singapore Institute of Technology, Singapore, 
+Singapore. email: karunamurthy26@gmail.com
+OPEN
+Scientific Reports |         (2025) 15:8696 1| https://doi.org/10.1038/s41598-025-93501-8
+www.nature.com/scientificreports
+
+
+=====PAGE 2=====
+model to enhance the detection performance3. Due to this, the scalability and efficiency of IDS are improved in 
+the client networks.
+Recently various FL-based IDS have been developed by the research community, and most of the models 
+perform better than traditional machine learning-based IDS 4. Traditional Intrusion Detection Systems (IDS) 
+face significant challenges in IoT environments due to the decentralized nature of these networks and the volume 
+of data generated by interconnected devices. Centralized machine learning models are commonly used to detect 
+cyberattacks but it requires large datasets and involve privacy risks as sensitive information must be transmitted 
+to a central server for analysis. Deep learning models are widely preferred over ML models in various domains5,6. 
+Similarly, some of the deep learning models perform better in detecting different types of intrusions7. However, 
+to provide a decentralized approach to detecting intrusions and experiencing different types of attack patterns, 
+the FL-based IDS are popular among network environments. The features from the network data are selected 
+directly by the deep learning models, which might increase the complexity of the classification process. To 
+address these challenges, this research proposes a Federated Learning-based Intrusion Detection System (FL-
+IDS) that utilizes the features of Federated Learning (FL) and the Chimp Optimization Algorithm. FL allows 
+multiple IoT devices to collaboratively train a model without sharing raw data which enhances the privacy. 
+The Chimp Optimization Algorithm is applied to perform feature selection. The essential features from the 
+network traffic data are selected by the optimization algorithm thus, it will reduce the complexity and increase 
+the detection accuracy of the classifier. Moreover, due to the updated global parameters, all the clients will 
+experience this improved detection accuracy. The objective of proposed technique is to handle the complex 
+cyberattacks. Since IoT networks are frequently targeted by multiple attacks such as distributed denial-of-service 
+(DDoS), brute force, and data poisoning attacks. These attacks introduce vulnerabilities in distributed systems 
+and traditional IDS approaches struggle to handle this evolving threat patterns. By distributing the learning 
+process across devices and selecting the most critical features the proposed optimized FL-IDS for IoT network 
+provides enhanced detection accuracy and ensures privacy. The research work made the following contributions.
+• A decentralized Federated Learning-based Intrusion Detection System (FL-IDS) is presented for IoT net -
+works. The proposed method improves data privacy and security by allowing local devices to train models on 
+their own data and share only the model parameters with a central server for aggregation which secures the 
+sensitive information.
+• Proposed a novel optimal feature selection model using Chimp Optimization in the IDS domain to ensure 
+efficient feature selection. This reduces the dimensionality of network traffic data and enhances classification 
+accuracy.
+• The remote IoT instances are provided with convolutional neural network-based IDS with different param -
+eter settings. Further, through FL-aggregation, the parameters are aggregated to create a global model and 
+shared with clients to attain improved detection accuracy in all instances.
+• Detailed experimental evaluation of the proposed model is presented a using a benchmark MQTT dataset, 
+which has different IoT device traffic data. The Proposed model performance is evaluated and compared with 
+conventional ML models like decision tree, random forest, neural network, gradient boost and naïve bayes al-
+gorithms. With a detection accuracy of 95.59% the proposed model performs better than traditional machine 
+learning-based IDS approaches. This highlights the proposed model ability in effectively detect multiple types 
+of intrusions in IoT environments, including advanced attacks like DDoS and brute force attacks.
+The discussions in the following sections are arranged as: Sect. 2 provides a detailed literature review of recent 
+research works on IDS. Section  3 presents the proposed FL-based IDS. Experimentations using benchmark 
+dataset and the results are presented in Sect. 4. The conclusion is presented in Sect. 5.
+Related works
+Recent research works on Intrusion detection in IoT environments are presented in this section. Selecting 
+suitable ML model for malicious traffic classification is an important process. The review work presented in 8 
+analyzes various ML model performances which are suitable for smart city traffic classification. selecting suitable 
+ML to handle the cyber-attacks in smart city is addressed in 9. The presented model selects the optimal features 
+from network data and then utilizes ML algorithms to classify the attacks. Machine learning-based IDS faces 
+difficulty in detecting intrusions due to the enormous amount of data and distributed network-connected 
+devices. By addressing this, an FL-based IDS was proposed in 10, which shares local parameters with a central 
+server and aggregates to generate a global model. Based on the global model parameters, the clients are modified 
+and trained with local data to detect intrusions in the IoT network. Experimentation using the Edge IIoT dataset 
+attained an accuracy of 92.49%, which is slightly higher than ML-based approaches.
+The FL-based IDS presented in11 includes a discriminator network for attack detection in IoT edge devices. 
+Using deep learning model, feature extraction is performed and through discriminator network the features 
+are classified. Reduced incorrect prediction and improved security are the features of the presented FL-IDS 
+model. The FL based IDS presented for Industrial IoT environment addresses the heterogeneity issues in the 
+FL aggregation12. The detect attacks in the client instances an unsupervised device clustering procedure was 
+presented in this research which detects the presence of various attackers in IIoT network. For DDoS attack 
+detection, a federated integrated network IDS was presented in13 which analyzes the anomalous behavior through 
+HIDS and detect attacks in the network. Additionally using federated learning, the local system parameters are 
+updated to detect the anomalous traffic. Using this federated learning procedure, the detection accuracy was 
+improved and privacy issue in decentralized infrastructure is reduced.
+The IDS presented in14 utilizes FL to share the weights of local models and update with global model parameters 
+in IoT environment. The presented Federated averaging procedure utilizes different learning algorithms in client 
+Scientific Reports |         (2025) 15:8696 2| https://doi.org/10.1038/s41598-025-93501-8
+www.nature.com/scientificreports/
+
+=====PAGE 3=====
+locations and shares the parameters to central server. Based on the global model, the local model parameters are 
+updated to detect intrusions. Experimentations utilizes ToN-IoT dataset validates the better detection accuracy 
+of presented model over traditional approaches. The IDS presented in 15 includes federated learning and active 
+learning techniques to detect network flow-based intrusions in an IoT environment. The federated learning 
+model used to train the models in federation and the semi-supervised active learning model is used for global 
+model adaption. Experimentations using benchmark dataset validates that due to global model parameter 
+update procedure, the detection performance is increased by 7% compared to traditional procedure.
+The FL based IDS presented in16 combines anomaly-based IDS with FL to ensure the privacy of IIoT networks. 
+The presented model adopts instance-based transfer learning procedure at the local systems and includes a rank 
+aggregation with weighted voting approach for detecting intrusions with improved accuracy over Ada boost 
+and random forest algorithms. The IDS presented in 17 aimed to improve the detection accuracy and network 
+efficiency by detecting different attacks through federated learning procedure. The presented anomaly IDS 
+computes an intrusion score for the normal traffic using different variants of autoencoder models. Based on 
+the score, the intrusions are detected with better accuracy. Experimentations using conventional IDS2017 and 
+2018, TFC2016 datasets validates the proposed model performance through various metrics. A simple federated 
+sampling and light weight IDS presented in18 samples the network traffic using k-means and detects intrusions in 
+semi supervised learning procedure. The data privacy is ensured in the presented model through local clustering 
+so that summary statistics are shared to central server instead of privacy information.
+To ensure the robustness and balance the performance in detecting intrusions in IoT networks an FL-
+based NIDS was presented in 19 which utilizes federated artificial intelligence techniques to provide horizontal 
+scalability and data confidentiality. In the presented approach the models are initially trained with gaussian noise 
+values and then black box attacks are performed. Finally, the attacks are detected learning models with better 
+accuracy. Experimentation presents that the proposed IDS has better detection performances even for different 
+sizes of data samples. The FL based IDS presented for agricultural IoT networks prevents attacks by training the 
+deep learning algorithms through the global parameters 20,21. Recurrent neural network, deep neural network, 
+and convolutional neural network are employed in the remote locations and their parameters are aggregated and 
+updated with global parameters. Experimentations using benchmark datasets presented the better performance 
+of FL model. However, the classifier computation complexity is comparatively higher in the presented model.
+The FL-based IDS presented in22 utilizes gated recurrent units in client locations and shares the parameters 
+to FL-aggregation module to generate a global model. The learned weights are updated with the client IDS and 
+detects intrusions with better accuracy over traditional ML based approaches. Similar GRU with FL based IDS 
+presented in23,24 which updates the learning models parameters based on global model parameter provided by 
+the central server. The presented model experimentation shows that the detection performance is improved 
+by 8% over traditional approach and reduces the communication cost in IoT environment compared to other 
+FL algorithms. The anomaly and malicious traffic detection model presented in 25 for an IoT network utilizes 
+machine learning algorithm with a novel feature selection model. The presented feature selection model utilizes 
+wrapper techniques to filter the features and selects the optimal features using ML algorithm area under the 
+curve metric. Finally using Shannon entropy based softest the detection model validates the selected features in 
+the malicious traffic identification process. similar model presented in 26 utilizes wrapper technique for feature 
+filtering and utilizes different ML classifiers to detect different intrusions and malicious events in an IoT traffic. 
+The IDS presented in 27 combines FL with LSTM to detect the network intrusions in IoT environment. The 
+presented approach deploys LSTM global model to all users and train the model. After training the parameters 
+are updated with central server and based on the aggregated parameters a global model is generated and updated 
+with clients. Due to this, the detection accuracy of client IDS is improved better than traditional detection 
+procedures. IoT anomalies have also been extensively research in the literature28,29.
+From the above study, it can be summarized that the role of learning algorithms specifically deep learning 
+algorithms is inevitable in IDS designs. However, by combining FL with deep learning the performance can be 
+improved further and security issues can be reduced. In few research works for feature extraction deep learning 
+models are utilized. Including optimization model for better feature processing will enhance the intrusion 
+detection performance. Thus, in this research work an optimal FL-based IDS was presented to for intrusion 
+detection in an IoT environment.
+Proposed work
+The proposed optimal FL based IDS for IoT Environment aimed to detect different intrusions in IoT environment. 
+The complete overview of the proposed FL-based ID model is presented in Fig.  1. The high-level architecture 
+includes multiple IoT instances distributed at different sites. All the IoT instances are connected through 
+gateways, and the network data will be shared through the gateway. An intrusion detector will be placed in the 
+security gateway for monitoring the IoT instance traffic data. This makes the architecture more independent 
+and intelligent so that the system does not need to rely on traditional server-device mechanisms and procedures 
+for decision-making. Also, this intelligent detection mechanism reduces the detection time by analyzing the 
+shared network data. Federated setup is introduced in the gateway arrangement. For every stipulated time, the 
+learning models used in the IoT instances will be trained on local network data. Then, the model parameters are 
+aggregated to create a global model so that more sophisticated detection performances can be obtained for all the 
+models. The main feature of FL in the research work is to share the learning models with server and aggregating 
+the learning models will provide a global intelligence model which can able to detect the attacks with higher 
+accuracy than traditional modes. The global optimized model used in the gateways increases the knowledge of 
+gateways about empowers IoT instances to detect intrusions better manner.
+The proposed architecture for the Federated Learning-based Intrusion Detection System (FL-IDS), as shown 
+in Fig. 1, is designed to effectively address key challenges in IoT environments, such as scalability, data privacy, 
+Scientific Reports |         (2025) 15:8696 3| https://doi.org/10.1038/s41598-025-93501-8
+www.nature.com/scientificreports/
+
+=====PAGE 4=====
+and computational efficiency. At its core, the architecture is built around distributed IoT instances, which act 
+as data generators and execute local intrusion detection using trained Convolutional Neural Network (CNN) 
+models. These instances enable decentralized processing, ensuring data privacy by keeping raw data within 
+local devices and significantly reducing the risk of data breaches. Security gateways serve as intermediaries 
+between the IoT instances and the central server. These gateways play a crucial role in managing the data flow, 
+hosting the feature selection module, and executing localized intrusion detection tasks. By processing data at 
+the gateway level, the architecture reduces the reliance on centralized systems, lowering latency and enhancing 
+fault tolerance. The feature selection module, powered by the Chimp Optimization Algorithm, optimizes the 
+dataset by identifying and selecting the most relevant features from network traffic data. This step is essential for 
+reducing the dimensionality of the data, improving classification accuracy, and minimizing the computational 
+load, especially in resource-constrained IoT devices.
+Each IoT instance is equipped with a local CNN-based learning model that processes the optimized feature 
+set for training. These local models are periodically updated and shared with a Federated Aggregation Server. 
+The server aggregates the parameters from all local models to create a global model, which is redistributed back 
+to the IoT instances. This global model ensures consistency across the system and enhances the detection of 
+evolving attack patterns, such as Distributed Denial-of-Service (DDoS) and brute force attacks. The integration 
+of Federated Learning with optimization ensures privacy-preserving data processing while maintaining high 
+detection accuracy. This innovative combination makes the architecture scalable, efficient, and adaptable to 
+heterogeneous IoT environments, distinguishing it from traditional IDS solutions.
+Preprocessing the network data is the first step of the proposed ID model. The source and destination 
+connection has TCP packet sequences. Each packet will have different features. Network logs information will 
+be present in each packet and the bidirectional features are used to detect the intrusions. Next to preprocessing, 
+feature selection is performed where Chimp Optimization Algorithm is used in the proposed model. Due to the 
+feature benefits of fast convergence and doesn’t require large computational resources to find optimal solution, 
+Fig. 1. Proposed Optimal FL-based IDS architecture.
+ 
+Scientific Reports |         (2025) 15:8696 4| https://doi.org/10.1038/s41598-025-93501-8
+www.nature.com/scientificreports/
+
+=====PAGE 5=====
+chimp optimization will suit better than other optimization algorithms in the feature selection process of ID 
+model. The thinking ability, hunting behavior, and sexual motivation of chimps are formulated in the optimization 
+algorithm. The ability to find optimal solution in complex environment is better in chimp optimization thus it is 
+used in the proposed model for feature selection.
+The four stages of chimp optimization are driving, attacking, chasing, and blocking. The optimization model 
+was initialized randomly with chimps. The prey breakout path was predicted by the attacker and it forces the 
+prey to move close to chaser. The prey was followed by driver without performing any attack and barrier chimp 
+generates barriers in the attack process. The process of chasing and driving is mathematically formulated as
+ d = |c.xprey (r) − m.xchimp| (1)
+ xchimp (r + 1) = xprey (r) − a.d (2)
+ a =2 fr 1 − f  (3)
+ c =2 fr 2 (4)
+where the prey location vector is indicated using xprey  and the chimp location vector is indicated using xchimp
+. The parameters a, c, and m are the coefficient vectors and the parameter r1 and r2 are random vectors and 
+its range are given as [0,1] and [0,2.5] respectively.
+In the hunting process, chimps search for prey locations and then evaluate the prey position based on their 
+hunting strategy. The chimps in the group update the position of prey, and this hunting process is mathematically 
+given as
+ dattacker = |c1.xattacker − m1.x1| (5)
+ dbarrier = |c2.xbarrier − m2.x2| (6)
+ dchaser = |c3.xchaser − m3.x3| (7)
+ ddriver = |c4.xdriver − m4.x4| (8)
+where x1 = xattacker − a1 (dattacker ) (9)
+ x2 = xbarrier − a2 (dbarrier ) (10)
+ x3 = xchaser − a3 (dchaser ) (11)
+ x4 = xdriver − a4 (ddriver ) (12)
+ x (t + 1) = x1 + x2 + x3 + x4
+4  (13)
+where x (t + 1) indicates the chimp updated location, xattacker  indicates the first better search agent, xbarrier  
+and xchaser  are the second and third better search agent. The fourth better search agent is xdriver . After 
+hunting, the sexual motivation of chimps is mathematically formulated as
+ xchimp (t + 1) =
+{ xprey (l) − a.d if δ < 0.5
+choatic_value if δ > 0.5  (14)
+where δ  is a random number with in the range [0,1]. In real, chimps will continuously change their location, 
+thus in the proposed model feature selection process, the fitness of chimps are formulated as a function to select 
+the essential features and to improve the detection accuracy. The fitness function is mathematically formulated 
+as
+ F itchimp (i)= α .A (i)+( 1 − α ) .log10 (N/n (i)) (15)
+where F itchimp (i) indicates the ith chimp fitness function and the total accuracy of ith chimp is indicated 
+using A (i). N  defines the total number of features and n (i) is the features selected by ith chimp. The weighted 
+parameter α  is assumed to be less than one, and its optimal value has been obtained by train and error procedure.
+Next to optimal feature selection, the architecture has learning models. In the proposed work convolutional 
+neural network is used for training procedures. The CNN model has multiple convolution and pooling layers 
+and provides classification outputs which will be used to analyze the intrusions. The CNN model will be trained 
+with different patterns of attacks and the final SoftMax function classify the network traffic into different attack 
+categories. The optimal features selected by the optimization models are given as input to the deep learning 
+classifier. The temporal information in the feature sets is learned by the CNN and get trained to detect the attacks. 
+Once the model is trained, the trained CNN model will be shared among other IoT instances for detecting 
+attacks in the real time network data of IoT devices.
+The federated learning procedure is associated will all the IoT instances. Each instance connected in the 
+architecture will have a training data and using the shared view of learning model the classifier in the instance 
+gets trained. Once it gets trained, the parameters are shared with the central server for aggregation. The process 
+of federated learning is simplified in the following steps.
+Step 1: Share the initial model with other IoT instances.
+Scientific Reports |         (2025) 15:8696 5| https://doi.org/10.1038/s41598-025-93501-8
+www.nature.com/scientificreports/
+
+=====PAGE 6=====
+Step 2: Based on the base model from server, the client learning model will get retrained using the local 
+network data.
+Step 3: Feature information in the network data is provided as input to the learning model for attack detection. 
+Using the training parameters, learning models detects the attack classes.
+Step 4: After training the learning model for several epochs,  the classification model will be sent to server for 
+FL aggregation. Based on all the classification model parameters, a global model will be created.
+Step 5: The created global model is shared with other IoT environment. In client side,  the current model is 
+replaced with global shared model and trained with local data to detect attacks.
+Due to FL aggregation, the communication overhead is reduced as the sharing procedure utilizes only the 
+parameter details, not any other sensitive information from local data. Mathematically, the FL aggregation 
+process is formulated as
+ 
+Fk (w)= 1
+nk
+∑
+i∈ pk fi (w) (16)
+ fi (w)=
+∑
+K
+k=1
+nk
+n Fk (w) (17)
+where the number of clients or IoT instances are indicated using K and its index is indicated using k. The 
+total number of data samples used to train the instance k is given as nk . The proposed model attack detection 
+procedure is summarized in the pseudocode given below.
+Algorithm. Optimal FL based IDS for IoT environment.
+Results and discussion
+For the proposed model evaluation, the experimentation utilizes MQTT protocol dataset which is available in 
+Kaggle repository30. This dataset simulates real-world IoT device communications and contains both normal 
+and attack traffic. The attack types include.
+• Brute Force Attack - A type of cyberattack where multiple login attempts are made to gain unauthorized 
+access.
+• Flooding DoS (Denial of Service) - An attack that overwhelms the network with excessive data, leading to 
+disruption.
+• MQTT Publish Flood - A targeted attack on the MQTT protocol, causing a flood of publish requests to over-
+whelm the system.
+• Malformed Data Attack - An attack that involves sending corrupted or unexpected data to exploit system 
+vulnerabilities.
+• SlowITe Attack - An advanced attack that uses slow HTTP connections to exhaust server resources.
+Scientific Reports |         (2025) 15:8696 6| https://doi.org/10.1038/s41598-025-93501-8
+www.nature.com/scientificreports/
+
+=====PAGE 7=====
+The experimentation was performed using python tool with essential libraries and tools. The PyTorch library 
+was used for implementing the deep learning model which serves as the classifier in the proposed model. SciPy 
+and NumPy libraries are used for mathematical and computational operations in optimization model. The 
+experimental setup of proposed model has an Intel i5 processor with 32GB memory and the simulation tool used 
+for evaluation is Python. Table 1 presents the details about the dataset. Before training and testing the dataset is 
+balanced and in the balanced data 70% of the data are used for training and 30% is used for testing.
+In the experimentation process, the data in the MQTT dataset is processed initially by the Chimp 
+Optimization Algorithm to reduce the dimensionality of the dataset by selecting the most relevant features 
+from network traffic data. This step ensures that the classifier receives only the most critical information and 
+reduces the computational complexity and increases the accuracy. After optimal feature selection, in the local 
+model training, each IoT instance in the federated learning setup trained its own CNN model using local data. 
+Further in the Federated Aggregation, the trained models from each instance were sent to the central server and 
+the parameters are aggregated to form a global model. Finally, to test and evaluate the model, the global model 
+is then tested and performance metrics such as accuracy, precision, recall, and F1-score are computed. The 
+proposed model performance is comparatively evaluated with existing machine learning models like Multilayer 
+perceptron, Decision tree, Random Forest, Neural network, Gradient boost, Naïve bayes algorithms 31. The 
+simulation parameters of the existing machine learning algorithms and the proposed model is presented in 
+Table 2.
+Models Parameter Range/Type
+Neural network
+Number of layers 3
+Number of Neurons per layer 128,64, 32
+Learning Rate 0.01
+Activation function ReLU
+Random Forest
+Number of estimators 100
+Max depth 20
+Min sample split, leaf 2,1
+Criterion Gini
+Naïve bayes Alpha 1.0
+Decision tree
+Max depth 10
+Min sample split, leaf 2,1
+Criterion Gini
+Gradient boost
+Number of estimators 20
+Learning Rate 0.1
+Max depth 3
+MLP
+Batch size 1000
+Activation ReLU
+Optimizer Adam
+Learning Rate 0.001
+Hidden layers 100,50
+Regularization term (L2) 0.001
+Proposed FL-CNN
+Batch size 1000
+Number of Filters in conv layer 32,64,128
+Convolution Kernel size 3 × 3
+Drop out 0.5
+Activation ReLU
+Optimizer Adam
+Table 2. Simulation hyperparameters.
+ 
+Attack Number of Packets Packet size (Mb)
+Flooding DoS 130,223 49.87
+MQTT Publish flood 613 8.212
+SlowITe 9202 9.722
+Malformed data 10,924 1.038
+Brute Force 14,501 1.397
+Table 1. MQTT dataset description.
+ 
+Scientific Reports |         (2025) 15:8696 7| https://doi.org/10.1038/s41598-025-93501-8
+www.nature.com/scientificreports/
+
+=====PAGE 8=====
+The metrics used for proposed model performances evaluation are recall, precision, f1-score and accuracy. 
+The optimization model performance is evaluated, and the list of optimal features selected by the optimization 
+model is presented in Fig. 2. The convergence curve indicates the proposed optimized feature selection process, 
+selects the optimal features with better average fitness function. Out of 34 generalized features, the proposed 
+optimized feature selection model, selects 17 essential features which are used to detect the intrusions in the IoT 
+network. The list of selected features is presented in Fig. 3.
+The existing and proposed model performances is evaluated through the confusion matrix obtained during 
+the test process. For each model, the confusion matrix is obtained and the metrics are calculated so that it can be 
+used to compare with the proposed model.
+Fig. 3. List of Features selected by the optimization model.
+ 
+Fig. 2. Optimization convergence curve.
+ 
+Scientific Reports |         (2025) 15:8696 8| https://doi.org/10.1038/s41598-025-93501-8
+www.nature.com/scientificreports/
+
+=====PAGE 9=====
+Figure 4 depicts the confusion matrix for Neural network model which shows that the model has attained 
+0.9045 as classification accuracy with misclassification rate of 0.0955. The class recall, precision, and f1-score 
+attained by the neural network model is presented in Table  3 and from that, the average precision value is 
+obtained as 0.8818, recall as 0.8523 and f1-score as 0.8668.
+Figure 5 depicts the confusion matrix for random forest model and it shows that the model has attained 
+0.9160 as classification accuracy with misclassification rate of 0.0840. The class precision, recall and f1-score 
+Class Recall Precision F1-Score Accuracy
+Brute Force 0.8339 0.7297 0.7783
+0.9045
+Dos 0.8766 0.8901 0.8833
+Flood 0.762 0.9069 0.8282
+Legitimate 0.9827 0.9388 0.9603
+Malformed 0.6587 0.825 0.7325
+SlowITe 1 1 1
+Table 3. Neural network model performance metrics for each class.
+ 
+Fig. 4. Neural Network model confusion matrix.
+ 
+Scientific Reports |         (2025) 15:8696 9| https://doi.org/10.1038/s41598-025-93501-8
+www.nature.com/scientificreports/
+
+=====PAGE 10=====
+attained by the neural network model is presented in Table  4 and from that, the average precision value is 
+obtained as 0.9034, recall as 0.8694 and f1-score as 0.8861.
+Figure 6 depicts the confusion matrix for Naïve Bayes model and it shows that the model has attained 0.6439 
+as classification accuracy with misclassification rate of 0.3561. The class precision, recall and f1-score attained by 
+the neural network model is presented in Table 5 and from that, the average precision value is obtained as 0.8427, 
+recall as 0.6588 and f1-score as 0.7395.
+Class Recall Precision F1-Score Accuracy
+Brute Force 0.8823 0.7772 0.8265
+0.916
+Dos 0.8732 0.9032 0.8879
+Flood 0.756 0.9195 0.8298
+Legitimate 0.9858 0.9367 0.9606
+Malformed 0.7192 0.8835 0.7929
+SlowITe 1 1 1
+Table 4. Random forest model performance metrics for each class.
+ 
+Fig. 5. Random Forest model confusion matrix.
+ 
+Scientific Reports |         (2025) 15:8696 10| https://doi.org/10.1038/s41598-025-93501-8
+www.nature.com/scientificreports/
+
+=====PAGE 11=====
+Figure 7 depicts the confusion matrix for MLP model and it shows that the model has attained 0.9038 as 
+classification accuracy with misclassification rate of 0.0962. The class precision, recall and f1-score attained by 
+the neural network model is presented in Table 4 and from that, the average precision value is obtained as 0.8803, 
+recall as 0.8519 and f1-score as 0.8629. Table 6 shows the MLP model performance metrics for each class.
+Figure 8 depicts the confusion matrix for gradient boost model and it shows that the model has attained 
+0.8842 as classification accuracy with misclassification rate of 0.1158. The class precision, recall and f1-score 
+attained by the neural network model is presented in Table  7 and from that, the average precision value is 
+obtained as 0.8575, recall as 0.8264 and f1-score as 0.8416.
+Class Recall Precision F1-Score Accuracy
+Brute Force 0.9852 0.2236 0.3644
+0.6439
+Dos 0.7167 0.9628 0.8217
+Flood 0.488 0.8893 0.6302
+Legitimate 0.6216 0.9846 0.7621
+Malformed 0.141 0.9981 0.2471
+SlowITe 1 0.998 0.999
+Table 5. Naïve Bayes model performance metrics for each class.
+ 
+Fig. 6. Naïve Bayes model confusion matrix.
+ 
+Scientific Reports |         (2025) 15:8696 11| https://doi.org/10.1038/s41598-025-93501-8
+www.nature.com/scientificreports/
+
+=====PAGE 12=====
+Figure 9 depicts the confusion matrix for decision tree model and it shows that the model has attained 0.9159 
+as classification accuracy with misclassification rate of 0.0841. The class precision, recall and f1-score attained 
+by the neural network model is presented in Table  4 and from that, the average precision value is obtained as 
+0.9033, recall as 0.8694 and f1-score as 0.8860. Table 8 represents the decision tree model performance metrics 
+for each class.
+Figure  10 depicts the confusion matrix for proposed FL-CNN model and it shows that the model has 
+attained maximum accuracy of 0.9559 with misclassification rate of 0.0441. The class precision, recall and f1-
+Class Recall Precision F1-Score Accuracy
+Brute Force 0.8334 0.7326 0.7798
+0.9038
+Dos 0.8765 0.8808 0.8786
+Flood 0.7608 0.9059 0.8271
+Legitimate 0.9817 0.939 0.9598
+Malformed 0.6587 0.8236 0.732
+SlowITe 1 0.9998 0.9999
+Table 6. MLP model performance metrics for each class.
+ 
+Fig. 7. MLP model confusion matrix.
+ 
+Scientific Reports |         (2025) 15:8696 12| https://doi.org/10.1038/s41598-025-93501-8
+www.nature.com/scientificreports/
+
+=====PAGE 13=====
+score attained by the neural network model is presented in Table 9 and from that, the average precision value is 
+obtained as 0.9479, recall as 0.9330 and f1-score as 0.9404.
+The average values obtained by each algorithm are comparatively analyzed and the precision-recall metric 
+comparative analysis is shown in Fig. 11. From the analysis, it can be observed that the performance of proposed 
+FL-CNN is better than the existing algorithms. The proposed model average precision is 0.9479 which is 4.4% 
+better than random forest and decision tree models, approximately 6.6% better than Neural network and MLP 
+models. The proposed model attained precision is approximately 9% better than gradient boost and 10% better 
+Class Recall Precision F1-Score Accuracy
+Brute Force 0.8378 0.7144 0.7712
+0.8842
+Dos 0.8698 0.8879 0.8787
+Flood 0.6784 0.8459 0.7529
+Legitimate 0.9719 0.9238 0.9472
+Malformed 0.6233 0.8002 0.7008
+SlowITe 0.9769 0.9726 0.9747
+Table 7. Gradient boost model performance metrics for each class.
+ 
+Fig. 8. Gradient Boost model confusion matrix.
+ 
+Scientific Reports |         (2025) 15:8696 13| https://doi.org/10.1038/s41598-025-93501-8
+www.nature.com/scientificreports/
+
+=====PAGE 14=====
+than naïve bayes model. Similarly, the proposed model average recall value is 0.933 which is 6.3% better than 
+random forest and decision tree models, approximately 8.1% better than Neural network and MLP models. The 
+proposed model attained recall is approximately 10.6% better than gradient boost and 27% better than naïve 
+bayes model.
+Figure 12 depicts the comparative analysis of F1-Score and accuracy metrics for all the models and it can be 
+observed that the performance of proposed FL-CNN is better than the other algorithms. The proposed model 
+average F1-score is 0.9404 which is 5.4% better than random forest and decision tree models, approximately 
+Class Recall Precision F1-Score Accuracy
+Brute Force 0.8822 0.7772 0.8264
+0.9159
+Dos 0.8732 0.9032 0.8879
+Flood 0.756 0.9194 0.8297
+Legitimate 0.9858 0.9367 0.9606
+Malformed 0.7192 0.8834 0.7929
+SlowITe 1 1 1
+Table 8. Decision tree model performance metrics for each class.
+ 
+Fig. 9. Decision tree model confusion matrix.
+ 
+Scientific Reports |         (2025) 15:8696 14| https://doi.org/10.1038/s41598-025-93501-8
+www.nature.com/scientificreports/
+
+=====PAGE 15=====
+7.4% better than Neural network and 7.75% better than MLP model. The proposed model attained F1-score is 
+approximately 9.8% better than gradient boost and 20% better than naïve bayes model. Similarly, the proposed 
+model accuracy value is 0.9559 which is 4% better than random forest and decision tree models, approximately 
+5.14% better than Neural network and 5.21% better than MLP model. The proposed model accuracy is 
+approximately 7% better than gradient boost and 31% better than naïve bayes model. Due to poor feature 
+selection and classification performance the detection performance of naïve bayes is greatly reduced compared 
+to all other algorithms.
+Class Recall Precision F1-Score Accuracy
+Brute Force 0.922 0.9063 0.9141
+0.9559
+Dos 0.9303 0.9127 0.9214
+Flood 0.8668 0.952 0.9074
+Legitimate 0.9903 0.9678 0.9789
+Malformed 0.8886 0.9488 0.9177
+SlowITe 1 1 1
+Table 9. Proposed FL-CNN model performance metrics for each class.
+ 
+Fig. 10. Proposed FL-CNN model confusion matrix.
+ 
+Scientific Reports |         (2025) 15:8696 15| https://doi.org/10.1038/s41598-025-93501-8
+www.nature.com/scientificreports/
+
+=====PAGE 16=====
+Table 10 provides the overall performance metrics values of all the algorithms used in the experimentation. 
+The proposed FL-CNN model has attained the maximum values for all the metrics, which indicates its better 
+detection performance. Due to the federated learning procedure, and global model-based parameter update 
+the detection performance is greatly improved in the IoT instances which improves the overall security of the 
+network.
+Conclusion
+In this research work, an optimal federated learning-based IDS for IoT environment is presented. The concept 
+of sharing the network parameters and developing a global model to ensure maximum accuracy in intrusion 
+detection is incurred through the federated learning procedure. The presented IDS has optimal feature selection 
+module which selects the optimal features from the network data to detect the intrusions. The deep learning 
+classifier detects different types of intrusions based on the learning parameters provided by the FL global model. 
+The detection performance is improved using the federated learning procedure compared to traditional machine 
+learning based intrusion detection models. Experimental analysis which utilizes MQTT dataset validates the 
+performances of proposed FL-CNN and conventional machine learning models. The maximum detection 
+accuracy was attained by the proposed FL-CNN in detecting different types of attacks. Though the proposed 
+model better detection performance it has few limitations. If the local model gets affected and sends wrong 
+parameters for model aggregation due to malicious data in the local training, then it will affect the global model 
+accuracy. Also, the optimization algorithm slightly increases the computational complexity in IoT systems. To 
+overcome this in future, computationally efficient federated learning techniques can be developed which suitable 
+resource-constrained IoT devices such as low-power edge devices or sensors.
+Fig. 11. Comparative analysis of precision and recall metrics.
+ 
+Scientific Reports |         (2025) 15:8696 16| https://doi.org/10.1038/s41598-025-93501-8
+www.nature.com/scientificreports/
+
+=====PAGE 17=====
+Data availability
+Data is provided within the manuscript.
+Received: 12 April 2024; Accepted: 7 March 2025
+References
+ 1. Bimal, G., Danda, B. & Rawat Recent advances on federated learning for cybersecurity and cybersecurity for federated learning for 
+internet of things. IEEE Internet Things J. 9 (11), 8229–8249 (2022).
+ 2. Enrique Mármol Campos, J. L., Hernández-Ramos, J. B., Bernabé, G., Baldini, A. & Skarmeta Evaluating Federated Learning for 
+intrusion detection in Internet of Things: Review and challenges, Computer Networks, vol. 203, pp. 1–16, (2022).
+ 3. Hamdi, N. Federated learning-based intrusion detection system for internet of things. Int. J. Inf. Secur. 22, 1937–1948 (2023).
+ 4. Sawsan Abdul Rahman. Hanine Tout; Chamseddine Talhi; Azzam Mourad, internet of things intrusion detection: centralized, 
+On-Device, or federated learning. IEEE Netw. 34 (6), 310–317 (2020).
+ 5. Rekha, V ., Manoharan, S., Hemalatha, J., Saravanan, D. & R. & Deep learning models for multiple face mask detection under a 
+complex big data environment. Procedia Comput. Sci. 215, 706–712 (2022).
+S.No Methods Recall Precision F1-Score Accuracy
+1 Neural network29 0.8523 0.8818 0.8668 0.9045
+2 Random Forest29 0.8694 0.9034 0.8861 0.9160
+3 Naïve Bayes29 0.6588 0.8427 0.7395 0.6439
+4 MLP29 0.8519 0.8803 0.8629 0.9038
+5 Gradient Boost29 0.8264 0.8575 0.8416 0.8842
+6 Decision tree29 0.8694 0.9033 0.8860 0.9159
+7 Proposed FL-CNN 0.9330 0.9479 0.9404 0.9559
+Table 10. Overall performance metrics for each model.
+ 
+Fig. 12. Comparative analysis of F1-Score and Accuracy metrics.
+ 
+Scientific Reports |         (2025) 15:8696 17| https://doi.org/10.1038/s41598-025-93501-8
+www.nature.com/scientificreports/
+
+=====PAGE 18=====
+ 6. Manoharan, J. S. Double attribute-based node deployment in wireless sensor networks using novel weight-based clustering 
+approach. Sadhana 47 (3), 1–11 (2022).
+ 7. Dapeng Man, F . et al. Intelligent Intrusion Detection Based on Federated Learning for Edge-Assisted Internet of Things, Security 
+and Communication Networks, vol. 2022, pp.1–11. (2021).
+ 8. Muhammad Shafiq, Z., Tian, A. K., Bashir, A., Jolfaei, X. & Yu Data mining and machine learning methods for sustainable smart 
+cities traffic classification: A survey. Sustainable Cities Soc. 60, 102177 (2020).
+ 9. Muhammad Shafiq, Z., Tian, Y ., Sun, X., Du, M. & Guizani Selection of effective machine learning algorithm and Bot-IoT attacks 
+traffic identification for internet of things in smart City. Future Generation Comput. Syst. 107, 433–442 (2020).
+ 10. Rashid, M. M. et al. A federated Learning-Based approach for improving intrusion detection in industrial internet of things 
+networks. Network 3 (1), 158–179 (2023).
+ 11. Ruijie, Z. & Gui, G. Yijun Wang; Zhi Xue; Tomoaki Ohtsuki; Bamidele Adebisi; Semisupervised Federated-Learning-Based 
+Intrusion Detection Method for Internet of Things, IEEE Internet of Things Journal, vol. 10, no. 10, pp. 8645–8657, (2023).
+ 12. Xabier Sáez-de-Cámara, Flores, J. L., Arellano, C., Urbieta, A. & Zurutuza, U. Clustered federated learning architecture for network 
+anomaly detection in large scale heterogeneous IoT networks. Computers Secur. 131, 1–20 (2023).
+ 13. Francisco Lopes de Caldas Filho, Soares, S. C. M. & Oroski, E. Robson de Oliveira Albuquerque, Rafael zerbini Alves Da Mata, 
+Fábio Lúcio lopes de mendonça, Rafael Timóteo de Sousa júnior, botnet detection and mitigation model for IoT networks using 
+federated learning. Sensors 23 (14), 1–35 (2023).
+ 14. Pedro Ruzafa-Alcázar; Pablo Fernández-Saura; Enrique Mármol-Campos; Aurora González-Vidal; José L. Hernández-Ramos; 
+Jorge Bernal-Bernabe, Antonio, F . & Skarmeta Intrusion Detection Based on Privacy-Preserving Federated Learning for the 
+Industrial IoT, IEEE Transactions on Industrial Informatics, vol. 19, no. 2, pp. 1145–1154, (2023).
+ 15. Vasiliki Kelli, V . et al. IDS for industrial applications: A federated learning approach with active personalization. Sensors 21 (20), 
+1–17 (2021).
+ 16. Zhang, J., Luo, C., Marcus, C. & Min, G. Federated learning for distributed IIoT intrusion detection using transfer approaches. 
+IEEE Trans. Industr. Inf. 19 (7), 8159–8169 (2023).
+ 17. Idrissi, M. J. et al. Fed-ANIDS: federated learning for anomaly-based network intrusion detection systems. Expert Syst. Appl. 234, 
+1–11 (2023).
+ 18. Hajj, S. et al. Cross-Layer federated learning for lightweight IoT intrusion detection systems. Sensors 23 (16), 1–26 (2023).
+ 19. Jonathas, A. et al. F-NIDS — A network intrusion detection system based on federated learning. Comput. Netw. 236, 1–14 (2023).
+ 20. Othmane Friha, M. A. et al. FELIDS: Federated learning-based intrusion detection system for agricultural Internet of Things, 
+Journal of Parallel and Distributed Computing, vol.165, pp. 17–31, (2022).
+ 21. Kavitha, M. et al. Smart Environment and Plant Disease Monitoring with Analysis System in Agricultural Field, 2023 IEEE 
+International Conference on ICT in Business Industry & Government (ICTBIG), Indore, India, 08–09 December 2023.
+ 22. Viraaji Mothukuri; Prachi Khare, Reza, M. & Parizi Seyedamin Pouriyeh; Ali Dehghantanha; Gautam Srivastava, Federated-
+Learning-Based anomaly detection for IoT security attacks. IEEE Internet Things J. 9 (4), 2545–2554 (2022).
+ 23. Pan, Z. C. Intrusion Detection for Wireless Edge Networks Based on Federated Learning, IEEE Access, vol. 8, pp. 217463–217472, 
+(2020).
+ 24. Asuvaran, A. & Senthilkumar, S. Low delay error correction codes to correct stuck-at defects and soft errors, 2014 International 
+Conference on Advances in Engineering and Technology (ICAET), 02–03 May (2014).
+ 25. Muhammad Shafiq; Zhihong Tian; Ali Kashif Bashir. Xiaojiang Du; Mohsen Guizani, CorrAUC: A malicious Bot-IoT traffic 
+detection method in IoT network using Machine-Learning techniques. IEEE Internet Things J. 8, 5, pp. 3242–3254, (2021).
+ 26. Muhammad Shafiq, Z., Tian, A. K., Bashir, X., Du, M. & Guizani IoT malicious traffic identification using wrapper-based feature 
+selection mechanisms. Computers Secur. 94, 101863, (2020).
+ 27. Zhao, R., Yin, Y ., Shi, Y . & Xue, Z. Intelligent intrusion detection based on federated learning aided long short-term memory. Phys. 
+Commun. 42, 1–12 (2020).
+ 28. Shafiq, M., Tian, Z., Bashir, A. K., Du, X. & Guizani, M. CorrAUC: A malicious Bot-IoT traffic detection method in IoT network 
+using Machine-Learning techniques. IEEE Internet Things J. 8 (5), 3242–3254. https://doi.org/10.1109/JIOT.2020.3002255 (2021).
+ 29. Shafiq, M., Tian, Z., Bashir, A. K., Du, X. & Guizani, M. IoT malicious traffic identification using wrapper-based feature selection 
+mechanisms. Computers Secur. 94. https://doi.org/10.1016/j.cose.2020.101863
+ 30. https://www.kaggle.com/datasets/cnrieiit/mqttset.
+ 31. Ivan Vaccari, G., Chiola, M., Aiello, M., Mongelli, E. & Cambiaso MQTTset, a New Dataset for Machine Learning Techniques on 
+MQTT, Sensors, vol. pp.1–17, 2020. (2020).
+Author contributions
+All the authors are contributed this research work draft this manuscript.
+Declarations
+Competing interests
+The authors declare no competing interests.
+Additional information
+Correspondence and requests for materials should be addressed to A.K.
+Reprints and permissions information is available at www.nature.com/reprints.
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and 
+institutional affiliations.
+Scientific Reports |         (2025) 15:8696 18| https://doi.org/10.1038/s41598-025-93501-8
+www.nature.com/scientificreports/
+
+=====PAGE 19=====
+Open Access  This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 
+4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in 
+any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide 
+a link to the Creative Commons licence, and indicate if you modified the licensed material. Y ou do not have 
+permission under this licence to share adapted material derived from this article or parts of it. The images or 
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated 
+otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence 
+and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to 
+obtain permission directly from the copyright holder. To view a copy of this licence, visit  h t t p : / / c r e a t i v e c o m m o 
+n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 /     .  
+© The Author(s) 2025 
+Scientific Reports |         (2025) 15:8696 19| https://doi.org/10.1038/s41598-025-93501-8
+www.nature.com/scientificreports/

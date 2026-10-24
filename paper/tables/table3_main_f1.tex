@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering
+\caption{Test F1 (attack class), mean $\pm$ std over 10 seeds; best in bold. ``Senior'' fits preprocessing on all rows before the split; Central rows are not federated.}
+\label{tab:main}
+\tiny
+\setlength{\tabcolsep}{2.4pt}
+\begin{tabular}{lcccccc}
+\toprule
+Method & CIC IID & CIC Dir(1.0) & CIC Dir(0.3) & CIC Dir(0.1) & NBa Device & NBa IID \\
+\midrule
+Central SVM & 0.9960\,$\pm$\,0.0009 & 0.9960\,$\pm$\,0.0009 & 0.9960\,$\pm$\,0.0009 & 0.9960\,$\pm$\,0.0009 & 0.9168\,$\pm$\,0.1691 & 0.9169\,$\pm$\,0.1669 \\
+Central RF & \textbf{0.9987\,$\pm$\,0.0002} & \textbf{0.9987\,$\pm$\,0.0003} & \textbf{0.9988\,$\pm$\,0.0002} & \textbf{0.9988\,$\pm$\,0.0002} & \textbf{0.9997\,$\pm$\,0.0003} & \textbf{0.9997\,$\pm$\,0.0003} \\
+Senior (as released) & 0.9963\,$\pm$\,0.0008 & 0.9963\,$\pm$\,0.0008 & 0.9951\,$\pm$\,0.0010 & 0.9904\,$\pm$\,0.0035 & 0.8704\,$\pm$\,0.1660 & 0.8565\,$\pm$\,0.1881 \\
+Senior (no leak) & 0.9962\,$\pm$\,0.0008 & 0.9958\,$\pm$\,0.0009 & 0.9952\,$\pm$\,0.0009 & 0.9892\,$\pm$\,0.0049 & 0.9226\,$\pm$\,0.1562 & 0.9252\,$\pm$\,0.1537 \\
+Local-prep FedAvg & 0.9953\,$\pm$\,0.0010 & 0.9388\,$\pm$\,0.0330 & 0.7663\,$\pm$\,0.1181 & 0.5754\,$\pm$\,0.1963 & 0.6231\,$\pm$\,0.0905 & 0.9987\,$\pm$\,0.0002 \\
+FedStat-FS (proposed) & 0.9946\,$\pm$\,0.0029 & 0.9942\,$\pm$\,0.0026 & 0.9918\,$\pm$\,0.0037 & 0.9913\,$\pm$\,0.0035 & 0.9264\,$\pm$\,0.1505 & 0.9065\,$\pm$\,0.1928 \\
+FedStat-FS + FedProx & 0.9904\,$\pm$\,0.0044 & 0.9897\,$\pm$\,0.0035 & 0.9890\,$\pm$\,0.0028 & 0.9895\,$\pm$\,0.0032 & 0.9263\,$\pm$\,0.1506 & 0.9282\,$\pm$\,0.1468 \\
+FedAvg-MLP (fed. prep) & 0.9961\,$\pm$\,0.0009 & 0.9962\,$\pm$\,0.0010 & 0.9961\,$\pm$\,0.0009 & 0.9959\,$\pm$\,0.0009 & 0.9730\,$\pm$\,0.0509 & 0.9806\,$\pm$\,0.0359 \\
+\bottomrule
+\end{tabular}
+\end{table*}

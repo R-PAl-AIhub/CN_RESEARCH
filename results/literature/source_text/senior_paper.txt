@@ -1,0 +1,1299 @@
+=====PAGE 1=====
+Date of publication March 00, 2026, date of current version March 27, 2026.
+Digital Object Identifier 10.1109/ACCESS.2026.DOI
+Privacy-Preserving Federated Learning
+Framework for DDoS Attack Detection in
+IoT Networks Using Hybrid Feature
+Selection
+HARIS MOHAMED C P 1, ANINDITA KUNDU2
+1School of Computer Science and Engineering, Vellore Institute of Technology, Vellore, Tamil Nadu, India (e-mail: harismohamedcp@gmail.com)
+2School of Computer Science and Engineering, Vellore Institute of Technology, Vellore, Tamil Nadu, India (e-mail: anindita.kundu@vit.ac.in)
+Corresponding author: Anindita Kundu (e-mail: anindita.kundu@vit.ac.in).
+ABSTRACTAs Internet of Things (IoT) deployments scale across sectors, Distributed Denial of Service
+(DDoS) attacks have grown into one of the most disruptive security threats they face—capable of disabling
+infrastructure without any physical access. Defending against these attacks through centralized machine
+learning is problematic: it requires pooling sensitive network traffic from distributed nodes onto a single
+server, creating privacy liabilities and a structurally fragile single point of failure. We address both
+issues simultaneously through a federated learning framework that trains Support Vector Machine (SVM)
+classifiers locally across distributed IoT workers while sharing only aggregated model parameters. A
+distinguishing aspect of our design is a hybrid feature selection pipeline that applies Pearson correlation
+and Linear Discriminant Analysis (LDA) as independent filters, retaining only the features that satisfy both
+criteria. This intersection-based selection shrinks the input space by 63% (46 features reduced to 17) at no
+cost to detection quality—achieving an F1-score of 0.9881 and accuracy of 98.84% on 500,000 samples
+drawn from the CIC-IoT2023 benchmark. Across federation sizes of 3, 5, and 10 workers, performance
+remains essentially flat, confirming that the weighted aggregation scheme is robust to scale. False positives
+are held to 0.34%, and 98% of DDoS flows are correctly flagged. Compared with Isolation Forest, our
+approach improves F1 by 140%; against Random Forest and Artificial Neural Networks, it remains highly
+competitive while demanding far less computation.
+INDEX TERMSDDoS Detection, Distributed Machine Learning, Federated Learning, Feature Selection,
+Internet of Things Security, Linear Discriminant Analysis, Pearson Correlation, Privacy-Preserving Machine
+Learning, Support Vector Machine
+I. INTRODUCTION
+I
+NTELLIGENT connectivity has become a defining fea-
+ture of contemporary infrastructure. From hospital wards
+and factory floors to municipal traffic grids and consumer
+appliances, Internet of Things (IoT) devices now underpin an
+enormous range of physical processes. Active deployments
+worldwide surpassed 15 billion by 2025, with projections
+approaching 29 billion before the decade ends [1], [10].
+This scale of deployment has, however, expanded the attack
+surface available to adversaries. Among the threats that have
+emerged as most consequential, Distributed Denial of Ser-
+vice (DDoS) attacks occupy a prominent position—floods
+of crafted traffic that exhaust network resources and render
+targeted systems unreachable, sometimes within seconds of
+initiation.
+A. PROBLEM STATEMENT
+The security landscape surrounding IoT networks is shaped
+by three persistent challenges that current solutions have not
+adequately resolved.
+Data Privacy Exposure:Standard centralized learning
+requires all raw network traffic to be forwarded to a sin-
+gle aggregation point before any model can be built. The
+consequences are significant: sensitive operational records
+leave the devices that generated them, creating exposure
+under GDPR, CCPA, and comparable frameworks. In multi-
+stakeholder environments—smart city deployments that knit
+together public infrastructure, commercial services, and pri-
+VOLUME 4, 2016 1
+
+=====PAGE 2=====
+Haris Mohamed C P: Privacy-Preserving Federated Learning for DDoS Attack Detection in IoT Networks Using Hybrid Feature Selection
+vate residences, for example—moving data across adminis-
+trative boundaries may be legally prohibited outright, making
+centralized learning architecturally incompatible with the
+deployment context.
+Hardware and Computational Constraints:IoT end-
+points are designed for embedded deployment, not intensive
+computation. RAM is typically limited to 256KB–2MB,
+processor speeds are low, and energy budgets are tight. The
+46-feature flow records in the CIC-IoT2023 dataset illustrate
+the problem concretely: processing and training on data of
+this dimensionality is beyond what most edge devices can
+sustain. As a result, existing intrusion detection systems
+(IDS) [7] face an uncomfortable choice—rely on powerful
+remote servers (negating the rationale for distributed IoT)
+or deploy simplified local models that sacrifice detection
+accuracy.
+Architectural Fragility:Any design that routes all secu-
+rity logic through a single server inherits that server’s vul-
+nerabilities. A targeted attack, hardware failure, or miscon-
+figuration can disable detection across an entire deployment
+simultaneously. In domains where continuous operation is
+essential—electricity distribution, water treatment, clinical
+monitoring—this brittleness is a disqualifying characteristic.
+B. MOTIVATION
+The research direction pursued here emerges from three
+reinforcing conditions.
+(1) Escalating IoT Attack Landscape:The CIC-IoT2023
+dataset, cataloguing 46 million network flow records across
+33 distinct attack variants including Mirai botnet derivatives,
+captures just how sophisticated IoT-targeting threats have
+become [2]. DDoS attacks alone have risen roughly 87%
+year-over-year, with peak volumes now routinely exceeding
+1 Tbps.
+(2) Privacy Regulatory Pressure:Legislative action is
+tightening across jurisdictions. GDPR Article 25 encodes
+“privacy by design” as a legal requirement; California’s IoT
+Security Law SB-327 mandates security baselines at the
+device level. Penalties for violations can reach 4% of global
+annual revenue, creating compelling economic incentives to
+build privacy into system architecture from the ground up.
+(3) Gap in Federated Learning Research:Federated
+learning has proven itself in mobile keyboard prediction [8]
+and clinical data analysis [9], but its application to IoT
+security remains limited. Critically, current federated IDS
+proposals [1] omit feature engineering for network traffic
+entirely, producing bloated high-dimensional models that
+resource-constrained devices cannot realistically run.
+C. APPLICATION DOMAIN
+Our framework is designed with three classes of IoT deploy-
+ment in mind, each presenting distinct privacy and opera-
+tional constraints.
+Smart City Infrastructure:Urban IoT systems weave
+together traffic controllers, public safety sensors, environ-
+mental monitoring stations, and utility infrastructure—often
+owned and operated by different administrative entities.
+Collaborative threat detection between city departments is
+valuable, but data-sharing agreements across jurisdictions are
+slow to establish and legally complex. A federated approach
+sidesteps these barriers: each stakeholder improves detection
+on their own data without any raw records crossing organiza-
+tional boundaries.
+Industrial IoT (IIoT):Production plants, oil refineries,
+and power stations are densely instrumented with sensors
+and programmable controllers. A successful DDoS attack
+against this infrastructure carries financial consequences in
+the range of $50,000–$250,000 per hour of downtime and,
+in the most severe cases, risks compromising physical safety
+mechanisms. Federated learning is a natural fit here: each
+facility can build and refine detection models using its own
+operational data without disclosing proprietary process infor-
+mation to external parties.
+Healthcare IoT:Medical IoT encompasses a broad range
+of life-critical devices: infusion pumps, vital sign monitors,
+imaging systems, and networked surgical equipment. The
+consequences of a successful DDoS attack on these systems
+extend beyond service disruption to direct patient safety
+risk—a connection that documented incidents have already
+established. Federated training enables hospitals to benefit
+from shared detection intelligence while keeping patient-
+associated data within each institution, in alignment with
+HIPAA and comparable patient privacy regulations.
+The remainder of this paper proceeds as follows. Section II
+reviews the literature and characterizes the research gaps our
+work addresses. Section III develops the proposed method-
+ology. Section IV details experimental configuration, and
+Section V presents and interprets the outcomes. Section VI
+situates the findings in a broader context, and Section VII
+draws conclusions and charts future directions.
+II. RELATED WORK
+A. MACHINE LEARNING FOR DDOS DETECTION
+Machine learning methods have produced strong results in
+network DDoS detection across a range of architectures
+and datasets [7].Support Vector Machines (SVM)[4]
+are particularly well-suited to binary classification and
+anomaly detection, owing to the maximum-margin sepa-
+rating hyperplane they optimize. Azimjonov and Kim [17]
+reported 98.3% accuracy using a fine-tuned linear SVM on
+NSL-KDD, while Alghushairy et al. [18] achieved 97.8%
+on CICIDS2017. Neither study, however, incorporated any
+privacy-preserving mechanism or considered federated de-
+ployment.
+Random Forests[5] offer ensemble robustness and rou-
+tinely exceed 99% accuracy on benchmark datasets, but
+the computational overhead—training 50 to 200 trees per
+run—makes them difficult to deploy on low-power IoT hard-
+ware.Artificial Neural Networks[6] achieve high detection
+performance yet suffer from a transparency problem: their
+decisions cannot be audited or explained, a serious liability
+2 VOLUME 4, 2016
+
+=====PAGE 3=====
+Haris Mohamed C P: Privacy-Preserving Federated Learning for DDoS Attack Detection in IoT Networks Using Hybrid Feature Selection
+for security applications where every blocked or permitted
+packet carries operational consequence.
+Gap Identified:Centralized ML methods for DDoS de-
+tection achieve strong accuracy but remain incompatible with
+distributed IoT environments: they centralize sensitive data,
+introduce architectural fragility, and impose computational
+demands that exceed edge device capabilities. No prior study
+has demonstrated a privacy-preserving detection system that
+closes the performance gap with its centralized counterpart.
+B. FEDERATED LEARNING FOUNDATIONS
+Federated learning was introduced by McMahan et al. [3]
+as a means of training models collaboratively without ever
+moving raw data to a central location. The coreFedAvg al-
+gorithmconstructs a global model by computing a weighted
+average of local parameters:w global = PN
+i=1
+ni
+ntotal
+wi,
+whereni denotes the local dataset size at workeri.
+Surveys by Qi et al. [19] and Banahbilah et al. [20]
+catalogue more recent aggregation strategies—FedProx, Fed-
+Nova, SCAFFOLD—designed to handle non-IID data and
+resist Byzantine participants [16]. These advances target neu-
+ral network architectures almost exclusively. Navia-Vázquez
+et al. [21] developed BDSVM, the first federated SVM,
+and demonstrated AUC above 99% on synthetic data using
+10–20 features—but the work did not address IoT-specific
+constraints or evaluate on real network traffic.
+Gap Identified:The federated learning literature has de-
+veloped largely around neural architectures evaluated on
+synthetic or image datasets. Federated SVM—especially
+applied to high-dimensional, real-world IoT network traf-
+fic—remains essentially unexplored. No existing work in-
+tegrates domain-specific feature engineering with federated
+SVM for IoT security.
+C. FEATURE SELECTION FOR NETWORK INTRUSION
+DETECTION
+Reducing dimensionality is critical for IDS efficiency, par-
+ticularly in resource-limited settings.Pearson Correlation
+Analysis[11] selects features with strong linear associa-
+tion to the target label (|ρ|>threshold), though it misses
+non-linear dependencies.Linear Discriminant Analysis
+(LDA)[12] takes a complementary approach, learning the
+projectionw=S −1
+W (µ1−µ 0)that maximally separates
+classes.
+Ambusaidi et al. [13] applied filter-based selection to IDS
+and attained 99.3% accuracy using 8 features on KDD99
+(a dataset now widely recognized as flawed [22]). Their
+method combined Pearson and Chi-Square via union, not
+intersection. Wrapper-based approaches such as Recursive
+Feature Elimination, and embedded methods like L1 reg-
+ularization, improve on filter methods in principle but are
+computationally expensive—disqualifying them from pre-
+distribution federated pipelines where feature selection must
+complete before data is partitioned.
+Gap Identified:No prior study has constructed feature
+subsets for federated IoT security by intersecting Pear-
+son correlation and LDA outputs. Union-based and single-
+method selection leave features that pass only one test—a
+weaker quality guarantee than requiring both linear relevance
+and class discriminability to be satisfied independently.
+D. PRIVACY-PRESERVING IOT SECURITY
+Regulatory attention to IoT privacy (GDPR Articles 5 and
+25; CCPA; the IoT Cybersecurity Improvement Act of 2020)
+has spurred research into privacy-preserving detection mech-
+anisms.Differential Privacy[14] offers formal guarantees
+via controlled noise: the conditionP[M(D 1)∈S]≤e ϵ·
+P[M(D 2)∈S]quantifies information leakage. However,
+strong privacy budgets (ϵ <1) typically cost 10–15% in
+model accuracy—a steep trade-off for security-critical appli-
+cations.
+Homomorphic Encryption[15] sidesteps the accuracy-
+privacy trade-off by enabling computation directly on cipher-
+text, but its 100–1000×computational overhead is entirely
+impractical on devices with sub-GHz processors and con-
+strained power budgets.
+Doriguzzi-Corin and Siracusa [23] introduced FLAD,
+a federated neural network for adaptive DDoS detection
+achieving 96.8% accuracy. Agrawal et al. [24] reviewed
+federated IDS research broadly, concluding that federated ap-
+proaches offer adequate privacy while remaining competitive
+with centralized baselines. Both studies, however, relied on
+neural architectures (limiting interpretability) and fell short
+of matching centralized performance precisely.
+Gap Identified:Every current privacy-preserving IoT se-
+curity mechanism carries a significant cost: differential pri-
+vacy degrades accuracy, homomorphic encryption is com-
+putationally impractical on edge hardware, and federated
+IDS systems in the literature consistently underperform their
+centralized equivalents. No published approach has achieved
+both genuine privacy and full performance parity within the
+resource budget of real IoT edge devices.
+E. COMP ARATIVE ANAL YSIS OF PRIOR WORK
+Table 1 positions key related studies against our work, mak-
+ing the research gaps concrete.
+F . SUMMARY OF RESEARCH GAPS
+Our review of the literature surfaces five specific gaps that
+this work addresses:
+1)Federated SVM Gap:Federated SVM has been eval-
+uated only on synthetic data with limited features [21];
+real-world network traffic evaluation is absent.
+2)Feature Selection Gap:No prior work unites Pearson
+correlation and LDA through intersection for federated
+IoT security. Existing methods rely on a single tech-
+nique or union-based selection.
+3)Performance Parity Gap:Federated IDS approaches
+in the literature reach 96–97% accuracy, consistently
+lagging centralized baselines at 98–99%. Privacy and
+accuracy have been treated as inherently conflicting.
+VOLUME 4, 2016 3
+
+=====PAGE 4=====
+Haris Mohamed C P: Privacy-Preserving Federated Learning for DDoS Attack Detection in IoT Networks Using Hybrid Feature Selection
+TABLE 1: Comparative Analysis of Related Work and Research Gaps
+Study Approach Privacy Performance IoT-Ready Gap Addressed
+Azimjonov & Kim
+2024
+Centralized SVM No 98.3% Acc No Privacy violation
+Devine et al. 2025 Fed.
+SVM/RF/ANN
+Yes 97.4% Acc Partial No feature selection
+Navia-Vázquez 2022 Fed. SVM
+(BDSVM)
+Yes 99% AUC No Synthetic data only
+Doriguzzi-Corin 2024 Fed. DNN
+(FLAD)
+Yes 96.8% Acc No Low performance
+Ambusaidi 2016 Centralized +
+Features
+No 99.3% Acc No Flawed dataset (KDD99)
+Our Work Fed. SVM + Hy-
+brid Features
+Yes 98.84% Acc Yes All gaps addressed
+4)IoT Deployment Gap:Existing federated IDS re-
+search employs deep neural networks that require GPU
+acceleration and over 1 GB of memory—incompatible
+with IoT edge devices constrained to 256KB–2MB of
+RAM.
+5)Comprehensive Evaluation Gap:Most studies report
+only ML metrics (accuracy, F1-score) while ignoring
+deployment-relevant measures such as memory con-
+sumption, training latency, and communication over-
+head.
+Our work directly addresses all five gaps. The approach
+combines a federated SVM architecture with an intersection-
+based hybrid feature selection pipeline, evaluated compre-
+hensively on real IoT network traffic using both detection
+quality metrics and deployment-relevant physical measure-
+ments.
+III. METHODOLOGY
+A. NOVELTY JUSTIFICATION
+Three original contributions distinguish our approach from
+the body of prior work:
+Novel Contribution 1: Intersection-Based Hybrid Fea-
+ture Selection.We present the first application of a Pearson-
+LDA intersection strategy for feature reduction in a federated
+IoT security context. A feature is retained only if it indepen-
+dently satisfies both a linear correlation criterion (Pearson
+|ρ|>0.2) and a class-discriminability criterion (top-20 LDA
+rank). This dual-gate design stands in contrast to prior work:
+•Ambusaidi et al. [13] selected features that passed either
+Pearson or Chi-Square—a union operation
+•Azimjonov and Kim [17] applied Recursive Feature
+Elimination without any secondary validation
+•Our approach enforces both criteria simultaneously,
+producing a 17-feature subset (63% reduction from 46)
+that loses nothing in detection performance
+Novel Contribution 2: Federated SVM on Real High-
+Dimensional IoT Traffic.The only prior federated SVM
+study [21] operated on synthetic data with at most 20 fea-
+tures. We scale federated SVM to 46-feature real-world IoT
+network flows, introducing a dataset-size-weighted param-
+eter aggregation schemew global = PN
+i=1
+ni
+ntotal
+wi that
+FIGURE 1: Federated Learning Architecture for Privacy-
+Preserving DDoS Detection. IoT devices (local workers)
+train models on local traffic data and transmit only model
+parameters to the central aggregator. The global model is
+updated through weighted averaging and redistributed for
+iterative refinement. Raw network traffic never leaves local
+devices, ensuring privacy preservation.
+produces a globally coherent decision boundary despite het-
+erogeneous local data partitions. Achieving this stability
+in federated SVM—whose optimization landscape is non-
+convex—is a non-trivial technical contribution.
+Novel Contribution 3: Closing the Performance Gap
+Under Privacy Constraints.We demonstrate, for the first
+time, that a federated intrusion detection system can reach
+performance parity with its centralized equivalent (F1 =
+0.9881 in both configurations) without any raw traffic leav-
+ing local devices. The prevailing view in federated IDS
+research [23], [24] treats accuracy loss as an unavoidable
+consequence of privacy preservation. Our results refute this:
+given appropriate architecture and feature engineering, no
+such trade-off is necessary.
+B. SYSTEM ARCHITECTURE
+The framework is built around three functional layers, il-
+lustrated in Figure 1: an offline preprocessing and feature
+selection pipeline, a distributed local training layer, and a
+central parameter aggregation mechanism.
+Each of theNworkers—typically IoT gateways or edge
+servers—trains an SVM on its own locally held traffic
+4 VOLUME 4, 2016
+
+=====PAGE 5=====
+Haris Mohamed C P: Privacy-Preserving Federated Learning for DDoS Attack Detection in IoT Networks Using Hybrid Feature Selection
+FIGURE 2: Hybrid Feature Selection Process. Path A applies
+Pearson correlation filtering (threshold>0.2) yielding 35
+features. Path B applies LDA transformation selecting top-
+20 discriminant features. The intersection of both paths pro-
+duces the optimal 17-feature subset, ensuring features satisfy
+both linear relevance and discriminative power criteria.
+records. A coordinating aggregation server collects model
+parameters at the end of each round and returns an updated
+global model, but it has no access to any underlying traffic
+data. This separation between data and model yields three
+structural properties:
+•Data Locality:Network traffic stays on the device that
+generated it
+•Parameter Privacy:Each worker transmits only 18
+floating-point values (17 SVM weights plus 1 bias term)
+per round—far too few to reconstruct any training sam-
+ples
+•Byzantine Resilience:Weighting aggregated contribu-
+tions by local dataset size prevents any single malicious
+worker from exerting disproportionate influence on the
+global model
+C. PREPROCESSING AND HYBRID FEATURE
+SELECTION
+Algorithm 1 formalizes the preprocessing pipeline illustrated
+in Figure 2. Starting from 46 raw features, four sequential
+steps arrive at a final 17-feature subset.
+Step 1: Data Cleaning.Any feature whose variance falls
+below 0.01 is discarded at the outset, cutting the input space
+from 46 to 40. Constant or near-constant features contribute
+nothing to discrimination and, if retained, produce singular
+scatter matrices that break the LDA computation. Removing
+them is therefore both a statistical necessity and a numerical
+safeguard.
+Step 2: Pearson Correlation Analysis.We compute the
+Pearson coefficientρi between each featurefi and the binary
+target label (0 for benign, 1 for DDoS):
+ρi =
+PN
+j=1(fi,j− ¯fi)(yj−¯y)qPN
+j=1(fi,j− ¯fi)2
+qPN
+j=1(yj−¯y)2
+(1)
+Features with|ρ i|>0.2pass this screen, leaving
+35 candidates inF Pearson . The threshold was deter-
+Algorithm 1Hybrid Feature Selection (Pearson∩LDA)
+1:Input:DatasetDwithF 0 = 46features,N= 500,000
+samples
+2:Output:Reduced datasetD ′ withFfinal features
+3:
+4:Step 1: Data Cleaning
+5:Remove constant features (variance<0.01)
+6:F 1←40features retained
+7:
+8:Step 2: Pearson Correlation Selection
+9:foreach featuref i inF 1 do
+10:Computeρ i =Pearson(f i,y)whereyis target label
+11:if|ρ i|>0.2then
+12:Addf i toFPearson
+13:end if
+14:end for
+15:|F Pearson|= 35features
+16:
+17:Step 3: Linear Discriminant Analysis
+18:Apply LDA transformation onF 1
+19:Select top 20 features by discriminant score
+20:|F LDA|= 20features
+21:
+22:Step 4: Feature Intersection
+23:F final =F Pearson∩FLDA
+24:F final =|F final|= 17features (63% reduction)
+25:
+26:returnD ′ with featuresFfinal
+mined through cross-validated search over the candidate set
+{0.1,0.15,0.2,0.25,0.3}; 0.2 produced the highest F1-score
+on held-out folds and was adopted as the operating value.
+Step 3: Linear Discriminant Analysis.Applied to the
+40 cleaned features, LDA identifies the projection that most
+separates the two traffic classes. For binary classification the
+discriminant directionwis:
+w=S −1
+W (µ1−µ 0)(2)
+HereSW =S 0 +S 1 denotes the pooled within-class scatter
+matrix andµ 0,µ 1 the respective class means. Features are
+ranked by their absolute contribution to the discriminant
+projection; the top 20 formFLDA.
+Step 4: Feature Intersection.The final feature set is:
+Ffinal =F Pearson∩FLDA (3)
+Seventeen features clear both filters, achieving a 63% reduc-
+tion. Because each surviving feature has been independently
+validated against two qualitatively distinct criteria—linear
+association with the target label and geometric class separa-
+bility—the resulting set carries stronger evidence of genuine
+discriminative utility than any single-criterion selection could
+provide.
+Novelty Justification:Earlier feature selection work in
+IDS has used Pearson [11] and LDA [12] independently,
+VOLUME 4, 2016 5
+
+=====PAGE 6=====
+Haris Mohamed C P: Privacy-Preserving Federated Learning for DDoS Attack Detection in IoT Networks Using Hybrid Feature Selection
+Algorithm 2Federated SVM Training
+1:Input:Processed datasetD ′ split intoNpartitions
+{D1,...,D N}, roundsR= 3
+2:Output:Global SVM modelM global
+3:
+4:Initialization:
+5:Initialize global modelM global with random parameters
+6:C←1.0, max_iter←1000(SVM hyperparameters)
+7:
+8:forroundr= 1toRdo
+9:// Local Training Phase (Parallel)
+10:forworkeri= 1toNin parallel do
+11:M i←M global (download global model)
+12:Train LinearSVC on local dataD i with regulariza-
+tionC
+13:w i,bi←local SVM parameters (weights, bias)
+14:n i←|D i|(local dataset size)
+15:Upload(w i,bi,ni)to central server
+16:end for
+17:
+18:// Aggregation Phase (Central Server)
+19:n total← PN
+i=1ni
+20:Compute aggregated weights:
+21:w global← PN
+i=1
+ni
+ntotal
+wi
+22:b global← PN
+i=1
+ni
+ntotal
+bi
+23:UpdateM global with(wglobal,bglobal)
+24:end for
+25:
+26:returnM global
+or joined their outputs via union—accepting any feature
+selected by at least one method. Intersection is categorically
+more stringent: a feature must survive both filters indepen-
+dently. The resulting subsets are smaller, more informative
+per dimension, and directly advantageous in federated set-
+tings where transmitting fewer parameters per round reduces
+both latency and communication cost.
+D. FEDERATED LEARNING ARCHITECTURE
+Algorithm 2 describes the federated SVM training process
+overR= 3communication rounds acrossN∈{3,5,10}
+workers.
+Data Partitioning.Training data is divided intoNdisjoint
+partitions, each holding 400,000
+N samples. AtN= 5, each
+worker receives 80,000 records. The 51:49 class ratio is
+preserved across partitions, so each local distribution ap-
+proximates the global one—an IID assumption that makes
+aggregation straightforward. Real-world IoT deployments
+rarely satisfy this assumption; non-IID extensions represent
+a clear priority for follow-on work.
+Local Training.Workers train a Linear Support Vector
+Classifier using scikit-learn’s LinearSVC withC= 1.0and
+a maximum of 1000 iterations. PyTorch is used to coordinate
+distributed execution and manage the round-by-round param-
+eter exchange between workers and the aggregation server.
+The primal SVM objective each worker minimizes is:
+min
+wi,bi
+1
+2∥wi∥2 +C
+X
+j∈Di
+ξj (4)
+subject toy j(wT
+i xj +b i)≥1−ξ j andξ j ≥0, whereξ j
+are slack variables penalized at rateC. With onlyd= 17
+features, training complexity isO(n·d)—linear in both sam-
+ple count and dimensionality. This makes each local training
+round fast even on the modest CPU resources available in IoT
+gateway hardware.
+Parameter Aggregation.After local training, each worker
+uploads its parameter pair(wi,bi)and sample countn i. The
+server aggregates them as:
+wglobal =
+NX
+i=1
+ni
+ntotal
+wi, b global =
+NX
+i=1
+ni
+ntotal
+bi (5)
+The weighting by dataset size, inherited from FedAvg [3],
+gives larger-data workers proportionally greater influence.
+Averaging linear decision boundaries is theoretically coher-
+ent: the mean of hyperplane normal vectorsw i yields a
+consensus boundary that balances all local data distributions
+in a geometrically meaningful way.
+Iterative Refinement.After aggregation, the updated
+global model is broadcast back to all workers, triggering
+the next training round. Three rounds (R= 3) suffice: the
+observed F1-score gain between rounds 3 and 4 was less
+than 0.001, indicating convergence without further commu-
+nication overhead.
+Privacy Guarantees.At no point is any network traf-
+fic record transmitted beyond the device on which it was
+captured. What each worker uploads per round is 18
+floating-point values—17 SVM weights and a single bias
+term—amounting to 72 bytes at 32-bit precision. Over three
+rounds and five workers, cumulative upload volume is 1,080
+bytes. Both LoRaW AN (50 kbps) and NB-IoT (250 kbps)
+can carry this comfortably. The information content of 18
+scalar values is also insufficient to support gradient inver-
+sion or membership inference attacks that depend on high-
+dimensional parameter vectors.
+IV . EXPERIMENTAL SETUP
+A. DATASET CHARACTERISTICS
+Our evaluation uses the CIC-IoT2023 benchmark [2], a large-
+scale collection derived from 105 distinct IoT devices span-
+ning 33 attack categories. The complete dataset runs to ap-
+proximately 46 million labeled flow records, each carrying 46
+numerical features. We work with a 500,000-sample subset
+selected to preserve the original class proportions:
+•Benign Traffic:255,000 samples (51%)
+•DDoS Traffic:245,000 samples (49%)
+The near-equal class proportions mean that no resampling
+or synthetic oversampling is required—the data is already
+6 VOLUME 4, 2016
+
+=====PAGE 7=====
+Haris Mohamed C P: Privacy-Preserving Federated Learning for DDoS Attack Detection in IoT Networks Using Hybrid Feature Selection
+well-balanced for binary classification. Features span flow-
+level statistics (duration, packet counts, byte volumes), inter-
+arrival timing, protocol-specific fields for TCP, UDP, and
+ICMP, flag distributions (SYN, ACK, FIN, RST), and bidi-
+rectional traffic aggregates.
+B. EXPERIMENTAL CONFIGURATION
+Train-Test Split.Data is divided 80/20 using stratified sam-
+pling, allocating 400,000 records to training and 100,000 to
+held-out evaluation. The 51:49 class ratio is maintained in
+both splits. All hyperparameter decisions are made through
+cross-validation within the training set; no separate validation
+partition is created.
+Federated Network Configurations.We evaluate three
+worker counts to probe scalability:
+•N= 3workers: 133,333 samples per worker
+•N= 5workers: 80,000 samples per worker
+•N= 10workers: 40,000 samples per worker
+Baseline Comparison.A centralized SVM trained on
+the full 400,000-sample training set serves as the privacy-
+violating upper bound.
+Model Hyperparameters.The LinearSVC is configured
+as follows:
+•Kernel: Linear (K(x i,xj) =x T
+i xj)
+•Regularization:C= 1.0
+•Maximum iterations: 1000
+•Loss: Hinge loss
+•Random seed: 42
+Cross-Validation.Ten-fold stratified cross-validation dur-
+ing preprocessing validates feature selection stability; F1-
+scores across folds range from 0.985 to 0.991, confirming
+robust generalization.
+Computational Platform.All experiments were con-
+ducted on Kaggle’s freely available cloud notebook envi-
+ronment, which provisions a dual-core Intel Xeon CPU, 13
+GB of RAM, and 20 GB of disk storage per session. No
+GPU acceleration was used—all computations ran on CPU
+only. This choice was deliberate: by restricting execution to a
+CPU-only cloud environment, we demonstrate that the full
+federated training pipeline is practical without specialized
+hardware, which directly mirrors the operational reality of
+IoT gateway deployments.
+Software Stack.
+•Python 3.10 (Kaggle default runtime)
+•PyTorch 2.0 (federated training coordination and tensor
+operations)
+•scikit-learn 1.3.0 (LinearSVC implementation and pre-
+processing utilities)
+•NumPy 1.24, Pandas 2.0 (data manipulation and parti-
+tioning)
+•Matplotlib 3.7, Seaborn 0.12 (result visualization)
+C. EVALUATION METRICS
+We report four classification metrics, each addressing a dis-
+tinct aspect of IDS quality:
+Accuracy:
+Accuracy= TP+TN
+TP+TN+FP+FN (6)
+Precision:Fraction of DDoS predictions that are genuine
+attacks—directly reflects false alarm rate:
+Precision= TP
+TP+FP (7)
+Recall (Detection Rate):Fraction of actual DDoS attacks
+correctly identified—the primary security objective:
+Recall= TP
+TP+FN (8)
+F1-Score:Harmonic mean of precision and recall, balanc-
+ing both concerns:
+F1= 2· Precision×Recall
+Precision+Recall (9)
+Physical Metrics:Deployment feasibility on IoT hard-
+ware depends on three additional quantities:
+•Training Time:Wall-clock duration (seconds)
+•Peak Memory:Maximum RAM consumed per worker
+node (MB)
+•Communication Overhead:Total bytes exchanged
+across the federation
+D. ALTERNATIVE ALGORITHMS
+Three comparison methods are implemented in the same
+federated setting (N= 5workers) to contextualize SVM
+performance:
+•Random Forest (RF):100 trees, maximum depth 10,
+minimum samples per split 2
+•Artificial Neural Network (ANN):Multi-layer percep-
+tron with architecture (17→100→50→1), ReLU activa-
+tions, Adam optimizer (α= 0.001), batch size 32, 10
+training epochs per round
+•Isolation Forest (IF):Unsupervised anomaly detec-
+tion [7], 100 estimators, contamination factor 0.49
+(matching the class ratio), maximum subsampling size
+256
+All methods train on the same 17-feature preprocessed
+data, ensuring a controlled comparison.
+V . RESULTS AND ANAL YSIS
+A. FEATURE SELECTION PERFORMANCE
+Table 2 traces the feature count through each stage of our
+preprocessing pipeline.
+TABLE 2: Feature Selection Results
+Stage Features Reduction
+Original Dataset 46 –
+After Data Cleaning 40 13.0%
+Pearson Selection (|ρ|>0.2) 35 23.9%
+LDA Selection (Top 20) 20 56.5%
+Final Intersection 17 63.0%
+VOLUME 4, 2016 7
+
+=====PAGE 8=====
+Haris Mohamed C P: Privacy-Preserving Federated Learning for DDoS Attack Detection in IoT Networks Using Hybrid Feature Selection
+FIGURE 3: Performance Metrics Comparison: Centralized
+vs. Federated SVM across different network sizes. All met-
+rics remain stable (Accuracy 98.84%, Precision 99.65%, Re-
+call 97.98%, F1-Score 98.81%) regardless of worker count,
+demonstrating robust scalability without performance degra-
+dation.
+Arriving at 17 features—a 63% cut—from the original 46
+shows that the dual-filter intersection identifies a compact,
+high-discriminability subset without any measurable loss of
+classification quality. The downstream effects on federated
+deployment are substantial:
+•Model size shrinks proportionally (17 versus 46
+weights): 63% memory saving
+•Per-transmission payload drops from 47 to 18 values:
+62% reduction in communication overhead
+•Local training accelerates withO(n·d)complexity: 63%
+fewer operations per round
+B. FEDERATED VS. CENTRALIZED PERFORMANCE
+Table 3 and Figure 3 place centralized and federated SVM
+side by side across all tested network sizes.
+TABLE 3: Federated vs. Centralized SVM Performance
+(CSV-Verified)
+Model Accuracy Precision Recall F1-Score
+Centralized SVM 0.9884 0.9965 0.9798 0.9881
+Federated SVM (3 workers) 0.9884 0.9965 0.9798 0.9880
+Federated SVM (5 workers) 0.9884 0.9965 0.9798 0.9881
+Federated SVM (10 workers) 0.9884 0.9965 0.9798 0.9881
+Key Observations:
+1)Performance Parity:The federated SVM reproduces
+the centralized F1-score of 0.9881 across all tested
+worker counts. Inter-configuration variance is below
+0.0001 and statistically negligible.
+2)Scale Invariance:Detection quality is flat from 3 to
+10 workers. The weighted aggregation scheme (Eq. 5)
+successfully balances contributions across unequal
+data partitions without degrading the global model.
+3)No Accuracy Cost for Privacy:The federated
+and centralized systems produce equivalent out-
+puts—demonstrating that keeping raw data local does
+not require accepting lower detection quality. The as-
+sumed privacy-accuracy trade-off does not manifest
+here.
+FIGURE 4: Algorithm Comparison in Federated Setting
+(5 Workers). SVM, RF, and ANN achieve >98% across
+all metrics, clustering tightly. Isolation Forest significantly
+underperforms (F1=0.4173) due to unsupervised learning
+limitations in balanced datasets. The visual separation clearly
+shows supervised learning superiority for DDoS detection.
+4)Modest Time Overhead:Training time rises from
+1.34 s (centralized) to between 2.22 s and 2.65 s
+(federated), a<2×increase attributable to commu-
+nication rounds. Given that model updates are typi-
+cally scheduled offline, this overhead is operationally
+insignificant.
+C. MULTI-ALGORITHM COMP ARISON
+Table 4 and Figure 4 compare all four algorithms in the
+federated setting withN= 5workers.
+TABLE 4: Algorithm Comparison (5 Workers, Federated
+Setting, CSV-Verified)
+Algorithm Accuracy Precision Recall F1-Score
+Federated SVM 0.9884 0.9965 0.9798 0.9881
+Random Forest 0.9995 0.9999 0.9990 0.9995
+Artificial Neural Net 0.9983 0.9997 0.9967 0.9982
+Isolation Forest 0.4514 0.4351 0.4008 0.4173
+Analysis:
+1)Random Forest Leads:RF records the highest F1
+(0.9995) through ensemble aggregation across 100 de-
+cision trees. The resource implications of this result are
+detailed in Table 6 and are severe.
+2)ANN Competes Closely:At F1 = 0.9982, the neural
+network performs well in the federated setting. Its
+principal liability is opacity: decisions produced by
+a multi-layer perceptron cannot be inspected or ex-
+plained in terms of input features, which is a mean-
+ingful constraint for security systems subject to audit
+requirements.
+3)SVM Offers the Best Practical Trade-off:SVM’s
+F1 of 0.9881 trails RF by just 1.14% while requiring
+far less compute, memory, and training time. In IoT
+environments where battery life and RAM are finite, a
+8 VOLUME 4, 2016
+
+=====PAGE 9=====
+Haris Mohamed C P: Privacy-Preserving Federated Learning for DDoS Attack Detection in IoT Networks Using Hybrid Feature Selection
+FIGURE 5: Confusion Matrix for Federated SVM (5 Work-
+ers) on 100,000-sample test set. The matrix reveals excep-
+tional specificity (99.66%) with only 171 false positives out
+of 51,000 benign samples, and strong sensitivity (97.98%)
+detecting 48,010 out of 49,000 DDoS attacks. The dominant
+diagonal indicates robust classification with minimal confu-
+sion between classes.
+marginal accuracy gap is far less consequential than the
+resource footprint needed to close it.
+4)Isolation Forest Fails:IF achieves F1 = 0.4173—a
+137% shortfall relative to SVM. The fundamen-
+tal problem is the near-balanced class distribution:
+isolation-based anomaly detection is premised on the
+assumption that malicious events are rare. When DDoS
+traffic comprises 49% of samples, the algorithm cannot
+form a coherent notion of what “normal” looks like,
+and its anomaly scores become unreliable.
+D. DETAILED ERROR ANAL YSIS
+Table 5 and Figure 5 break down classification outcomes for
+federated SVM (N= 5) on the 100,000-sample test set.
+TABLE 5: Confusion Matrix - Federated SVM (5 Workers)
+Actual Predicted
+Benign DDoS
+Benign (51,000) 50,829 (TN) 171 (FP)
+DDoS (49,000) 990 (FN) 48,010 (TP)
+Derived Metrics:
+•False Positive Rate: 171
+51,000 = 0.0034(0.34%)
+•False Negative Rate: 990
+49,000 = 0.0202(2.02%)
+•True Negative Rate (Specificity): 50,829
+51,000 = 0.9966
+(99.66%)
+•True Positive Rate (Sensitivity): 48,010
+49,000 = 0.9798
+(97.98%)
+Operational Implications:
+1)False Alarm Rate Is Production-Viable:At 0.34%,
+the false positive rate is well below typical IDS de-
+FIGURE 6: Baseline (17 features, Pearson∩LDA) vs.
+Enhanced (12 features, RFE-optimized) comparison. The
+baseline achieves F1=0.9881 while enhanced achieves
+F1=0.9871, confirming the Pearson∩LDA intersection is
+optimal without requiring additional feature reduction or
+hyperparameter tuning.
+ployments. On a link carrying one million flows per
+hour, this translates to approximately 3,400 erroneous
+alerts—a volume that a security operations center can
+handle without the alert fatigue that higher FPR sys-
+tems induce.
+2)Attack Coverage Is Operationally Sufficient:A miss
+rate of 2.02% means the system catches 48,010 out of
+49,000 DDoS flows. Because most DDoS campaigns
+sustain attack traffic over minutes to hours, detecting
+98% of malicious flows in near real-time provides
+a usable window for response—rate limiting, source
+blocking, or upstream traffic scrubbing.
+3)Legitimate Traffic Is Largely Unaffected:With
+specificity at 99.66%, the system rarely misclassifies
+benign flows. For IoT applications where blocked traf-
+fic has operational or safety consequences—delayed
+sensor telemetry, interrupted device commands—this
+level of specificity is essential alongside attack detec-
+tion.
+E. PHYSICAL PERFORMANCE METRICS
+Table 6 reports memory and training time for each con-
+figuration—metrics that determine whether a system can
+realistically run on IoT hardware.
+TABLE 6: Physical Performance Metrics Comparison
+Model Train Time (s) Ratio to SVM Memory/Node (MB)
+Centralized SVM 1.34 1.00 2919
+SVM (3 workers) 2.65 1.98 1168
+SVM (5 workers) 2.22 1.66 819
+SVM (10 workers) 2.36 1.76 542
+RF (5 workers) 201 150.0 418
+ANN (5 workers) 41 30.6 613
+IF (5 workers) 6 4.48 410
+Key Findings:
+1)Memory Scales Well:Peak memory per node falls
+from 2919 MB (centralized) to 542 MB (10 workers),
+an 81% reduction. Federated SVM with 10 workers
+fits comfortably within the 1–2 GB RAM budget of
+modern IoT gateway hardware.
+VOLUME 4, 2016 9
+
+=====PAGE 10=====
+Haris Mohamed C P: Privacy-Preserving Federated Learning for DDoS Attack Detection in IoT Networks Using Hybrid Feature Selection
+2)Training Time Acceptable:At 2.22 s for 5 workers,
+federated SVM is only 1.66×slower than the central-
+ized baseline. Since training typically occurs offline on
+a scheduled basis—daily or weekly—this overhead is
+operationally inconsequential.
+3)SVM vs. RF Trade-off:Random Forest consumes
+less memory per node (418 MB versus 819 MB),
+but its 201 s training time is 90×longer than SVM.
+On battery-powered IoT devices, energy expenditure
+tracks closely with runtime; a single RF training ses-
+sion could drain 10–15% of battery capacity.
+4)SVM Outperforms ANN:SVM trains 18×faster
+(2.22 s versus 41 s) and uses 25% less memory than
+ANN. The additional advantage of interpretable de-
+cision boundaries makes SVM the clear choice for
+resource-constrained IoT IDS.
+5)Isolation Forest Misleading:IF presents attractive
+physical numbers—fast training, low memory—but its
+F1 of 0.4173 renders it inoperable for this task. Physi-
+cal efficiency is irrelevant when classification fails.
+F . COMMUNICATION EFFICIENCY
+Table 7 quantifies the data exchanged across the federation
+during training.
+TABLE 7: Communication Overhead Analysis
+Configuration Params/Worker Bytes/Round Total (3 rounds)
+Federated (3 workers) 18 floats 216 bytes 648 bytes
+Federated (5 workers) 18 floats 360 bytes 1,080 bytes
+Federated (10 workers) 18 floats 720 bytes 2,160 bytes
+With the 17-feature model, each worker uploads 18 values
+(17 weights plus 1 bias) per round—72 bytes at 32-bit preci-
+sion. Across all 10 workers and 3 rounds, the total exchange
+amounts to 2,160 bytes, or roughly 2.1 KB. LoRaW AN
+operates at 50 kbps and NB-IoT at 250 kbps; even at the
+lower speed, this entire training run completes in under a
+millisecond of radio time.
+VI. DISCUSSION
+A. PRIVACY-PERFORMANCE TRADE-OFF ANAL YSIS
+The central finding of this work is that the privacy-accuracy
+trade-off assumed throughout the federated IDS literature
+is not an inevitable property of distributed learning—it is a
+consequence of specific architectural choices. Our federated
+SVM reproduces centralized performance on every measured
+metric (F1 = 0.9881) without any raw traffic record crossing
+a device boundary. The implications extend well beyond this
+particular experiment.
+(1) Challenges Prevailing Assumptions:Earlier feder-
+ated IDS work [23], [24] consistently reported 2–4% accu-
+racy losses versus centralized baselines, embedding the belief
+that privacy and accuracy are in tension. Our results show
+that tension is a consequence of architectural choices, not an
+inherent constraint.
+(2) Feature Selection as an Architectural Enabler:The
+Pearson∩LDA intersection is not merely a preprocessing
+convenience—it is structurally important to the result. Re-
+ducing 46 features to 17 while preserving discriminative
+quality makes local training faster, reduces per-worker mem-
+ory pressure, and limits the opportunity for overfitting on
+small local partitions. Each of these effects contributes to
+model stability at aggregation time.
+(3) Linear Structure Enables Coherent Aggregation:
+Averaging linear SVM decision boundaries under Eq. 5 is
+geometrically well-defined: the weighted mean of hyperplane
+normal vectors produces a valid consensus separator. This
+stands in contrast to neural network parameter averaging,
+which operates over non-convex loss surfaces and can pro-
+duce aggregated models that are worse than any individual
+local model. SVM’s linear decision structure sidesteps this
+instability entirely.
+B. SCALABILITY ANAL YSIS
+Consistent performance across 3, 5, and 10 workers confirms
+that the architecture scales appropriately. That said, the anal-
+ysis relies on IID data partitions—a simplifying assumption
+worth examining. Real IoT deployments violate IID in at
+least three ways [16].
+(a) Geographic Heterogeneity:Attack patterns differ by
+location. Urban sensors encounter different threat profiles
+than rural industrial controllers.
+(b) Temporal Heterogeneity:Attack toolkits evolve.
+Workers whose local data spans different time periods may
+develop models that reflect divergent threat landscapes.
+(c) Device Heterogeneity:Traffic statistics differ sys-
+tematically across device classes—sensors, actuators, and
+gateways produce quantitatively distinct flow records.
+Handling these forms of heterogeneity—through personal-
+ized federated learning, clustered worker grouping, or adap-
+tive aggregation [10]—is a priority for future work.
+C. COMPUTATIONAL OVERHEAD ANAL YSIS
+Random Forest (F1 = 0.9995) and ANN (F1 = 0.9982)
+narrowly outperform SVM (F1 = 0.9881), but the resource
+gap is stark.
+Random Forest:Constructing 100 decision trees
+per worker across 80,000 samples requires 201 s per
+round—approximately 150 times longer than SVM. On a
+battery-constrained IoT device, a single RF training cycle
+would consume a disproportionate share of available energy,
+making periodic model updates unsustainable.
+Artificial Neural Networks:ANN training at 41 s per
+round is more manageable than RF, but opacity is a struc-
+tural liability. When an analyst needs to explain a blocked
+connection or a missed alert—as regulatory frameworks for
+critical infrastructure (NERC CIP, IEC 62443) increasingly
+demand—a neural network provides no inspectable rationale.
+The learned representations in hidden layers do not map
+meaningfully onto the input features driving the decision.
+10 VOLUME 4, 2016
+
+=====PAGE 11=====
+Haris Mohamed C P: Privacy-Preserving Federated Learning for DDoS Attack Detection in IoT Networks Using Hybrid Feature Selection
+Support Vector Machines:A trained SVM exposes its
+reasoning directly through the weight vectorw. The mag-
+nitude of each element indicates how strongly the corre-
+sponding feature pushes classification toward one class. For
+a security analyst, this means the model’s decision logic
+is readable—which features drive DDoS classification can
+be examined and verified, satisfying audit requirements that
+black-box models cannot meet.
+D. ISOLATION FOREST FAILURE MODE
+The Isolation Forest collapse (F1 = 0.4173) warrants careful
+analysis. Two factors explain it.
+(1) Unsupervised Assumption Violation:Isolation For-
+est is designed for datasets where anomalies are rare. With
+DDoS traffic at 49%, the algorithm has no meaningful mi-
+nority class to isolate; its internal anomaly score becomes
+uninformative.
+(2) Federated Fragmentation Exacerbates the Prob-
+lem:Local IF models on 80,000 samples each define nor-
+mality from their own slice of the data. Averaging isolation
+scores from models that may have divergent normality defi-
+nitions does not produce a coherent global detector.
+This failure is instructive: anomaly detection methods
+built on the rare-outlier assumption break down when the
+phenomenon being detected is not actually rare. In balanced
+or near-balanced DDoS datasets, the distinction between
+attack and benign traffic must be learned from labeled exam-
+ples—supervised methods are not merely preferable in this
+setting, they are necessary.
+E. DEPLOYMENT CONSIDERATIONS
+Several engineering challenges stand between our experi-
+mental results and a production deployment.
+Asynchronous Training:Our synchronous protocol re-
+quires all workers to finish a round before aggregation pro-
+ceeds. Asynchronous variants [25] would tolerate stragglers
+and intermittent connectivity—both common in IoT environ-
+ments.
+Byzantine Robustness:Weighted averaging is vulnerable
+to workers that upload adversarial parameters. Replacing
+simple averaging with robust aggregation schemes [26]-
+Krum or coordinate-wise median—would limit the impact of
+compromised participants in security-critical deployments.
+Differential Privacy Integration:Data localization pro-
+vides one layer of privacy protection, but model parameters
+can still leak information about local training data [27].
+Adding calibrated noise to aggregated parameters before
+redistribution would close this gap, though the privacy-
+accuracy trade-off requires careful calibration.
+Model Update Compression:Gradient quantization and
+sparsification [28] could further reduce communication over-
+head for large-scale federations with hundreds of workers,
+but at the cost of modest approximation error.
+F . LIMITATIONS
+Our study has five limitations that bound the scope of the
+conclusions.
+(1) Dataset Scope:CIC-IoT2023 is extensive but gener-
+ated in a controlled laboratory setting. Live production traffic
+differs from emulated scenarios in ways that could affect
+feature distributions and model generalization.
+(2) Binary Classification:We detect DDoS presence ver-
+sus absence but do not distinguish attack subtypes. Classify-
+ing specific attack vectors—UDP flood, SYN flood, HTTP
+flood—would support more targeted mitigation.
+(3) IID Assumption:Balanced, IID partitions simplify
+aggregation but do not reflect real IoT deployments.
+(4) Static Feature Selection:Features are selected once
+before training begins. An adaptive mechanism that updates
+the feature set as attack patterns shift could improve long-
+term robustness.
+(5) Homogeneous Workers:All workers are assumed
+to have equivalent computational capacity. Real fleets
+contain devices of widely varying capability, requiring
+heterogeneity-aware resource scheduling.
+VII. CONCLUSION AND FUTURE WORK
+We presented a privacy-preserving federated learning frame-
+work for DDoS detection in IoT networks, designed to re-
+solve five distinct gaps in the existing literature. Our hy-
+brid feature selection method—combining Pearson correla-
+tion with Linear Discriminant Analysis through set inter-
+section—achieves 63% dimensionality reduction (46 to 17
+features) while delivering an F1-score of 0.9881 and 98.84%
+accuracy.
+A. KEY CONTRIBUTIONS SUMMARY
+(1) Performance Parity Without Privacy Trade-offs:Ex-
+periments on 500,000 samples from CIC-IoT2023 confirm
+that federated SVM matches centralized performance exactly
+(F1 = 0.9881, accuracy = 98.84%). Privacy preservation,
+when properly architected, imposes no accuracy penalty.
+(2) Robust Scalability:Detection quality remains stable
+across 3, 5, and 10 federated workers, demonstrating that
+the weighted aggregation scheme handles varying federation
+sizes without degradation.
+(3) Production-Ready Metrics:Precision of 99.65% and
+a false positive rate of 0.34% are operationally viable for live
+deployments. The 97.98% recall rate successfully captures
+48,010 of 49,000 DDoS events in the test set.
+(4) Resource Efficiency:Memory consumption of 819
+MB per worker in the 5-worker configuration and a training
+time of 2.22 s fit within the operational envelope of modern
+IoT gateways—a significant advantage over Random Forest
+(201 s training) and ANN (opaque decision logic).
+(5) Comprehensive Benchmarking:Direct comparison
+with Random Forest, ANN, and Isolation Forest in an identi-
+cal federated setting establishes new baselines for distributed
+IoT security. Supervised methods outperform Isolation Forest
+by wide margins on balanced datasets; among supervised
+VOLUME 4, 2016 11
+
+=====PAGE 12=====
+Haris Mohamed C P: Privacy-Preserving Federated Learning for DDoS Attack Detection in IoT Networks Using Hybrid Feature Selection
+methods, SVM offers the best trade-off between performance
+and resource cost.
+B. FUTURE RESEARCH DIRECTIONS
+Seven research directions emerge from this work.
+(1) Multi-Class Attack Detection:Extending beyond
+binary detection to classify specific DDoS variants—UDP
+flood, SYN flood, HTTP flood, Slowloris—would yield ac-
+tionable threat intelligence. This requires adapting binary
+SVM to multi-class settings (one-vs-rest or one-vs-one)
+while preserving federated aggregation coherence.
+(2) Non-IID Data Handling:Evaluating performance
+when local distributions diverge—due to geographic, tempo-
+ral, or device-class heterogeneity—and developing personal-
+ized or clustered federated learning techniques to maintain
+convergence under these conditions.
+(3) Adversarial Robustness:Analyzing vulnerability to
+Byzantine workers, model poisoning, and membership in-
+ference attacks [27], then integrating robust aggregation
+schemes [26] and differential privacy defenses into the frame-
+work.
+(4) Real-Time Streaming Learning:Replacing peri-
+odic batch retraining with online federated learning that
+updates the global model continuously as new traffic ar-
+rives—enabling adaptation to zero-day attack patterns with-
+out scheduled downtime.
+(5) Cross-Domain Federated Learning:Exploring
+whether models trained in one IoT domain (e.g., smart
+homes) can be transferred to improve detection in another
+(e.g., industrial control) without violating privacy boundaries
+between administrative domains.
+(6) RBF Kernel Exploration:While the linear kernel
+offers computational transparency, a Radial Basis Function
+kernel might capture non-linear attack signatures more effec-
+tively. Developing principled federated aggregation for RBF-
+SVM—where aggregation must account for kernel parame-
+ters, not just weight vectors—is an open theoretical question.
+(7) Energy-Aware Optimization:Designing training
+schedules that account for battery state, energy harvest-
+ing availability, and power grid conditions would make the
+framework sustainable for perpetually deployed IoT devices
+operating on constrained energy budgets.
+C. CLOSING REMARKS
+The role of IoT networks in healthcare, energy systems,
+transportation, and public safety will only deepen in com-
+ing years—and with it, the importance of securing them
+effectively without compromising the data they handle. The
+widely held assumption that privacy and detection per-
+formance must trade against each other is not a law of
+distributed machine learning; it is an artifact of under-
+engineered systems. When feature selection, model choice,
+and aggregation strategy are designed with care, both goals
+are achievable simultaneously. Future work must harden
+these systems against adversarial manipulation, extend them
+to heterogeneous non-IID deployments, and adapt them to the
+continuously evolving attack toolkits that IoT networks face
+in the wild.
+The authors thank the VIT Research and Development
+team for their guidance and support throughout this work.
+Computational experiments were carried out on Kaggle’s
+freely accessible cloud notebook platform; its open avail-
+ability made reproducible research feasible without dedicated
+institutional hardware. The Canadian Institute for Cybersecu-
+rity is acknowledged for releasing the CIC-IoT2023 dataset
+under open access. The open-source communities behind
+PyTorch and scikit-learn are also recognized—their tools
+formed the implementation backbone of this work.
+REFERENCES
+[1] M. Devine, S. Pourroostaei Ardakani, M. Al-Khafajiy, and Y . James,
+“Federated Machine Learning to Enable Intrusion Detection Systems in
+IoT Networks,” Electronics, vol. 14, no. 6, Art. no. 1176, Mar. 2025. DOI:
+10.3390/electronics14061176.
+[2] M. Soe et al., “A Comprehensive Dataset for IoT Device Identification
+and Cyber Attack Detection,” in Proc. IEEE Int. Conf. Big Data, Sorrento,
+Italy, 2023, pp. 1–10.
+[3] B. McMahan, E. Moore, D. Ramage, S. Hampson, and B. A. y Arcas,
+“Communication-efficient learning of deep networks from decentralized
+data,” in Proc. Int. Conf. Artif. Intell. Statist., 2017, pp. 1273–1282.
+[4] C. Cortes and V . Vapnik, “Support-vector networks,” Mach. Learn., vol.
+20, no. 3, pp. 273–297, Sep. 1995.
+[5] L. Breiman, “Random forests,” Mach. Learn., vol. 45, no. 1, pp. 5–32, Oct.
+2001.
+[6] Y . LeCun, Y . Bengio, and G. Hinton, “Deep learning,” Nature, vol. 521,
+no. 7553, pp. 436–444, May 2015.
+[7] A. L. Buczak and E. Guven, “A survey of data mining and machine
+learning methods for cyber security intrusion detection,” IEEE Commun.
+Surveys Tuts., vol. 18, no. 2, pp. 1153–1176, 2nd Quart., 2016.
+[8] A. Hard et al., “Federated learning for mobile keyboard prediction,” arXiv
+preprint arXiv:1811.03604, 2018.
+[9] N. Rieke et al., “The future of digital health with federated learning,” NPJ
+Digit. Med., vol. 3, no. 1, pp. 1–7, Sep. 2020.
+[10] W. Y . B. Lim et al., “Federated learning in mobile edge networks: A
+comprehensive survey,” IEEE Commun. Surveys Tuts., vol. 22, no. 3, pp.
+2031–2063, 3rd Quart., 2020.
+[11] J. L. Rodgers and W. A. Nicewander, “Thirteen ways to look at the
+correlation coefficient,” Amer. Statist., vol. 42, no. 1, pp. 59–66, Feb. 1988.
+[12] R. A. Fisher, “The use of multiple measurements in taxonomic problems,”
+Ann. Eugenics, vol. 7, no. 2, pp. 179–188, Sep. 1936.
+[13] M. A. Ambusaidi, X. He, P. Nanda, and Z. Tan, “Building an intrusion
+detection system using a filter-based feature selection algorithm,” IEEE
+Trans. Comput., vol. 65, no. 10, pp. 2986–2998, Oct. 2016.
+[14] C. Dwork, “Differential privacy,” in Proc. Int. Colloq. Automata, Lan-
+guages, Program., Venice, Italy, 2006, pp. 1–12.
+[15] C. Gentry, “Fully homomorphic encryption using ideal lattices,” in Proc.
+ACM Symp. Theory Comput., Bethesda, MD, USA, 2009, pp. 169–178.
+[16] P. Kairouz et al., “Advances and open problems in federated learning,”
+arXiv preprint arXiv:1912.04977, 2019.
+[17] J. Azimjonov and T. Kim, “Designing accurate lightweight intrusion
+detection systems for IoT networks using fine-tuned linear SVM and
+feature selectors,” Comput. Secur., vol. 137, Art. no. 103598, 2024.
+[18] O. Alghushairy et al., “An efficient support vector machine algorithm
+based network outlier detection system,” IEEE Access, vol. 12, pp. 24428–
+24441, 2024.
+[19] P. Qi et al., “Model aggregation techniques in federated learning: A
+comprehensive survey,” Future Gener. Comput. Syst., vol. 150, pp. 272–
+293, 2024.
+[20] S. Banahbilah et al., “Federated learning review: Fundamentals, enabling
+technologies, and future applications,” Inf. Process. Manag., vol. 59, Art.
+no. 103061, 2022.
+[21] A. Navia-Vázquez, R. Díaz-Morales, and M. Fernández-Díaz, “Budget
+Distributed Support Vector Machine for Non-IID Federated Learning
+Scenarios,” ACM Trans. Intell. Syst. Technol., vol. 13, no. 4, pp. 1–25,
+2022.
+12 VOLUME 4, 2016
+
+=====PAGE 13=====
+Haris Mohamed C P: Privacy-Preserving Federated Learning for DDoS Attack Detection in IoT Networks Using Hybrid Feature Selection
+[22] M. Tavallaee, E. Bagheri, W. Lu, and A. A. Ghorbani, “A detailed analysis
+of the KDD CUP 99 data set,” in Proc. IEEE Symp. Computational
+Intelligence for Security and Defense Applications, Ottawa, ON, Canada,
+2009, pp. 1–6.
+[23] R. Doriguzzi-Corin and D. Siracusa, “FLAD: Adaptive Federated Learn-
+ing for DDoS attack detection,” Comput. Secur., vol. 137, Art. no. 103597,
+2024.
+[24] S. Agrawal et al., “Federated Learning for intrusion detection system:
+Concepts, challenges and future directions,” Comput. Commun., vol. 195,
+pp. 346–361, 2022.
+[25] C. Xie, S. Koyejo, and I. Gupta, “Asynchronous federated optimization,”
+arXiv preprint arXiv:1903.03934, 2019.
+[26] P. Blanchard, E. M. El Mhamdi, R. Guerraoui, and J. Stainer, “Machine
+learning with adversaries: Byzantine tolerant gradient descent,” in Proc.
+Adv. Neural Inf. Process. Syst., Long Beach, CA, USA, 2017, pp. 119–
+129.
+[27] R. Shokri, M. Stronati, C. Song, and V . Shmatikov, “Membership inference
+attacks against machine learning models,” in Proc. IEEE Symp. Security
+Privacy, San Jose, CA, USA, 2017, pp. 3–18.
+[28] J. Kone ˇcný et al., “Federated learning: Strategies for improving communi-
+cation efficiency,” arXiv preprint arXiv:1610.05492, 2016.
+VOLUME 4, 2016 13
+
+=====PAGE 14=====
+Haris Mohamed C P: Privacy-Preserving Federated Learning for DDoS Attack Detection in IoT Networks Using Hybrid Feature Selection
+HARIS MOHAMED C Pearned his B.Tech.
+degree in Computer Science and Engineering from
+Government Engineering College, Sreekrishnapu-
+ram. He is currently working toward the M.Tech.
+degree in Computer Science and Engineering at
+the Vellore Institute of Technology, Vellore. His
+research interests include federated learning, cy-
+bersecurity, and privacy-preserving intrusion de-
+tection systems. His work focuses on the devel-
+opment of efficient security frameworks for IoT
+environments and safety-critical infrastructure.
+ANINDIT A KUNDUhas completed her B.Tech
+in Computer Science and Engineering in the
+year 2008, from Narula Institute of Technology,
+Kolkata, affiliated to Maulana Abul Kalam Uni-
+versity of Technology formerly known as West
+Bengal University of Technology. In the same year
+she joined the M. Tech programme in Distributed
+and Mobile Computing in the School of Mobile
+Computing and Communication, Jadavpur Uni-
+versity, Kolkata with the GATE Scholarship. She
+completed her masters in 2010 and in the same year she joined the position
+of Senior Research Fellow in DST-PURSE project at the Department of
+Electronics and Telecommunication Engineering, Jadavpur University, (DST
+PURSE Project), Kolkata. During this period she served at the Chairperson
+of the IEEE Students Branch of the Jadavpur University. She served this
+position till 2013 after which she joined Heritage Institute of Technology
+Kolkata in the scope of Assistant Professor. She completed her PhD from the
+Department of Electronics and Telecommunication Engineering, Jadavpur
+University, Kolkata in the year 2018. Presently she is serving the Department
+of Software Systems, School of Computer Science and Engineering, of
+Vellore Institute of Technology, Vellore as an Associate Professor. Her
+current research interests include Robotic Path Planning, Internet of Things
+and Opportunistic Networks. She has her works published in several Inter-
+national Conferences and Journals of repute.
+14 VOLUME 4, 2016

@@ -1,0 +1,507 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789985019.733509   22700 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789985026.730972   22700 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+================================================================================
+FEDERATED LEARNING FOR DDOS DETECTION - COMPLETE EXPERIMENT
+================================================================================
+
+Paper: Privacy-Preserving Federated Learning Framework
+Author: Haris Mohamed C P
+Institution: VIT Vellore
+================================================================================
+
+████████████████████████████████████████████████████████████████████████████████
+PHASE 1: DATA PREPARATION
+████████████████████████████████████████████████████████████████████████████████
+
+⚠ Preprocessed data not found. Running preprocessing...
+
+================================================================================
+LOADING REAL CIC-IoT2023 DATASET
+================================================================================
+Found 1 CSV files
+
+Target samples:
+  Benign: 255,000 (51.0%)
+  DDoS:   245,000 (49.0%)
+  Total:  500,000
+
+Processing: cic_iot_2023_sample500k.csv
+  Progress: Benign 25,587/255,000, DDoS 24,413/245,000  Progress: Benign 51,052/255,000, DDoS 48,948/245,000  Progress: Benign 76,795/255,000, DDoS 73,205/245,000  Progress: Benign 102,220/255,000, DDoS 97,780/245,000  Progress: Benign 127,748/255,000, DDoS 122,252/245,000  Progress: Benign 153,037/255,000, DDoS 146,963/245,000  Progress: Benign 178,553/255,000, DDoS 171,447/245,000  Progress: Benign 203,899/255,000, DDoS 196,101/245,000  Progress: Benign 229,457/255,000, DDoS 220,543/245,000  Progress: Benign 255,000/255,000, DDoS 245,000/245,000
+
+✓ Dataset loaded:
+  Benign: 255,000
+  DDoS:   245,000
+  Total:  500,000
+  Features: 47
+
+================================================================================
+ALGORITHM 1: HYBRID FEATURE SELECTION (Pearson ∩ LDA)
+================================================================================
+
+Original features: 46
+
+[Step 1] Data Cleaning...
+  After variance filter: 34 features
+
+[Step 2] Pearson Correlation Selection...
+  Pearson selected: 24 features
+
+[Step 3] Linear Discriminant Analysis...
+  LDA selected: 20 features
+
+[Step 4] Feature Intersection...
+  Final features: 17
+  Reduction: 63.0%
+  Features: ['psh_flag_number', 'Covariance', 'ack_flag_number', 'Radius', 'Tot size']...
+
+[Step 5] Cross-Validation Check...
+  10-fold CV scores: [0.99618328 0.99632638 0.99656947 0.99656891 0.99607987 0.9967549
+ 0.99642646 0.99640582 0.9959577  0.99638665]
+  Mean F1: 0.9964 (σ=0.0002)
+  ⚠ CV score 0.9964 outside expected range
+
+================================================================================
+TRAIN-TEST SPLIT (80-20 Stratified)
+================================================================================
+
+Training set: 400,000 samples
+  Benign: 204,000 (51.0%)
+  DDoS:   196,000 (49.0%)
+
+Test set: 100,000 samples
+  Benign: 51,000 (51.0%)
+  DDoS:   49,000 (49.0%)
+
+✓ Saving preprocessed data to outputs\data
+
+✓ Features: 17
+✓ Training samples: 400,000
+✓ Test samples: 100,000
+
+████████████████████████████████████████████████████████████████████████████████
+PHASE 2: CENTRALIZED SVM BASELINE
+████████████████████████████████████████████████████████████████████████████████
+
+================================================================================
+CENTRALIZED SVM (Privacy-Violating Baseline)
+================================================================================
+✓ Training complete in 1.58s
+
+────────────────────────────────────────────────────────────────────────────────
+EVALUATING: Centralized SVM
+────────────────────────────────────────────────────────────────────────────────
+
+Classification Metrics:
+  Accuracy:  0.9964
+  Precision: 0.9963
+  Recall:    0.9964
+  F1-Score:  0.9963
+
+Confusion Matrix:
+  TN: 50,817  |  FP: 183
+  FN: 177  |  TP: 48,823
+
+Error Rates:
+  FPR (False Positive Rate): 0.0036 (0.36%)
+  FNR (False Negative Rate): 0.0036 (0.36%)
+  Specificity: 0.9964
+
+████████████████████████████████████████████████████████████████████████████████
+PHASE 3: FEDERATED SVM TRAINING
+████████████████████████████████████████████████████████████████████████████████
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Training with 3 Workers
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Initialized Federated SVM:
+  Workers: 3
+  Rounds: 3
+
+================================================================================
+ALGORITHM 2: FEDERATED SVM TRAINING (3 workers)
+================================================================================
+
+[Initialization] Partitioning data into 3 workers...
+  Worker 1: 133,333 samples (68,187 benign, 65,146 DDoS)
+  Worker 2: 133,333 samples (67,843 benign, 65,490 DDoS)
+  Worker 3: 133,334 samples (67,970 benign, 65,364 DDoS)
+
+────────────────────────────────────────────────────────────────────────────────
+ROUND 1/3
+────────────────────────────────────────────────────────────────────────────────
+
+[Phase 1] Local Training (Parallel)...
+  Worker 1: F1=0.9965, n=133,333
+  Worker 2: F1=0.9961, n=133,333
+  Worker 3: F1=0.9965, n=133,334
+
+[Phase 2] Aggregation (Central Server)...
+  Communication: 216 bytes (0.21 KB)
+
+────────────────────────────────────────────────────────────────────────────────
+ROUND 2/3
+────────────────────────────────────────────────────────────────────────────────
+
+[Phase 1] Local Training (Parallel)...
+  Worker 1: F1=0.9965, n=133,333
+  Worker 2: F1=0.9961, n=133,333
+  Worker 3: F1=0.9965, n=133,334
+
+[Phase 2] Aggregation (Central Server)...
+  Communication: 216 bytes (0.21 KB)
+
+────────────────────────────────────────────────────────────────────────────────
+ROUND 3/3
+────────────────────────────────────────────────────────────────────────────────
+
+[Phase 1] Local Training (Parallel)...
+  Worker 1: F1=0.9965, n=133,333
+  Worker 2: F1=0.9961, n=133,333
+  Worker 3: F1=0.9965, n=133,334
+
+[Phase 2] Aggregation (Central Server)...
+  Communication: 216 bytes (0.21 KB)
+
+✓ Federated training complete
+  Total time: 4.10s
+  Average time per round: 1.37s
+
+────────────────────────────────────────────────────────────────────────────────
+EVALUATING: Federated SVM (3 workers)
+────────────────────────────────────────────────────────────────────────────────
+
+Classification Metrics:
+  Accuracy:  0.9966
+  Precision: 0.9966
+  Recall:    0.9964
+  F1-Score:  0.9965
+
+Confusion Matrix:
+  TN: 50,834  |  FP: 166
+  FN: 175  |  TP: 48,825
+
+Error Rates:
+  FPR (False Positive Rate): 0.0033 (0.33%)
+  FNR (False Negative Rate): 0.0036 (0.36%)
+  Specificity: 0.9967
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Training with 5 Workers
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Initialized Federated SVM:
+  Workers: 5
+  Rounds: 3
+
+================================================================================
+ALGORITHM 2: FEDERATED SVM TRAINING (5 workers)
+================================================================================
+
+[Initialization] Partitioning data into 5 workers...
+  Worker 1: 80,000 samples (40,892 benign, 39,108 DDoS)
+  Worker 2: 80,000 samples (40,792 benign, 39,208 DDoS)
+  Worker 3: 80,000 samples (40,740 benign, 39,260 DDoS)
+  Worker 4: 80,000 samples (40,675 benign, 39,325 DDoS)
+  Worker 5: 80,000 samples (40,901 benign, 39,099 DDoS)
+
+────────────────────────────────────────────────────────────────────────────────
+ROUND 1/3
+────────────────────────────────────────────────────────────────────────────────
+
+[Phase 1] Local Training (Parallel)...
+  Worker 1: F1=0.9964, n=80,000
+  Worker 2: F1=0.9963, n=80,000
+  Worker 3: F1=0.9966, n=80,000
+  Worker 4: F1=0.9962, n=80,000
+  Worker 5: F1=0.9963, n=80,000
+
+[Phase 2] Aggregation (Central Server)...
+  Communication: 360 bytes (0.35 KB)
+
+────────────────────────────────────────────────────────────────────────────────
+ROUND 2/3
+────────────────────────────────────────────────────────────────────────────────
+
+[Phase 1] Local Training (Parallel)...
+  Worker 1: F1=0.9964, n=80,000
+  Worker 2: F1=0.9963, n=80,000
+  Worker 3: F1=0.9966, n=80,000
+  Worker 4: F1=0.9962, n=80,000
+  Worker 5: F1=0.9963, n=80,000
+
+[Phase 2] Aggregation (Central Server)...
+  Communication: 360 bytes (0.35 KB)
+
+────────────────────────────────────────────────────────────────────────────────
+ROUND 3/3
+────────────────────────────────────────────────────────────────────────────────
+
+[Phase 1] Local Training (Parallel)...
+  Worker 1: F1=0.9964, n=80,000
+  Worker 2: F1=0.9963, n=80,000
+  Worker 3: F1=0.9966, n=80,000
+  Worker 4: F1=0.9962, n=80,000
+  Worker 5: F1=0.9963, n=80,000
+
+[Phase 2] Aggregation (Central Server)...
+  Communication: 360 bytes (0.35 KB)
+
+✓ Federated training complete
+  Total time: 3.57s
+  Average time per round: 1.19s
+
+────────────────────────────────────────────────────────────────────────────────
+EVALUATING: Federated SVM (5 workers)
+────────────────────────────────────────────────────────────────────────────────
+
+Classification Metrics:
+  Accuracy:  0.9966
+  Precision: 0.9967
+  Recall:    0.9964
+  F1-Score:  0.9966
+
+Confusion Matrix:
+  TN: 50,838  |  FP: 162
+  FN: 175  |  TP: 48,825
+
+Error Rates:
+  FPR (False Positive Rate): 0.0032 (0.32%)
+  FNR (False Negative Rate): 0.0036 (0.36%)
+  Specificity: 0.9968
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Training with 10 Workers
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Initialized Federated SVM:
+  Workers: 10
+  Rounds: 3
+
+================================================================================
+ALGORITHM 2: FEDERATED SVM TRAINING (10 workers)
+================================================================================
+
+[Initialization] Partitioning data into 10 workers...
+  Worker 1: 40,000 samples (20,503 benign, 19,497 DDoS)
+  Worker 2: 40,000 samples (20,461 benign, 19,539 DDoS)
+  Worker 3: 40,000 samples (20,374 benign, 19,626 DDoS)
+  Worker 4: 40,000 samples (20,577 benign, 19,423 DDoS)
+  Worker 5: 40,000 samples (20,195 benign, 19,805 DDoS)
+  Worker 6: 40,000 samples (20,274 benign, 19,726 DDoS)
+  Worker 7: 40,000 samples (20,380 benign, 19,620 DDoS)
+  Worker 8: 40,000 samples (20,299 benign, 19,701 DDoS)
+  Worker 9: 40,000 samples (20,477 benign, 19,523 DDoS)
+  Worker 10: 40,000 samples (20,460 benign, 19,540 DDoS)
+
+────────────────────────────────────────────────────────────────────────────────
+ROUND 1/3
+────────────────────────────────────────────────────────────────────────────────
+
+[Phase 1] Local Training (Parallel)...
+  Worker 1: F1=0.9968, n=40,000
+  Worker 2: F1=0.9963, n=40,000
+  Worker 3: F1=0.9969, n=40,000
+  Worker 4: F1=0.9964, n=40,000
+  Worker 5: F1=0.9965, n=40,000
+  Worker 6: F1=0.9957, n=40,000
+  Worker 7: F1=0.9958, n=40,000
+  Worker 8: F1=0.9966, n=40,000
+  Worker 9: F1=0.9970, n=40,000
+  Worker 10: F1=0.9962, n=40,000
+
+[Phase 2] Aggregation (Central Server)...
+  Communication: 720 bytes (0.70 KB)
+
+────────────────────────────────────────────────────────────────────────────────
+ROUND 2/3
+────────────────────────────────────────────────────────────────────────────────
+
+[Phase 1] Local Training (Parallel)...
+  Worker 1: F1=0.9968, n=40,000
+  Worker 2: F1=0.9963, n=40,000
+  Worker 3: F1=0.9969, n=40,000
+  Worker 4: F1=0.9964, n=40,000
+  Worker 5: F1=0.9965, n=40,000
+  Worker 6: F1=0.9957, n=40,000
+  Worker 7: F1=0.9958, n=40,000
+  Worker 8: F1=0.9966, n=40,000
+  Worker 9: F1=0.9970, n=40,000
+  Worker 10: F1=0.9962, n=40,000
+
+[Phase 2] Aggregation (Central Server)...
+  Communication: 720 bytes (0.70 KB)
+
+────────────────────────────────────────────────────────────────────────────────
+ROUND 3/3
+────────────────────────────────────────────────────────────────────────────────
+
+[Phase 1] Local Training (Parallel)...
+  Worker 1: F1=0.9968, n=40,000
+  Worker 2: F1=0.9963, n=40,000
+  Worker 3: F1=0.9969, n=40,000
+  Worker 4: F1=0.9964, n=40,000
+  Worker 5: F1=0.9965, n=40,000
+  Worker 6: F1=0.9957, n=40,000
+  Worker 7: F1=0.9958, n=40,000
+  Worker 8: F1=0.9966, n=40,000
+  Worker 9: F1=0.9970, n=40,000
+  Worker 10: F1=0.9962, n=40,000
+
+[Phase 2] Aggregation (Central Server)...
+  Communication: 720 bytes (0.70 KB)
+
+✓ Federated training complete
+  Total time: 2.34s
+  Average time per round: 0.78s
+
+────────────────────────────────────────────────────────────────────────────────
+EVALUATING: Federated SVM (10 workers)
+────────────────────────────────────────────────────────────────────────────────
+
+Classification Metrics:
+  Accuracy:  0.9966
+  Precision: 0.9967
+  Recall:    0.9965
+  F1-Score:  0.9966
+
+Confusion Matrix:
+  TN: 50,836  |  FP: 164
+  FN: 172  |  TP: 48,828
+
+Error Rates:
+  FPR (False Positive Rate): 0.0032 (0.32%)
+  FNR (False Negative Rate): 0.0035 (0.35%)
+  Specificity: 0.9968
+
+████████████████████████████████████████████████████████████████████████████████
+PHASE 4: COMPARATIVE MODELS (5 Workers Configuration)
+████████████████████████████████████████████████████████████████████████████████
+
+[1/3] Training Random Forest...
+
+================================================================================
+RANDOM FOREST CLASSIFIER
+================================================================================
+✓ Training complete in 8.28s
+
+────────────────────────────────────────────────────────────────────────────────
+EVALUATING: Random Forest
+────────────────────────────────────────────────────────────────────────────────
+
+Classification Metrics:
+  Accuracy:  0.9984
+  Precision: 0.9999
+  Recall:    0.9969
+  F1-Score:  0.9984
+
+Confusion Matrix:
+  TN: 50,996  |  FP: 4
+  FN: 153  |  TP: 48,847
+
+Error Rates:
+  FPR (False Positive Rate): 0.0001 (0.01%)
+  FNR (False Negative Rate): 0.0031 (0.31%)
+  Specificity: 0.9999
+
+[2/3] Training Artificial Neural Network...
+
+================================================================================
+ARTIFICIAL NEURAL NETWORK
+================================================================================
+✓ Training complete in 55.78s
+
+────────────────────────────────────────────────────────────────────────────────
+EVALUATING: ANN
+────────────────────────────────────────────────────────────────────────────────
+
+Classification Metrics:
+  Accuracy:  0.9987
+  Precision: 0.9994
+  Recall:    0.9979
+  F1-Score:  0.9987
+
+Confusion Matrix:
+  TN: 50,971  |  FP: 29
+  FN: 101  |  TP: 48,899
+
+Error Rates:
+  FPR (False Positive Rate): 0.0006 (0.06%)
+  FNR (False Negative Rate): 0.0021 (0.21%)
+  Specificity: 0.9994
+
+[3/3] Training Isolation Forest...
+
+================================================================================
+ISOLATION FOREST
+================================================================================
+✓ Training complete in 2.47s
+
+────────────────────────────────────────────────────────────────────────────────
+EVALUATING: Isolation Forest
+────────────────────────────────────────────────────────────────────────────────
+
+Classification Metrics:
+  Accuracy:  0.2116
+  Precision: 0.1969
+  Recall:    0.1978
+  F1-Score:  0.1974
+
+Confusion Matrix:
+  TN: 11,469  |  FP: 39,531
+  FN: 39,307  |  TP: 9,693
+
+Error Rates:
+  FPR (False Positive Rate): 0.7751 (77.51%)
+  FNR (False Negative Rate): 0.8022 (80.22%)
+  Specificity: 0.2249
+
+████████████████████████████████████████████████████████████████████████████████
+PHASE 5: RESULTS SUMMARY
+████████████████████████████████████████████████████████████████████████████████
+
+────────────────────────────────────────────────────────────────────────────────
+Table 2: Federated vs Centralized SVM Performance
+────────────────────────────────────────────────────────────────────────────────
+Model                       Accuracy  Precision     Recall   F1-Score    Time(s)
+────────────────────────────────────────────────────────────────────────────────
+Centralized SVM               0.9964     0.9963     0.9964     0.9963       1.58
+Fed. SVM (3 workers)          0.9966     0.9966     0.9964     0.9965       4.11
+Fed. SVM (5 workers)          0.9966     0.9967     0.9964     0.9966       3.58
+Fed. SVM (10 workers)         0.9966     0.9967     0.9965     0.9966       2.35
+
+────────────────────────────────────────────────────────────────────────────────
+Table 3: Algorithm Comparison (5 Workers, Federated Setting)
+────────────────────────────────────────────────────────────────────────────────
+Algorithm              Accuracy  Precision     Recall   F1-Score    Time(s)
+────────────────────────────────────────────────────────────────────────────────
+Federated SVM            0.9966     0.9967     0.9964     0.9966       3.58
+Random Forest            0.9984     0.9999     0.9969     0.9984       8.28
+ANN                      0.9987     0.9994     0.9979     0.9987      55.78
+Isolation Forest         0.2116     0.1969     0.1978     0.1974       2.47
+
+────────────────────────────────────────────────────────────────────────────────
+Table 4: Confusion Matrix - Federated SVM (5 Workers)
+────────────────────────────────────────────────────────────────────────────────
+                Predicted Benign    Predicted DDoS
+Actual Benign            50,838               162
+Actual DDoS                 175            48,825
+
+False Positive Rate: 0.0032 (0.32%)
+False Negative Rate: 0.0036 (0.36%)
+
+████████████████████████████████████████████████████████████████████████████████
+PHASE 6: SAVING RESULTS
+████████████████████████████████████████████████████████████████████████████████
+✓ Results saved to: outputs\results\experiment_results.json
+✓ Table 2 saved to: table2_federated_vs_centralized.csv
+✓ Table 3 saved to: table3_algorithm_comparison.csv
+
+================================================================================
+EXPERIMENT COMPLETE!
+================================================================================
+
+✓ All results saved to: outputs\results
+✓ Check experiment_results.json for complete results
+✓ CSV tables ready for paper submission
+
+✓ SUCCESS: Experiment completed without errors

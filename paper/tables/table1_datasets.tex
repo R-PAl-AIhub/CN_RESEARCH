@@ -1,0 +1,15 @@
+\begin{table*}[t]
+\centering
+\caption{Datasets (real, public). The pool is a seeded random sample of the release; exact duplicates are removed before any split; the corpus is a seeded stratified sample split 60/20/20.}
+\label{tab:datasets}
+\scriptsize
+\setlength{\tabcolsep}{2.4pt}
+\begin{tabular}{p{1.0cm}p{3.6cm}p{2.6cm}p{0.7cm}p{0.9cm}p{0.9cm}p{1.6cm}p{2.5cm}p{0.5cm}}
+\toprule
+Dataset & Source / licence & Task / classes (release size) & Features & Pool rows & After de-dup & Corpus (seed 0) & Train/val/test & Clients \\
+\midrule
+CIC-IoT2023 & unb.ca/cic (mirror: HF lacg030175/CIC-IoT-2023-neto-full; CC-BY-4.0) \cite{neto2023} & benign vs 12 DDoS types (46.7M flows) & 46 & 809,836 & 772,037 & 200,000 (50\% attack) & 120,005/39,995/40,000 & 10 \\
+N-BaIoT & UCI id 442, doi:10.24432/C5RC8J; CC BY 4.0 \cite{meidan2018} & benign vs 8 flood files (7.06M flows, 9 devices) & 115 & 300,000 & 227,775 & 136,939 (47\% attack) & 82,189/27,368/27,382 & 9 \\
+\bottomrule
+\end{tabular}
+\end{table*}

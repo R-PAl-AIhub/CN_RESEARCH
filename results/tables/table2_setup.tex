@@ -1,0 +1,22 @@
+\begin{table*}[t]
+\centering
+\caption{Experimental setup (CPU only) and tuning search spaces. Tuned values per dataset/condition are in results/tables/tuned\_hyperparameters.csv.}
+\label{tab:setup}
+\tiny
+\setlength{\tabcolsep}{2.4pt}
+\begin{tabular}{p{2.6cm}p{14.4cm}}
+\toprule
+Item & Setting \\
+\midrule
+Platform & Windows 11 Home (build 10.0.26200), native; AMD Ryzen 7 7435HS (8 cores / 16 threads); 23.7 GB RAM; CPU only \\
+Software & Python 3.11.9, TensorFlow 2.21.0 / Keras 3.15.1, scikit-learn 1.9.1, NumPy 2.4.6, SciPy 1.17.1 \\
+Splits, seeds & 60/20/20 stratified; 10 seeds (corpus sample, split, partition, initialisation) \\
+Preprocessing & variance $\ge$ 0.01; Pearson $|\rho|>0.2$; LDA top-20; intersection; standardisation \\
+FL protocol & T = 20 rounds, E = 2 local epochs, batch 64, plain SGD, lr/(1+r) decay, all clients each round \\
+Tuning (all methods) & random search, 6 trials, same random stream; objective = mean validation F1 over the corpora of seeds 0--2; test never used \\
+Search space: SVM family & lr $\in$ [0.005, 0.3] (log), C $\in$ [0.3, 100] (log), loss $\in$ \{hinge, sq. hinge\}; FedProx: $\mu_p$ $\in$ [1e-3, 1] (log) \\
+Search space: MLP / RF & MLP: lr $\in$ [0.005, 0.3], L2 $\in$ [1e-5, 1e-2] (log); RF: trees $\in$ \{50,100\} $\times$ depth $\in$ \{10,20,30\} (6-point grid) \\
+Senior baseline search & sklearn LinearSVC: C $\in$ [0.3, 100] (log), loss $\in$ \{hinge, sq. hinge\}, max\_iter 1000 \\
+\bottomrule
+\end{tabular}
+\end{table*}

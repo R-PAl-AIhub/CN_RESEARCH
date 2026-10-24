@@ -1,0 +1,10 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789985453.058116   10232 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789985455.797968   10232 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+tf_svm_central {"acc": 0.99354, "prec": 0.9981456298677216, "rec": 0.9886530612244898, "f1": 0.9933766686488814, "sec": 4.82084059715271}
+tf_fed5_oneshot_avg_3rounds_cold {"acc": 0.98997, "prec": 0.9978632035350496, "rec": 0.9816326530612245, "f1": 0.9896813884345134, "sec": 15.596503019332886}
+tf_fed5_fedavg_10rounds_warm {"acc": 0.99037, "prec": 0.9985263288984827, "rec": 0.9817959183673469, "f1": 0.9900904516407866, "sec": 16.899174451828003}
+keras_mlp_central {"acc": 0.99776, "prec": 0.9991404011461318, "rec": 0.9962857142857143, "f1": 0.9977110157367668, "sec": 117.07269144058228}
+senior_sklearn_reference {"central_svm": {"accuracy": 0.9964, "precision": 0.9962657633759131, "recall": 0.9963877551020408, "f1_score": 0.996326755504765}, "fed5": {"accuracy": 0.99663, "precision": 0.9966930001837222, "recall": 0.9964285714285714, "f1_score": 0.996560768265178}, "ann": {"accuracy": 0.9987, "precision": 0.9994072923479398, "recall": 0.997938775510204, "f1_score": 0.9986724940772813}}

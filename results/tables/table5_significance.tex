@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\caption{Paired tests over 10 seeds (test F1): $\Delta$F1 = A $-$ B; $p$ = Wilcoxon signed-rank, raw / Holm over all 54 tests (full list with intervals in the CSV; smallest attainable $p$ = 0.0020).}
+\label{tab:sig}
+\tiny
+\setlength{\tabcolsep}{2.4pt}
+\begin{tabular}{lcccccc}
+\toprule
+Comparison (A vs B) & CIC IID: $\Delta$F1 & CIC IID: $p$ / Holm & CIC Dir(0.1): $\Delta$F1 & CIC Dir(0.1): $p$ / Holm & N-B Device: $\Delta$F1 & N-B Device: $p$ / Holm \\
+\midrule
+Senior (as released) vs Senior (no leak) & +0.0001 & 0.461/1.000 & +0.0012 & 0.375/1.000 & -0.0522 & 0.625/1.000 \\
+FedStat-FS (proposed) vs Local-prep FedAvg & -0.0007 & 0.695/1.000 & +0.4159 & 0.002/0.105 & +0.3032 & 0.010/0.312 \\
+FedStat-FS (proposed) vs A2: no selection & -0.0023 & 0.002/0.105 & -0.0021 & 0.049/1.000 & -0.0733 & 0.002/0.105 \\
+FedStat-FS (proposed) vs A3: one-shot averaging & +0.0004 & 0.625/1.000 & +0.0107 & 0.027/0.820 & -0.0305 & 0.432/1.000 \\
+FedStat-FS (proposed) vs Central SVM & -0.0014 & 0.002/0.105 & -0.0047 & 0.002/0.105 & +0.0095 & 1.000/1.000 \\
+FedStat-FS (proposed) vs Senior (as released) & -0.0017 & 0.002/0.105 & +0.0008 & 0.432/1.000 & +0.0560 & 1.000/1.000 \\
+FedStat-FS (proposed) vs FedAvg-MLP (fed. prep) & -0.0014 & 0.002/0.105 & -0.0047 & 0.004/0.141 & -0.0466 & 0.432/1.000 \\
+\bottomrule
+\end{tabular}
+\end{table*}

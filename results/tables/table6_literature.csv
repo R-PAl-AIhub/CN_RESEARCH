@@ -1,0 +1,7 @@
+Study,Dataset,Technique,Reported result (as stated by the source),Data regime
+Karunamurthy et al. \cite{karunamurthy2025},MQTTset (6 classes),FL-CNN + chimp-optimisation selection,"Acc. 95.59\%, macro-F1 94.04\% (their Table 10)",IID split
+Mohamed \& Kundu (senior) \cite{senior2026},CIC-IoT2023 (binary),Fed. linear SVM + Pearson$\cap$LDA,"F1 98.81\%, Acc. 98.84\% (reported); 99.66\% F1 in our re-run of their code","IID, pooled pre-split preprocessing"
+Bouzinis et al. (StatAvg) \cite{bouzinis2025},"TON-IoT, CIC-IoT-2023",Global normalisation from shared feature statistics (deep FL),Accuracy gain 4--17\% over normalisation baselines (abstract),non-IID features
+Beshah et al. (FedDWC) \cite{fedDWC2025},IoTID20,Dynamic weighted clustered FL,Acc. +1.9/+1.31/+1.01\% over FedAvg/FedProx/IFCA (abstract),"non-IID, 200 devices"
+Nguyen et al. (Fed-FeRe) \cite{nguyen2026},IoT IDS benchmarks,Chi-square selection + GRU,"+3.06\% precision, $\approx$2\% less traffic vs FedAvg (abstract)",non-IID
+This work (FedStat-FS),CIC-IoT2023 / N-BaIoT,Federated-statistics preprocessing + FedAvg linear SVM,see Table~\ref{tab:main},"IID, Dirichlet, device"

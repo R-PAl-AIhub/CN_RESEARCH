@@ -1,0 +1,10 @@
+Method,Dataset(s),Model,Selection,Fed.,Non-IID,Fed. prep. stats,Leakage-free audit,Reported result (quoted)
+Karunamurthy et al. \cite{karunamurthy2025},MQTTset,CNN,wrapper (COA),yes,no,no,no,"acc. 95.59\%, macro-F1 94.04\%"
+Devine et al. \cite{devine2025},IoT DDoS data,SVM/RF/ANN,data preparation,yes,no,no,part,not stated in abstract
+Yang \& Kondo \cite{yang2021},NSL-KDD,on-device NN,greedy per attack,yes,no,no,no,not stated in abstract
+FD-IDS \cite{fdids2025},"Edge-IIoT, N-BaIoT",NN + KD + prox,mutual information,yes,yes,no,no,not stated in abstract
+StatAvg \cite{bouzinis2025},"TON-IoT, CIC-IoT-2023",deep FL,-- (normalisation),yes,yes,part,no,acc. gain 4--17\% over normalisation baselines
+Fed-FeRe \cite{nguyen2026},IoT IDS data,GRU,chi-square,yes,yes,no,no,"+3.06\% precision, $\approx$2\% less traffic than FedAvg"
+FedDWC \cite{fedDWC2025},IoTID20,clustered FL,--,yes,yes,no,no,acc. +1.9/+1.31/+1.01\% over FedAvg/FedProx/IFCA
+Senior \cite{senior2026},CIC-IoT2023,linear SVM,Pearson$\cap$LDA,yes,no,no,no,F1 98.81\% (99.66\% in our re-run)
+FedStat-FS (ours),"CIC-IoT2023, N-BaIoT",linear SVM (+MLP/prox baselines),"Pearson$\cap$LDA, exact",yes,yes,yes,yes,Table~\ref{tab:main}

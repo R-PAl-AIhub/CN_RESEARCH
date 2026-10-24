@@ -1,0 +1,78 @@
+77 numeric literals outside macros/equations/math
+abstract              023 |  that pipeline, reproduce it on real CIC-IoT2023 flows, and propose FedStat-FS: var
+abstract              023 | s trained with warm-start FedAvg. On CIC-IoT2023 and N-BaIoT ( MACRO seeds, identi
+abstract              0.1 |  in MACRO of MACRO runs. Under Dirichlet(0.1) label skew, naive local preproces
+sec_intro             023 | lter and a federated linear SVM~ on CIC-IoT2023~ , a lightweight design aimed at c
+sec_intro               1 | rest? \end{itemize} \textbf{Contributions.} (1) A reproduction and audit of the s
+sec_intro             023 | audit of the senior pipeline on real CIC-IoT2023 flows (twelve defects). (2) \emph{
+sec_intro               2 | on real CIC-IoT2023 flows (twelve defects). (2) \emph{FedStat-FS}, which extends 
+sec_intro               3 | rm-start FedAvg of a TensorFlow linear SVM. (3) A leakage-free, de-duplicated, te
+sec_intro               4 | , one with a natural per-device federation. (4) Empirical findings, including neg
+sec_related             4 | ise identically, reporting accuracy gains of 4--17\ \textbf{Evaluation pitfalls.}
+sec_related            17 |  identically, reporting accuracy gains of 4--17\ \textbf{Evaluation pitfalls.} Pre
+sec_method            023 | unchanged on a random sample of real CIC-IoT2023 flows (255{,}000 benign, 245{,}000
+sec_method            255 | n a random sample of real CIC-IoT2023 flows (255{,}000 benign, 245{,}000 DDoS, as i
+sec_method            000 | ndom sample of real CIC-IoT2023 flows (255{,}000 benign, 245{,}000 DDoS, as in~ ). 
+sec_method            245 | of real CIC-IoT2023 flows (255{,}000 benign, 245{,}000 DDoS, as in~ ). The qualitat
+sec_method            000 | l CIC-IoT2023 flows (255{,}000 benign, 245{,}000 DDoS, as in~ ). The qualitative cl
+sec_method             17 |  as in~ ). The qualitative claims reproduce (17 of 46 features kept; federated equ
+sec_method             46 | ~ ). The qualitative claims reproduce (17 of 46 features kept; federated equals ce
+sec_method         0.9881 | rated-SVM F1 is MACRO against the reported 0.9881, plausibly because the released lo
+sec_method              1 | Problem formulation} Client holds , , (1 = DDoS), , . With (keep featur
+sec_method              1 | near detector} \textit{Complexity.} Phase 1: client time, memory; server 
+sec_method              2 |  1: client time, memory; server . Phase 2 per round: client , server ; mod
+sec_setup             023 | datasets are real, public and cited: CIC-IoT2023~ (46 flow features; benign versus
+sec_setup              46 | s are real, public and cited: CIC-IoT2023~ (46 flow features; benign versus DDoS)
+sec_setup             115 | features; benign versus DDoS) and N-BaIoT~ (115 features; benign versus Mirai/BASH
+sec_setup             023 | efore any split} ( MACRO of MACRO CIC-IoT2023 and MACRO of MACRO N-BaIoT poo
+sec_setup              60 | A corpus is a seeded stratified sample split 60/20/20 into train, validation and t
+sec_setup              20 | orpus is a seeded stratified sample split 60/20/20 into train, validation and test
+sec_setup              20 | us is a seeded stratified sample split 60/20/20 into train, validation and test (F
+sec_setup             023 |  test (Fig.~ ). \textbf{Clients.} CIC-IoT2023: clients with IID shards or Diri
+sec_setup             100 | ximal term; \emph{FedAvg-MLP} trains a Keras 100-50 MLP on the same preprocessing. 
+sec_setup              50 | l term; \emph{FedAvg-MLP} trains a Keras 100-50 MLP on the same preprocessing. Abl
+sec_setup              64 |  methods use rounds, local epochs, batch 64, step ; , , are shared. \tex
+sec_setup               0 | mean validation F1 over three corpora (seeds 0--2); the random forest uses its si
+sec_setup               2 | n validation F1 over three corpora (seeds 0--2); the random forest uses its six-p
+sec_setup               0 | ce per run; final results use MACRO seeds (0--9) that change sample, split, par
+sec_setup               9 | per run; final results use MACRO seeds (0--9) that change sample, split, partit
+sec_results           023 | or) instead of training rows changed CIC-IoT2023 F1 by MACRO at IID ( MACRO ) a
+sec_results           0.1 | MACRO at IID ( MACRO ) and MACRO at Dir(0.1) ( MACRO ); on N-BaIoT the leaky
+sec_results           023 | ts all federated pipelines coincide (CIC-IoT2023: Local-prep MACRO , FedStat-FS M
+sec_results           1.0 | rades to MACRO , MACRO and MACRO at Dir(1.0/0.3/0.1) (F1 in MACRO of MACR
+sec_results           0.3 | s to MACRO , MACRO and MACRO at Dir(1.0/0.3/0.1) (F1 in MACRO of MACRO D
+sec_results           0.1 |  MACRO , MACRO and MACRO at Dir(1.0/0.3/0.1) (F1 in MACRO of MACRO Dir(0
+sec_results           0.1 | 1.0/0.3/0.1) (F1 in MACRO of MACRO Dir(0.1) runs), whereas FedStat-FS holds 
+sec_results           0.1 | on the gap is MACRO versus MACRO . At Dir(0.1), MACRO (95\ The ablations (T
+sec_results            95 | CRO versus MACRO . At Dir(0.1), MACRO (95\ The ablations (Table~ , Fig.~ ) 
+sec_results           0.1 | ing} (A1) is even worse than Local-prep (Dir(0.1): MACRO ): clients with different
+sec_results           0.1 | ures (Jaccard MACRO at IID, MACRO at Dir(0.1), MACRO on devices; Fig.~ ). One
+sec_results           0.1 | -start averaging (A3) costs MACRO at Dir(0.1) (raw MACRO , Holm MACRO ), a 
+sec_results           023 | section did not improve accuracy. On CIC-IoT2023, no selection ( MACRO features) a
+sec_results          1000 | ameters, trains in MACRO \,s and classifies 1000 flows in MACRO \,ms, against MAC
+sec_results            46 | tistics upload is MACRO \,KB per client for 46 features ( MACRO \,KB for 115): mo
+sec_results           115 |  per client for 46 features ( MACRO \,KB for 115): more than the \emph{whole} model
+sec_results           0.1 | did not help ( MACRO against MACRO at Dir(0.1)), as expected when drift comes fr
+sec_results           023 | -- MACRO F1 points below the MLP on CIC-IoT2023.} \textbf{Training, sensitivity
+sec_results           0.1 | and device clients and more slowly under Dir(0.1) (validation loss still falling at
+sec_results            20 | 0.1) (validation loss still falling at round 20; the local training loss rises as 
+sec_results           0.3 | n the sensitivity study (validation, CIC Dir(0.3), Fig.~ ) FedStat-FS varies betwee
+sec_discussion        023 | s ``optimal''~ is not supported: on CIC-IoT2023 it trades a little accuracy for ha
+sec_threats             0 |  were chosen on validation splits of corpora 0--2, whose pool rows can reappear i
+sec_threats             2 | re chosen on validation splits of corpora 0--2, whose pool rows can reappear in o
+sec_threats             9 | ternal.} Two testbed datasets, binary tasks, 9--10 clients; Dirichlet partitions 
+sec_threats            10 | nal.} Two testbed datasets, binary tasks, 9--10 clients; Dirichlet partitions are 
+sec_threats            20 | . \textbf{Limitations.} The CPU budget fixed 20 rounds, 2 local epochs, six tuning
+sec_threats             2 | imitations.} The CPU budget fixed 20 rounds, 2 local epochs, six tuning trials an
+sec_statements        023 | ment.} All data are real and public. CIC-IoT2023 is distributed by the Canadian Ins
+sec_statements       2023 | l{https://www.unb.ca/cic/datasets/iotdataset-2023.html}); we used the Hugging Face m
+sec_statements      30175 | we used the Hugging Face mirror \texttt{lacg030175/CIC-IoT-2023-neto-full} (declared 
+sec_statements       2023 | gging Face mirror \texttt{lacg030175/CIC-IoT-2023-neto-full} (declared CC-BY-4.0) af
+sec_statements        4.0 | 0175/CIC-IoT-2023-neto-full} (declared CC-BY-4.0) after verifying its class counts 
+sec_statements        442 | ease~ . N-BaIoT is on the UCI repository (id 442, doi:10.24432/C5RC8J, CC BY 4.0)~ 
+sec_statements   10.24432 | -BaIoT is on the UCI repository (id 442, doi:10.24432/C5RC8J, CC BY 4.0)~ . Download scr
+sec_statements        4.0 | pository (id 442, doi:10.24432/C5RC8J, CC BY 4.0)~ . Download scripts, raw per-run 
+sec_statements          1 | textbf{CRediT Author Contributions.} [Author 1]: Conceptualization, Methodology, 
+sec_statements          2 | ision, Writing -- review \& editing. [Author 2]: Software, Investigation, Validat
+sec_statements          3 | lization, Writing -- original draft. [Author 3]: Resources, Project administratio
+sec_statements          5 | ant (Anthropic Claude, model ``Claude Sonnet 5'', run through Claude Code) was us

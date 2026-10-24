@@ -1,0 +1,370 @@
+{
+ "G_noniid": {
+  "query": "non-IID federated learning intrusion detection IoT",
+  "n_hits_since_2021": 2422,
+  "top": [
+   [
+    2025,
+    "FD-IDS: Federated Learning with Knowledge Distillation for Intrusion Detection in Non-IID ",
+    "https://doi.org/10.3390/s25144309"
+   ],
+   [
+    2022,
+    "Edge-IIoTset: A New Comprehensive Realistic Cyber Security Dataset of IoT and IIoT Applica",
+    "https://doi.org/10.1109/access.2022.3165809"
+   ],
+   [
+    2022,
+    "Federated learning for malware detection in IoT devices",
+    "https://doi.org/10.1016/j.comnet.2021.108693"
+   ],
+   [
+    2022,
+    "Federated Learning for intrusion detection system: Concepts, challenges and future directi",
+    "https://doi.org/10.1016/j.comcom.2022.09.012"
+   ],
+   [
+    2022,
+    "A survey on federated learning: challenges and applications",
+    "https://doi.org/10.1007/s13042-022-01647-y"
+   ],
+   [
+    2022,
+    "Semisupervised Federated-Learning-Based Intrusion Detection Method for Internet of Things",
+    "https://doi.org/10.1109/jiot.2022.3175918"
+   ],
+   [
+    2021,
+    "Evaluating Federated Learning for intrusion detection in Internet of Things: Review and ch",
+    "https://doi.org/10.1016/j.comnet.2021.108661"
+   ],
+   [
+    2021,
+    "Intrusion Detection Based on Privacy-Preserving Federated Learning for the Industrial IoT",
+    "https://doi.org/10.1109/tii.2021.3126728"
+   ]
+  ]
+ },
+ "G_multiclass": {
+  "query": "federated multi-class attack classification intrusion detection IoT",
+  "n_hits_since_2021": 7779,
+  "top": [
+   [
+    2022,
+    "Edge-IIoTset: A New Comprehensive Realistic Cyber Security Dataset of IoT and IIoT Applica",
+    "https://doi.org/10.1109/access.2022.3165809"
+   ],
+   [
+    2022,
+    "Federated learning for malware detection in IoT devices",
+    "https://doi.org/10.1016/j.comnet.2021.108693"
+   ],
+   [
+    2021,
+    "An Ensemble Multi-View Federated Learning Intrusion Detection for IoT",
+    "https://doi.org/10.1109/access.2021.3107337"
+   ],
+   [
+    2022,
+    "Federated Learning for intrusion detection system: Concepts, challenges and future directi",
+    "https://doi.org/10.1016/j.comcom.2022.09.012"
+   ],
+   [
+    2023,
+    "CICIoT2023: A Real-Time Dataset and Benchmark for Large-Scale Attacks in IoT Environment",
+    "https://doi.org/10.3390/s23135941"
+   ],
+   [
+    2021,
+    "Evaluating Federated Learning for intrusion detection in Internet of Things: Review and ch",
+    "https://doi.org/10.1016/j.comnet.2021.108661"
+   ],
+   [
+    2021,
+    "Intrusion Detection Based on Privacy-Preserving Federated Learning for the Industrial IoT",
+    "https://doi.org/10.1109/tii.2021.3126728"
+   ],
+   [
+    2023,
+    "Federated Learning for IoT Intrusion Detection",
+    "https://doi.org/10.3390/ai4030028"
+   ]
+  ]
+ },
+ "G_byzantine": {
+  "query": "poisoning attack robust aggregation federated intrusion detection IoT",
+  "n_hits_since_2021": 2518,
+  "top": [
+   [
+    2022,
+    "Federated learning for malware detection in IoT devices",
+    "https://doi.org/10.1016/j.comnet.2021.108693"
+   ],
+   [
+    2022,
+    "Federated Learning for intrusion detection system: Concepts, challenges and future directi",
+    "https://doi.org/10.1016/j.comcom.2022.09.012"
+   ],
+   [
+    2023,
+    "Personalized federated learning-based intrusion detection system: Poisoning attack and def",
+    "https://doi.org/10.1016/j.future.2023.10.005"
+   ],
+   [
+    2023,
+    "CICIoT2023: A Real-Time Dataset and Benchmark for Large-Scale Attacks in IoT Environment",
+    "https://doi.org/10.3390/s23135941"
+   ],
+   [
+    2022,
+    "A survey on federated learning: challenges and applications",
+    "https://doi.org/10.1007/s13042-022-01647-y"
+   ],
+   [
+    2021,
+    "Evaluating Federated Learning for intrusion detection in Internet of Things: Review and ch",
+    "https://doi.org/10.1016/j.comnet.2021.108661"
+   ],
+   [
+    2023,
+    "Dependable federated learning for IoT intrusion detection against poisoning attacks",
+    "https://doi.org/10.1016/j.cose.2023.103381"
+   ],
+   [
+    2023,
+    "Poisoning Attacks in Federated Learning: A Survey",
+    "https://doi.org/10.1109/access.2023.3238823"
+   ]
+  ]
+ },
+ "G_leakage": {
+  "query": "data leakage duplicate samples evaluation intrusion detection dataset flaws",
+  "n_hits_since_2021": 484,
+  "top": [
+   [
+    2021,
+    "A novel hybrid model for intrusion detection systems in SDNs based on CNN and a new regula",
+    "https://doi.org/10.1016/j.jnca.2021.103160"
+   ],
+   [
+    2023,
+    "A Comprehensive Survey of Generative Adversarial Networks (GANs) in Cybersecurity Intrusio",
+    "https://doi.org/10.1109/access.2023.3296707"
+   ],
+   [
+    2021,
+    "Machine-Learning-Enabled Intrusion Detection System for Cellular Connected UAV Networks",
+    "https://doi.org/10.3390/electronics10131549"
+   ],
+   [
+    2025,
+    "Signature-based intrusion detection using machine learning and deep learning approaches em",
+    "https://doi.org/10.1038/s41598-025-85866-7"
+   ],
+   [
+    2024,
+    "Federated Learning for Privacy-Preserving Intrusion Detection in Software-Defined Networks",
+    "https://doi.org/10.1109/access.2024.3395997"
+   ],
+   [
+    2022,
+    "AI-big data analytics for building automation and management systems: a survey, actual cha",
+    "https://doi.org/10.1007/s10462-022-10286-2"
+   ],
+   [
+    2025,
+    "Don\u2019t push the button! Exploring data leakage risks in machine learning and transfer learn",
+    "https://doi.org/10.1007/s10462-025-11326-3"
+   ],
+   [
+    2024,
+    "Cyberattack detection in wireless sensor networks using a hybrid feature reduction techniq",
+    "https://doi.org/10.1186/s40537-023-00870-w"
+   ]
+  ]
+ },
+ "G_fedfs": {
+  "query": "federated feature selection intrusion detection",
+  "n_hits_since_2021": 12362,
+  "top": [
+   [
+    2021,
+    "Federated Learning-Based Network Intrusion Detection with a Feature Selection Approach",
+    "https://doi.org/10.1109/icecce52056.2021.9514222"
+   ],
+   [
+    2022,
+    "Federated Learning for intrusion detection system: Concepts, challenges and future directi",
+    "https://doi.org/10.1016/j.comcom.2022.09.012"
+   ],
+   [
+    2022,
+    "A survey on federated learning: challenges and applications",
+    "https://doi.org/10.1007/s13042-022-01647-y"
+   ],
+   [
+    2021,
+    "Evaluating Federated Learning for intrusion detection in Internet of Things: Review and ch",
+    "https://doi.org/10.1016/j.comnet.2021.108661"
+   ],
+   [
+    2022,
+    "Federated learning for malware detection in IoT devices",
+    "https://doi.org/10.1016/j.comnet.2021.108693"
+   ],
+   [
+    2022,
+    "Edge-IIoTset: A New Comprehensive Realistic Cyber Security Dataset of IoT and IIoT Applica",
+    "https://doi.org/10.1109/access.2022.3165809"
+   ],
+   [
+    2021,
+    "An Ensemble Multi-View Federated Learning Intrusion Detection for IoT",
+    "https://doi.org/10.1109/access.2021.3107337"
+   ],
+   [
+    2023,
+    "A Federated Learning-Based Approach for Improving Intrusion Detection in Industrial Intern",
+    "https://doi.org/10.3390/network3010008"
+   ]
+  ]
+ },
+ "G_fedscaler": {
+  "query": "federated normalization feature statistics heterogeneity intrusion detection",
+  "n_hits_since_2021": 1443,
+  "top": [
+   [
+    2022,
+    "A survey on federated learning: challenges and applications",
+    "https://doi.org/10.1007/s13042-022-01647-y"
+   ],
+   [
+    2022,
+    "Federated learning for malware detection in IoT devices",
+    "https://doi.org/10.1016/j.comnet.2021.108693"
+   ],
+   [
+    2021,
+    "Intrusion Detection Based on Privacy-Preserving Federated Learning for the Industrial IoT",
+    "https://doi.org/10.1109/tii.2021.3126728"
+   ],
+   [
+    2023,
+    "Heterogeneous Federated Learning: State-of-the-art and Research Challenges",
+    "https://doi.org/10.1145/3625558"
+   ],
+   [
+    2023,
+    "Federated Learning for IoT Intrusion Detection",
+    "https://doi.org/10.3390/ai4030028"
+   ],
+   [
+    2022,
+    "FIDChain: Federated Intrusion Detection System for Blockchain-Enabled IoT Healthcare Appli",
+    "https://doi.org/10.3390/healthcare10061110"
+   ],
+   [
+    2023,
+    "Distributed Anomaly Detection in Smart Grids: A Federated Learning-Based Approach",
+    "https://doi.org/10.1109/access.2023.3237554"
+   ],
+   [
+    2023,
+    "Personalized federated learning-based intrusion detection system: Poisoning attack and def",
+    "https://doi.org/10.1016/j.future.2023.10.005"
+   ]
+  ]
+ },
+ "G_linear": {
+  "query": "federated linear model logistic regression SVM intrusion detection lightweight",
+  "n_hits_since_2021": 1064,
+  "top": [
+   [
+    2024,
+    "FL-IDS: Federated Learning-Based Intrusion Detection System Using Edge Devices for Transpo",
+    "https://doi.org/10.1109/access.2024.3386631"
+   ],
+   [
+    2023,
+    "Distributed Anomaly Detection in Smart Grids: A Federated Learning-Based Approach",
+    "https://doi.org/10.1109/access.2023.3237554"
+   ],
+   [
+    2022,
+    "AI-Based Intrusion Detection Systems for In-Vehicle Networks: A Survey",
+    "https://doi.org/10.1145/3570954"
+   ],
+   [
+    2025,
+    "Intrusion Detection Based on Federated Learning: A Systematic Review",
+    "https://doi.org/10.1145/3731596"
+   ],
+   [
+    2022,
+    "Machine and Deep Learning Solutions for Intrusion Detection and Prevention in IoTs: A Surv",
+    "https://doi.org/10.1109/access.2022.3220622"
+   ],
+   [
+    2022,
+    "Comparative Review of the Intrusion Detection Systems Based on Federated Learning: Advanta",
+    "https://doi.org/10.3390/a15070247"
+   ],
+   [
+    2023,
+    "An artificial intelligence lightweight blockchain security model for security and privacy ",
+    "https://doi.org/10.1186/s13677-023-00412-y"
+   ],
+   [
+    2023,
+    "Ensemble-Learning Framework for Intrusion Detection to Enhance Internet of Things\u2019 Devices",
+    "https://doi.org/10.3390/s23125568"
+   ]
+  ]
+ },
+ "G_sufficient": {
+  "query": "exact federated feature selection aggregated statistics correlation linear discriminant analysis",
+  "n_hits_since_2021": 169,
+  "top": [
+   [
+    2023,
+    "Electroencephalography Signal Processing: A Comprehensive Review and Analysis of Methods a",
+    "https://doi.org/10.3390/s23146434"
+   ],
+   [
+    2023,
+    "Privacy-preserving artificial intelligence in healthcare: Techniques and applications",
+    "https://doi.org/10.1016/j.compbiomed.2023.106848"
+   ],
+   [
+    2021,
+    "Artificial intelligence based anomaly detection of energy consumption in buildings: A revi",
+    "https://doi.org/10.1016/j.apenergy.2021.116601"
+   ],
+   [
+    2023,
+    "Efficient Feature-Selection-Based Stacking Model for Stress Detection Based on Chest Elect",
+    "https://doi.org/10.3390/s23156664"
+   ],
+   [
+    2024,
+    "Machine Learning for Multimodal Mental Health Detection: A Systematic Review of Passive Se",
+    "https://doi.org/10.3390/s24020348"
+   ],
+   [
+    2025,
+    "Deep learning in microbiome analysis: a comprehensive review of neural network models",
+    "https://doi.org/10.3389/fmicb.2024.1516667"
+   ],
+   [
+    2023,
+    "A Modified LeNet CNN for Breast Cancer Diagnosis in Ultrasound Images",
+    "https://doi.org/10.3390/diagnostics13172746"
+   ],
+   [
+    2022,
+    "Evaluation and Selection Models for Ensemble Intrusion Detection Systems in IoT",
+    "https://doi.org/10.3390/iot3020017"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,895 @@
+{
+ "mcmahan2017": {
+  "status": "VERIFIED",
+  "kind": "arxiv",
+  "id": "1602.05629",
+  "expected": {
+   "first_author": "McMahan",
+   "year": 2017,
+   "title_fragment": "communication-efficient learning of deep networks"
+  },
+  "found": {
+   "title": "Communication-Efficient Learning of Deep Networks from Decentralized Data",
+   "first_author": "McMahan",
+   "year": 2016,
+   "venue": "arXiv",
+   "authors": [
+    "McMahan",
+    "Moore",
+    "Ramage",
+    "Hampson",
+    "Arcas"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "li2020fedprox": {
+  "status": "VERIFIED",
+  "kind": "arxiv",
+  "id": "1812.06127",
+  "expected": {
+   "first_author": "Li",
+   "year": 2018,
+   "title_fragment": "federated optimization in heterogeneous networks"
+  },
+  "found": {
+   "title": "Federated Optimization in Heterogeneous Networks",
+   "first_author": "Li",
+   "year": 2018,
+   "venue": "arXiv",
+   "authors": [
+    "Li",
+    "Sahu",
+    "Zaheer",
+    "Sanjabi",
+    "Talwalkar",
+    "Smith"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "kairouz2021": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.1561/2200000083",
+  "expected": {
+   "first_author": "Kairouz",
+   "year": 2021,
+   "title_fragment": "advances and open problems in federated learning"
+  },
+  "found": {
+   "title": "Advances and Open Problems in Federated Learning",
+   "first_author": "Kairouz",
+   "year": 2021,
+   "venue": "Foundations and Trends\u00ae in Machine Learning",
+   "authors": [
+    "Kairouz",
+    "McMahan"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "hsu2019": {
+  "status": "VERIFIED",
+  "kind": "arxiv",
+  "id": "1909.06335",
+  "expected": {
+   "first_author": "Hsu",
+   "year": 2019,
+   "title_fragment": "measuring the effects of non-identical data distribution"
+  },
+  "found": {
+   "title": "Measuring the Effects of Non-Identical Data Distribution for Federated Visual Classification",
+   "first_author": "Hsu",
+   "year": 2019,
+   "venue": "arXiv",
+   "authors": [
+    "Hsu",
+    "Qi",
+    "Brown"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "li2022noniid": {
+  "status": "VERIFIED",
+  "kind": "arxiv",
+  "id": "2102.02079",
+  "expected": {
+   "first_author": "Li",
+   "year": 2021,
+   "title_fragment": "federated learning on non-iid data silos"
+  },
+  "found": {
+   "title": "Federated Learning on Non-IID Data Silos: An Experimental Study",
+   "first_author": "Li",
+   "year": 2021,
+   "venue": "arXiv",
+   "authors": [
+    "Li",
+    "Diao",
+    "Chen",
+    "He"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "karunamurthy2025": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.1038/s41598-025-93501-8",
+  "expected": {
+   "first_author": "Karunamurthy",
+   "year": 2025,
+   "title_fragment": "optimal federated learning-based intrusion detection"
+  },
+  "found": {
+   "title": "An optimal federated learning-based intrusion detection for IoT environment",
+   "first_author": "Karunamurthy",
+   "year": 2025,
+   "venue": "Scientific Reports",
+   "authors": [
+    "Karunamurthy",
+    "Vijayan",
+    "Kshirsagar",
+    "Tan"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "neto2023": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.3390/s23135941",
+  "expected": {
+   "first_author": "Neto",
+   "year": 2023,
+   "title_fragment": "ciciot2023"
+  },
+  "found": {
+   "title": "CICIoT2023: A Real-Time Dataset and Benchmark for Large-Scale Attacks in IoT Environment",
+   "first_author": "Neto",
+   "year": 2023,
+   "venue": "Sensors",
+   "authors": [
+    "Neto",
+    "Dadkhah",
+    "Ferreira",
+    "Zohourian",
+    "Lu",
+    "Ghorbani"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "meidan2018": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.1109/MPRV.2018.03367731",
+  "expected": {
+   "first_author": "Meidan",
+   "year": 2018,
+   "title_fragment": "n-baiot"
+  },
+  "found": {
+   "title": "N-BaIoT\u2014Network-Based Detection of IoT Botnet Attacks Using Deep Autoencoders",
+   "first_author": "Meidan",
+   "year": 2018,
+   "venue": "IEEE Pervasive Computing",
+   "authors": [
+    "Meidan",
+    "Bohadana",
+    "Mathov",
+    "Mirsky",
+    "Shabtai",
+    "Breitenbacher"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "vaccari2020": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.3390/s20226578",
+  "expected": {
+   "first_author": "Vaccari",
+   "year": 2020,
+   "title_fragment": "mqttset"
+  },
+  "found": {
+   "title": "MQTTset, a New Dataset for Machine Learning Techniques on MQTT",
+   "first_author": "Vaccari",
+   "year": 2020,
+   "venue": "Sensors",
+   "authors": [
+    "Vaccari",
+    "Chiola",
+    "Aiello",
+    "Mongelli",
+    "Cambiaso"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "bouzinis2025": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.1109/TNSM.2025.3564387",
+  "expected": {
+   "first_author": "Bouzinis",
+   "year": 2025,
+   "title_fragment": "statavg"
+  },
+  "found": {
+   "title": "StatAvg: Mitigating Data Heterogeneity in Federated Learning for Intrusion Detection Systems",
+   "first_author": "Bouzinis",
+   "year": 2025,
+   "venue": "IEEE Transactions on Network and Service Management",
+   "authors": [
+    "Bouzinis",
+    "Radoglou-Grammatikis",
+    "Makris",
+    "Lagkas",
+    "Argyriou",
+    "Papadopoulos"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "nguyen2026": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.1186/s42400-025-00509-8",
+  "expected": {
+   "first_author": "Nguyen",
+   "year": 2026,
+   "title_fragment": "feature reduction in federated learning"
+  },
+  "found": {
+   "title": "Feature reduction in federated learning for intrusion detection in IoT networks",
+   "first_author": "Nguyen",
+   "year": 2026,
+   "venue": "Cybersecurity",
+   "authors": [
+    "Nguyen",
+    "Alazab",
+    "Khraisat",
+    "Jan"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "doriguzzi2024": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.1016/j.cose.2023.103597",
+  "expected": {
+   "first_author": "Doriguzzi-Corin",
+   "year": 2024,
+   "title_fragment": "flad"
+  },
+  "found": {
+   "title": "FLAD: Adaptive Federated Learning for DDoS attack detection",
+   "first_author": "Doriguzzi-Corin",
+   "year": 2024,
+   "venue": "Computers &amp; Security",
+   "authors": [
+    "Doriguzzi-Corin",
+    "Siracusa"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "devine2025": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.3390/electronics14061176",
+  "expected": {
+   "first_author": "Devine",
+   "year": 2025,
+   "title_fragment": "federated machine learning to enable intrusion detection"
+  },
+  "found": {
+   "title": "Federated Machine Learning to Enable Intrusion Detection Systems in IoT Networks",
+   "first_author": "Devine",
+   "year": 2025,
+   "venue": "Electronics",
+   "authors": [
+    "Devine",
+    "Ardakani",
+    "Al-Khafajiy",
+    "James"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "agrawal2022": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.1016/j.comcom.2022.09.012",
+  "expected": {
+   "first_author": "Agrawal",
+   "year": 2022,
+   "title_fragment": "federated learning for intrusion detection system"
+  },
+  "found": {
+   "title": "Federated Learning for intrusion detection system: Concepts, challenges and future directions",
+   "first_author": "Agrawal",
+   "year": 2022,
+   "venue": "Computer Communications",
+   "authors": [
+    "Agrawal",
+    "Sarkar",
+    "Aouedi",
+    "Yenduri",
+    "Piamrat",
+    "Alazab"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "yang2021": {
+  "status": "CHECK",
+  "kind": "doi",
+  "id": "10.1109/ICECCE52056.2021.9514222",
+  "expected": {
+   "first_author": "Yang",
+   "year": 2021,
+   "title_fragment": "federated learning-based network intrusion detection with a feature selection"
+  },
+  "found": {
+   "title": "Federated Learning-Based Network Intrusion Detection with a Feature Selection Approach",
+   "first_author": "Qin",
+   "year": 2021,
+   "venue": "2021 International Conference on Electrical, Communication, and Computer Engineering (ICECCE)",
+   "authors": [
+    "Qin",
+    "Kondo"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": false,
+   "year": true
+  }
+ },
+ "fdids2025": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.3390/s25144309",
+  "expected": {
+   "first_author": "",
+   "year": 2025,
+   "title_fragment": "fd-ids"
+  },
+  "found": {
+   "title": "FD-IDS: Federated Learning with Knowledge Distillation for Intrusion Detection in Non-IID IoT Environments",
+   "first_author": "Peng",
+   "year": 2025,
+   "venue": "Sensors",
+   "authors": [
+    "Peng",
+    "Wu",
+    "Xiao"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "ambusaidi2016": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.1109/TC.2016.2519914",
+  "expected": {
+   "first_author": "Ambusaidi",
+   "year": 2016,
+   "title_fragment": "filter-based feature selection"
+  },
+  "found": {
+   "title": "Building an Intrusion Detection System Using a Filter-Based Feature Selection Algorithm",
+   "first_author": "Ambusaidi",
+   "year": 2016,
+   "venue": "IEEE Transactions on Computers",
+   "authors": [
+    "Ambusaidi",
+    "He",
+    "Nanda",
+    "Tan"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "bonawitz2017": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.1145/3133956.3133982",
+  "expected": {
+   "first_author": "Bonawitz",
+   "year": 2017,
+   "title_fragment": "practical secure aggregation"
+  },
+  "found": {
+   "title": "Practical Secure Aggregation for Privacy-Preserving Machine Learning",
+   "first_author": "Bonawitz",
+   "year": 2017,
+   "venue": "Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security",
+   "authors": [
+    "Bonawitz",
+    "Ivanov",
+    "Kreuter",
+    "Marcedone",
+    "McMahan",
+    "Patel"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "arp2022": {
+  "status": "VERIFIED",
+  "kind": "arxiv",
+  "id": "2010.09470",
+  "expected": {
+   "first_author": "Arp",
+   "year": 2020,
+   "title_fragment": "dos and don'ts of machine learning in computer security"
+  },
+  "found": {
+   "title": "Dos and Don'ts of Machine Learning in Computer Security",
+   "first_author": "Arp",
+   "year": 2020,
+   "venue": "arXiv",
+   "authors": [
+    "Arp",
+    "Quiring",
+    "Pendlebury",
+    "Warnecke",
+    "Pierazzi",
+    "Wressnegger"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "kapoor2023": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.1016/j.patter.2023.100804",
+  "expected": {
+   "first_author": "Kapoor",
+   "year": 2023,
+   "title_fragment": "leakage and the reproducibility crisis"
+  },
+  "found": {
+   "title": "Leakage and the reproducibility crisis in machine-learning-based science",
+   "first_author": "Kapoor",
+   "year": 2023,
+   "venue": "Patterns",
+   "authors": [
+    "Kapoor",
+    "Narayanan"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "engelen2021": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.1109/SPW53761.2021.00009",
+  "expected": {
+   "first_author": "Engelen",
+   "year": 2021,
+   "title_fragment": "troubleshooting an intrusion detection dataset"
+  },
+  "found": {
+   "title": "Troubleshooting an Intrusion Detection Dataset: the CICIDS2017 Case Study",
+   "first_author": "Engelen",
+   "year": 2021,
+   "venue": "2021 IEEE Security and Privacy Workshops (SPW)",
+   "authors": [
+    "Engelen",
+    "Rimmer",
+    "Joosen"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "rashid2023": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.3390/network3010008",
+  "expected": {
+   "first_author": "Rashid",
+   "year": 2023,
+   "title_fragment": "federated learning-based approach for improving intrusion detection"
+  },
+  "found": {
+   "title": "A Federated Learning-Based Approach for Improving Intrusion Detection in Industrial Internet of Things Networks",
+   "first_author": "Rashid",
+   "year": 2023,
+   "venue": "Network",
+   "authors": [
+    "Rashid",
+    "Khan",
+    "Eusufzai",
+    "Redwan",
+    "Sabuj",
+    "Elsharief"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "ruzafa2023": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.1109/TII.2021.3126728",
+  "expected": {
+   "first_author": "Ruzafa",
+   "year": 2023,
+   "title_fragment": "intrusion detection based on privacy-preserving federated learning"
+  },
+  "found": {
+   "title": "Intrusion Detection Based on Privacy-Preserving Federated Learning for the Industrial IoT",
+   "first_author": "Ruzafa-Alcazar",
+   "year": 2023,
+   "venue": "IEEE Transactions on Industrial Informatics",
+   "authors": [
+    "Ruzafa-Alcazar",
+    "Fernandez-Saura",
+    "Marmol-Campos",
+    "Gonzalez-Vidal",
+    "Hernandez-Ramos",
+    "Bernal-Bernabe"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "saez2023": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.1016/j.cose.2023.103299",
+  "expected": {
+   "first_author": "",
+   "year": 2023,
+   "title_fragment": "clustered federated learning architecture"
+  },
+  "found": {
+   "title": "Clustered federated learning architecture for network anomaly detection in large scale heterogeneous IoT networks",
+   "first_author": "S\u00e1ez-de-C\u00e1mara",
+   "year": 2023,
+   "venue": "Computers &amp; Security",
+   "authors": [
+    "S\u00e1ez-de-C\u00e1mara",
+    "Flores",
+    "Arellano",
+    "Urbieta",
+    "Zurutuza"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "azimjonov2024": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.1016/j.cose.2023.103598",
+  "expected": {
+   "first_author": "Azimjonov",
+   "year": 2024,
+   "title_fragment": "lightweight intrusion detection"
+  },
+  "found": {
+   "title": "Designing accurate lightweight intrusion detection systems for IoT networks using fine-tuned linear SVM and feature selectors",
+   "first_author": "Azimjonov",
+   "year": 2024,
+   "venue": "Computers &amp; Security",
+   "authors": [
+    "Azimjonov",
+    "Kim"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "navia2022": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.1145/3539734",
+  "expected": {
+   "first_author": "Navia",
+   "year": 2022,
+   "title_fragment": "budget distributed support vector machine"
+  },
+  "found": {
+   "title": "Budget Distributed Support Vector Machine for Non-ID Federated Learning Scenarios",
+   "first_author": "Navia-V\u00e1zquez",
+   "year": 2022,
+   "venue": "ACM Transactions on Intelligent Systems and Technology",
+   "authors": [
+    "Navia-V\u00e1zquez",
+    "D\u00edaz-Morales",
+    "Fern\u00e1ndez-D\u00edaz"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "cortes1995": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.1007/BF00994018",
+  "expected": {
+   "first_author": "Cortes",
+   "year": 1995,
+   "title_fragment": "support-vector networks"
+  },
+  "found": {
+   "title": "Support-vector networks",
+   "first_author": "Cortes",
+   "year": 1995,
+   "venue": "Machine Learning",
+   "authors": [
+    "Cortes",
+    "Vapnik"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "buczak2016": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.1109/COMST.2015.2494502",
+  "expected": {
+   "first_author": "Buczak",
+   "year": 2016,
+   "title_fragment": "survey of data mining and machine learning methods"
+  },
+  "found": {
+   "title": "A Survey of Data Mining and Machine Learning Methods for Cyber Security Intrusion Detection",
+   "first_author": "Buczak",
+   "year": 2016,
+   "venue": "IEEE Communications Surveys &amp; Tutorials",
+   "authors": [
+    "Buczak",
+    "Guven"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "chan1983": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.1080/00031305.1983.10483115",
+  "expected": {
+   "first_author": "Chan",
+   "year": 1983,
+   "title_fragment": "algorithms for computing the sample variance"
+  },
+  "found": {
+   "title": "Algorithms for Computing the Sample Variance: Analysis and Recommendations",
+   "first_author": "Chan",
+   "year": 1983,
+   "venue": "The American Statistician",
+   "authors": [
+    "Chan",
+    "Golub",
+    "Leveque"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "fedDWC2025": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.1038/s41598-025-13204-y",
+  "expected": {
+   "first_author": "",
+   "year": 2025,
+   "title_fragment": "dynamic weight clustered federated learning"
+  },
+  "found": {
+   "title": "Dynamic weight clustered federated learning for IoT DDoS attack detection",
+   "first_author": "Beshah",
+   "year": 2025,
+   "venue": "Scientific Reports",
+   "authors": [
+    "Beshah",
+    "Abebe",
+    "Melaku"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "datasetcentric2026": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.1038/s41598-025-32567-w",
+  "expected": {
+   "first_author": "",
+   "year": 2026,
+   "title_fragment": "dataset-centric evaluation of federated intrusion detection"
+  },
+  "found": {
+   "title": "Dataset-centric evaluation of federated intrusion detection models in IoT networks",
+   "first_author": "Bilal",
+   "year": 2026,
+   "venue": "Scientific Reports",
+   "authors": [
+    "Bilal",
+    "Ul Islam",
+    "Idrees",
+    "Qasim",
+    "Khan",
+    "Khan"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "breiman2001": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.1023/A:1010933404324",
+  "expected": {
+   "first_author": "Breiman",
+   "year": 2001,
+   "title_fragment": "random forests"
+  },
+  "found": {
+   "title": "Random Forests",
+   "first_author": "Breiman",
+   "year": 2001,
+   "venue": "Machine Learning",
+   "authors": [
+    "Breiman"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ },
+ "mothukuri2021": {
+  "status": "VERIFIED",
+  "kind": "doi",
+  "id": "10.1016/j.future.2020.10.007",
+  "expected": {
+   "first_author": "Mothukuri",
+   "year": 2021,
+   "title_fragment": "survey on security and privacy of federated learning"
+  },
+  "found": {
+   "title": "A survey on security and privacy of federated learning",
+   "first_author": "Mothukuri",
+   "year": 2021,
+   "venue": "Future Generation Computer Systems",
+   "authors": [
+    "Mothukuri",
+    "Parizi",
+    "Pouriyeh",
+    "Huang",
+    "Dehghantanha",
+    "Srivastava"
+   ]
+  },
+  "ok": {
+   "title": true,
+   "author": true,
+   "year": true
+  }
+ }
+}
