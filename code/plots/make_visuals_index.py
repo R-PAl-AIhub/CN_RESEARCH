@@ -36,6 +36,7 @@ REG = {  # any label of the float -> (files, script)
     "tab:ablation": (["results/tables/table4_ablation.csv", "results/tables/table4_ablation_numeric.csv"], "code/plots/make_tables.py (ablation)"),
     "tab:cost": (["results/tables/table7_cost.csv", "results/cost_profile.json"], "code/run_cost.py + code/plots/make_tables.py (cost)"),
     "tab:sig": (["results/tables/table5_significance.csv", "results/tables/table5_significance_all.csv"], "code/plots/make_tables.py (significance)"),
+    "tab:base": (["results/tables/base_scoreboard.csv", "results/tables/base_tests.csv"], "code/plots/base_compare.py (base-paper comparison, re-implemented)"),
 }
 IMPL = {"eq:obj": "fl.py::fedavg_svm", "eq:A": "prep.py::client_round_a", "eq:A2": "prep.py::fit_federated", "eq:B": "prep.py::client_round_b",
         "eq:var": "prep.py::select_from_moments", "eq:pear": "prep.py::select_from_moments", "eq:sw": "prep.py::fit_federated",

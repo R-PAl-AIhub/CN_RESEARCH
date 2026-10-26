@@ -42,3 +42,14 @@ Windows-bundled `C:\Windows\System32\tar.exe` (bsdtar). Expect roughly 2-3 hours
 * The test split is used once per final run; all tuning uses validation splits only (3 corpora, 6 random-search trials, identical for every method).
 * Every number in the paper is generated (`paper/numbers.tex`) from `results/`; references were verified against Crossref/arXiv (`results/literature/citation_verification.json`).
 * The senior code's synthetic-data mode is never used.
+
+## Base-paper comparison (added later)
+Re-implementation of Karunamurthy et al. (2025): Chimp-optimisation feature selection + federated CNN, run under the same protocol
+(choices for settings the paper does not report: `decisions_log.md`, D13).
+```
+python code/run_base.py coa   --workers 4     # feature subset per dataset and seed (training rows only)
+python code/run_base.py tune  --workers 4     # same 6-trial budget as every other method
+python code/run_base.py final --workers 4     # 10 test seeds, same partitions as results/raw/final_*.jsonl
+python code/run_base.py cost
+python code/plots/base_compare.py             # results/tables/base_*.csv, paper/numbers_base.tex, paper/tables/table9_base.tex
+```

@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Base paper~\cite{karunamurthy2025} (Chimp optimisation + federated CNN), re-implemented and run on the same corpora, partitions and tuning budget: test F1, mean over 10 seeds. Base vs each method: paired Wilcoxon, Holm within this added family of 18 tests, all $p_{\mathrm{Holm}}\le$ 0.035.}
+\label{tab:base}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lcccc}
+\toprule
+Regime & Base (COA+CNN) & FedStat-FS & FedAvg-MLP & Senior \\
+\midrule
+CIC IID & \textbf{0.9999} & 0.9946 & 0.9961 & 0.9963 \\
+CIC Dir(1.0) & \textbf{0.9999} & 0.9942 & 0.9962 & 0.9963 \\
+CIC Dir(0.3) & \textbf{0.9999} & 0.9918 & 0.9961 & 0.9951 \\
+CIC Dir(0.1) & \textbf{0.9999} & 0.9913 & 0.9959 & 0.9904 \\
+NBa Device & \textbf{0.9994} & 0.9264 & 0.9730 & 0.8704 \\
+NBa IID & \textbf{0.9998} & 0.9065 & 0.9806 & 0.8565 \\
+\bottomrule
+\end{tabular}
+\end{table}

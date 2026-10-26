@@ -4,7 +4,7 @@
 
 ## Abstract
 
-Federated learning lets IoT gateways train DDoS detectors without pooling traffic, yet a recent lightweight pipeline fits its feature selection and scaling on pooled, pre-split data, which contradicts data locality. We audit that pipeline, reproduce it on real CIC-IoT2023 flows, and propose FedStat-FS: variance filtering, Pearson and LDA selection, their intersection and global standardisation are computed exactly from two additive uploads per client, and a linear SVM is trained with warm-start FedAvg. On CIC-IoT2023 and N-BaIoT (10 seeds, identically tuned baselines, test data used once) the federated subset equalled the pooled one in 60 of 60 runs. Under Dirichlet(0.1) label skew, naive local preprocessing fell to F1 0.5754 while FedStat-FS kept 0.9913; ablations attribute the gap to global standardisation, not to selection. Pooled pre-split preprocessing showed no measurable optimism. The Pearson–LDA intersection, however, brought no accuracy benefit and made linear detectors fail in 4 of 20 N-BaIoT runs, whereas Pearson-only never failed. The statistics exchange costs 33.8 KB per client, once.
+Federated learning lets IoT gateways train DDoS detectors without pooling traffic, yet a recent lightweight pipeline fits its feature selection and scaling on pooled, pre-split data, which contradicts data locality. We audit that pipeline, reproduce it on real CIC-IoT2023 flows, and propose FedStat-FS: variance filtering, Pearson and LDA selection, their intersection and global standardisation are computed exactly from two additive uploads per client, and a linear SVM is trained with warm-start FedAvg. On CIC-IoT2023 and N-BaIoT (10 seeds, identically tuned baselines, test data used once) the federated subset equalled the pooled one in 60 of 60 runs. Under Dirichlet(0.1) label skew, naive local preprocessing fell to F1 0.5754 while FedStat-FS kept 0.9913; ablations attribute the gap to global standardisation, not to selection. Pooled pre-split preprocessing showed no measurable optimism. The Pearson–LDA intersection, however, brought no accuracy benefit and made linear detectors fail in 4 of 20 N-BaIoT runs, whereas Pearson-only never failed. The statistics exchange costs 33.8 KB per client, once. A re-implementation of the base paper's Chimp-optimisation and federated-CNN pipeline was more accurate in every regime (F1 $\ge$ 0.9994) but needs pooled raw rows for its feature search and 1,841$\times$ more parameters.
 
 **Keywords:** federated learning, intrusion detection, DDoS, Internet of Things, feature selection, non-IID data
 
@@ -207,7 +207,7 @@ end for
 
 ## Results
 
-All values are test F1 (attack class, Eq. Eq. (12)), mean $\pm$ std over 10 seeds (780 runs); Table IV, Fig. 6, paired tests in Table VII.
+All values are test F1 (attack class, Eq. Eq. (12)), mean $\pm$ std over 10 seeds (780 runs); Table IV, Fig. 6, paired tests in Table VIII.
 
 **Table IV.** Test F1 (attack class), mean $\pm$ std over 10 seeds; best in bold. “Senior” fits preprocessing on all rows before the split; Central rows are not federated.
 
@@ -262,6 +262,10 @@ The ablations (Table V, Fig. 7) locate the cause. Federated selection with per-c
 | FedStat-FS + FedProx | 4.8 | 0.13 | 0.01 | 17 | 85 | 26.6 | 33.8 |
 | FedAvg-MLP (fed. prep) | 31.3 | 0.09 | 16.38 | 6,801 | 122 | 10626.6 | 33.8 |
 
+**Comparison with the base paper.** We re-implemented the base pipeline [karunamurthy2025] (Chimp-optimisation wrapper selection on pooled training rows, then FedAvg of a 1-D CNN with their Table 2 settings) and ran it under our protocol. It is the most accurate method in every regime (Table VII; F1 0.9994–0.9999, no failure in 60 runs), 0.53–0.86 F1 points above FedStat-FS on CIC-IoT2023 and 7.3–9.3 on N-BaIoT, where FedStat-FS without selection (A2) is level with it (0.9997). On CIC-IoT2023 its search kept only 1–4 of 46 features, mostly `Weight` and `Number`; `Number` alone reaches F1 1.0000 on validation rows (possibly a capture artefact; unverified). Its price is pooled raw rows for the wrapper search and 31,298 parameters, 55.5 s training and 33.61 ms per 1000 flows.
+
+**Table VII.** Base paper [karunamurthy2025] (Chimp optimisation + federated CNN), re-implemented and run on the same corpora, partitions and tuning budget: test F1, mean over 10 seeds. Base vs each method: paired Wilcoxon, Holm within this added family of 18 tests, all $p_{\mathrm{Holm}}\le$ 0.035.
+
 **Training, sensitivity and errors.** Fig. 8 shows convergence within a few rounds under IID and device clients and more slowly under Dir(0.1) (validation loss still falling at round 20; the local training loss rises as local models stop over-fitting their own classes). In the sensitivity study (validation, CIC Dir(0.3), Fig. 9) FedStat-FS varies between 0.9749 and 0.9953 over $\tau$ (best at $\tau=0.1$: more features), rises with the LDA budget from 0.9546 to 0.9968 and is flat in rounds; no setting rescues Local-prep (best 0.8574). Errors (Fig. 9, 8) concentrate in the rarest classes: SlowLoris and HTTP flood are missed by all four methods including the forest, fragmentation floods are also hard for linear detectors, and Local-prep additionally misclassifies the large flood classes and, on N-BaIoT, confuses junk and combo floods with benign traffic.
 
 ![fig_curves](../figures/results/fig_curves.png)
@@ -274,7 +278,7 @@ The ablations (Table V, Fig. 7) locate the cause. Federated selection with per-c
 
 *Fig. 9. Top: validation F1 versus Pearson threshold $\tau$, LDA top-$k_L$ and rounds $T$ (CIC Dir(0.3), 5 seeds). Bottom: per-class test error rate (symlog axis), summed over seeds, with class sizes.*
 
-**Table VII.** Paired tests over 10 seeds (test F1): $\Delta$F1 = A $-$ B; $p$ = Wilcoxon signed-rank, raw / Holm over all 54 tests (full list with intervals in the CSV; smallest attainable $p$ = 0.0020).
+**Table VIII.** Paired tests over 10 seeds (test F1): $\Delta$F1 = A $-$ B; $p$ = Wilcoxon signed-rank, raw / Holm over all 54 tests (full list with intervals in the CSV; smallest attainable $p$ = 0.0020).
 
 | Comparison (A vs B) | CIC IID: $\Delta$F1 | CIC IID: $p$ / Holm | CIC Dir(0.1): $\Delta$F1 | CIC Dir(0.1): $p$ / Holm | N-B Device: $\Delta$F1 | N-B Device: $p$ / Holm |
 |—|—|—|—|—|—|—|
@@ -293,7 +297,7 @@ The ablations (Table V, Fig. 7) locate the cause. Federated selection with per-c
 
 ### Threats to Validity and Limitations
 
-**Internal.** Hyper-parameters were chosen on validation splits of corpora 0–2, whose pool rows can reappear in other seeds' test splits (all corpora share one de-duplicated pool); with six candidates per method the optimism is negligible but not zero. A failure is a run with test F1 $<0.9$ (descriptive). The federation is simulated on one machine, so timings exclude communication. **External.** Two testbed datasets, binary tasks, 9–10 clients; Dirichlet partitions are synthetic *partitions* of real flows, the N-BaIoT device split is natural. **Construct.** Privacy is argued structurally and not measured (no secure aggregation or differential privacy); “leakage” is judged only by the performance gap, which selection variability confounds. **Limitations.** The CPU budget fixed 20 rounds, 2 local epochs, six tuning trials and the corpus sizes of Table II for all methods; the pseudo-inverse of $S_W$ costs $O(d^3)$ at the server (negligible for $d\le115$); stragglers, malicious clients and multi-class typing were not studied; the pooled forest is a non-federated ceiling, not a competitor.
+**Internal.** Hyper-parameters were chosen on validation splits of corpora 0–2, whose pool rows can reappear in other seeds' test splits (all corpora share one de-duplicated pool); with six candidates per method the optimism is negligible but not zero. A failure is a run with test F1 $<0.9$ (descriptive). The federation is simulated on one machine, so timings exclude communication. The base pipeline [karunamurthy2025] is our re-implementation of an under-specified method; with our fitness weight (0.99) it kept far fewer features than the 17 of 34 it reports. **External.** Two testbed datasets, binary tasks, 9–10 clients; Dirichlet partitions are synthetic *partitions* of real flows, the N-BaIoT device split is natural. **Construct.** Privacy is argued structurally and not measured (no secure aggregation or differential privacy); “leakage” is judged only by the performance gap, which selection variability confounds. **Limitations.** The CPU budget fixed 20 rounds, 2 local epochs, six tuning trials and the corpus sizes of Table II for all methods; the pseudo-inverse of $S_W$ costs $O(d^3)$ at the server (negligible for $d\le115$); stragglers, malicious clients and multi-class typing were not studied; the pooled forest is a non-federated ceiling, not a competitor.
 
 ## Conclusion and Future Work
 

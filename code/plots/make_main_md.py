@@ -10,7 +10,7 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[2]
 P = ROOT / "paper"
 NUM = {}
-for line in (P / "numbers.tex").read_text(encoding="utf-8").splitlines():
+for line in [l for f in ("numbers.tex", "numbers_base.tex") if (P / f).exists() for l in (P / f).read_text(encoding="utf-8").splitlines()]:
     m = re.match(r"\\expandafter\\def\\csname (.+?)\\endcsname\{(.*)\}$", line)
     if m:
         NUM[m.group(1)] = m.group(2)
