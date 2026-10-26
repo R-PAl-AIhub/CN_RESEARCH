@@ -15,6 +15,8 @@ Method registry. Every method: fit on the clients' TRAINING shards only, evaluat
   abl_nosel          ablation A2: no feature selection (variance filter only), global scaler   (StatAvg-like)
   abl_oneshot        ablation A3: federated preprocessing but one-shot cold-start averaging
   abl_pearson/abl_lda ablation A4: Pearson-only / LDA-only instead of the intersection
+  base_coa_cnn       BASE PAPER (Karunamurthy et al. 2025), re-implemented: Chimp-optimisation wrapper selection on pooled
+                     training rows + pooled scaler + FedAvg of a 1-D CNN (run by code/run_base.py, not part of ALL_METHODS)
 """
 import time
 import numpy as np
@@ -71,6 +73,10 @@ def run_method(method, corpus, clients, hp, seed, eval_split="val", want_curves=
         allX = np.concatenate([corpus["X"][corpus["idx"][s]] for s in ("train", "val", "test")])
         ally = np.concatenate([corpus["y"][corpus["idx"][s]] for s in ("train", "val", "test")])
         pre = P.fit_pooled(allX, ally, TAU, VAR_THR, LDA_TOP)
+    elif method == "base_coa_cnn":                 # base paper: COA subset (pooled, train-only, chosen by run_base.py) + pooled scaler
+        keep = np.asarray(hp["coa_keep"], dtype=int)
+        Z = Xcat[:, keep].astype(np.float64)
+        pre = P.Prep(keep, Z.mean(0), P._safe_std(Z.var(0)))
     elif method == "local_prep_fedavg":
         pre = P.fit_local_vote(list(zip(Xtr, ytr)), TAU, VAR_THR, LDA_TOP)
         comm_prep = len(Xtr) * 8 * Xcat.shape[1]                         # one vote vector per client (bytes, generous)
@@ -120,6 +126,10 @@ def run_method(method, corpus, clients, hp, seed, eval_split="val", want_curves=
     elif method == "abl_oneshot":
         theta, ex = fl.oneshot_svm(Ztr, ytr, epochs=hp.get("epochs", 20), lr=hp["lr"], lam=lam, squared=hp["squared"], seed=seed)
         predict = lambda Z: fl.svm_predict(theta, Z); n_params = len(theta)
+    elif method == "base_coa_cnn":
+        model, ex = fl.fedavg_cnn(Ztr, ytr, rounds=rounds, local_epochs=hp.get("cnn_epochs", 1), lr=hp["lr"],
+                                  batch_size=hp.get("batch_size", 1000), seed=seed)
+        predict = lambda Z: fl.cnn_predict(model, Z); n_params = ex["n_params"]
     elif method == "fedstat_mlp":
         model, ex = fl.fedavg_mlp(Ztr, ytr, rounds=rounds, local_epochs=hp.get("mlp_epochs", 1), lr=hp["lr"], l2=hp.get("l2", 1e-3), seed=seed)
         predict = lambda Z: fl.mlp_predict(model, Z); n_params = ex["n_params"]

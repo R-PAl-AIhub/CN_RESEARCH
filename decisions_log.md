@@ -112,3 +112,39 @@ A fresh venv created from `requirements.txt` at a *deep* path failed on Windows 
 `.vc` (fresh venv created from `requirements.txt`, Python 3.11.9): `pip install -r requirements.txt` succeeded; TensorFlow 2.21.0 / scikit-learn 1.9.1 / NumPy 2.4.6 import;
 `code/tests/test_gradients.py` PASS; `code/smoke_test.py ciciot iid` ran end-to-end on CPU (Central SVM val F1 0.9958, FedStat-FS 0.9933, selection Jaccard 1.00).
 Log: `results/logs/fresh_venv_check.log`. The temporary `.vc` folder was deleted afterwards.
+
+## D13. Base-paper comparison (added 2026-10-26 at the supervisor's request; written BEFORE any base result was seen)
+The supervisor asked for a direct comparison with the base paper (Karunamurthy et al., Sci. Rep. 2025: Chimp Optimization
+Algorithm (COA) feature selection + federated CNN). Their code is not available and the paper leaves several settings open,
+so the method is RE-IMPLEMENTED (method id `base_coa_cnn`, code/fedstat/coa.py, fl.py::fedavg_cnn, code/run_base.py) and run
+under our protocol (same corpora, same client partitions, same 6-trial tuning stream on validation splits of seeds 0-2,
+10 test seeds). Choices where the paper is silent or differs from our environment:
+- COA (Eqs. 1-15): population 10, 20 iterations, positions in [0,1]^D, feature kept if > 0.5, leaders = 4 best so far,
+  f decays linearly 2.5 -> 0, logistic-map chaotic vector, chaotic replacement with probability 0.5.
+- Fitness Eq. 15 with alpha = 0.99 (paper: "obtained by trial and error", value not given); A = accuracy of a 5-NN classifier
+  fitted on 4,000 and scored on 2,000 different TRAINING rows (stratified). Validation and test rows are never seen by COA.
+  Constant columns are dropped before COA (they cannot be standardised).
+- COA runs once per (dataset, seed) on the pooled training rows (the paper selects features before the federated stage),
+  so it is POOLED preprocessing, like Senior (no leak). Scaler: z-score fitted on pooled training rows. A wrapper selector
+  needs raw rows, so our additive-statistics trick cannot federate it (reasoning, not an experiment).
+- CNN (Table 2 of the paper): Conv 32/64/128, kernel 3, ReLU, max-pooling after each convolution, dropout 0.5, softmax,
+  Adam, batch 1000. Adaptations: PyTorch -> TensorFlow/Keras (project rule); 2-D 3x3 kernel -> 1-D kernel 3 because flow
+  features are tabular; multi-class -> 2-class softmax (our task is benign vs attack).
+- Federated training: FedAvg, all clients every round, T = 20 rounds (same as every federated method here), E = 1 local
+  epoch, fresh Adam state per client and round.
+- Tuning: learning rate only. The same uniform draw as every other method is mapped from [0.005, 0.3] onto the Adam range
+  [1e-4, 1e-2] on the same log scale.
+- Statistics: paired Wilcoxon of FedStat-FS, FedAvg-MLP and Senior (as released) against the base method in all six regimes
+  (18 tests), Holm within THIS family only. The family is post hoc (added after the main analysis); the paper's 54-test
+  family is unchanged.
+- The base paper's 95.59% is multi-class ACCURACY on MQTTset; it is not comparable with our binary F1 and is not compared.
+
+### D13 result
+Base method (`base_coa_cnn`), test F1 mean over 10 seeds: CIC-IoT2023 0.9999 in all four regimes, N-BaIoT 0.9994 (devices) and
+0.9998 (IID); no run below 0.9. It is higher than every paper method in every regime; all 18 family tests favour it
+(Holm within the family p = 0.035). COA kept 1-4 of 46 CIC-IoT2023 features (mostly Weight, Number) and 13-30 of 115
+N-BaIoT features. Single-feature check on seed-0 TUNING rows (depth-10 tree): Number F1 1.0000, Weight 0.9999, IAT 0.9999
+on CIC-IoT2023; none is in the Pearson-LDA subset (results/base/single_feature_diag.json). Possible recording artifact, not
+verified. Cost (CIC IID, seed 0, median of 3 cold runs): 31,298 parameters, 55.5 s training, 33.61 ms per 1k flows, 48,903 KB
+model traffic, COA 13.9 s. Reported as found; no method was changed after seeing these results. The 8-page paper is NOT yet
+updated (deck only).

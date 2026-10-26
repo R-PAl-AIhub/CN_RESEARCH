@@ -1,0 +1,10 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793007486.881211   24684 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793007492.927089   24684 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+[smoke ciciot] COA: 4 of 39 features, holdout acc 1.0000, 198 evals, 12s
+[smoke ciciot/iid] val F1=0.9999 params=31298 train=58s infer=52.33ms/1k
+[smoke nbaiot] COA: 16 of 115 features, holdout acc 0.9995, 209 evals, 7s
+[smoke nbaiot/device] val F1=0.9819 params=31554 train=51s infer=45.09ms/1k
+stage smoke finished in 2.5 min

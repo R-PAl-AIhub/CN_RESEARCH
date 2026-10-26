@@ -1,0 +1,206 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793007708.140013   19988 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793007708.163055   28092 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793007708.182887   13748 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793007708.185244   31132 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793007714.419134   28092 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793007714.419134   13748 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793007714.431685   31132 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793007714.432077   19988 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+TASK: done coa_ciciot_s1.json: 2 of 39 features, holdout acc 0.9995, 11s
+TASK: done coa_ciciot_s2.json: 2 of 39 features, holdout acc 1.0000, 12s
+TASK: done coa_ciciot_s3.json: 3 of 39 features, holdout acc 1.0000, 12s
+TASK: done coa_ciciot_s0.json: 4 of 39 features, holdout acc 1.0000, 14s
+TASK: done coa_ciciot_s4.json: 1 of 39 features, holdout acc 0.9995, 9s
+TASK: done coa_ciciot_s6.json: 1 of 39 features, holdout acc 0.9990, 9s
+TASK: done coa_ciciot_s5.json: 2 of 39 features, holdout acc 1.0000, 15s
+TASK: done coa_ciciot_s7.json: 4 of 39 features, holdout acc 0.9995, 14s
+TASK: done coa_ciciot_s8.json: 1 of 39 features, holdout acc 1.0000, 19s
+TASK: done coa_ciciot_s9.json: 2 of 39 features, holdout acc 1.0000, 20s
+TASK: done coa_nbaiot_s0.json: 16 of 115 features, holdout acc 0.9995, 17s
+TASK: done coa_nbaiot_s1.json: 17 of 115 features, holdout acc 0.9990, 17s
+TASK: done coa_nbaiot_s2.json: 17 of 115 features, holdout acc 1.0000, 19s
+TASK: done coa_nbaiot_s3.json: 30 of 115 features, holdout acc 1.0000, 17s
+TASK: done coa_nbaiot_s5.json: 13 of 115 features, holdout acc 1.0000, 16s
+TASK: done coa_nbaiot_s4.json: 13 of 115 features, holdout acc 1.0000, 18s
+TASK: done coa_nbaiot_s6.json: 17 of 115 features, holdout acc 1.0000, 13s
+TASK: done coa_nbaiot_s7.json: 16 of 115 features, holdout acc 1.0000, 14s
+TASK: done coa_nbaiot_s9.json: 17 of 115 features, holdout acc 1.0000, 13s
+TASK: done coa_nbaiot_s8.json: 13 of 115 features, holdout acc 0.9995, 14s
+stage coa finished in 1.6 min
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793007804.859399   25824 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793007804.872376    4892 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793007804.872356   27716 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793007804.872416    9416 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793007811.194697    9416 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793007811.195143    4892 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793007811.211381   25824 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793007811.228543   27716 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+[tune base ciciot/iid] trial 0 lr=0.00024 mean val F1=0.9982
+[tune base ciciot/dir1.0] trial 0 lr=0.00024 mean val F1=0.9982
+[tune base ciciot/dir0.3] trial 0 lr=0.00024 mean val F1=0.9788
+[tune base ciciot/dir0.1] trial 0 lr=0.00024 mean val F1=0.8552
+[tune base ciciot/dir0.1] trial 1 lr=0.00808 mean val F1=0.9999
+[tune base ciciot/iid] trial 1 lr=0.00808 mean val F1=0.9999
+[tune base ciciot/dir0.3] trial 1 lr=0.00808 mean val F1=0.9999
+[tune base ciciot/dir1.0] trial 1 lr=0.00808 mean val F1=0.9999
+[tune base ciciot/dir0.1] trial 2 lr=0.00033 mean val F1=0.9998
+[tune base ciciot/dir0.3] trial 2 lr=0.00033 mean val F1=0.9788
+[tune base ciciot/iid] trial 2 lr=0.00033 mean val F1=0.9998
+[tune base ciciot/dir1.0] trial 2 lr=0.00033 mean val F1=0.9998
+[tune base ciciot/dir0.1] trial 3 lr=0.00285 mean val F1=0.9999
+[tune base ciciot/iid] trial 3 lr=0.00285 mean val F1=0.9999
+[tune base ciciot/dir0.3] trial 3 lr=0.00285 mean val F1=0.9999
+[tune base ciciot/dir1.0] trial 3 lr=0.00285 mean val F1=0.9999
+[tune base ciciot/dir0.1] trial 4 lr=0.00716 mean val F1=0.9999
+[tune base ciciot/iid] trial 4 lr=0.00716 mean val F1=0.9999
+[tune base ciciot/dir0.3] trial 4 lr=0.00716 mean val F1=0.9999
+[tune base ciciot/dir1.0] trial 4 lr=0.00716 mean val F1=0.9999
+[tune base ciciot/dir0.1] trial 5 lr=0.00103 mean val F1=0.9998
+TASK: done base_ciciot_dir0.1.json: best lr 0.00808, val F1 0.9999
+[tune base ciciot/dir0.3] trial 5 lr=0.00103 mean val F1=0.9999
+TASK: done base_ciciot_dir0.3.json: best lr 0.00808, val F1 0.9999
+[tune base ciciot/iid] trial 5 lr=0.00103 mean val F1=0.9998
+TASK: done base_ciciot_iid.json: best lr 0.00808, val F1 0.9999
+[tune base ciciot/dir1.0] trial 5 lr=0.00103 mean val F1=0.9998
+TASK: done base_ciciot_dir1.0.json: best lr 0.00808, val F1 0.9999
+[tune base nbaiot/device] trial 0 lr=0.00024 mean val F1=0.9903
+[tune base nbaiot/iid] trial 0 lr=0.00024 mean val F1=0.9971
+[tune base nbaiot/device] trial 1 lr=0.00808 mean val F1=0.9997
+[tune base nbaiot/iid] trial 1 lr=0.00808 mean val F1=0.9998
+[tune base nbaiot/device] trial 2 lr=0.00033 mean val F1=0.9940
+[tune base nbaiot/iid] trial 2 lr=0.00033 mean val F1=0.9986
+[tune base nbaiot/device] trial 3 lr=0.00285 mean val F1=0.9995
+[tune base nbaiot/iid] trial 3 lr=0.00285 mean val F1=0.9998
+[tune base nbaiot/device] trial 4 lr=0.00716 mean val F1=0.9997
+[tune base nbaiot/iid] trial 4 lr=0.00716 mean val F1=0.9998
+[tune base nbaiot/device] trial 5 lr=0.00103 mean val F1=0.9984
+TASK: done base_nbaiot_device.json: best lr 0.00716, val F1 0.9997
+[tune base nbaiot/iid] trial 5 lr=0.00103 mean val F1=0.9998
+TASK: done base_nbaiot_iid.json: best lr 0.00716, val F1 0.9998
+stage tune finished in 62.4 min
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793011547.637113    8648 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793011547.637112    3860 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+
+I0000 00:00:1793011547.637113   11288 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793011547.639229   13416 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERRWARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793011555.965802    8648 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1793011555.965801   11288 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793011555.965801    3860 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+
+I0000 00:00:1793011555.965801   13416 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+[final base ciciot/iid/s1] test F1=1.0000 nfeat=2 train=102s
+[final base ciciot/iid/s2] test F1=0.9998 nfeat=2 train=102s
+[final base ciciot/iid/s0] test F1=1.0000 nfeat=4 train=104s
+[final base ciciot/iid/s3] test F1=0.9999 nfeat=3 train=104s
+[final base ciciot/dir1.0/s1] test F1=1.0000 nfeat=2 train=107s
+[final base ciciot/dir1.0/s2] test F1=0.9998 nfeat=2 train=107s
+[final base ciciot/dir1.0/s0] test F1=1.0000 nfeat=4 train=109s
+[final base ciciot/dir1.0/s3] test F1=0.9999 nfeat=3 train=109s
+[final base ciciot/dir0.3/s1] test F1=0.9999 nfeat=2 train=106s
+[final base ciciot/dir0.3/s2] test F1=0.9998 nfeat=2 train=106s
+[final base ciciot/dir0.3/s0] test F1=1.0000 nfeat=4 train=109s
+[final base ciciot/dir0.3/s3] test F1=0.9999 nfeat=3 train=108s
+[final base ciciot/dir0.1/s1] test F1=1.0000 nfeat=2 train=105s
+TASK: done base_ciciot_s1.jsonl
+[final base ciciot/dir0.1/s2] test F1=0.9998 nfeat=2 train=105s
+TASK: done base_ciciot_s2.jsonl
+[final base ciciot/dir0.1/s0] test F1=1.0000 nfeat=4 train=107s
+TASK: done base_ciciot_s0.jsonl
+[final base ciciot/dir0.1/s3] test F1=0.9999 nfeat=3 train=107s
+TASK: done base_ciciot_s3.jsonl
+[final base ciciot/iid/s4] test F1=0.9999 nfeat=1 train=101s
+[final base ciciot/iid/s5] test F1=0.9998 nfeat=2 train=103s
+[final base ciciot/iid/s6] test F1=0.9999 nfeat=1 train=103s
+[final base ciciot/iid/s7] test F1=0.9998 nfeat=4 train=105s
+[final base ciciot/dir1.0/s4] test F1=0.9999 nfeat=1 train=107s
+[final base ciciot/dir1.0/s5] test F1=0.9998 nfeat=2 train=106s
+[final base ciciot/dir1.0/s6] test F1=0.9999 nfeat=1 train=106s
+[final base ciciot/dir1.0/s7] test F1=0.9998 nfeat=4 train=109s
+[final base ciciot/dir0.3/s4] test F1=0.9999 nfeat=1 train=106s
+[final base ciciot/dir0.3/s5] test F1=0.9997 nfeat=2 train=106s
+[final base ciciot/dir0.3/s6] test F1=0.9999 nfeat=1 train=106s
+[final base ciciot/dir0.3/s7] test F1=0.9998 nfeat=4 train=110s
+[final base ciciot/dir0.1/s4] test F1=0.9999 nfeat=1 train=107s
+TASK: done base_ciciot_s4.jsonl
+[final base ciciot/dir0.1/s5] test F1=0.9997 nfeat=2 train=107s
+TASK: done base_ciciot_s5.jsonl
+[final base ciciot/dir0.1/s6] test F1=0.9999 nfeat=1 train=106s
+TASK: done base_ciciot_s6.jsonl
+[final base ciciot/dir0.1/s7] test F1=0.9998 nfeat=4 train=109s
+TASK: done base_ciciot_s7.jsonl
+[final base ciciot/iid/s8] test F1=0.9999 nfeat=1 train=108s
+[final base ciciot/iid/s9] test F1=0.9999 nfeat=2 train=109s
+[final base nbaiot/device/s0] test F1=0.9995 nfeat=16 train=111s
+[final base nbaiot/device/s1] test F1=0.9997 nfeat=17 train=116s
+[final base ciciot/dir1.0/s8] test F1=0.9998 nfeat=1 train=108s
+[final base ciciot/dir1.0/s9] test F1=0.9999 nfeat=2 train=108s
+[final base nbaiot/iid/s0] test F1=0.9998 nfeat=16 train=112s
+TASK: done base_nbaiot_s0.jsonl
+[final base nbaiot/iid/s1] test F1=0.9998 nfeat=17 train=116s
+TASK: done base_nbaiot_s1.jsonl
+[final base ciciot/dir0.3/s8] test F1=0.9999 nfeat=1 train=110s
+[final base ciciot/dir0.3/s9] test F1=0.9999 nfeat=2 train=109s
+[final base nbaiot/device/s2] test F1=0.9997 nfeat=17 train=118s
+[final base nbaiot/device/s3] test F1=0.9999 nfeat=30 train=144s
+[final base ciciot/dir0.1/s8] test F1=0.9999 nfeat=1 train=109s
+TASK: done base_ciciot_s8.jsonl
+[final base ciciot/dir0.1/s9] test F1=0.9999 nfeat=2 train=109s
+TASK: done base_ciciot_s9.jsonl
+[final base nbaiot/iid/s2] test F1=0.9997 nfeat=17 train=119s
+TASK: done base_nbaiot_s2.jsonl
+[final base nbaiot/iid/s3] test F1=0.9999 nfeat=30 train=146s
+TASK: done base_nbaiot_s3.jsonl
+[final base nbaiot/device/s4] test F1=0.9996 nfeat=13 train=113s
+[final base nbaiot/device/s5] test F1=0.9981 nfeat=13 train=113s
+[final base nbaiot/device/s6] test F1=0.9992 nfeat=17 train=120s
+[final base nbaiot/device/s7] test F1=0.9994 nfeat=16 train=110s
+[final base nbaiot/iid/s4] test F1=0.9997 nfeat=13 train=108s
+TASK: done base_nbaiot_s4.jsonl
+[final base nbaiot/iid/s5] test F1=0.9997 nfeat=13 train=107s
+TASK: done base_nbaiot_s5.jsonl
+[final base nbaiot/iid/s6] test F1=0.9997 nfeat=17 train=115s
+TASK: done base_nbaiot_s6.jsonl
+[final base nbaiot/iid/s7] test F1=0.9994 nfeat=16 train=111s
+TASK: done base_nbaiot_s7.jsonl
+[final base nbaiot/device/s8] test F1=0.9995 nfeat=13 train=109s
+[final base nbaiot/device/s9] test F1=0.9999 nfeat=17 train=115s
+[final base nbaiot/iid/s8] test F1=0.9998 nfeat=13 train=102s
+TASK: done base_nbaiot_s8.jsonl
+[final base nbaiot/iid/s9] test F1=0.9999 nfeat=17 train=108s
+TASK: done base_nbaiot_s9.jsonl
+stage final finished in 30.0 min
+{'train_sec': 55.46674299240112, 'prep_sec': 0.007021188735961914, 'infer_ms_per_1k': 33.60845105638965, 'n_params': 31298, 'n_feat': 4, 'comm_model_bytes': 50076800, 'comm_prep_bytes': 0, 'peak_incremental_mb': 182.6953125, 'f1_val': 0.9999749931226088, 'method': 'base_coa_cnn', 'repeats': 3, 'coa_sec': 13.900931119918823}

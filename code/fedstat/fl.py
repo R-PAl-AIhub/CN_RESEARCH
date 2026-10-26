@@ -133,3 +133,47 @@ def fedavg_mlp(Xc, yc, rounds=20, local_epochs=1, lr=0.05, l2=1e-3, batch_size=1
 
 def mlp_predict(model, X):
     return (model.predict(X, batch_size=16384, verbose=0)[:, 0] > 0.5).astype(np.int8)
+
+
+# ----------------------------------------------------------------------------------------------- base paper: FL-CNN
+def _cnn(d, filters=(32, 64, 128), dropout=0.5):
+    """Base-paper CNN (Karunamurthy et al. 2025, Table 2: filters 32/64/128, kernel 3, ReLU, dropout 0.5, softmax).
+    Tabular flow features are treated as a 1-D sequence (Conv1D); each convolution is followed by max-pooling."""
+    layers = [tf.keras.layers.Input((d, 1))]
+    for f in filters:
+        layers += [tf.keras.layers.Conv1D(f, 3, padding="same", activation="relu"),
+                   tf.keras.layers.MaxPooling1D(2, padding="same")]
+    layers += [tf.keras.layers.Flatten(), tf.keras.layers.Dropout(dropout), tf.keras.layers.Dense(2, activation="softmax")]
+    return tf.keras.Sequential(layers)
+
+
+def fedavg_cnn(Xc, yc, rounds=20, local_epochs=1, lr=1e-3, batch_size=1000, seed=0):
+    """FedAvg of the base-paper CNN: every round each client starts from the global weights, trains with a fresh Adam
+    optimiser, and the server averages the weights by client size."""
+    tf.keras.utils.set_random_seed(seed)
+    d = Xc[0].shape[1]
+    model = _cnn(d)
+    opt = tf.keras.optimizers.Adam(lr)
+    model.compile(optimizer=opt, loss="sparse_categorical_crossentropy")      # compiled once: no re-tracing per client
+    g = model.get_weights()
+    active = [k for k in range(len(Xc)) if len(Xc[k]) > 0]
+    t0 = time.time()
+    for r in range(rounds):
+        ws, ns = [], []
+        for k in active:
+            model.set_weights(g)
+            if opt.built:                                  # fresh Adam state for every client and round
+                opt.iterations.assign(0)
+                for v in list(opt._momentums) + list(opt._velocities):
+                    v.assign(tf.zeros_like(v))
+            model.fit(Xc[k][:, :, None], yc[k], epochs=local_epochs, batch_size=batch_size, shuffle=True, verbose=0)
+            ws.append(model.get_weights()); ns.append(len(Xc[k]))
+        w = np.asarray(ns, float) / np.sum(ns)
+        g = [sum(wi * layer[j] for wi, layer in zip(w, ws)) for j in range(len(g))]
+    model.set_weights(g)
+    nparam = int(sum(np.prod(a.shape) for a in g))
+    return model, dict(sec=time.time() - t0, comm_bytes=rounds * len(active) * 2 * 4 * nparam, n_params=nparam)
+
+
+def cnn_predict(model, X):
+    return np.argmax(model.predict(X[:, :, None], batch_size=16384, verbose=0), axis=1).astype(np.int8)

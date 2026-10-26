@@ -1,0 +1,14 @@
+{
+ "train_sec": 55.46674299240112,
+ "prep_sec": 0.007021188735961914,
+ "infer_ms_per_1k": 33.60845105638965,
+ "n_params": 31298,
+ "n_feat": 4,
+ "comm_model_bytes": 50076800,
+ "comm_prep_bytes": 0,
+ "peak_incremental_mb": 182.6953125,
+ "f1_val": 0.9999749931226088,
+ "method": "base_coa_cnn",
+ "repeats": 3,
+ "coa_sec": 13.900931119918823
+}
